@@ -1,43 +1,53 @@
 # talks
 
-Quarto sources for conference talks.
+Quarto RevealJS sources for conference talks.
 
 ## Talks
 
-- `protvino-2026/status-and-prospects-neutrino-physics/`  
+- `protvino-2026/`  
   Status and Prospects of Neutrino Physics: Russian Projects in the Global Context.
 
 ## Local Build
 
-Install Quarto and a LaTeX distribution with `xelatex`.
+Install Quarto.
 
 ```bash
 make build
 ```
 
-The final PDF is copied to:
+The HTML presentation is built at:
+
+```text
+_site/protvino-2026/index.html
+```
+
+To build a PDF without LaTeX, use Decktape through `npx`:
+
+```bash
+make pdf
+```
+
+The PDF is written to:
 
 ```text
 dist/status-and-prospects-neutrino-physics-protvino-2026.pdf
 ```
 
-To render only the Protvino 2026 talk:
-
-```bash
-quarto render protvino-2026/status-and-prospects-neutrino-physics/status-and-prospects-neutrino-physics.qmd --to beamer
-```
+This route uses a browser renderer, not LaTeX. You can also open the HTML
+presentation in a browser and print/export it as PDF from there.
 
 ## Editing Workflow
 
-1. Edit the `.qmd` file for the talk.
-2. Keep figures near the talk source, for example in an `assets/` subfolder.
+1. Edit `protvino-2026/index.qmd`.
+2. Keep figures near the talk source, for example in `protvino-2026/assets/`.
 3. Run `make build`.
-4. Use the PDF from `dist/` for the actual presentation.
+4. Use `_site/protvino-2026/index.html` for a browser talk, or run `make pdf`
+   for a PDF copy.
 
-Generated PDFs and LaTeX intermediates are ignored by git. Remove the `*.pdf`
-rule from `.gitignore` if final PDFs should be committed.
+Generated HTML and PDFs are ignored by git. Remove the relevant rules from
+`.gitignore` if final artifacts should be committed.
 
 ## GitHub Build
 
-The workflow in `.github/workflows/build.yml` renders the PDF on push and uploads
-it as a GitHub Actions artifact.
+The workflow in `.github/workflows/build.yml` renders the HTML presentation,
+exports a PDF with Decktape, and uploads both as a GitHub Actions artifact.

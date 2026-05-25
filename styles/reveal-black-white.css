@@ -1,0 +1,116 @@
+:root {
+  --r-background-color: #ffffff;
+  --r-main-color: #000000;
+  --r-heading-color: #000000;
+  --r-link-color: #000000;
+  --r-link-color-hover: #444444;
+  --r-selection-background-color: #d9d9d9;
+  --r-progress-color: #000000;
+}
+
+.reveal {
+  font-size: 32px;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 650;
+}
+
+.reveal h1 {
+  font-size: 1.75em;
+}
+
+.reveal h2 {
+  font-size: 1.25em;
+}
+
+.reveal .title {
+  max-width: 14em;
+  margin-bottom: 0.65em;
+}
+
+.reveal .subtitle,
+.reveal .quarto-title-author,
+.reveal .quarto-title-affiliation,
+.reveal .date {
+  color: #222222;
+}
+
+.reveal .slide-number {
+  color: #000000 !important;
+  font-size: 0.55em !important;
+}
+
+.reveal .progress {
+  color: #000000 !important;
+}
+
+.reveal .progress span {
+  background: #000000 !important;
+}
+
+.reveal a {
+  color: #000000;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.reveal ul,
+.reveal ol {
+  display: block !important;
+  text-align: left !important;
+  margin-left: 1em !important;
+  padding-left: 0.8em !important;
+}
+
+.reveal li {
+  margin: 0.32em 0;
+}
+
+.reveal section {
+  text-align: left;
+}
+
+.reveal .slides > section:first-child {
+  text-align: left;
+}
+
+.reveal .columns {
+  align-items: center;
+}
+
+.reveal blockquote {
+  width: auto;
+  margin: 0.8em 0;
+  padding: 0.2em 0 0.2em 0.8em;
+  border-left: 4px solid #000000;
+  box-shadow: none;
+}
+
+.reveal table {
+  font-size: 0.72em;
+}
+
+.reveal hr {
+  border: 0;
+  border-top: 1px solid #000000;
+}
+
+.code-copy-button,
+.code-copy-button-tooltip,
+.reveal .code-copy-button,
+.reveal .code-copy-button-tooltip {
+  display: none !important;
+}
+
+@media print {
+  .reveal .slide-number,
+  .reveal .progress {
+    display: none !important;
+  }
+}

@@ -6,15 +6,18 @@ on:
   workflow_dispatch:
 
 jobs:
-  pdf:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: quarto-dev/quarto-actions/setup@v2
+      - uses: actions/setup-node@v4
         with:
-          tinytex: true
-      - run: make build
+          node-version: 22
+      - run: make pdf
       - uses: actions/upload-artifact@v4
         with:
-          name: talks-pdf
-          path: dist/*.pdf
+          name: protvino-2026-talk
+          path: |
+            _site/**
+            dist/*.pdf

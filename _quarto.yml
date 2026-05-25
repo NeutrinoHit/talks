@@ -1,17 +1,25 @@
 project:
-  type: default
+  type: website
+  output-dir: _site
   render:
-    - "protvino-2026/status-and-prospects-neutrino-physics/status-and-prospects-neutrino-physics.qmd"
+    - "protvino-2026/index.qmd"
 
 format:
-  beamer:
-    aspectratio: 169
-    pdf-engine: xelatex
+  revealjs:
+    theme: simple
+    css: styles/reveal-black-white.css
+    embed-resources: true
+    slide-number: true
     slide-level: 2
     toc: false
+    width: 1280
+    height: 720
+    margin: 0.06
+    transition: fade
+    center: false
     incremental: false
-    keep-tex: true
-    include-in-header: styles/beamer-black-white.tex
+    chalkboard: false
+    preview-links: false
 
 execute:
   echo: false

@@ -8,65 +8,83 @@ lang: en
 
 ## Motivation
 
+::: incremental
 - Neutrino physics as a precision tool for particle physics, astrophysics and cosmology.
 - Russian projects in a global experimental landscape.
 - Near-term questions where local expertise and infrastructure matter.
+:::
 
 ## Global Context
 
+::: incremental
 - Oscillation parameters and mass ordering.
 - CP violation and unitarity tests.
 - Solar, atmospheric, reactor and accelerator neutrinos.
 - Neutrino astronomy and multimessenger physics.
 - Coherent scattering, sterile-neutrino searches and non-standard interactions.
+:::
 
 ## Russian Projects
 
+::: incremental
 - Baikal-GVD.
 - Reactor and source experiments.
 - Accelerator and fixed-target opportunities.
 - Theory, phenomenology, simulation and data analysis.
 - Detector technologies and computing.
+:::
 
 ## Baikal-GVD
 
+::: incremental
 - Status.
 - Current physics reach.
 - Near-term upgrades.
 - Role in the global neutrino-telescope network.
+:::
 
 ## Reactor Neutrinos
 
+::: incremental
 - Precision oscillation physics.
 - Monitoring and applied directions.
 - Connections to JUNO, Daya Bay and future experiments.
+:::
 
 ## Accelerator and Fixed-Target Program
 
+::: incremental
 - Medium-energy opportunities.
 - Neutrino-nucleus interactions.
 - Cross-section systematics.
 - Links to global long-baseline programs.
+:::
 
 ## Theory and Phenomenology
 
+::: incremental
 - Oscillation theory and wave-packet effects.
 - Coherence and neutrino production/detection.
 - Astroparticle sources.
 - Statistical methods and global fits.
+:::
 
 ## Prospects
 
+::: incremental
 - What can be done in the next 3-5 years?
 - What needs international coordination?
 - Which measurements are realistic with existing infrastructure?
 - Where can Russian groups be uniquely competitive?
+:::
 
 ## Summary
 
+::: incremental
 - Neutrino physics remains a broad and active field.
 - Russian projects contribute to several complementary directions.
 - The strongest strategy is a coordinated program: experiments, theory, detector R&D and data analysis.
+:::
 
 ## Backup
 
