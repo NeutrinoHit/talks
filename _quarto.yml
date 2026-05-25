@@ -6,8 +6,9 @@ project:
 
 format:
   revealjs:
-    theme: simple
-    css: styles/reveal-black-white.css
+    theme: black
+    css: styles/reveal-dark.css
+    logo: shared/figures/dvnlogo.png
     embed-resources: true
     slide-number: true
     slide-level: 2

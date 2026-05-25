@@ -1,11 +1,11 @@
 :root {
-  --r-background-color: #ffffff;
-  --r-main-color: #000000;
-  --r-heading-color: #000000;
-  --r-link-color: #000000;
-  --r-link-color-hover: #444444;
-  --r-selection-background-color: #d9d9d9;
-  --r-progress-color: #000000;
+  --r-background-color: #000000;
+  --r-main-color: #f2f2f2;
+  --r-heading-color: #ffffff;
+  --r-link-color: #8ec5ff;
+  --r-link-color-hover: #cce7ff;
+  --r-selection-background-color: #1f4e79;
+  --r-progress-color: #ffb347;
 }
 
 .reveal {
@@ -17,8 +17,8 @@
 .reveal h3,
 .reveal h4 {
   text-transform: none;
-  letter-spacing: 0;
-  font-weight: 650;
+  letter-spacing: 0.01em;
+  font-weight: 600;
 }
 
 .reveal h1 {
@@ -38,24 +38,36 @@
 .reveal .quarto-title-author,
 .reveal .quarto-title-affiliation,
 .reveal .date {
-  color: #222222;
+  color: #d0d0d0;
+}
+
+.reveal .slide-logo {
+  display: block !important;
+  position: fixed !important;
+  top: 18px !important;
+  left: 18px !important;
+  right: auto !important;
+  bottom: auto !important;
+  max-height: 54px !important;
+  max-width: 140px !important;
+  z-index: 1000 !important;
 }
 
 .reveal .slide-number {
-  color: #000000 !important;
+  color: #d8d8d8 !important;
   font-size: 0.55em !important;
 }
 
 .reveal .progress {
-  color: #000000 !important;
+  color: #ffb347 !important;
 }
 
 .reveal .progress span {
-  background: #000000 !important;
+  background: #ffb347 !important;
 }
 
 .reveal a {
-  color: #000000;
+  color: #8ec5ff;
   text-decoration: underline;
   text-underline-offset: 0.12em;
 }
@@ -88,7 +100,7 @@
   width: auto;
   margin: 0.8em 0;
   padding: 0.2em 0 0.2em 0.8em;
-  border-left: 4px solid #000000;
+  border-left: 4px solid #8ec5ff;
   box-shadow: none;
 }
 
@@ -98,7 +110,7 @@
 
 .reveal hr {
   border: 0;
-  border-top: 1px solid #000000;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .code-copy-button,
@@ -109,6 +121,7 @@
 }
 
 @media print {
+  .reveal .slide-logo,
   .reveal .slide-number,
   .reveal .progress {
     display: none !important;

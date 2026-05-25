@@ -2,6 +2,10 @@
 
 Quarto RevealJS sources for conference talks.
 
+The default style follows the dark slide style used in the lecture repositories:
+black background, light text, blue links, orange progress bar and a fixed logo
+from `shared/figures/dvnlogo.png`.
+
 ## Talks
 
 - `protvino-2026/`  
