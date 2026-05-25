@@ -45,11 +45,14 @@
   display: block !important;
   position: fixed !important;
   top: auto !important;
-  left: 62px !important;
-  right: auto !important;
+  left: auto !important;
+  right: 176px !important;
   bottom: 11px !important;
+  width: 36px !important;
+  height: 36px !important;
   max-height: 36px !important;
-  max-width: 128px !important;
+  max-width: 36px !important;
+  object-fit: contain !important;
   z-index: 31 !important;
 }
 
