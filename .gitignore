@@ -1,0 +1,29 @@
+.DS_Store
+.quarto/
+_freeze/
+*_files/
+dist/
+
+# LaTeX intermediates
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.tex
+!styles/*.tex
+
+# Generated presentation PDFs. Remove this line if PDFs should be versioned.
+*.pdf
+
+/.quarto/
+**/*.quarto_ipynb

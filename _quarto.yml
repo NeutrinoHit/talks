@@ -1,0 +1,19 @@
+project:
+  type: default
+  render:
+    - "protvino-2026/status-and-prospects-neutrino-physics/status-and-prospects-neutrino-physics.qmd"
+
+format:
+  beamer:
+    aspectratio: 169
+    pdf-engine: xelatex
+    slide-level: 2
+    toc: false
+    incremental: false
+    keep-tex: true
+    include-in-header: styles/beamer-black-white.tex
+
+execute:
+  echo: false
+  warning: false
+  message: false
