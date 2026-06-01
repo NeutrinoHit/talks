@@ -1,9 +1,19 @@
-name: Build talks
+name: Publish talks
 
 on:
   push:
-  pull_request:
+    branches:
+      - main
   workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -14,10 +24,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: make pdf
-      - uses: actions/upload-artifact@v4
+      - run: make publish
+      - uses: actions/upload-pages-artifact@v3
         with:
-          name: protvino-2026-talk
-          path: |
-            _site/**
-            dist/*.pdf
+          path: _site
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

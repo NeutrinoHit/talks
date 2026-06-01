@@ -4,6 +4,7 @@ _site/
 _freeze/
 *_files/
 dist/
+/protvino-2026/dnaumov.html
 
 # Local logs and generated documents
 *.log

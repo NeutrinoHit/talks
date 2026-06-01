@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 600" role="img"
+     aria-labelledby="title description">
+  <title id="title">Comparison of the CKM and PMNS mixing matrices</title>
+  <desc id="description">
+    Circle areas represent matrix element sizes. Dashed circles show the
+    three-sigma ranges for the PMNS matrix elements.
+  </desc>
+  <style>
+    .title { font: 700 34px Georgia, serif; }
+    .brace { fill: none; stroke: #5ea8ff; stroke-width: 5; stroke-linecap: round; }
+    .ckm { fill: #ff4d4d; fill-opacity: .96; stroke: #ff8a8a; stroke-width: 3; }
+    .pmns { fill: #fff; fill-opacity: .96; stroke: #dce9ff; stroke-width: 2.5; }
+    .range { fill: none; stroke: #aeb8c8; stroke-width: 2; stroke-dasharray: 6 5; }
+  </style>
+
+  <rect width="1040" height="600" rx="18" fill="#000"/>
+
+  <text class="title" x="245" y="48" text-anchor="middle" fill="#ff5d5d">CKM Matrix</text>
+  <text class="title" x="760" y="48" text-anchor="middle" fill="#fff">PMNS Matrix</text>
+
+  <path class="brace" d="M55 82 C35 82 28 92 28 113 L28 505 C28 526 35 537 55 537"/>
+  <path class="brace" d="M435 82 C455 82 462 92 462 113 L462 505 C462 526 455 537 435 537"/>
+  <path class="brace" d="M535 82 C515 82 508 92 508 113 L508 505 C508 526 515 537 535 537"/>
+  <path class="brace" d="M995 82 C1015 82 1022 92 1022 113 L1022 505 C1022 526 1015 537 995 537"/>
+
+  <!-- CKM matrix -->
+  <circle class="ckm" cx="131" cy="167" r="56"/>
+  <circle class="ckm" cx="264.5" cy="164.5" r="27.5"/>
+  <circle class="ckm" cx="383" cy="164" r="6"/>
+  <circle class="ckm" cx="130.5" cy="309.5" r="27.5"/>
+  <circle class="ckm" cx="258" cy="303" r="56"/>
+  <circle class="ckm" cx="380.5" cy="309.5" r="12.5"/>
+  <circle class="ckm" cx="131" cy="455" r="6"/>
+  <circle class="ckm" cx="264.5" cy="454.5" r="12.5"/>
+  <circle class="ckm" cx="383" cy="463" r="56"/>
+
+  <!-- PMNS matrix uncertainty ranges -->
+  <circle class="range" cx="629.5" cy="174.5" r="72.5"/>
+  <circle class="range" cx="774" cy="175" r="60"/>
+  <circle class="range" cx="903.5" cy="175.5" r="32.5"/>
+  <circle class="range" cx="630" cy="310" r="55"/>
+  <circle class="range" cx="770.5" cy="309.5" r="62.5"/>
+  <circle class="range" cx="915" cy="310" r="60"/>
+  <circle class="range" cx="630.5" cy="459.5" r="62.5"/>
+  <circle class="range" cx="768.5" cy="459.5" r="62.5"/>
+  <circle class="range" cx="915" cy="460" r="65"/>
+
+  <!-- PMNS matrix central values -->
+  <circle class="pmns" cx="629.5" cy="174.5" r="67.5"/>
+  <circle class="pmns" cx="774" cy="175" r="55"/>
+  <circle class="pmns" cx="904" cy="176" r="26"/>
+  <circle class="pmns" cx="630" cy="310" r="34"/>
+  <circle class="pmns" cx="770.5" cy="309.5" r="52.5"/>
+  <circle class="pmns" cx="915" cy="310" r="54"/>
+  <circle class="pmns" cx="630.5" cy="459.5" r="52.5"/>
+  <circle class="pmns" cx="768" cy="459" r="55"/>
+  <circle class="pmns" cx="915" cy="460" r="55"/>
+</svg>
