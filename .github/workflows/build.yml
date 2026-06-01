@@ -24,7 +24,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: make publish
+      - run: make publish DECKTAPE_ARGS="--chrome-arg=--no-sandbox"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
