@@ -210,7 +210,7 @@ m_{2}\ge \sqrt{\Delta m^2_{21}} \approx 8\ \mathrm{meV}.
 $$
 
 - Нет ограничения снизу (кроме нуля) на $m_{\,\mathrm{lightest}}$.
-![](media/neutrino_lightest_mass.png){width="80%" fig-align="center"}
+![](media/neutrino_lightest_mass.png){width="80%" .slide-image-center}
 
 :::
 
@@ -230,7 +230,7 @@ $$
 
 ::: {.column width="55%" .incremental}
  
-![](media/cres_poster_squared.png){width="70%" fig-align="center"}
+![](media/cres_poster_squared.png){width="70%" .slide-image-center}
 
 :::
 
@@ -284,7 +284,7 @@ $$
 
 ::: {.column width="50%"}
 
-![](media/neutrinoless2betadecay.png){width=100%}
+![](media/neutrinoless2betadecay.png){width=100% .slide-image-center}
 
 \small
 Phys. Rev. Lett. **135** (2025) 262501
@@ -310,7 +310,7 @@ $$
 
 ::: {.column width="50%"}
 
-![](media/deltaCP_v1.png){width=100%}
+![](media/deltaCP_v1.png){width=100% .slide-image-center}
 
 :::
 
@@ -333,7 +333,7 @@ $$
 # Флэйворная загадка
 ## Флэйворная загадка
 
-![](media/ckm-vs-pmns.svg){fig-alt="Сравнение размеров элементов матриц CKM и PMNS" width="80%" fig-align="center"}
+![](media/ckm-vs-pmns.svg){fig-alt="Сравнение размеров элементов матриц CKM и PMNS" width="80%" .slide-image-center}
 
 ## Флэйворная загадка
 
@@ -357,7 +357,7 @@ $$
 :::
 
 ::: {.column width="50%"}
-![](media/tomography.png){width="80%" fig-align="center"}
+![](media/tomography.png){width="80%" .slide-image-center}
 
 В.А. Аллахвердян. Диссертация 2026 (ОИЯИ) https://issc.jinr.ru/files/326/f_2_5830.pdf
 :::
@@ -373,7 +373,7 @@ $$
 - Реактор — интенсивный источник $\bar\nu_e$.
 
 - Когерентное упругое рассеяние:
-![](media/Coherent_elastic_neutrino-nucleus_scattering.svg){width="40%" fig-align="center"}
+![](media/Coherent_elastic_neutrino-nucleus_scattering.svg){width="40%" .slide-image-center}
 
 - Сечение растёт примерно как $N^2$.
 - Цена — малые энергии отдачи ядра.
@@ -383,7 +383,7 @@ $$
 
 ::: {.column width="50%" .incremental}
 
-![](media/coherent_xs.png){width="80%" fig-align="center"}
+![](media/coherent_xs.png){width="80%" .slide-image-center}
 arXiv:2602.15652, “The COHERENT Experiment: 2026 Update”.
 :::
 
@@ -432,9 +432,10 @@ Baikal-GVD — российский вклад в нейтринную астр�
 Следующий шаг — детектор объемом (10-30) км$^3$ на озере Байкал.
 
 ::: {.incremental}
-- От регистрации редких событий к открытиям на уровне 5σ.- Совместный проект РФ и КНР.
+- От регистрации редких событий к открытиям на уровне 5σ.
+- Совместный проект РФ и КНР.
 - Крупнейшая установка в мире, которая определит развитие области в мире на десятилетия.
-![](media/hunt.jpg){width="40%" fig-align="center"}
+![](media/hunt.png){.slide-image-center width="60%"}
 
 :::
 
@@ -467,5 +468,4 @@ Baikal-GVD — российский вклад в нейтринную астр�
 - Российские проекты входят в эту программу через Baikal-GVD, Baikal-HUNT, реакторные эксперименты на КАЭС, эксперименты в Баксанской подземной лаборатории, Neutrino-4 и др.
 - Кроме идей и установок нам нужно готовить КАДРЫ!
 :::
-
 

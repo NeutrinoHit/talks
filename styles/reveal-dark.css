@@ -96,6 +96,12 @@
   text-align: left;
 }
 
+.reveal img.slide-image-center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .reveal .slides > section:first-child {
   text-align: left;
 }
