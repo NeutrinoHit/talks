@@ -2,6 +2,7 @@
 .quarto/
 _site/
 _freeze/
+/.make-tmp/
 *_files/
 dist/
 /protvino-2026/dnaumov.html

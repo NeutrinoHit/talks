@@ -45,9 +45,8 @@ presentation in a browser and print/export it as PDF from there.
 
 ## Editing Workflow
 
-1. Edit the relevant `.qmd` file in `protvino-2026/`.
-2. Keep figures and animations for the Russian neutrino overview in
-   `protvino-2026/media/`.
+1. Edit the relevant `.qmd` file in its talk folder.
+2. Keep figures and animations for each talk in that talk's `media/` folder.
 3. Run `make publish` to prepare the complete site locally.
 4. Push `main` to publish the updated HTML and PDF automatically.
 
