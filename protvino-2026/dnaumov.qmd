@@ -10,7 +10,7 @@ format:
     logo: ../shared/figures/dvnlogo.png
     include-after-body:
       text: |
-        <script src="../shared/reveal/neutrinohit-reveal-footer.js"></script>
+        <script data-context-home="https://neutrinohit.github.io/ru/research.html#talk-protvino-2026" data-context-home-label="Карта доклада" src="../shared/reveal/neutrinohit-reveal-footer.js"></script>
     embed-resources: true
     slide-number: true
     slide-level: 2
@@ -468,4 +468,3 @@ Baikal-GVD — российский вклад в нейтринную астр�
 - Российские проекты входят в эту программу через Baikal-GVD, Baikal-HUNT, реакторные эксперименты на КАЭС, эксперименты в Баксанской подземной лаборатории, Neutrino-4 и др.
 - Кроме идей и установок нам нужно готовить КАДРЫ!
 :::
-
