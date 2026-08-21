@@ -19,7 +19,7 @@ in the main NeutrinoHit site repository.
 Install Quarto.
 
 ```bash
-make build
+make site
 ```
 
 The HTML presentation is built at:
@@ -47,21 +47,14 @@ presentation in a browser and print/export it as PDF from there.
 
 1. Edit the relevant `.qmd` file in its talk folder.
 2. Keep figures and animations for each talk in that talk's `media/` folder.
-3. Run `make publish` to prepare the complete site locally.
-4. Push `main` to publish the updated HTML and PDF automatically.
+3. Run `make site` to rebuild the HTML site.
 
 The HTML version can contain animations. For the PDF version, provide a static
 poster frame or a separate static figure on each slide that contains an
 animation: PDF files do not play embedded video or animated images reliably.
 
-Generated HTML and PDFs are ignored by git. GitHub Actions rebuilds them from
-the tracked sources.
-
-## GitHub Build
-
-The workflow in `.github/workflows/build.yml` renders the HTML presentations,
-exports PDFs with Decktape, and publishes the complete `_site` directory to
-GitHub Pages.
+Generated HTML and PDFs are ignored by git. PDF export is an optional,
+separate `make pdf` command and is not part of the website build.
 
 Published Russian neutrino overview:
 
