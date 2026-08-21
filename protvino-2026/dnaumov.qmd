@@ -11,7 +11,7 @@ format:
     include-after-body:
       text: |
         <script data-context-home="https://neutrinohit.github.io/ru/research.html#talk-protvino-2026" data-context-home-label="Карта доклада" src="../shared/reveal/neutrinohit-reveal-footer.js"></script>
-    embed-resources: true
+    embed-resources: false
     slide-number: true
     slide-level: 2
     toc: true

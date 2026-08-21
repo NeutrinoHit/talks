@@ -5,7 +5,6 @@ project:
     - "shared/reveal/**"
     - "shared/figures/**"
     - "styles/**"
-    - "protvino-2026/media/**"
   render:
     - "protvino-2026/dnaumov.qmd"
 
@@ -18,7 +17,7 @@ format:
       - text: |
           <script data-external="1" data-context-home="https://neutrinohit.github.io/ru/research.html#talk-protvino-2026" data-context-home-label="Карта доклада" src="../shared/reveal/neutrinohit-reveal-footer.js"></script>
       - analytics/cloudflare-web-analytics.html
-    embed-resources: true
+    embed-resources: false
     slide-number: true
     slide-level: 2
     toc: false
