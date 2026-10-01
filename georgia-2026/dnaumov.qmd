@@ -1,0 +1,792 @@
+---
+title: "Neutrino Physics: Fundamentals, Frontiers, and Probes"
+subtitle: "A short review (2026)"
+author: "Dmitry V. Naumov"
+lang: en-US
+format:
+  revealjs:
+    theme: [black, ../shared/styles/neutrinohit-reveal.scss]
+    css:
+      - assets/interactive.css
+      - assets/torus3d.css
+      - assets/juno-program.css
+    logo: ../shared/reveal/dvnlogo.png
+    include-after-body:
+      text: |
+        <script data-external="1" data-context-home="https://neutrinohit.github.io/en/research.html#talk-georgia-2026" data-context-home-label="Talks and reviews" src="../shared/reveal/neutrinohit-reveal-footer.js"></script>
+        <script data-external="1" src="assets/interactive-math.js?v=20260929-2"></script>
+        <script data-external="1" src="assets/interactive.js?v=20260929-2"></script>
+        <script data-external="1" src="assets/torus3d.js?v=20260929-2"></script>
+        <script data-external="1" src="assets/flavor-model-data.js"></script>
+        <script data-external="1" src="assets/flavor-fit-browser.js?v=20260929-2"></script>
+        <script data-external="1" src="assets/flavor-widgets.js?v=20260929-2"></script>
+        <script data-external="1" src="assets/juno-program.js?v=20260929-3"></script>
+    embed-resources: false
+    slide-number: true
+    slide-level: 2
+    toc: false
+    transition: fade
+    width: 1600
+    height: 900
+    margin: 0.06
+    center: false
+    incremental: false
+    chalkboard: false
+    preview-links: false
+execute:
+  echo: false
+---
+
+## Neutrinos in the Standard Model
+
+:::: {.columns}
+
+::: {.column width="55%"}
+
+- Three flavors: $\nu_e$, $\nu_\mu$, $\nu_\tau$
+- Neutral spin-$1/2$ fermions
+- Produced and detected through the weak interaction
+- In the minimal renormalizable Standard Model, neutrinos are massless
+
+::: {.takeaway}
+Oscillations show that at least two neutrinos have nonzero mass.
+:::
+
+:::
+
+::: {.column width="45%"}
+
+![](media/z_width_neutrinos.png){.slide-media .media-height-md}
+
+::: {.media-caption}
+The invisible width of the $Z$ is consistent with three light active neutrinos.
+:::
+
+:::
+
+::::
+
+## Why neutrinos are unusual messengers
+
+The mean free path is
+
+$$
+\lambda_\nu = \frac{1}{n\sigma}.
+$$
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+**A 1 MeV solar neutrino**
+
+$$
+\sigma(\nu_e e)\sim10^{-44}\ \mathrm{cm^2},
+\qquad
+\lambda_\nu\sim10^{20}\ \mathrm{cm}
+\sim10^9 R_\odot.
+$$
+
+The Sun is essentially transparent.
+
+:::
+
+::: {.column width="50%"}
+
+**A 1 PeV neutrino crossing Earth**
+
+$$
+\sigma(\nu N)\sim10^{-33}\ \mathrm{cm^2},
+\qquad
+\lambda_\nu\sim3\times10^3\ \mathrm{km}.
+$$
+
+At extreme energies, even Earth becomes opaque.
+
+:::
+
+::::
+
+::: {.takeaway}
+Weak interaction makes neutrinos both difficult to detect and uniquely informative.
+:::
+
+## Flavor states and mass states
+
+$$
+\boxed{\displaystyle
+|\nu_\alpha\rangle=\sum_i U_{\alpha i}^{*}|\nu_i\rangle
+}
+$$
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+**Flavor states** $\nu_e,\nu_\mu,\nu_\tau$
+
+Produced and detected in weak interactions.
+
+:::
+
+::: {.column width="50%"}
+
+**Mass states** $\nu_1,\nu_2,\nu_3$
+
+Propagate with definite masses and accumulate different phases.
+
+:::
+
+::::
+
+::: {.takeaway}
+The two bases do not coincide. This mismatch and distinct neutrino masses are the origin of oscillations.
+:::
+
+## Neutrino oscillations
+
+:::: {.panel-tabset}
+
+### Quantum chameleon
+
+{{< include assets/_quantum_chameleon.qmd >}}
+
+### Oscillation probability
+
+<video class="slide-video media-height-md" style="--media-width: 980px; --media-max-height: 490px;" width="1280" height="720" muted loop controls preload="metadata" playsinline poster="media/oscillation_chameleon.jpg" src="media/oscillation_chameleon.mp4"></video>
+
+::::
+
+$$
+P(\nu_e\!\to\!\nu_\mu)=
+\sin^2 2\theta\,
+\sin^2\!\left(\frac{\Delta m^2L}{4E}\right).
+$$
+
+::: {.media-caption}
+Different propagation phases convert one detectable flavor mixture into another.
+:::
+
+## How do we know?
+
+::: {.small}
+
+| Neutrino source | Observed pattern | What it establishes |
+|---|---|---|
+| Solar | Energy-dependent $\nu_e$ survival | Flavor conversion in matter and vacuum |
+| Atmospheric | Zenith- and energy-dependent $\nu_\mu$ disappearance | Oscillations over Earth-scale baselines |
+| Reactors | Spectral disappearance of $\bar\nu_e$ | Precise mixing and mass splitting |
+| Accelerators | Disappearance and appearance | Controlled tests across flavors |
+
+:::
+
+::: {.takeaway}
+One three-neutrino framework describes independent sources, energies, and baselines.
+:::
+
+## Building the PMNS matrix from observations
+
+```{=html}
+<div id="nh-pmns-fit" class="nh-interactive" aria-label="Step-by-step PMNS matrix reconstruction">
+  <div class="nh-interactive-controls">
+    <button type="button" data-action="previous">Previous</button>
+    <span data-step>Step 0 of 4</span>
+    <button type="button" data-action="next">Next</button>
+  </div>
+  <div class="nh-pmns-layout">
+    <div>
+      <h3 data-heading>Start with the flavor and mass bases</h3>
+      <p data-explanation>Solar, reactor, and atmospheric measurements supply different entries. Row and column normalization then connect them.</p>
+      <p class="nh-widget-note">This guided reconstruction assumes \(|U_{e3}|^2=0\) and a real, \(\mu\)–\(\tau\)-symmetric solution. It is not a global oscillation fit.</p>
+    </div>
+    <table aria-label="Squared moduli of the PMNS matrix">
+      <thead><tr><th></th><th>\(\nu_1\)</th><th>\(\nu_2\)</th><th>\(\nu_3\)</th></tr></thead>
+      <tbody>
+        <tr><th>\(\nu_e\)</th><td data-cell="e1">?</td><td data-cell="e2">?</td><td data-cell="e3">?</td></tr>
+        <tr><th>\(\nu_\mu\)</th><td data-cell="mu1">?</td><td data-cell="mu2">?</td><td data-cell="mu3">?</td></tr>
+        <tr><th>\(\nu_\tau\)</th><td data-cell="tau1">?</td><td data-cell="tau2">?</td><td data-cell="tau3">?</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="nh-pmns-unitarity">
+    <p>\(\displaystyle\sum_i U_{\alpha i}U_{\beta i}^{*}=\delta_{\alpha\beta},\qquad
+      \sum_{\alpha}U_{\alpha i}^{*}U_{\alpha j}=\delta_{ij}\)</p>
+    <p>\(\displaystyle U^{\dagger}U=UU^{\dagger}=I_3=
+      \begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix}\)</p>
+    <p data-unitarity-example aria-live="polite"></p>
+  </div>
+</div>
+```
+
+## The three-neutrino picture
+
+:::: {.columns}
+
+::: {.column width="52%"}
+
+**Mixing**
+
+$$
+\theta_{12}\approx34^\circ,
+\qquad
+\theta_{13}\approx9^\circ,
+\qquad
+\theta_{23}\approx45^\circ.
+$$
+
+**Mass splittings**
+
+$$
+\Delta m^2_{21}\approx7.4\times10^{-5}\ \mathrm{eV^2},
+$$
+
+$$
+|\Delta m^2_{31}|\approx2.5\times10^{-3}\ \mathrm{eV^2}.
+$$
+
+:::
+
+::: {.column width="48%"}
+
+The minimal oscillation picture contains
+
+- three mixing angles;
+- two independent mass-squared differences;
+- one Dirac CP phase, $\delta_{\rm CP}$.
+
+::: {.muted}
+If neutrinos are Majorana particles, two additional phases do not affect oscillations.
+:::
+
+:::
+
+::::
+
+## Neutrino physics has become precision physics
+
+
+- Established
+
+  - Three active flavors mix, and at least two masses are nonzero.
+
+- Cross-checked
+
+  - Solar, atmospheric, reactor, and accelerator data constrain one common framework.
+- Now targeted
+ 
+  - The remaining unknowns are sharply formulated and experimentally testable.
+
+
+::: {.takeaway}
+The field has moved from discovering oscillations to testing the structure behind them.
+:::
+
+## Mass ordering
+
+:::: {.columns}
+
+::: {.column width="38%"}
+
+**Normal ordering**
+
+$$m_1<m_2<m_3$$
+
+**Inverted ordering**
+
+$$m_3<m_1<m_2$$
+
+Solar data fix $m_2>m_1$. The sign of the atmospheric splitting distinguishes the two spectra.
+
+:::
+
+::: {.column width="62%"}
+
+<video class="slide-video media-height-lg media-width-lg" style="--media-width: 96%;" width="1280" height="720" data-autoplay muted loop controls preload="metadata" playsinline poster="media/mass_ordering.jpg" src="media/NeutrinoHierarchyScales.mp4"></video>
+
+:::
+
+::::
+
+## JUNO reads the interference pattern
+
+:::: {.columns}
+
+::: {.column width="61%"}
+
+![](media/juno-ordering-spectrum.png){.slide-media .media-height-lg}
+
+
+:::
+
+::: {.column width="39%"}
+
+- Reactor antineutrinos travel about 52.5 km to the detector.
+- Fine spectral ripples carry information on the ordering in a vacuum-dominated measurement.
+- A 20 kt liquid-scintillator target and precise energy response make the ripples measurable.
+- TAO and Daya Bay constrain the unoscillated reactor spectrum.
+
+:::
+
+::::
+
+## JUNO: larger data set, sharper parameters
+
+::: {.small}
+
+| JUNO analysis |  |
+|---|---:|
+| Live time | 207.2 days |
+| IBD candidates | 8294 |
+| $\sin^2\theta_{12}$ | $0.3036\pm0.0064$ |
+| $\Delta m^2_{21}$ | $(7.388\pm0.078)\times10^{-5}\ \mathrm{eV^2}$ |
+| $\Delta m^2_{31}$, NO | $+2.509^{+0.027}_{-0.025}\times10^{-3}\ \mathrm{eV^2}$ |
+
+:::
+
+- Combining JUNO and Daya Bay with long-baseline constraints gives $\chi^2_{\rm IO}-\chi^2_{\rm NO}=4.86$, corresponding to a **one-sided $2.1\sigma$ indication for normal ordering**.
+
+
+## JUNO: one detector, a broad physics program
+
+:::: {.panel-tabset}
+
+### Detector
+![](media/juno-acrylic-installation.gif){.slide-media style="--media-max-height: 250px;"}
+
+![](media/juno-filling.gif){.slide-media style="--media-max-height: 250px;"}
+
+
+### Inside Earth
+
+![](media/juno-program-earth.png){.slide-media fig-alt="Cutaway view of Earth's crust, mantle, outer core, and inner core" style="--media-max-height: 500px;"}
+
+
+### The Sun
+
+![](media/juno-program-sun.png){.slide-media fig-alt="The Sun seen as a bright orange disk" style="--media-max-height: 500px;"}
+
+
+### Mass ordering
+
+<video class="slide-video media-height-lg media-width-lg" style="--media-width: 96%;" width="1280" height="720" data-autoplay muted loop controls preload="metadata" playsinline poster="media/mass_ordering.jpg" src="media/NeutrinoHierarchyScales.mp4"></video>
+
+
+### Atmosphere
+
+<video class="slide-video media-height-md" style="--media-max-height: 500px;" width="1280" height="720" controls data-autoplay muted loop playsinline preload="metadata" poster="media/juno-atmospheric-poster.png" src="media/juno-atmospheric-shower.mp4"></video>
+
+
+### Supernova
+
+<video class="slide-video media-height-md" style="--media-max-height: 500px;" width="1920" height="1080" controls data-autoplay muted loop playsinline preload="metadata" poster="media/juno-supernova-poster.png" src="media/juno-supernova-illustration.mp4"></video>
+
+
+### Proton decay
+
+```{=html}
+<div id="nh-juno-proton" class="nh-interactive" aria-label="Interactive cosmic clock and hypothetical proton-decay signature">
+  <div class="nh-interactive-controls">
+    <button type="button" data-juno-action="clock">Run cosmic clock</button>
+    <button type="button" data-juno-action="candidate">Show hypothetical candidate</button>
+    <button type="button" data-juno-action="reset">Reset</button>
+  </div>
+  <div class="nh-juno-decay-stage" data-juno-phase="ready">
+    <div class="nh-juno-clock">
+      <div class="nh-juno-clock-face" aria-hidden="true">
+        <span class="nh-juno-hand nh-juno-hand-long" data-juno-hand="long"></span>
+        <span class="nh-juno-hand nh-juno-hand-short" data-juno-hand="short"></span>
+        <span class="nh-juno-pivot"></span>
+      </div>
+      <output data-juno-age>0.0 billion years</output>
+      <span class="nh-juno-stage-label">One sweep compresses the age of the Universe</span>
+    </div>
+    <div class="nh-juno-event">
+      <div class="nh-juno-proton" aria-hidden="true">\(p\)</div>
+      <div class="nh-juno-event-label">No proton decay has been observed</div>
+      <div class="nh-juno-pulses" aria-label="Hypothetical three-pulse signal: kaon, muon, Michel positron">
+        <span>\(K^+\)</span><span>\(\mu^+\)</span><span>\(e^+\)</span>
+      </div>
+    </div>
+  </div>
+  <p class="nh-juno-decay-status" data-juno-status aria-live="polite">Run the cosmic clock: the proton remains. The candidate button then illustrates a possible signal.</p>
+  <p class="nh-widget-source">Illustration only: the clock is compressed and the candidate is triggered deliberately, not predicted at the Universe's age. JUNO searches for \(p\to\bar\nu K^+\); the kaon, its decay daughter, and a later Michel positron can produce three time-correlated light pulses. </p>
+</div>
+```
+
+::::
+
+
+
+## What is the neutrino mass?
+
+![](media/neutrino_lightest_mass.png){.slide-media .media-height-md .media-width-lg}
+
+::: {.small}
+
+| Observable | Sensitive to |
+|---|---|
+| Oscillations | Differences $\Delta m^2_{ij}$ |
+| Beta-decay kinematics | $m_\beta^2=\sum_i|U_{ei}|^2m_i^2$ |
+| Cosmology | The mass sum $\sum_i m_i$ |
+
+:::
+
+::: {.takeaway}
+Oscillations set the spacing of the spectrum, not its absolute position.
+:::
+
+## KATRIN: electron motion through the MAC-E filter
+
+<video class="slide-video media-height-lg" width="1280" height="720" controls data-autoplay muted loop playsinline preload="metadata" poster="media/katrin-electron-motion.jpg" src="media/katrin-electron-motion.mp4"></video>
+
+
+## KATRIN: the endpoint becomes a count rate
+
+```{=html}
+<div id="nh-katrin-spectrum" class="nh-interactive" aria-label="Interactive tritium beta spectrum and MAC-E transmission">
+  <div class="nh-interactive-controls">
+    <label>Retarding window \(\Delta=E_0-e|U|\) <input type="range" data-control="window" min="1" max="12" value="5" step="1"><output data-value="window">\(5\,\mathrm{eV}\)</output></label>
+    <label>Illustrative \(m_\beta\) <input type="range" data-control="mass" min="0" max="2" value="0.5" step="0.1"><output data-value="mass">\(0.5\,\mathrm{eV}\)</output></label>
+  </div>
+  <canvas width="1120" height="440" role="img" aria-label="Spectrum near the tritium endpoint, transmitted fraction, and retarding threshold"></canvas>
+  <p data-summary></p>
+</div>
+```
+
+## Dirac or Majorana?
+
+::: {.small}
+
+| Dirac neutrino | Majorana neutrino |
+|---|---|
+| Particle and antiparticle are distinct | Particle and antiparticle are identical |
+| Lepton number can remain conserved | Lepton-number violation becomes possible |
+
+:::
+
+The experimental path is neutrinoless double beta decay:
+
+$$
+\boxed{(A,Z)\rightarrow(A,Z+2)+2e^-}
+$$
+
+No neutrinos appear in the final state. Observation would establish lepton-number violation and the Majorana nature of neutrinos.
+
+## CP violation
+
+$$
+\boxed{
+P(\nu_\alpha\to\nu_\beta)
+\neq
+P(\bar\nu_\alpha\to\bar\nu_\beta)
+}
+$$
+
+- The phase $\delta_{\rm CP}$ controls CP-odd effects in three-flavor oscillations.
+
+- Long-baseline experiments compare neutrino and antineutrino appearance while controlling matter effects.
+
+
+::: {.takeaway}
+The central question is whether lepton mixing violates CP, and by how much.
+:::
+
+## DUNE: a 1300 km matter baseline
+
+:::: {.columns}
+
+::: {.column width="54%"}
+
+- A beam from Fermilab reaches the far detector in South Dakota.
+- The long baseline strengthens the matter effect, helping separate ordering from CP effects.
+- Near and far measurements constrain the beam and interaction model.
+- Appearance channels compare $\nu_\mu\to\nu_e$ with $\bar{\nu}_\mu\to\bar{\nu}_e$.
+
+:::
+
+::: {.column width="46%"}
+
+![](media/dune-detector.png){.slide-media .media-height-lg}
+
+
+:::
+
+::::
+
+## DUNE: liquid argon as a camera
+
+:::: {.columns}
+
+::: {.column width="57%"}
+
+![](media/dune-argon-cryostat.png){.slide-media .media-height-lg}
+
+
+:::
+
+::: {.column width="43%"}
+
+- A charged track ionizes liquid argon.
+- Electrons drift to a readout plane in an electric field.
+- Scintillation light provides the event time.
+- The combined signals form a detailed three-dimensional event image.
+
+::: {.takeaway}
+Fine imaging is DUNE's main technological strength.
+:::
+
+:::
+
+::::
+
+## Hyper-Kamiokande: a large water target
+
+:::: {.columns}
+
+::: {.column width="55%"}
+
+![](media/hyperk-baseline.png){.slide-media .media-height-lg}
+
+
+:::
+
+::: {.column width="45%"}
+
+- The J-PARC beam travels about 295 km.
+- A 260 kt water detector provides large event samples.
+- Near detectors measure the incident beam and reduce interaction uncertainties.
+- Beam, atmospheric, solar, and supernova neutrinos share one observatory.
+
+:::
+
+::::
+
+## Hyper-Kamiokande: Cherenkov rings
+
+:::: {.columns}
+
+::: {.column width="58%"}
+
+![](media/hyperk-detector.png){.slide-media .media-height-lg}
+
+
+:::
+
+::: {.column width="42%"}
+
+- Charged particles emit Cherenkov light as they cross the purified water.
+
+- Photomultipliers record light: a muon tends to make a sharp ring, while an electron shower makes a diffuse edge.
+
+
+:::
+
+::: {.takeaway}
+Hyper-K trades microscopic track detail for a very large target mass.
+:::
+
+::::
+
+
+## Neutrinos as probes
+
+::: {.small}
+
+| Source | Typical energy | Hidden information carried by neutrinos |
+|---|---:|---|
+| Nucleon target | GeV | Quark-flavor content and parton distributions |
+| Sun | MeV | Nuclear burning in the solar core |
+| Earth | MeV | Radioactive heat from the crust and mantle |
+| Core-collapse supernova | MeV | Collapse, bounce, accretion, and cooling |
+| Cosmic accelerators | TeV–PeV | Hadronic processes in extreme environments |
+
+:::
+
+::: {.takeaway}
+Neutrinos escape dense regions that are opaque to light and point back to their origin.
+:::
+
+## Deep inelastic scattering resolves partons
+
+:::: {.columns}
+
+::: {.column width="61%"}
+
+![](media/dis-proton-pdfs.png){.slide-media .media-height-lg}
+
+
+:::
+
+::: {.column width="39%"}
+
+- $x$ is the fraction of nucleon momentum carried by a parton.
+- $Q^2$ sets the spatial resolution of the probe.
+- The proton contains valence quarks, a sea of quark–antiquark pairs, and gluons.
+- Their distributions evolve with $Q^2$.
+
+:::
+
+::::
+
+## What neutrino DIS adds
+
+::: {.small}
+
+| Probe | Main coupling | Information from inclusive scattering |
+|---|---|---|
+| Charged lepton | Photon, weighted by quark charge squared | Strong constraints on proton structure and its $x,Q^2$ dependence |
+| Neutrino and antineutrino | Charged weak current, with different quark combinations | Complementary flavor separation, including valence and strange contributions |
+
+:::
+
+Neutrino measurements often use nuclear targets, so nuclear corrections matter in a precise extraction of free-proton parton distributions.
+
+::: {.media-caption}
+[Paukkunen and Salgado, 2010](https://arxiv.org/abs/1004.3140) on neutrino DIS in PDF fits. The channels complement one another; neither alone determines every flavor.
+:::
+
+## Looking inside the Sun
+
+![](media/lecture_radial_production.png){.slide-media .media-height-lg .media-width-lg}
+
+:::: {.columns .small}
+
+::: {.column width="50%"}
+
+Solar neutrinos provide a direct, real-time view of nuclear reactions in the core.
+
+:::
+
+::: {.column width="50%"}
+
+Different components probe different reactions, temperatures, and production radii.
+
+:::
+
+::::
+
+## Looking inside the Earth
+
+:::: {.columns}
+
+::: {.column width="43%"}
+
+![](media/geoneutrino-earth.svg){.slide-media .media-height-lg}
+
+::: {.media-caption}
+Crust enlarged; paths illustrative. [Layers: USGS](https://www.usgs.gov/programs/earthquake-hazards/science-earthquakes) · [U/Th sources: Borexino](https://borex.lngs.infn.it/papers/related-articles/mantle-geoneutrinos-in-kamland-and-borexino/).
+:::
+
+:::
+
+::: {.column width="57%"}
+
+Electron antineutrinos from the $^{238}$U and $^{232}$Th decay chains reveal:
+
+- the radiogenic contribution to Earth's heat;
+- the distribution of heat-producing elements;
+- the difficult separation of crust and mantle signals.
+
+::: {.takeaway}
+Geoneutrinos connect particle detection to the planet's thermal history.
+:::
+
+:::
+
+::::
+
+## Supernova neutrinos
+
+:::: {.columns}
+
+::: {.column width="56%"}
+
+![](media/sn1987a-webb.png){.slide-media .media-height-lg}
+
+::: {.media-caption}
+[SN 1987A: NASA, ESA, CSA, STScI, and collaborators](https://science.nasa.gov/asset/webb/sn-1987a-nircam-miri-and-nirspec-images/)
+:::
+
+:::
+
+::: {.column width="44%"}
+
+The roughly two dozen neutrinos detected from SN 1987A opened neutrino astronomy beyond the Sun.
+
+A future Galactic event could resolve:
+
+- collapse and core bounce;
+- accretion dynamics;
+- proto-neutron-star cooling;
+- flavor transformation in extreme matter.
+
+:::
+
+::::
+
+## High-energy neutrino astronomy
+
+:::: {.columns}
+
+::: {.column width="62%"}
+
+<video class="slide-video media-height-lg" width="1280" height="720" data-autoplay muted loop controls preload="metadata" playsinline poster="media/posterImage-1771.png" src="media/baikal_short-1770.mp4"></video>
+
+:::
+
+::: {.column width="38%"}
+
+- Neutral messengers point back to their sources.
+- Hadronic interactions produce neutrinos together with photons and cosmic rays.
+- IceCube, Baikal-GVD, and KM3NeT open complementary views of the sky.
+
+::: {.takeaway}
+The signal is faint, but it is unusually clean evidence of particle acceleration.
+:::
+
+:::
+
+::::
+
+## Baikal-GVD
+
+:::: {.columns}
+
+::: {.column width="58%"}
+
+![](media/DSC_2494_a-1934.jpeg){.slide-media .media-height-lg}
+
+::: {.media-caption}
+Deployment on Lake Baikal. Photo: B. Shaybonov.
+:::
+
+:::
+
+::: {.column width="42%"}
+
+A cubic-kilometer-scale telescope uses deep, clear lake water as both target and Cherenkov medium.
+
+The program addresses:
+
+- the diffuse astrophysical flux;
+- searches for point-like sources;
+- the Galactic plane;
+- multimessenger coincidences.
+
+:::
+
+::::
+
+## Summary
+
+- Fundamentals
+  - Neutrino mass and mixing
+
+- Frontiers
+
+  - Ordering, absolute mass, CP violation, and models of flavor
+
+- Probes
+
+  - Proton structure, the Sun, Earth, supernovae, and the high-energy Universe
+

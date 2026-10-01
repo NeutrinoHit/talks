@@ -1,0 +1,298 @@
+## Beyond the Standard Model: the flavor problem
+
+{{< include assets/flavor-columns.qmd >}}
+
+::: {.media-caption}
+The columns show weak doublets before mass diagonalization. Gauge symmetry fixes their vertical couplings; the mass structure and CKM/PMNS pattern are not fixed by those rules. Adapted from the author's 2025 overview.
+:::
+
+## Two mixing matrices, two different patterns
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+**Quarks: mixing is close to diagonal**
+
+$$
+|V_{\rm CKM}|\approx
+\begin{pmatrix}
+0.974 & 0.225 & 0.004\\
+0.225 & 0.973 & 0.042\\
+0.009 & 0.041 & 0.999
+\end{pmatrix}.
+$$
+
+:::
+
+::: {.column width="50%"}
+
+**Leptons: large off-diagonal mixing**
+
+$$
+|U_{\rm PMNS}|\approx
+\begin{pmatrix}
+0.82 & 0.55 & 0.15\\
+0.34 & 0.65 & 0.68\\
+0.46 & 0.52 & 0.72
+\end{pmatrix}.
+$$
+
+:::
+
+::::
+
+These are magnitudes; the complex CP phases are not shown. Gauge symmetry alone does not predict either matrix or the mass spectrum.
+
+::: {.media-caption}
+Illustrative rounded values from [PDG 2025, CKM](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-ckm-matrix.pdf) and [NuFIT 6.1, PMNS](https://www.nu-fit.org/?q=node%2F309). The PMNS entries are correlated in a global fit.
+:::
+
+## The conventional flavor-symmetry search
+
+:::: {.columns}
+
+::: {.column width="25%"}
+
+### 1. Choose
+
+A candidate symmetry group and field assignments.
+
+:::
+
+::: {.column width="25%"}
+
+### 2. Break
+
+Introduce fields or vacuum values that select a pattern.
+
+:::
+
+::: {.column width="25%"}
+
+### 3. Calculate
+
+Construct mass matrices and diagonalize them.
+
+:::
+
+::: {.column width="25%"}
+
+### 4. Compare
+
+Test masses, $V_{\rm CKM}$, and $U_{\rm PMNS}$ against data.
+
+:::
+
+::::
+
+::: {.takeaway}
+Many groups and breaking patterns are possible. A model is useful only when its assumptions leave testable correlations rather than a new set of free choices.
+:::
+
+## From a lattice to a torus
+
+Identify points in the complex plane that differ by either period:
+
+$$z\sim z+m+n\tau,\qquad m,n\in\mathbb Z,\quad\operatorname{Im}\tau>0.$$
+
+```{=html}
+<div id="nh-torus3d" class="nh-interactive" data-poster="media/torus3d-poster.png" aria-label="Interactive 3D torus: a parallelogram cell is rolled and glued into a torus"></div>
+```
+
+::: {.media-caption}
+Each value of $\tau$ is a parallelogram with sides $1$ and $\tau$, and each parallelogram glues into one torus. For $\operatorname{Re}\tau=0$ the doughnut keeps all angles of the flat cell. For $\operatorname{Re}\tau\neq0$ no round doughnut does, so the shear of the cell shows up in the picture.
+:::
+
+## One torus, infinitely many $\tau$
+
+```{=html}
+<div id="nh-modular3d" class="nh-interactive" data-poster="media/modular3d-poster.png" aria-label="Two cells of the same lattice describe one torus; modular transformations T and S relabel its cycles"></div>
+```
+
+::: {.media-caption}
+$T:\tau\to\tau+1$ and $S:\tau\to-1/\tau$ together generate every integer matrix with $ad-bc=1$. Every torus has exactly one representative in $F$: $|\operatorname{Re}\tau|\le\tfrac12$, $|\tau|\ge1$, with the edges of $F$ identified.
+:::
+
+## Why would flavor care about a torus?
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+### 1. A free-for-all
+
+The Higgs gives mass to every quark and charged lepton through its own coupling, a Yukawa coupling. The Standard Model lets each one be any number. Nothing explains why the top quark is tens of thousands of times heavier than the up quark.
+
+:::
+
+::: {.column width="33%"}
+
+### 2. One number instead
+
+What if every coupling is a function of a single complex number $\tau$, the shape of a small torus? In string models the extra dimensions curl up into such a torus, and couplings are overlaps of wave functions on it. Bottom-up models keep the symmetry and drop the strings.
+
+:::
+
+::: {.column width="33%"}
+
+### 3. One rule
+
+The same torus has infinitely many $\tau$. Physics cannot depend on which one we pick. That single demand fixes how the couplings depend on $\tau$. They become modular forms.
+
+:::
+
+::::
+
+::: {.takeaway}
+Choose $\tau$ once, and masses and mixing angles follow.
+:::
+
+## One line that ties the couplings together
+
+$$Y(\gamma\tau)=(c\tau+d)^{k}\,\rho(\gamma)\,Y(\tau),\qquad \gamma=\begin{pmatrix}a&b\\c&d\end{pmatrix}\in SL(2,\mathbb Z).$$
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+### $\gamma\tau=\dfrac{a\tau+b}{c\tau+d}$
+
+Another name for the same torus. $T$ and $S$ from the previous slide, and all their products.
+
+:::
+
+::: {.column width="33%"}
+
+### $(c\tau+d)^{k}$
+
+The price of rescaling the new cell back to the standard one. The integer $k$ is the weight.
+
+:::
+
+::: {.column width="33%"}
+
+### $\rho(\gamma)$
+
+How the finite group $2O$ shuffles the three generations.
+
+:::
+
+::::
+
+Quarks and leptons carry weights and $2O$ charges too. Every term $Y_{ij}(\tau)\,\bar\psi_i H\psi_j$ then stays invariant when $\tau$ is relabeled.
+
+::: {.media-caption}
+Modular flavor symmetry: the couplings $Y(\tau)$ are modular forms of weight $k$ with values in a representation $\rho$ of the finite group. This lecture follows the $2O$ model of [Ding, Liu, Lu, and Weng (2023)](https://arxiv.org/abs/2307.14926).
+:::
+
+## How the published $2O$ fit was built
+
+:::: {.columns}
+
+::: {.column width="25%"}
+
+### Symmetry
+
+Specify how each quark and lepton responds to the finite symmetry $2O$.
+
+:::
+
+::: {.column width="25%"}
+
+### Geometry
+
+The torus parameter $\tau$ ties the allowed couplings together as functions $Y_i(\tau)$.
+
+:::
+
+::: {.column width="25%"}
+
+### Masses
+
+Calculate four mass matrices $M_u,M_d,M_e,M_\nu$. Their eigenvectors give CKM and PMNS.
+
+:::
+
+::: {.column width="25%"}
+
+### Fit
+
+Adjust the allowed couplings and $\tau$ until calculated masses and mixing agree with data.
+
+:::
+
+::::
+
+The unified published example used **14 real parameters**, including the two components of one common $\tau$, for **22 mass and mixing quantities**, 19 of them measured. That leaves **5 degrees of freedom**. Its reported fit has $\chi^2_{\rm total}=32.6$ at $\tau_b=-0.19991+1.07381i$.
+
+::: {.small}
+
+| Quantity | 2023 fit input | Model at the fitted point |
+|---|---:|---:|
+| $\sin^2\theta_{12}$ (PMNS) | $0.303\pm0.012$ | $0.3409$ |
+| $\sin^2\theta_{13}$ (PMNS) | $0.02225^{+0.00056}_{-0.00059}$ | $0.02271$ |
+| $\theta_{12}$ (CKM) | $0.2274\pm0.0007$ | $0.227$ |
+| $m_d/m_s$ | $0.0505\pm0.0062$ | $0.0503$ |
+
+:::
+
+::: {.media-caption}
+[Ding, Liu, Lu, and Weng, JHEP 11 (2023) 083, Secs. 4 and 5.3](https://arxiv.org/abs/2307.14926). Selected rows illustrate the original fit; it adjusted all model inputs, not only $\tau$.
+:::
+
+## What survives of the neutrino couplings?
+
+With $q=e^{2\pi i\tau}$ the $2O$ model leaves two functions:
+
+$$Y_1=1+24q+24q^2+96q^3+\dots,\qquad Y_2=8\sqrt3\,q^{1/2}\left(1+4q+6q^2+8q^3+\dots\right).$$
+
+The three neutrino masses are proportional to
+
+$$\frac{1}{2|Y_1|},\qquad\frac{1}{|Y_1-\sqrt3\,Y_2|},\qquad\frac{1}{|Y_1+\sqrt3\,Y_2|}.$$
+
+At $\operatorname{Im}\tau\approx1.07$ we have $|q|\approx1.2\times10^{-3}$, so a few terms of each series are enough. Only the overall scale stays free.
+
+::: {.media-caption}
+Neutrino sector of the $2O$ model, [Ding et al. (2023)](https://arxiv.org/abs/2307.14926). The series are truncated after the terms shown.
+:::
+
+## One number, three neutrino masses
+
+```{=html}
+<div id="nh-mass-map" class="nh-interactive" aria-label="Predicted ratio of neutrino mass splittings across the tau plane; drag the point to change tau"></div>
+```
+
+::: {.media-caption}
+Measured ratio $\Delta m^2_{21}/\Delta m^2_{31}=0.02945\pm0.00044$ from the author-supplied JUNO Collaboration draft of 31 August 2026 ($\Delta m^2_{21}=7.388\times10^{-5}$ eV$^2$, $\Delta m^2_{31}=2.509\times10^{-3}$ eV$^2$, normal ordering). The predicted ratio depends on $\tau$ alone.
+:::
+
+## Our refit: one modulus, many responses
+
+```{=html}
+<div id="nh-flavor-model" class="nh-interactive" aria-label="Nine predictions from our 2O model fit">
+  <div class="nh-interactive-controls">
+    <label>\(\operatorname{Re}\tau\) <input type="range" data-control="re"><output data-value="re">−0.19787</output></label>
+    <label>\(\operatorname{Im}\tau\) <input type="range" data-control="im"><output data-value="im">1.07743</output></label>
+    <button type="button" data-action="reset">Our best fit</button>
+    <span data-tau>\(\tau=-0.19787+1.07743i\)</span>
+    <strong data-chi2>\(\chi^2\approx53.72\)</strong>
+  </div>
+  <div data-plots></div>
+  <p class="nh-widget-source">Nine quantities recomputed from the paper's modular forms and mass matrices by <a href="assets/flavor_fit_2o.py">our source code</a>. The 14-parameter local refit uses 2023 Table 3 inputs, replacing \(\sin^2\theta_{12}\) and \(\Delta m^2_{21}/\Delta m^2_{31}\) with the 31 August 2026 preliminary JUNO values. The white point is the selected \(\tau\); the amber guide appears where a JUNO input is plotted. Slider motion varies \(\tau\) with all other fitted parameters held fixed. This positive-coupling branch search is not a global model exclusion test.</p>
+</div>
+```
+
+## Which numbers does one $\tau$ get right?
+
+```{=html}
+<div id="nh-scorecard" class="nh-interactive" aria-label="Pull of each fitted mass and mixing quantity for the published point and for our refit"></div>
+```
+
+::: {.takeaway}
+With the JUNO draft the published point scores $\chi^2\approx57.3$ and our refit $\chi^2\approx53.7$, both for 5 degrees of freedom. The solar angle stays about $5\sigma$ away.
+:::
+
+::: {.media-caption}
+Model: [Ding et al. (2023)](https://arxiv.org/abs/2307.14926). Measurement: author-supplied JUNO Collaboration draft, 31 August 2026. Our independent implementation reproduces the article's printed benchmark, $\sin^2\theta_{12}=0.3409$; the paper prints $\chi^2=32.6$, and recomputing from its rounded parameters gives 33.0. Our code searches the positive-coupling branch near and beyond the published point; other inputs and correlations are not fully updated. These $\chi^2$ values are not a formal exclusion significance for the model class.
+:::

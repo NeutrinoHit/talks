@@ -1,0 +1,170 @@
+.reveal #nh-juno-proton {
+  max-width: 1450px;
+}
+
+.reveal #nh-juno-proton .nh-juno-decay-stage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 430px;
+  overflow: hidden;
+  border: 1px solid #355164;
+  border-radius: 8px;
+  background: #000;
+}
+
+.reveal #nh-juno-proton .nh-juno-clock,
+.reveal #nh-juno-proton .nh-juno-event {
+  position: relative;
+  overflow: hidden;
+}
+
+.reveal #nh-juno-proton .nh-juno-clock {
+  border-right: 1px solid #243844;
+}
+
+.reveal #nh-juno-proton .nh-juno-clock-face {
+  position: absolute;
+  inset: 0;
+}
+
+.reveal #nh-juno-proton .nh-juno-hand {
+  position: absolute;
+  top: 43%;
+  left: 47%;
+  height: 4px;
+  border-radius: 5px;
+  transform-origin: 0 50%;
+}
+
+.reveal #nh-juno-proton .nh-juno-hand-long {
+  width: 37%;
+  background: #f1f5f7;
+  transform: rotate(-90deg);
+}
+
+.reveal #nh-juno-proton .nh-juno-hand-short {
+  width: 28%;
+  background: #74848d;
+  transform: rotate(-135deg);
+}
+
+.reveal #nh-juno-proton .nh-juno-pivot {
+  position: absolute;
+  top: 43%;
+  left: 47%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  transform: translate(-50%, -50%);
+}
+
+.reveal #nh-juno-proton [data-juno-age] {
+  position: absolute;
+  right: 7%;
+  bottom: 17%;
+  color: #f7f7f7;
+  font-size: 1.45em;
+  font-variant-numeric: tabular-nums;
+}
+
+.reveal #nh-juno-proton .nh-juno-stage-label {
+  position: absolute;
+  right: 7%;
+  bottom: 9%;
+  color: #9eb7c5;
+  font-size: 0.56em;
+}
+
+.reveal #nh-juno-proton .nh-juno-proton {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  display: grid;
+  place-items: center;
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 2.25em;
+  background: radial-gradient(circle at 32% 27%, #ffb0a7, #e34d59 40%, #a21f39 80%);
+  box-shadow: 0 0 42px rgba(235, 69, 93, 0.55);
+  transform: translateX(-50%);
+  transition: opacity 420ms ease, transform 420ms ease;
+}
+
+.reveal #nh-juno-proton .nh-juno-event-label {
+  position: absolute;
+  top: 69%;
+  left: 5%;
+  width: 90%;
+  color: #dae5eb;
+  font-size: 0.72em;
+  text-align: center;
+}
+
+.reveal #nh-juno-proton .nh-juno-pulses {
+  position: absolute;
+  right: 8%;
+  bottom: 7%;
+  left: 8%;
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+.reveal #nh-juno-proton .nh-juno-pulses > span {
+  flex: 1;
+  padding: 0.18em;
+  border: 1px solid #76b8cf;
+  border-radius: 5px;
+  color: #f2f7f9;
+  background: #15384a;
+  text-align: center;
+  opacity: 0;
+}
+
+.reveal #nh-juno-proton [data-juno-phase="decay"] .nh-juno-proton {
+  opacity: 0;
+  transform: translateX(-50%) scale(0.14);
+}
+
+.reveal #nh-juno-proton [data-juno-phase="decay"] .nh-juno-pulses > span {
+  animation: nh-juno-pulse 1.2s ease-out forwards;
+}
+
+.reveal #nh-juno-proton [data-juno-phase="decay"] .nh-juno-pulses > span:nth-child(2) {
+  animation-delay: 0.55s;
+}
+
+.reveal #nh-juno-proton [data-juno-phase="decay"] .nh-juno-pulses > span:nth-child(3) {
+  animation-delay: 1.15s;
+}
+
+@keyframes nh-juno-pulse {
+  0% { opacity: 0; transform: scale(0.75); box-shadow: 0 0 0 rgba(133, 212, 232, 0); }
+  35% { opacity: 1; transform: scale(1.12); box-shadow: 0 0 26px rgba(133, 212, 232, 0.8); }
+  100% { opacity: 1; transform: scale(1); box-shadow: 0 0 7px rgba(133, 212, 232, 0.3); }
+}
+
+.reveal #nh-juno-proton .nh-juno-decay-status {
+  margin: 0.35rem 0;
+  color: #ffcc8a;
+  font-size: 0.76em;
+}
+
+.reveal #nh-juno-proton .nh-widget-source {
+  margin-top: 0.35rem;
+}
+
+@media (prefers-reduced-motion: reduce), print {
+  .reveal #nh-juno-proton .nh-juno-proton { transition: none; }
+  .reveal #nh-juno-proton [data-juno-phase="decay"] .nh-juno-pulses > span { animation: none; opacity: 1; }
+}
+
+@media print {
+  .reveal #nh-juno-proton [data-juno-age] { font-size: 0; }
+  .reveal #nh-juno-proton [data-juno-age]::after { content: "13.8 billion years"; font-size: 28px; }
+  .reveal #nh-juno-proton .nh-juno-proton { opacity: 1 !important; transform: translateX(-50%) !important; }
+  .reveal #nh-juno-proton .nh-juno-pulses > span { opacity: 0 !important; }
+}

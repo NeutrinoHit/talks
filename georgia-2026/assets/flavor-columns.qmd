@@ -1,0 +1,46 @@
+```{=html}
+<div id="nh-flavor-columns" role="img" aria-label="Three generations of weak doublets: aligned vertical gauge interactions and a horizontal flavor pattern">
+  <div class="nh-flavor-axis">
+    <span>GAUGE</span>
+    <span class="nh-flavor-axis-arrow">\(\Downarrow\)</span>
+  </div>
+  <div class="nh-flavor-generations">
+    <div class="nh-flavor-generation">
+      <h3>Generation I</h3>
+      <div class="nh-flavor-doublet">
+        <small>QUARKS</small>
+        <div class="nh-flavor-transition"><span>\(u\)</span><span>\(\Downarrow\)</span><span>\(d\)</span><b>\(W^{\pm}\)</b></div>
+      </div>
+      <div class="nh-flavor-doublet">
+        <small>LEPTONS</small>
+        <div class="nh-flavor-transition"><span>\(\nu_e\)</span><span>\(\Downarrow\)</span><span>\(e\)</span><b>\(W^{\pm}\)</b></div>
+      </div>
+    </div>
+    <div class="nh-flavor-generation">
+      <h3>Generation II</h3>
+      <div class="nh-flavor-doublet">
+        <small>QUARKS</small>
+        <div class="nh-flavor-transition"><span>\(c\)</span><span>\(\Downarrow\)</span><span>\(s\)</span><b>\(W^{\pm}\)</b></div>
+      </div>
+      <div class="nh-flavor-doublet">
+        <small>LEPTONS</small>
+        <div class="nh-flavor-transition"><span>\(\nu_\mu\)</span><span>\(\Downarrow\)</span><span>\(\mu\)</span><b>\(W^{\pm}\)</b></div>
+      </div>
+    </div>
+    <div class="nh-flavor-generation">
+      <h3>Generation III</h3>
+      <div class="nh-flavor-doublet">
+        <small>QUARKS</small>
+        <div class="nh-flavor-transition"><span>\(t\)</span><span>\(\Downarrow\)</span><span>\(b\)</span><b>\(W^{\pm}\)</b></div>
+      </div>
+      <div class="nh-flavor-doublet">
+        <small>LEPTONS</small>
+        <div class="nh-flavor-transition"><span>\(\nu_\tau\)</span><span>\(\Downarrow\)</span><span>\(\tau\)</span><b>\(W^{\pm}\)</b></div>
+      </div>
+    </div>
+  </div>
+  <div class="nh-flavor-horizontal">
+    <span>FLAVOR: mass and mixing pattern not fixed by gauge rules</span>
+  </div>
+</div>
+```

@@ -1,0 +1,291 @@
+/* Local controls for the three scientific applets. Slide typography remains
+   defined by the canonical NeutrinoHit Reveal theme. */
+.reveal .nh-interactive {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0.3rem auto;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid rgba(124, 199, 255, 0.38);
+  border-radius: 0.2rem;
+  background: #08121d;
+  color: #f2f2f2;
+  font: 0.82em/1.25 system-ui, sans-serif;
+}
+
+.reveal .nh-interactive * { box-sizing: border-box; }
+
+.reveal .nh-interactive-controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 0.45rem;
+}
+
+.reveal .nh-interactive button {
+  min-height: 1.3rem;
+  padding: 0.2rem 0.45rem;
+  border: 1px solid #7cc7ff;
+  border-radius: 0.14rem;
+  background: #10283d;
+  color: #f2f2f2;
+  font: inherit;
+  cursor: pointer;
+}
+
+.reveal .nh-interactive button:disabled { opacity: 0.4; cursor: default; }
+.reveal .nh-interactive button:hover:not(:disabled) { background: #205071; }
+
+.reveal .nh-interactive label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  white-space: nowrap;
+}
+
+.reveal .nh-interactive input[type="range"] {
+  width: 5.6rem;
+  accent-color: #7cc7ff;
+}
+
+.reveal .nh-interactive output { min-width: 2.8rem; color: #ffcc8a; }
+.reveal .nh-interactive p { margin: 0.25rem 0; }
+.reveal .nh-interactive h3 { margin: 0.1rem 0 0.4rem; font-size: 1.2em; }
+
+.reveal .nh-widget-note,
+.reveal .nh-widget-source {
+  color: #c3d2dc;
+  font-size: 0.7em;
+}
+
+.reveal .nh-pmns-layout {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  gap: 0.5rem;
+  min-height: 10.2rem;
+  align-items: center;
+}
+
+.reveal #nh-pmns-fit table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  font-size: 1.15em;
+  text-align: center;
+}
+
+.reveal #nh-pmns-fit th,
+.reveal #nh-pmns-fit td {
+  border: 1px solid #466175;
+  padding: 0.45rem 0.3rem;
+  text-align: center;
+}
+
+.reveal #nh-pmns-fit td[data-known="true"] {
+  color: #ffcc8a;
+  background: rgba(255, 204, 138, 0.1);
+}
+
+.reveal #nh-pmns-fit .nh-pmns-unitarity {
+  margin-top: 0.45rem;
+  padding-top: 0.3rem;
+  border-top: 1px solid #466175;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.reveal #nh-pmns-fit .nh-pmns-unitarity p {
+  margin: 0.14rem 0;
+  text-align: center;
+}
+
+.reveal #nh-pmns-fit [data-unitarity-example] {
+  color: #ffcc8a;
+}
+
+.reveal #nh-katrin-spectrum canvas,
+.reveal #nh-modular-fit canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0.25rem auto;
+  background: #08121d;
+}
+
+.reveal #nh-katrin-spectrum canvas { max-width: 1300px; }
+
+.reveal .nh-modular-layout {
+  display: grid;
+  grid-template-columns: 54% 46%;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.reveal #nh-modular-fit [data-chi2] { color: #ffcc8a; font-weight: 700; }
+
+.reveal #nh-flavor-columns {
+  display: grid;
+  grid-template-columns: 86px minmax(0, 1fr);
+  gap: 16px;
+  width: min(1450px, 100%);
+  margin: 0 auto;
+  color: #f2f2f2;
+  font-family: system-ui, sans-serif;
+}
+
+.reveal #nh-flavor-columns .nh-flavor-axis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #85d4e8;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+}
+
+.reveal #nh-flavor-columns .nh-flavor-axis > span:first-child {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.reveal #nh-flavor-columns .nh-flavor-axis-arrow {
+  margin-top: 12px;
+  font-size: 43px;
+}
+
+/* Reveal and Quarto can both typeset math inside a raw HTML include. */
+.reveal #nh-flavor-columns .MathJax ~ .MathJax {
+  display: none !important;
+}
+
+.reveal #nh-flavor-columns .nh-flavor-generations {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.reveal #nh-flavor-columns .nh-flavor-generation {
+  padding: 12px 15px 17px;
+  border: 2px solid #4b8294;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #10232d, #07131c);
+}
+
+.reveal #nh-flavor-columns h3 {
+  margin: 0 0 10px;
+  color: #dce9ed;
+  font-size: 27px;
+  text-align: center;
+}
+
+.reveal #nh-flavor-columns .nh-flavor-doublet {
+  position: relative;
+  display: grid;
+  grid-template-columns: 90px minmax(0, 1fr);
+  align-items: center;
+  min-height: 174px;
+  margin-top: 10px;
+  padding: 7px 9px;
+  border: 2px solid #77b5c7;
+  border-radius: 12px;
+  background: #132a38;
+}
+
+.reveal #nh-flavor-columns .nh-flavor-doublet small {
+  color: #b9d3de;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.reveal #nh-flavor-columns .nh-flavor-transition {
+  display: grid;
+  grid-template-columns: 1fr 95px;
+  grid-template-rows: repeat(3, 48px);
+  align-items: center;
+  justify-items: center;
+  color: #fff6e8;
+  font-size: 33px;
+}
+
+.reveal #nh-flavor-columns .nh-flavor-transition span {
+  grid-column: 1;
+}
+
+.reveal #nh-flavor-columns .nh-flavor-transition span:nth-child(2) {
+  color: #85d4e8;
+  font-size: 30px;
+}
+
+.reveal #nh-flavor-columns .nh-flavor-transition b {
+  grid-column: 2;
+  grid-row: 2;
+  color: #85d4e8;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.reveal #nh-flavor-columns .nh-flavor-horizontal {
+  position: relative;
+  grid-column: 2;
+  margin-top: 14px;
+  padding-top: 21px;
+  border-top: 3px dashed #ffcc8a;
+  color: #ffcc8a;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.reveal #nh-flavor-columns .nh-flavor-horizontal::after {
+  position: absolute;
+  top: -10px;
+  right: -1px;
+  width: 0;
+  height: 0;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-left: 16px solid #ffcc8a;
+  content: "";
+}
+
+.reveal #nh-torus canvas {
+  max-width: 1200px;
+  max-height: 410px;
+}
+
+.reveal #nh-flavor-model [data-plots] {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.35rem;
+}
+
+.reveal #nh-flavor-model .nh-response-card {
+  min-width: 0;
+  padding: 0.25rem;
+  border: 1px solid #36515f;
+  background: #0a1b26;
+}
+
+.reveal #nh-flavor-model .nh-response-card > span,
+.reveal #nh-flavor-model .nh-response-card > strong {
+  display: block;
+  margin: 0.02rem 0;
+  font-size: 0.78em;
+}
+
+.reveal #nh-flavor-model .nh-response-card > strong { color: #ffcc8a; }
+
+.reveal #nh-flavor-model .nh-response-card canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0.1rem 0 0;
+}
+
+.reveal #nh-flavor-model [data-chi2] {
+  color: #ffcc8a;
+  font-size: 0.83em;
+}

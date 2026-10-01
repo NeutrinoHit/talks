@@ -1,0 +1,79 @@
+
+/* ---- 3D torus and modular-cell widgets (torus3d.js) ---- */
+.reveal .nh-t3d-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin: 0.2rem 0;
+}
+.reveal .nh-t3d-grid3 { grid-template-columns: 1fr 1fr 1fr; }
+.reveal .nh-t3d-pane { position: relative; min-width: 0; }
+.reveal .nh-t3d-math-labels { position: absolute; inset: 0 0 auto; height: 470px; pointer-events: none; }
+.reveal .nh-t3d-grid3 .nh-t3d-math-labels { height: 500px; }
+.reveal .nh-t3d-math-labels > span { position: absolute; transform: translate(-50%, -50%); color: #e9f1f4; font-size: 0.77em; white-space: nowrap; }
+.reveal .nh-t3d-math-labels > span.c-amber { color: #ffcc8a; }
+.reveal .nh-t3d-math-labels > span.c-cyan { color: #85d4e8; }
+.reveal .nh-t3d-pane canvas {
+  display: block;
+  width: 100%;
+  height: 470px;
+  border: 1px solid #1d3646;
+  border-radius: 0.15rem;
+  background: #08121d;
+}
+.reveal .nh-t3d-plane { cursor: default; }
+.reveal .nh-t3d-plane.nh-grabbing, .reveal .nh-t3d-uhp { cursor: crosshair; }
+.reveal .nh-t3d-gl { cursor: grab; }
+.reveal .nh-t3d-cap {
+  margin-top: 0.15rem;
+  color: #c3d2dc;
+  font-size: 0.66em;
+  line-height: 1.25;
+}
+.reveal .nh-t3d-info {
+  min-height: 2.5em;
+  margin: 0.3rem 0 0.1rem;
+  font-size: 0.8em;
+  line-height: 1.3;
+}
+.reveal .nh-interactive .c-cyan { color: #85d4e8; }
+.reveal .nh-interactive .c-amber { color: #ffcc8a; }
+.reveal .nh-t3d-sep { flex: 1 1 0; }
+.reveal .nh-t3d-matrix { display: inline-flex; align-items: center; gap: 0.35rem; }
+.reveal .nh-t3d-mat {
+  display: inline-grid;
+  grid-template-columns: 1.6em 1.6em;
+  padding: 0 0.3em;
+  border-left: 2px solid #b9d7e3;
+  border-right: 2px solid #b9d7e3;
+  text-align: center;
+  line-height: 1.15;
+}
+.reveal .nh-poster { display: none; width: 100%; }
+.reveal .nh-no-webgl .nh-poster { display: block; }
+.reveal .nh-no-webgl .nh-t3d-gl { display: none; }
+@media print {
+  .reveal .nh-poster { display: block; }
+  .reveal .nh-t3d-gl { display: none; }
+}
+
+.reveal .nh-t3d-grid3 .nh-t3d-pane canvas { height: 500px; }
+
+/* ---- flavor widgets (flavor-widgets.js) ---- */
+.reveal .nh-fw-mapgrid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 0.7rem; align-items: start; }
+.reveal .nh-fw-map { display: block; width: 100%; height: 540px; border: 1px solid #1d3646; border-radius: 0.15rem; background: #08121d; cursor: crosshair; }
+.reveal .nh-fw-readout { font-size: 0.86em; line-height: 1.35; }
+.reveal .nh-fw-tau { margin-bottom: 0.4rem; font-size: 1.05em; }
+.reveal .nh-fw-row { display: flex; justify-content: space-between; gap: 0.6rem; padding: 0.12rem 0; border-bottom: 1px solid #1d3646; }
+.reveal .nh-fw-row span { color: #c3d2dc; }
+.reveal .nh-fw-masses { margin-top: 0.6rem; }
+.reveal .nh-fw-masses > div { display: grid; grid-template-columns: 2em 1fr 6.5em; align-items: center; gap: 0.4rem; margin: 0.18rem 0; }
+.reveal .nh-fw-masses b { text-align: right; color: #85d4e8; }
+.reveal .nh-fw-bar { display: block; height: 0.7em; background: #10283d; border-radius: 0.2em; overflow: hidden; }
+.reveal .nh-fw-bar i { display: block; height: 100%; }
+.reveal .nh-fw-note { margin-top: 0.5rem; color: #c3d2dc; font-size: 0.85em; }
+.reveal .nh-fw-score { display: block; width: 100%; height: 420px; border: 1px solid #1d3646; border-radius: 0.15rem; background: #08121d; }
+.reveal .nh-fw-score-wrap { position: relative; }
+.reveal .nh-fw-score-labels { position: absolute; inset: 0; pointer-events: none; }
+.reveal .nh-fw-score-labels > span { position: absolute; left: 0; transform: translateY(-50%); text-align: right; font-size: 0.61em; line-height: 1; color: #e5edf2; }
+.reveal .nh-interactive button.nh-active { background: #205071; border-color: #ffcc8a; }

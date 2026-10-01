@@ -22,6 +22,9 @@ Install Quarto.
 make site
 ```
 
+A push to `main` publishes the site automatically. `workflow_dispatch`
+allows the publication to be run manually again.
+
 The HTML presentation is built at:
 
 ```text

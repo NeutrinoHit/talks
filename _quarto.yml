@@ -3,19 +3,20 @@ project:
   output-dir: _site
   resources:
     - "shared/reveal/**"
+    - "shared/styles/**"
     - "shared/figures/**"
     - "styles/**"
+    - "georgia-2026/media/**"
+    - "georgia-2026/assets/**"
   render:
     - "protvino-2026/dnaumov.qmd"
+    - "georgia-2026/dnaumov.qmd"
 
 format:
   revealjs:
     theme: black
-    css: styles/reveal-dark.css
     logo: shared/figures/dvnlogo.png
     include-after-body:
-      - text: |
-          <script data-external="1" data-context-home="https://neutrinohit.github.io/ru/research.html#talk-protvino-2026" data-context-home-label="Карта доклада" src="../shared/reveal/neutrinohit-reveal-footer.js"></script>
       - analytics/cloudflare-web-analytics.html
     embed-resources: false
     slide-number: true
