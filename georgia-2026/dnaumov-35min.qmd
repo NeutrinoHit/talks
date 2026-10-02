@@ -1,6 +1,6 @@
 ---
 title: "Neutrino Physics: Fundamentals, Frontiers, and Probes"
-subtitle: "A short review (2026)"
+subtitle: "A 35-minute review (2026)"
 author: "Dmitry V. Naumov"
 lang: en-US
 format:
@@ -8,7 +8,7 @@ format:
     theme: [black, ../shared/styles/neutrinohit-reveal.scss]
     css:
       - assets/interactive.css
-      - assets/torus3d.css
+      - assets/lead-wall.css
       - assets/juno-program.css
     logo: ../shared/reveal/dvnlogo.png
     include-after-body:
@@ -16,7 +16,7 @@ format:
         <script data-external="1" data-context-home="https://neutrinohit.github.io/en/research.html#talk-georgia-2026" data-context-home-label="Talks and reviews" src="../shared/reveal/neutrinohit-reveal-footer.js"></script>
         <script data-external="1" src="assets/interactive-math.js?v=20260929-2"></script>
         <script data-external="1" src="assets/interactive.js?v=20260929-2"></script>
-        <script data-external="1" src="assets/flavor-fit-browser.js?v=20260929-2"></script>
+        <script data-external="1" src="assets/lead-wall.js?v=20261002-3"></script>
         <script data-external="1" src="assets/juno-program.js?v=20260929-3"></script>
     embed-resources: false
     slide-number: true
@@ -108,6 +108,12 @@ At extreme energies, even Earth becomes opaque.
 Weak interaction makes neutrinos both difficult to detect and uniquely informative.
 :::
 
+## How much lead stops a neutrino?
+
+```{=html}
+<div id="nh-lead-wall" class="nh-interactive" data-poster="media/lead-wall-poster.png" aria-label="Neutrinos leave the Sun in three rays towards Alpha Centauri and cross lead bricks added one by one"></div>
+```
+
 ## Flavor states and mass states
 
 $$
@@ -181,40 +187,6 @@ Different propagation phases convert one detectable flavor mixture into another.
 One three-neutrino framework describes independent sources, energies, and baselines.
 :::
 
-## Building the PMNS matrix from observations
-
-```{=html}
-<div id="nh-pmns-fit" class="nh-interactive" aria-label="Step-by-step PMNS matrix reconstruction">
-  <div class="nh-interactive-controls">
-    <button type="button" data-action="previous">Previous</button>
-    <span data-step>Step 0 of 4</span>
-    <button type="button" data-action="next">Next</button>
-  </div>
-  <div class="nh-pmns-layout">
-    <div>
-      <h3 data-heading>Start with the flavor and mass bases</h3>
-      <p data-explanation>Solar, reactor, and atmospheric measurements supply different entries. Row and column normalization then connect them.</p>
-      <p class="nh-widget-note">This guided reconstruction assumes \(|U_{e3}|^2=0\) and a real, \(\mu\)–\(\tau\)-symmetric solution. It is not a global oscillation fit.</p>
-    </div>
-    <table aria-label="Squared moduli of the PMNS matrix">
-      <thead><tr><th></th><th>\(\nu_1\)</th><th>\(\nu_2\)</th><th>\(\nu_3\)</th></tr></thead>
-      <tbody>
-        <tr><th>\(\nu_e\)</th><td data-cell="e1">?</td><td data-cell="e2">?</td><td data-cell="e3">?</td></tr>
-        <tr><th>\(\nu_\mu\)</th><td data-cell="mu1">?</td><td data-cell="mu2">?</td><td data-cell="mu3">?</td></tr>
-        <tr><th>\(\nu_\tau\)</th><td data-cell="tau1">?</td><td data-cell="tau2">?</td><td data-cell="tau3">?</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <div class="nh-pmns-unitarity">
-    <p>\(\displaystyle\sum_i U_{\alpha i}U_{\beta i}^{*}=\delta_{\alpha\beta},\qquad
-      \sum_{\alpha}U_{\alpha i}^{*}U_{\alpha j}=\delta_{ij}\)</p>
-    <p>\(\displaystyle U^{\dagger}U=UU^{\dagger}=I_3=
-      \begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix}\)</p>
-    <p data-unitarity-example aria-live="polite"></p>
-  </div>
-</div>
-```
-
 ## The three-neutrino picture
 
 :::: {.columns}
@@ -258,25 +230,6 @@ If neutrinos are Majorana particles, two additional phases do not affect oscilla
 :::
 
 ::::
-
-## Neutrino physics has become precision physics
-
-
-- Established
-
-  - Three active flavors mix, and at least two masses are nonzero.
-
-- Cross-checked
-
-  - Solar, atmospheric, reactor, and accelerator data constrain one common framework.
-- Now targeted
- 
-  - The remaining unknowns are sharply formulated and experimentally testable.
-
-
-::: {.takeaway}
-The field has moved from discovering oscillations to testing the structure behind them.
-:::
 
 ## Mass ordering
 
@@ -341,7 +294,6 @@ Solar data fix $m_2>m_1$. The sign of the atmospheric splitting distinguishes th
 :::
 
 - Combining JUNO and Daya Bay with long-baseline constraints gives $\chi^2_{\rm IO}-\chi^2_{\rm NO}=4.86$, corresponding to a **one-sided $2.1\sigma$ indication for normal ordering**.
-
 
 ## JUNO: one detector, a broad physics program
 
@@ -412,8 +364,6 @@ Solar data fix $m_2>m_1$. The sign of the atmospheric splitting distinguishes th
 
 ::::
 
-
-
 ## What is the neutrino mass?
 
 ![](media/neutrino_lightest_mass.png){.slide-media .media-height-md .media-width-lg}
@@ -435,7 +385,6 @@ Oscillations set the spacing of the spectrum, not its absolute position.
 ## KATRIN: electron motion through the MAC-E filter
 
 <video class="slide-video media-height-lg" width="1280" height="720" controls data-autoplay muted loop playsinline preload="metadata" poster="media/katrin-electron-motion.jpg" src="media/katrin-electron-motion.mp4"></video>
-
 
 ## KATRIN: the endpoint becomes a count rate
 
@@ -510,81 +459,6 @@ The central question is whether lepton mixing violates CP, and by how much.
 
 ::::
 
-## DUNE: liquid argon as a camera
-
-:::: {.columns}
-
-::: {.column width="57%"}
-
-![](media/dune-argon-cryostat.png){.slide-media .media-height-lg}
-
-
-:::
-
-::: {.column width="43%"}
-
-- A charged track ionizes liquid argon.
-- Electrons drift to a readout plane in an electric field.
-- Scintillation light provides the event time.
-- The combined signals form a detailed three-dimensional event image.
-
-::: {.takeaway}
-Fine imaging is DUNE's main technological strength.
-:::
-
-:::
-
-::::
-
-## Hyper-Kamiokande: a large water target
-
-:::: {.columns}
-
-::: {.column width="55%"}
-
-![](media/hyperk-baseline.png){.slide-media .media-height-lg}
-
-
-:::
-
-::: {.column width="45%"}
-
-- The J-PARC beam travels about 295 km.
-- A 260 kt water detector provides large event samples.
-- Near detectors measure the incident beam and reduce interaction uncertainties.
-- Beam, atmospheric, solar, and supernova neutrinos share one observatory.
-
-:::
-
-::::
-
-## Hyper-Kamiokande: Cherenkov rings
-
-:::: {.columns}
-
-::: {.column width="58%"}
-
-![](media/hyperk-detector.png){.slide-media .media-height-lg}
-
-
-:::
-
-::: {.column width="42%"}
-
-- Charged particles emit Cherenkov light as they cross the purified water.
-
-- Photomultipliers record light: a muon tends to make a sharp ring, while an electron shower makes a diffuse edge.
-
-
-:::
-
-::: {.takeaway}
-Hyper-K trades microscopic track detail for a very large target mass.
-:::
-
-::::
-
-
 ## Neutrinos as probes
 
 ::: {.small}
@@ -601,45 +475,6 @@ Hyper-K trades microscopic track detail for a very large target mass.
 
 ::: {.takeaway}
 Neutrinos escape dense regions that are opaque to light and point back to their origin.
-:::
-
-## Deep inelastic scattering resolves partons
-
-:::: {.columns}
-
-::: {.column width="61%"}
-
-![](media/dis-proton-pdfs.png){.slide-media .media-height-lg}
-
-
-:::
-
-::: {.column width="39%"}
-
-- $x$ is the fraction of nucleon momentum carried by a parton.
-- $Q^2$ sets the spatial resolution of the probe.
-- The proton contains valence quarks, a sea of quark–antiquark pairs, and gluons.
-- Their distributions evolve with $Q^2$.
-
-:::
-
-::::
-
-## What neutrino DIS adds
-
-::: {.small}
-
-| Probe | Main coupling | Information from inclusive scattering |
-|---|---|---|
-| Charged lepton | Photon, weighted by quark charge squared | Strong constraints on proton structure and its $x,Q^2$ dependence |
-| Neutrino and antineutrino | Charged weak current, with different quark combinations | Complementary flavor separation, including valence and strange contributions |
-
-:::
-
-Neutrino measurements often use nuclear targets, so nuclear corrections matter in a precise extraction of free-proton parton distributions.
-
-::: {.media-caption}
-[Paukkunen and Salgado, 2010](https://arxiv.org/abs/1004.3140) on neutrino DIS in PDF fits. The channels complement one another; neither alone determines every flavor.
 :::
 
 ## Looking inside the Sun
@@ -781,7 +616,7 @@ The program addresses:
 
 - Frontiers
 
-  - Ordering, absolute mass, CP violation, and models of flavor
+  - Ordering, absolute mass, Majorana nature, and CP violation
 
 - Probes
 

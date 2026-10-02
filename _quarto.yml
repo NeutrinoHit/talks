@@ -8,9 +8,13 @@ project:
     - "styles/**"
     - "georgia-2026/media/**"
     - "georgia-2026/assets/**"
+    - "modular-symmetry/media/**"
+    - "modular-symmetry/assets/**"
   render:
     - "protvino-2026/dnaumov.qmd"
     - "georgia-2026/dnaumov.qmd"
+    - "georgia-2026/dnaumov-35min.qmd"
+    - "modular-symmetry/lecture.qmd"
 
 format:
   revealjs:

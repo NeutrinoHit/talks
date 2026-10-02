@@ -1,0 +1,21 @@
+/* ---- "How much lead stops a neutrino?" (lead-wall.js) ---- */
+.reveal .nh-lw-canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1400 / 480;
+  border: 1px solid #1d3646;
+  border-radius: 0.15rem;
+  background: #050d16;
+  cursor: pointer;
+}
+.reveal .nh-lw-head { min-height: 1.4em; margin: 0.1rem 0 0.3rem; color: #ffcc8a; font-size: 1.12em; font-weight: 600; }
+.reveal .nh-lw-info { min-height: 1.5em; margin: 0.35rem 0 0.1rem; font-size: 0.95em; }
+.reveal .nh-lw-note { margin-left: 0.9em; color: #e9f1f4; font-weight: 400; }
+.reveal .nh-lw-note:empty { margin: 0; }
+.reveal .nh-interactive .c-cyan { color: #85d4e8; }
+.reveal .nh-lw-poster { display: none; width: 100%; }
+@media print {
+  .reveal .nh-lw-poster { display: block; }
+  .reveal .nh-lw-canvas { display: none; }
+}
