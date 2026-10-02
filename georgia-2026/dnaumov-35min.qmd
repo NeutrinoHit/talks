@@ -620,5 +620,35 @@ The program addresses:
 
 - Probes
 
-  - Proton structure, the Sun, Earth, supernovae, and the high-energy Universe
+  - The Sun, Earth, supernovae, and the high-energy Universe
 
+## Want to go deeper?
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+We teach this field from the ground up: a two-year online program, **Neutrino Physics and Particle Astrophysics** («Физика нейтрино и астрофизика частиц»).
+
+- More than 30 courses in four modules
+- A theory track or an experiment track, with research projects
+- Stipends for students who continue into the second module, from March 2027
+- Courses are taught in Russian
+
+:::
+
+::: {.column width="40%"}
+
+![](media/teach-in-program-qr.svg){.slide-media .media-height-lg fig-alt="QR code for teach-in.ru/program"}
+
+::: {style="text-align: center;"}
+[teach-in.ru/program](https://teach-in.ru/program)
+:::
+
+:::
+
+::::
+
+::: {.takeaway}
+Join us.
+:::
