@@ -1,0 +1,20 @@
+---
+title: "Neutrino Telescopes"
+subtitle: "Principles, Results, and Prospects"
+author: "Dmitry Naumov"
+description: "A one-hour review of high-energy neutrino astronomy: history, detection principles, cosmic sources, observations and future observatories. Lecture outline under development."
+---
+
+{{< include blocks/_01-opening.qmd >}}
+
+{{< include blocks/_02-history.qmd >}}
+
+{{< include blocks/_03-principles.qmd >}}
+
+{{< include blocks/_04-sources.qmd >}}
+
+{{< include blocks/_05-results.qmd >}}
+
+{{< include blocks/_06-observatories.qmd >}}
+
+{{< include blocks/_07-outlook.qmd >}}

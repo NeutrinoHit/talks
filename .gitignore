@@ -13,3 +13,6 @@ dist/
 
 /.quarto/
 **/*.quarto_ipynb
+
+# Generated Python bytecode is not a lecture asset.
+neutrino-telescopes-2026/**/__pycache__/

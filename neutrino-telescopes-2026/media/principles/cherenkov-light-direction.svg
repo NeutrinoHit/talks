@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+  <title id="title">The light direction is normal to the front</title>
+  <desc id="desc">A constant-speed charge moves from an earlier position at the centre of a spherical wavefront to its present position outside the circle. The common front is tangent to the circle. A cyan arrow follows the wavefront radius and is perpendicular to the tangent, making about 41.25 degrees with the forward track for refractive index 1.33 and particle speed approaching the vacuum speed of light. The right-angle mark distinguishes the front from the direction of light.</desc>
+  <defs>
+    <marker id="motion" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10Z" fill="#ffcc73"/>
+    </marker>
+    <marker id="light" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10Z" fill="#66daf2"/>
+    </marker>
+  </defs>
+  <circle cx="300" cy="280" r="225.563910" fill="none" stroke="#8cccf4" stroke-width="3" opacity=".65"/>
+  <path d="M90 280H690" stroke="#ffcc73" stroke-width="3" marker-end="url(#motion)"/>
+  <path d="M415 69.017652 600 280 415 490.982348" fill="none" stroke="#ffffff" stroke-width="5"/>
+  <path d="M300 280 574.860082 38.866940" fill="none" stroke="#66daf2" stroke-width="5" marker-end="url(#light)"/>
+  <circle cx="469.596925" cy="131.285641" r="5" fill="#ffffff"/>
+  <path d="M456.063090 143.154313 467.931762 156.688148 481.465597 144.819476" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <path d="M370 280A70 70 0 0 0 352.631579 233.844057" fill="none" stroke="#66daf2" stroke-width="4"/>
+  <circle cx="300" cy="280" r="6" fill="#ffcc73"/>
+  <circle cx="600" cy="280" r="11" fill="#ffcc73"/>
+  <g font-family="Arial, sans-serif" font-size="29">
+    <text x="665" y="65" fill="#66daf2">light direction</text>
+    <path d="M650 73 569 45" fill="none" stroke="#66daf2" stroke-width="2"/>
+    <text x="730" y="220" fill="#ffffff">common front</text>
+    <path d="M713 227 549 221" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <text x="300" y="323" fill="#ffcc73" text-anchor="middle">earlier position</text>
+    <text x="680" y="323" fill="#ffcc73">particle now</text>
+    <text x="118" y="164" fill="#66daf2">emission angle</text>
+    <path d="M295 169 354 248" fill="none" stroke="#66daf2" stroke-width="2"/>
+  </g>
+</svg>

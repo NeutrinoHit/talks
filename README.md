@@ -10,11 +10,23 @@ in the main NeutrinoHit site repository.
 
 ## Talks
 
+- `neutrino-telescopes-2026/lecture.qmd`
+  **Neutrino Telescopes: Principles, Results, and Prospects** (English, 60 minutes).
+  A 35-slide working deck, including the title, with seven independently
+  editable blocks. Opening and history have illustrated tabsets; detection
+  starts with the propagation estimate and NTSim films. Later blocks remain
+  outlines. See [the lecture guide](neutrino-telescopes-2026/README.md).
+
 - `protvino-2026/dnaumov.qmd`  
   «Статус и перспективы физики нейтрино: российские проекты в глобальном
   контексте».
 
 ## Local Build
+
+`modular-symmetry/lecture.qmd` is temporarily excluded in `_quarto.yml`.
+Its source and assets remain intact. To re-enable it, remove the `!` from
+its render entry and restore the two modular-symmetry resource patterns;
+first supply its required Reveal footer context.
 
 Install Quarto.
 

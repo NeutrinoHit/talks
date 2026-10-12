@@ -1,0 +1,535 @@
+## Transparent Universe, opaque Earth {#interaction-probability}
+
+:::::: {.panel-tabset}
+
+### Across the Universe
+
+**A $1\,\mathrm{PeV}$ muon neutrino in today's mean baryonic matter**
+
+::::: {.columns}
+::: {.column width="48%"}
+$$
+\bar n_{b,0}\simeq0.25\,\mathrm{m^{-3}}
+=2.5\times10^{-7}\,\mathrm{cm^{-3}}
+$$
+
+$$
+\sigma_{\nu N}^{\mathrm{CC+NC}}
+\simeq9.5\times10^{-34}\,\mathrm{cm^2}
+$$
+
+About one nucleon per four cubic metres.
+:::
+::: {.column width="48%"}
+$$
+\lambda_{\nu N,0}=\frac{1}{\bar n_{b,0}\sigma_{\nu N}}
+\simeq4.2\times10^{39}\,\mathrm{cm}
+$$
+
+$$
+\lambda_{\nu N,0}\simeq4.4\times10^{21}\,\mathrm{ly}
+$$
+
+Observable diameter today: $D_{\rm obs}\simeq93\times10^9\,\mathrm{ly}$.
+:::
+:::::
+
+::: {.takeaway}
+$$
+\frac{\lambda_{\nu N,0}}{D_{\rm obs}}\simeq5\times10^{10}
+$$
+:::
+
+::: {.media-caption}
+Present-epoch $\nu N$ estimate ignoring the Universe evolution.
+[PDG baryon density](https://pdg.lbl.gov/2025/reviews/rpp2024-rev-astrophysical-constants.pdf);
+[CSMS cross sections, Table I](https://arxiv.org/abs/1106.3723).
+:::
+
+### Through the Earth
+
+::::: {.columns}
+::: {.column width="65%"}
+![](media/propagation/rzf_2dxsCT10nlo.png){.slide-media .nostretch style="--media-max-height: 540px; --media-bg: #fff;" fig-alt="Allakhverdyan dissertation figure 4.20: transmitted neutrino flux versus zenith angle from 90 to 180 degrees and energy from 10 to 100 million GeV. At PeV energies the flux is strongly suppressed along long chords through Earth."}
+
+::: {.media-caption}
+V. A. Allakhverdyan, [dissertation (2026), p. 111, Fig. 4.20](https://issc.jinr.ru/files/326/f_2_5830.pdf).
+:::
+:::
+::: {.column width="31%"}
+$$
+1\,\mathrm{PeV}=10^6\,\mathrm{GeV}
+$$
+
+**Horizontal axis:** zenith angle.
+
+$90^\circ$: near the horizon.
+
+$180^\circ$: through Earth's centre.
+
+**Colour:** transmitted flux fraction,
+
+$$
+\mathcal T(E,\theta)=\frac{F_\nu(E,X(\theta))}{F_\nu^0(E)}.
+$$
+
+::: {.small}
+Includes neutral-current regeneration for the assumed source spectrum.
+:::
+:::
+:::::
+
+### A diameter-crossing estimate
+
+$$
+\lambda_{\nu N}(\rho)=\frac{1}{N_A\rho\sigma_{\nu N}}
+\simeq3.2\times10^3\,\mathrm{km}
+\left(\frac{5.5\,\mathrm{g\,cm^{-3}}}{\rho}\right).
+$$
+
+Earth's diameter is $12742\,\mathrm{km}$; its dense core matters.
+
+$$
+X_{\rm diam}=\int_{\rm diameter}\rho(\ell)\,d\ell
+\simeq1.1\times10^{10}\,\mathrm{g\,cm^{-2}}
+\quad\text{(PREM)}.
+$$
+
+$$
+\tau_{\rm diam}=N_A\sigma_{\nu N}X_{\rm diam}\simeq6.3,
+\qquad
+P_0=e^{-\tau_{\rm diam}}\simeq1.8\times10^{-3}\simeq0.2\%.
+$$
+
+::: {.takeaway}
+Almost no PeV neutrinos cross the full diameter without interacting.
+Near the horizon, the path is much shorter.
+:::
+
+::: {.media-caption}
+$P_0$: zero CC or NC interactions, not the regenerated flux fraction $\mathcal T$.
+[PREM column depth: Gandhi et al.](https://lss.fnal.gov/archive/1995/pub/Pub-95-221-T.pdf)
+:::
+::::::
+
+::: {.notes}
+**Detection principles: 8–20 minutes.** Start this block with the apparent
+paradox: a PeV neutrino easily travels between galaxies, yet the Earth strongly
+attenuates it along a long upward-going path. Do not say every PeV neutrino
+gets stuck in Earth. Transmission depends strongly on zenith angle.
+
+The first tab evaluates the instantaneous mean free path against neutrino–
+nucleon DIS at today's cosmic mean baryon density. Baryons count nucleons,
+including neutrons in helium; dark matter is not inserted as nucleon targets.
+The isoscalar cross section is a scale benchmark, not a precision calculation
+for the cosmic H/He mixture. CSMS Table I gives 690 pb (CC) and 260 pb (NC)
+at 10^6 GeV, hence 9.5e-34 cm^2. PDG gives n_b,0=2.515e-7 cm^-3.
+These inputs give 4.185e39 cm, 4.424e21 ly and 4.757e10 observable diameters.
+The approximate 93 Gly diameter is a present-day distance, not c times the
+age of the Universe. NASA's JWST overview gives a radius of about 46.5 Gly:
+https://nepp.nasa.gov/docs/etw/2022/13-JUN-MON/1055-Geithner-v3-20220009134.pdf
+
+This comparison is not a cosmological optical-depth integral. For a source at
+redshift z_s the nucleon contribution is
+\(\tau_{\nu N}(E_0,z_s)=\bar n_{b,0}c\int_0^{z_s}
+\sigma_{\nu N}(E_0(1+z))(1+z)^2\,dz/H(z)\).
+Do not extrapolate today's density back to the early Universe. Dense source
+interiors and other targets, including relic neutrinos, are outside this
+specific estimate. No numerical claim about their mean free paths is made.
+
+The second tab uses the original rzf_2dxsCT10nlo.png supplied by DN, whose
+RGB pixels match dissertation figure 4.20, p. 111. It solves transport with attenuation and neutral-current
+regeneration (section 4.8.2). The preceding source-spectrum definition is
+equation 4.23, with gamma=1 and alpha=0.5, and a 1 km detector depth.
+The ordinate is neutrino energy in GeV; the abscissa is zenith angle at the
+detector. The upper auxiliary axis is distance from Earth's centre to the
+trajectory. Do not infer a precise 1 PeV numerical probability from the colours.
+The source calls the plot a transmission probability; more precisely it is a
+differential flux ratio for its assumed incident spectrum. A related public
+discussion is Allakhverdyan, Zavyalov and Naumov (2026), figure 9, section 4.2:
+https://www1.jinr.ru/Pepan_letters/panl_2026_2/05_Allahverd_rus.pdf
+
+The final tab is a separate no-interaction benchmark. N_A here supplies the
+approximate nucleon count per gram. The homogeneous-density mean-free-path
+example uses rho=5.5 g/cm^3. Do not use this volume-average density to obtain
+the PREM central chord: the latter is denser because it crosses the core.
+For the quoted diameter column, tau=6.293 and P0=0.001849. NC can scatter a
+neutrino down in energy without removing it, so this P0 is not the map's flux
+ratio. The approximation ignores small deflections and is not a detector
+efficiency. For a thin homogeneous target, P_int=1-exp(-L/lambda).
+Arithmetic and unit checks: assets/propagation_estimate.py.
+:::
+
+## What creates the light? {#what-the-detector-measures}
+
+:::::: {.panel-tabset}
+
+### Muon
+
+::: {.small}
+$\nu_\mu+N\longrightarrow\mu^-+X.$
+:::
+
+<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/neutrino_telescope/muon_lecture_en.jpg" src="media/neutrino_telescope/muon_lecture_en.mp4"></video>
+
+### Electron shower
+
+::: {.small}
+$\nu_e+N\longrightarrow e^-+X.$
+:::
+
+<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/neutrino_telescope/electron_lecture_en.jpg" src="media/neutrino_telescope/electron_lecture_en.mp4"></video>
+::::::
+
+::: {.notes}
+The reactions illustrate charged-current neutrino interactions. The films
+start with charged muon or electron primaries, not complete simulated
+neutrino–nucleon final states. They show the source of optical light before
+any propagation or detector response. All input charged points come from
+existing NTSim/Geant4 water events: 1 TeV and 1 PeV muons, and
+100 GeV and 1 TeV electrons, event 0. Both supplied PeV files contain muons;
+the genuine electron PeV event has not yet been generated.
+
+The same events and birth samples underlie each pair of formats. Each event
+occupies 10 seconds: both muon and current electron films last 20
+seconds. Shorts have their own vertical framing and are reserved for YouTube,
+not embedded in this lecture. There are no credits,
+simulation-framework names or QR codes in the films.
+
+Emission follows the resolved charged segments and the Frank–Tamm model
+with n=1.34 and wavelengths 350–610 nm. The 9000 markers are a weighted
+visual sample of the complete resolved-segment yield, prepared with bounded
+memory. Positions stay fixed at birth; marker sizes are pictorial, not photon
+paths. Charged secondary trajectories are representative retained real
+vertices. Neither light transport nor PMT hits are included. The low-energy
+muons cross a finite 100 m window; the PeV volume is 10 km long. Do not
+interpret a recording boundary as a stopped particle. Scale bars are metric.
+
+The graph is a Monte Carlo estimate of photons per time–cosine bin, with
+logarithmic colour and explicit per-event count limits. Its cosine is the
+dot product of photon direction with the initial primary unit vector, not
+the local secondary direction. Bin widths and viewport scales vary between
+events. The electron spatial view is unchanged. The muon landscape view is
+fixed, with its original longitudinal map and only the perpendicular direction
+expanded to a 2 m-high window around the initial primary position (−1 to +1 m).
+Separate axis scales make this schematic aspect ratio explicit; there is no
+camera movement or animated zoom. Birth coordinates are fixed throughout.
+The graph still covers the complete event, including births outside this
+transverse window.
+The final weighted bin sum
+equals the integrated Frank–Tamm source yield. The 96 by 120 count bins are
+displayed with bilinear colour interpolation; this smooths the image, not
+the underlying counts or Monte Carlo statistics.
+
+Code and all command-line/configuration controls:
+dvnanima/neutrino_telescope/README.md. Raw HDF5 inputs remain local.
+:::
+
+{{< include blocks/_03a-cherenkov.qmd >}}
+
+## One photon, a measurable pulse {#photomultiplier}
+
+:::::: {.panel-tabset}
+
+### Photomultiplier
+
+<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/principles/pmt_multiplication_en.jpg" src="media/principles/pmt_multiplication_en.mp4"></video>
+
+### Optical modules
+
+::::: {.columns}
+::: {.column width="23%"}
+**IceCube**
+
+![](media/optical-modules/icecube-dom-deployment.jpg){.slide-media .nostretch style="--media-max-height: 350px;" fig-alt="An actual original IceCube DOM during deployment, with one large PMT inside a glass pressure sphere."}
+
+One $10\,\mathrm{inch}$ PMT.
+
+::: {.media-caption}
+IceCube/NSF.
+:::
+:::
+::: {.column width="23%"}
+**KM3NeT**
+
+![](media/optical-modules/km3net-dom.png){.slide-media .nostretch style="--media-max-height: 350px;" fig-alt="An actual KM3NeT digital optical module with many small PMTs pointing in different directions."}
+
+$31$ three-inch PMTs.
+
+::: {.media-caption}
+Courtesy KM3NeT.
+:::
+:::
+::: {.column width="23%"}
+**Baikal-GVD**
+
+![](media/optical-modules/baikal-gvd-om-deployment.jpeg){.slide-media .nostretch style="--media-max-height: 350px;" fig-alt="A real Baikal-GVD optical module above an ice hole during deployment, from DN's 2021 lecture."}
+
+One $10\,\mathrm{inch}$ PMT.
+
+::: {.media-caption}
+Baikal-GVD; supplied by DN.
+:::
+:::
+::: {.column width="23%"}
+**TRIDENT**
+
+![](media/optical-modules/trident-hdom-prototype.jpg){.slide-media .nostretch style="--media-max-height: 350px;" fig-alt="An actual TRIDENT hybrid optical-module prototype in the laboratory, combining PMTs with small SiPM assemblies."}
+
+PMTs + SiPMs. **Prototype.**
+
+::: {.media-caption}
+TRIDENT / TDLI, SJTU.
+:::
+:::
+:::::
+
+::: {.takeaway}
+A pressure sphere becomes an eye: photosensors, timing and readout.
+:::
+
+::::::
+
+::: {.notes}
+Use the first part of the PMT animation. The equations describe an idealised
+mean gain and charge relation, not event-by-event equality. Real tubes have
+gain fluctuations, finite efficiency and saturation.
+
+$$
+G\simeq\delta^{N_{\rm dyn}},\qquad Q\simeq eG N_{\rm pe}.
+$$
+
+DN's 40-second English film shows one photoelectron and stochastic secondary
+emission, followed by the relation between initial photoelectrons and anode
+pulses. It is a teaching branching-process model, not a calibration of one
+of the four photographed modules.
+
+The photographs are real hardware. IceCube is the original one-PMT DOM,
+not an Upgrade mDOM. KM3NeT uses 31 three-inch PMTs; Baikal-GVD uses one
+ten-inch PMT. The TRIDENT sphere is a laboratory hybrid prototype with PMTs
+and SiPMs, not evidence that the full proposed array is operating. Do not
+assign a final PMT/SiPM count from a different evolving design.
+
+Photo sources and reuse notes: media/optical-modules/SOURCES.md.
+[IceCube DOM gallery](https://icecube.wisc.edu/gallery/digital-optical-module-dom-development/);
+[KM3NeT optical modules](https://www.km3net.org/pictures-and-videos/picture-galleries/album-optical-module/);
+[Baikal-GVD module](https://baikalgvd.jinr.ru/optical-module/);
+[TRIDENT hDOM prototype](https://tdli.sjtu.edu.cn/post/15829).
+:::
+
+## Tracks and cascades {#event-topologies}
+
+:::::: {.panel-tabset}
+
+### Read the pattern
+
+::::: {.columns}
+::: {.column width="48%"}
+**A track — KM3NeT**
+
+![](media/events/km3-230213a.jpg){.slide-media .nostretch style="--media-max-height: 350px;" fig-alt="KM3NeT event KM3-230213A: PMT signals along a reconstructed long muon trajectory. The displayed cone is an artistic illustration."}
+
+A long muon path through the array.
+
+::: {.media-caption}
+KM3NeT Collaboration, KM3-230213A.
+:::
+:::
+::: {.column width="48%"}
+**A cascade — IceCube**
+
+![](media/icecube/big-bird.jpg){.slide-media .nostretch style="--media-max-height: 350px;" fig-alt="IceCube Big Bird recorded cascade: a compact concentration of optical-module signals."}
+
+A compact shower compared with module spacing.
+
+::: {.media-caption}
+IceCube Collaboration / IceCube–NSF, Big Bird.
+:::
+:::
+:::::
+
+::: {.takeaway}
+The neutrino is invisible. Its pattern of light is not.
+:::
+
+### KM3NeT: track
+
+<video class="slide-video media-height-lg" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="media/events/km3-230213a.jpg" src="media/events/km3-230213a.mp4"></video>
+
+::: {.media-caption}
+Measured PMT signals; reconstructed track; illustrative cone.
+© KM3NeT. [Official event display](https://www.km3net.org/km3-230213a/displays-of-the-event/).
+:::
+
+### IceCube: events
+
+<iframe class="slide-media" width="1280" height="540" style="--media-max-height: 540px;" src="https://www.youtube.com/embed/2DDQYHIbL3Q?feature=oembed" title="IceCube high-energy astrophysical neutrinos: official event-display compilation" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+::: {.media-caption}
+IceCube's [official compilation](https://icecube.wisc.edu/science/research/): recorded events and one simulated illustration.
+Online video; the comparison tab also works offline.
+:::
+
+### Model: track
+
+<video class="slide-video media-height-lg" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="media/events/simulated_muon_response_en.jpg" src="media/events/simulated_muon_response_en.mp4"></video>
+
+### Model: cascade
+
+<video class="slide-video media-height-lg" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="media/events/simulated_cascade_response_en.jpg" src="media/events/simulated_cascade_response_en.mp4"></video>
+
+::::::
+
+::: {.notes}
+Explain angular and energy information for each topology. A visible second
+tau cascade requires suitable energy and geometry. Topology does not provide
+a one-to-one flavour tag.
+
+The first tab contrasts measured event displays in different detectors; it
+is not a comparison at the same energy, geometry or detector scale. KM3-230213A
+was recorded in ARCA on 13 February 2023. Its red line is a reconstructed muon
+trajectory; the cone is artistic. PMT marker size shows detected light and
+colour shows hit time relative to the first trigger. The IceCube Big Bird
+picture is a recorded cascade. The linked IceCube video mixes recorded
+high-energy events with one explicitly simulated Cherenkov-cone illustration.
+The KM3NeT and model MP4 files are local; the IceCube iframe requires Internet.
+
+The two model films are actual captures from DN's LightHit viewer, generated
+from existing NTSim-source detector-response results, not new fake hit data.
+Only the unscattered/direct-light component is selected, in cumulative mode.
+These stored direct bins are nonnegative; other signed numerical components
+remain available in the scientific viewer and have not been clipped or altered.
+Sizes are display-scaled expected photoelectrons, not sampled or measured
+PMT hits. Colours and sizes in these model movies encode response strength,
+not hit time as in the KM3NeT display. Detector configurations differ between
+the two examples.
+
+The muon uses its existing source timing and detector clock; its straight
+display axis is a source representation, not a fitted observed event.
+For the cascade, its exact recorded G4 event and pose were recovered from
+the result metadata. The source-contract element count, integrated photon
+yield and centroid were reproduced and verified; the package's existing
+photon-weighted axial timing fit supplies only the displayed source clock.
+The OM arrival bins, charges and per-OM reference times are unchanged. Both
+films replay a common detector clock, but their source heads are display
+fits, not integrations of every broken charged trajectory or observed fits.
+All physics arrays remain local;
+the public lecture contains only the captured movies, with explicit clocks
+and component labels. The camera is static and detector framing clips the
+displayed source axis at the view boundary, not the physical particle.
+
+Resolved tau events can have two separated deposits. Mention this distinction
+without presenting a schematic as an observed tau event; this block does not
+yet contain a validated double-cascade movie.
+
+Sources: media/events/SOURCES.md;
+[KM3NeT event displays](https://www.km3net.org/km3-230213a/displays-of-the-event/);
+[IceCube research highlights](https://icecube.wisc.edu/science/research/);
+[Spiering, section 3.1](https://arxiv.org/html/2609.26436).
+:::
+
+## Reconstructing an event {#event-reconstruction}
+
+::::::: {.content-visible when-format="html"}
+
+:::::: {.panel-tabset}
+
+### The idea
+
+<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/reconstruction/reconstruction_en.jpg" src="media/reconstruction/reconstruction_en.mp4"></video>
+
+### Try it
+
+{{< include assets/reconstruction/interactive.html >}}
+
+### The model
+
+::::: {.columns}
+::: {.column width="48%"}
+**Predict a time for each sensor**
+
+$$
+\cos\theta_C=\frac{1}{\beta n_{\rm phase}},\qquad
+t_i^{\rm pred}=t_0+\frac{s_i}{\beta c}+\frac{n_{\rm group}D_i}{c}.
+$$
+
+$s_i$: muon distance from the known crossing point to emission.
+
+$D_i$: photon path from emission to the sensor.
+
+The cone uses the **phase** index; flight time uses the **group** index.
+:::
+::: {.column width="48%"}
+**Find the direction that agrees with the signals**
+
+$$
+S=\frac{1}{2\sigma_t^2}\sum_{i,k}
+\left(t_{ik}^{\rm obs}-t_i^{\rm pred}\right)^2
+\longrightarrow\min_{\theta,\phi,t_0}.
+$$
+
+Every detected photoelectron contributes a measured time.
+
+**Here:** known crossing point, straight muon, homogeneous medium.
+Only direction and time offset are fitted — not vertex or energy.
+:::
+:::::
+
+::: {.question}
+How does a wrong model of the medium change the inferred direction?
+:::
+
+::: {.small}
+Synthetic teaching model, not an experiment's reconstruction or an angular-resolution forecast.
+The arrow is the muon's direction of travel; the source direction is opposite.
+:::
+::::::
+:::::::
+
+:::: {.content-visible when-format="pdf"}
+![](media/reconstruction/reconstruction_en.jpg){width=95%}
+
+Known crossing point; fit direction and time offset from individual arrival times.
+Synthetic example, not an instrument-resolution measurement.
+::::
+
+::: {.notes}
+Explain the measured module positions, hit times and charges before introducing
+the fitted direction. First play the 48-second film without opening the exercise:
+show the real sequence of sampled detections, hide the generated track, compare
+a wrong hypothesis with measured times, search the full sphere and refine the
+best candidates. The displayed refinement steps are actual optimizer iterates.
+The true direction is not supplied to either fitter and is revealed only at the
+end. The scene is fixed; sensors and accumulated observations do not move.
+
+The second tab repeats this idea interactively. Filled sensor discs show measured
+mean arrival time and photoelectron count; rings show predicted times. The
+residual histogram counts individual photoelectrons, not module means. Its fixed
+window explicitly counts overflow. The direction panel displays a relative
+conditional timing likelihood, not a calibrated confidence region or a map of
+celestial sources. The arrows follow muon travel; sky-source direction is opposite.
+
+This model fixes a known crossing point and assumes an infinite, straight,
+constant-speed muon in a homogeneous medium. It fits two direction angles and
+profiles the global time offset analytically. It does not fit vertex or energy.
+The finite arrow is an illustration, not a track-length assumption. The phase
+Cherenkov cone and group-speed propagation are distinct. Poisson photoelectron
+counts and individual Gaussian-jittered times are genuinely sampled; the
+illumination law is schematic and has no calibrated detector acceptance.
+Conditional timing likelihood uses every sampled time and makes no charge fit.
+
+The interactive's assumed group index may be changed while its measured data
+stay fixed. A mismatch can worsen the fit and bias the inferred direction.
+Real reconstruction requires non-Gaussian scattering, PMT response, stochastic
+energy loss and often a fitted track position; the direct-light Gaussian toy is
+not a replacement. Deposited energy, muon energy and neutrino energy are different
+quantities; no neutrino energy is reconstructed here. Do not interpret the toy's
+agreement with its truth as a telescope angular-resolution measurement.
+
+Sources and numerical assumptions: dvnanima/neutrino_reconstruction/MODEL.md;
+[AMANDA reconstruction methods](https://arxiv.org/abs/astro-ph/0407044);
+[KM3NeT event analysis](https://www.km3net.org/km3-230213a/the-data-analysis/).
+Source: [Spiering, sections 3.1.2–3.1.4](https://arxiv.org/html/2609.26436).
+:::
+
+{{< include blocks/_03b-backgrounds.qmd >}}

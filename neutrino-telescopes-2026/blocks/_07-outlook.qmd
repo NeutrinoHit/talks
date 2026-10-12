@@ -1,0 +1,38 @@
+## The questions for the next generation {#next-questions}
+
+- Which populations dominate the diffuse flux?
+- Where inside a source do the neutrinos originate?
+- Which Galactic objects accelerate hadrons to the highest energies?
+- What do spectra, flavour and time variability reveal?
+
+::: {.notes}
+The closing occupies 56–60 minutes. Connect each question to a measurement
+already introduced, rather than adding another list of experiments.
+Mention cross sections, Earth propagation and fundamental-physics tests
+briefly as complementary opportunities.
+:::
+
+<!-- Visual slot: one measurement requirement beside each science question. -->
+
+## What will make the difference? {#conclusions}
+
+More events. Better reconstruction. Reliable calibration.
+
+Shared sky coverage and rapid multimessenger observations.
+
+::: {.takeaway}
+The next step is to understand the accelerators behind the neutrino sky.
+:::
+
+::: {.media-caption}
+[Experimental review: Spiering (2026)](https://arxiv.org/html/2609.26436) ·
+[Source review: D'Ammando (2026)](https://arxiv.org/html/2606.30764)
+:::
+
+::: {.notes}
+Return to the opening question. The field has established a cosmic neutrino
+flux, while identifying its dominant populations and production mechanisms
+remains an active programme. End with the global observational opportunity.
+:::
+
+<!-- Visual slot: final global network view; no new technical detail. -->

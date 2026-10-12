@@ -1,0 +1,153 @@
+## The astrophysical neutrino flux {#icecube-diffuse-flux}
+
+**IceCube, 2013**
+
+A high-energy event excess established an astrophysical neutrino component.
+
+::: {.question}
+Which observable separates that component from the atmospheric background?
+:::
+
+::: {.notes}
+Results occupy 30–44 minutes. Show a dated event sample with its atmospheric
+prediction before the fitted astrophysical spectrum. Label confidence levels.
+
+Source: [Spiering, section 4.1 and its primary references](https://arxiv.org/html/2609.26436).
+:::
+
+<!-- Visual slot: original IceCube discovery plot, then current spectrum. -->
+
+## An independent measurement with Baikal-GVD {#baikal-diffuse-flux}
+
+**Six seasons: April 2018 to March 2024**
+
+The cascade analysis detects the diffuse astrophysical flux at $5.1\sigma$.
+
+::: {.takeaway}
+Different medium, instrumentation and reconstruction. An independent test.
+:::
+
+::: {.media-caption}
+[Baikal-GVD, six-season analysis (2025)](https://arxiv.org/abs/2507.01893)
+:::
+
+::: {.notes}
+Compare spectra with the same flavour convention, units and energy interval.
+The published power-law fit assumes equal flavour contributions. Do not
+silently replace a per-flavour normalization with an all-flavour one.
+:::
+
+<!-- Visual slot: GVD energy distribution and correctly normalised comparison. -->
+
+## Structure in the diffuse spectrum {#diffuse-spectral-structure}
+
+IceCube reports a departure from a single power law near $30\,\mathrm{TeV}$.
+
+::: {.question}
+Does the spectrum reveal changing source populations or source physics?
+:::
+
+::: {.media-caption}
+[IceCube, spectral-change result](https://icecube.wisc.edu/news/research/2025/09/observation-of-a-spectral-change-in-the-flux-of-astrophysical-neutrinos/)
+:::
+
+::: {.notes}
+Separate the measured spectral feature from interpretations. Check the
+final primary publications and their fit definitions when selecting figures.
+:::
+
+<!-- Visual slot: binned spectrum with uncertainties, not only a fitted curve. -->
+
+## The Milky Way in neutrinos {#galactic-neutrinos}
+
+Cosmic rays interacting with Galactic matter produce diffuse emission.
+
+Resolving individual accelerators is a further observational challenge.
+
+::: {.notes}
+Compare maps with explicit angular resolution and energy selection. Separate
+the diffuse Galactic component from point-source claims. Include the latest
+appropriate Baikal-GVD result when developing this block.
+
+Source: [Spiering, section 5](https://arxiv.org/html/2609.26436).
+:::
+
+<!-- Visual slot: aligned Galactic-coordinate maps in photons and neutrinos. -->
+
+## TXS 0506+056 and multimessenger observations {#txs-0506}
+
+- The 2017 neutrino alert and electromagnetic follow-up.
+- The separate 2014–2015 excess in archival neutrino data.
+- The Baikal-GVD event compatible with this direction in 2021.
+
+::: {.notes}
+Keep these datasets and their statistical questions distinct. Directional
+compatibility does not prove the origin of an individual event. Use dated
+significances, trial corrections and the latest reconstruction caveats.
+
+Source: [D'Ammando, section 3.1](https://arxiv.org/html/2606.30764).
+:::
+
+<!-- Visual slot: sky localization and time sequence, including radio data. -->
+
+## NGC 1068 and X-ray-bright active galaxies {#ngc-1068}
+
+Evidence for neutrino emission motivates searches for a wider AGN population.
+
+::: {.question}
+What do neutrinos reveal about regions opaque to high-energy gamma rays?
+:::
+
+::: {.media-caption}
+[IceCube, X-ray-bright AGN analysis](https://arxiv.org/abs/2510.13403)
+:::
+
+::: {.notes}
+Show the neutrino and electromagnetic measurements together. Distinguish
+the single-source evidence from the population test. The disk/corona
+interpretation is a physical model, not a directly resolved image.
+:::
+
+<!-- Visual slot: NGC 1068 spectrum and a labelled AGN model illustration. -->
+
+## KM3-230213A {#km3-230213a}
+
+**An exceptionally energetic, nearly horizontal event**
+
+The inferred neutrino energy is about $220\,\mathrm{PeV}$,
+with a broad uncertainty interval.
+
+Its source remains unknown.
+
+::: {.media-caption}
+[KM3NeT, Nature (2025)](https://www.nature.com/articles/s41586-024-08543-1)
+:::
+
+::: {.notes}
+The event occurred on 13 February 2023. The paper estimates the muon energy
+at the detector separately from the parent neutrino energy. Include the
+published uncertainty interval, spectral assumptions and exposure comparison
+when developing the result. Do not imply an identified source or new physics.
+:::
+
+<!-- Visual slot: collaboration event display, with a physical length scale. -->
+
+## Searches without a significant excess {#source-limits}
+
+Upper limits test source models and population hypotheses.
+
+Baikal-GVD's first track-based search examined 92 candidate objects.
+
+No significant excess emerged from that analysis.
+
+::: {.media-caption}
+[Baikal-GVD, point-source constraints (2026)](https://arxiv.org/abs/2603.21261)
+:::
+
+::: {.notes}
+Compare limits only for matched spectra and confidence conventions. One
+example from a broader population search can illustrate why non-detections
+are scientifically useful.
+:::
+
+<!-- Visual slot: source limits and a model prediction with matching units. -->
