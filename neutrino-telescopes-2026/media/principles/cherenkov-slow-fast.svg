@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 500" role="img" aria-labelledby="title desc">
+  <title id="title">A moving charge and the wavefronts it leaves behind</title>
+  <desc id="desc">Two constant-speed Huygens constructions at the same wavelet ages. Refractive index 1.33; particle beta 0.55 on the left and 0.99 on the right. Circles are sections of spherical wavefronts, not photon paths. Four past positions are small gold dots; the present position is a large gold dot. Only the fast case has a common tangent front.</desc>
+  <defs>
+    <marker id="motion" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10Z" fill="#ffcc73"/>
+    </marker>
+  </defs>
+  <path d="M700 20V480" stroke="#30414c" stroke-width="2"/>
+  <g fill="none" stroke="#8cccf4" stroke-width="3">
+    <circle cx="284.444444" cy="250" r="212.652844" opacity=".45"/>
+    <circle cx="323.333333" cy="250" r="159.489633" opacity=".60"/>
+    <circle cx="362.222222" cy="250" r="106.326422" opacity=".75"/>
+    <circle cx="401.111111" cy="250" r="53.163211" opacity=".90"/>
+  </g>
+  <path d="M85 250H440" stroke="#ffcc73" stroke-width="2" stroke-dasharray="7 9" opacity=".45"/>
+  <g fill="#ffcc73" opacity=".7">
+    <circle cx="284.444444" cy="250" r="4"/><circle cx="323.333333" cy="250" r="4"/>
+    <circle cx="362.222222" cy="250" r="4"/><circle cx="401.111111" cy="250" r="4"/>
+  </g>
+  <circle cx="440" cy="250" r="11" fill="#ffcc73"/>
+  <path d="M459 250H590" stroke="#ffcc73" stroke-width="4" marker-end="url(#motion)"/>
+  <text x="510" y="228" fill="#ffcc73" text-anchor="middle" font-family="Arial, sans-serif" font-size="28">now</text>
+  <g transform="translate(700 0)">
+    <g fill="none" stroke="#8cccf4" stroke-width="3">
+      <circle cx="270" cy="250" r="212.652844" opacity=".45"/>
+      <circle cx="340" cy="250" r="159.489633" opacity=".60"/>
+      <circle cx="410" cy="250" r="106.326422" opacity=".75"/>
+      <circle cx="480" cy="250" r="53.163211" opacity=".90"/>
+    </g>
+    <path d="M60 250H550" stroke="#ffcc73" stroke-width="2" stroke-dasharray="7 9" opacity=".45"/>
+    <g fill="#ffcc73" opacity=".7">
+      <circle cx="270" cy="250" r="4"/><circle cx="340" cy="250" r="4"/>
+      <circle cx="410" cy="250" r="4"/><circle cx="480" cy="250" r="4"/>
+    </g>
+    <path d="M350 16.508506 550 250 350 483.491494" fill="none" stroke="#ffffff" stroke-width="5"/>
+    <g fill="#ffffff">
+      <circle cx="431.504401" cy="111.661427" r="5"/>
+      <circle cx="461.128300" cy="146.246070" r="5"/>
+      <circle cx="490.752200" cy="180.830714" r="5"/>
+      <circle cx="520.376100" cy="215.415357" r="5"/>
+    </g>
+    <path d="M530 80 438 119" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <text x="620" y="65" fill="#ffffff" text-anchor="end" font-family="Arial, sans-serif" font-size="28">common front</text>
+    <circle cx="550" cy="250" r="11" fill="#ffcc73"/>
+    <path d="M569 250H655" stroke="#ffcc73" stroke-width="4" marker-end="url(#motion)"/>
+    <text x="575" y="290" fill="#ffcc73" font-family="Arial, sans-serif" font-size="28">now</text>
+  </g>
+</svg>

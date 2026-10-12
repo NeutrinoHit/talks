@@ -1,0 +1,373 @@
+## A telescope inside a natural medium {#markovs-idea}
+
+:::::: {.panel-tabset}
+
+### The idea, 1960
+
+::::: {.columns}
+::: {.column width="48%"}
+![](media/history/markov-lectern-author.gif){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Moisei Markov speaking at a lectern."}
+
+::: {.media-caption}
+Moisei Markov.
+:::
+:::
+::: {.column width="48%"}
+**A large target already exists in nature.**
+
+Place light sensors deep in a lake or sea.
+
+Use Cherenkov light to reconstruct charged particles produced by neutrinos.
+
+::: {.takeaway}
+Instrument the medium instead of building the target.
+:::
+
+::: {.media-caption}
+M. A. Markov, Rochester conference, 1960, p. 578.
+:::
+:::
+:::::
+
+### Markov
+
+::::: {.columns}
+::: {.column width="43%"}
+![](media/history/markov-earlier.gif){.slide-media .nostretch style="--media-max-height: 350px; --media-width: 250px;" fig-alt="An earlier portrait of Moisei Markov from the INR anniversary archive."}
+
+::: {.media-caption}
+Earlier portrait, date unspecified. [INR RAS archive](https://inr.ru/rus/markov/mark100.html).
+:::
+:::
+::: {.column width="53%"}
+![](media/history/markov-pontecorvo.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Moisei Markov on the left with Bruno Pontecorvo on the right."}
+
+::: {.media-caption}
+Markov (left) and Bruno Pontecorvo (right), later photograph, undated.
+[IceCube historical archive](https://icecube.wisc.edu/about-us/icecube10/timeline/).
+:::
+:::
+:::::
+
+### Reines
+
+::::: {.columns}
+::: {.column width="49%"}
+![](media/history/reines-cowan-1956.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Frederick Reines at left and Clyde Cowan at the Savannah River experiment in 1956."}
+
+::: {.media-caption}
+Frederick Reines (left) and Clyde Cowan, 1956. Los Alamos National Laboratory.
+:::
+:::
+::: {.column width="47%"}
+![](media/history/reines-later.jpg){.slide-media .nostretch style="--media-max-height: 330px;" fig-alt="Frederick Reines, later portrait reproduced in Spiering's historical review."}
+
+::: {.media-caption}
+Later portrait, undated. Reproduced in C. Spiering's historical review.
+:::
+
+::: {.small}
+Neutrino detection first; cosmic-neutrino astronomy next.
+:::
+:::
+:::::
+
+### Greisen
+
+::::: {.columns}
+::: {.column width="28%"}
+![](media/history/greisen-portrait.jpg){.slide-media .nostretch style="--media-max-height: 320px;" fig-alt="Kenneth Greisen, portrait reproduced in Spiering's historical review."}
+
+::: {.media-caption}
+Kenneth Greisen. Undated portrait via C. Spiering.
+:::
+:::
+::: {.column width="68%"}
+**Greisen, Reines and Markov** discussed cosmic-neutrino detection in 1960.
+
+Markov's underwater proposal supplied a practical route to a very large target.
+
+::: {.question}
+The physics was compelling. Could the instrument survive and work?
+:::
+:::
+:::::
+::::::
+
+::: {.notes}
+**3:00–4:15.** Present the idea first. The portrait tabs are optional material,
+not four additional mini-talks. Select a pair if it helps the audience see the
+long human timescale. The photo dates are not the dates of the scientific
+proposals. The early Markov portrait is a small archival scan; do not invent
+detail or an exact date. Reines and Cowan's picture documents the 1956 reactor
+experiment, not an underwater telescope.
+
+Source: C. Spiering, *Early History of Neutrino Astronomy and Neutrino Telescopes*,
+GSSI 2024, slides 3–6. Markov, ICHEP 1960, p. 578. Photos and credits:
+INR RAS anniversary archive and IceCube timeline; see media/history/SOURCES.md.
+:::
+
+## DUMAND: the first deep-ocean attempt {#pioneering-telescopes}
+
+:::::: {.panel-tabset}
+
+### People and ambition
+
+::::: {.columns}
+::: {.column width="58%"}
+![](media/history/dumand-1976.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="John Learned at the blackboard, Jed Hirota seated at left and Dick Davisson seated at right, DUMAND 1976 workshop."}
+
+::: {.media-caption}
+DUMAND workshop, 1976. John Learned at the board; Jed Hirota (left), Dick Davisson (right).
+Photo: Anatoly Petrukhin, via IceCube.
+:::
+:::
+::: {.column width="38%"}
+**Deep Underwater Muon And Neutrino Detector**
+
+Reines, Learned and colleagues pursued an ocean array near Hawaii.
+
+A detector several kilometres below the surface needed entirely new engineering.
+:::
+:::::
+
+### What the project taught us
+
+```{=html}
+<div class="timing">
+<span class="time">1973–75</span><span>International discussions and the first workshops</span>
+<span class="time">1987</span><span>A short prototype string operates from a ship</span>
+<span class="time">1993</span><span>A deep-sea string deployment encounters a failure</span>
+<span class="time">1995</span><span>US support ends before the planned array is completed</span>
+</div>
+```
+
+::: {.takeaway}
+Deployment, connectors, power and calibration became part of the physics problem.
+:::
+
+::: {.media-caption}
+[IceCube historical archive](https://icecube.wisc.edu/about-us/icecube10/timeline/);
+A. Roberts, *Rev. Mod. Phys.* **64**, 259 (1992).
+:::
+::::::
+
+::: {.notes}
+**4:15–5:00.** Spend most of the time on the workshop photograph. The project
+helped create a community and techniques that outlived DUMAND. Its termination
+was not an experimental refutation of the detection principle. Open the
+timeline only if the chronology is useful.
+
+Source: [Spiering 2024 historical talk](https://indico.gssi.it/event/632/contributions/2151/attachments/1298/2259/Early_History_of_Neutrinoastronomy_GSSI-29-09.pdf),
+slides 13, 25–26. Photo attribution follows the IceCube archive caption.
+:::
+
+## Lake Baikal: the ice becomes a platform {#baikal-beginnings}
+
+:::::: {.panel-tabset}
+
+### Why Baikal?
+
+::::: {.columns}
+::: {.column width="57%"}
+![](media/history/baikal-winter-2005.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Winter work at Lake Baikal, in a photograph dated 2005 by the DLNP archive."}
+
+::: {.media-caption}
+Winter expedition, 2005. [DLNP JINR archive](https://dlnp.jinr.ru/chronograph/75/3258).
+:::
+:::
+::: {.column width="39%"}
+**Alexander Chudakov proposed the site.**
+
+Deep, clear water close to shore.
+
+A frozen surface for deploying and maintaining the detector.
+
+::: {.takeaway}
+The lake supplied both the target and a seasonal construction platform.
+:::
+:::
+:::::
+
+### Chudakov
+
+::::: {.columns}
+::: {.column width="44%"}
+![](media/history/chudakov-1946.jpg){.slide-media .nostretch style="--media-max-height: 430px;" fig-alt="Alexander Chudakov in 1946, from the laboratory photo archive."}
+
+::: {.media-caption}
+Alexander Chudakov, **1946**.
+:::
+:::
+::: {.column width="52%"}
+![](media/history/chudakov-1985.jpg){.slide-media .nostretch style="--media-max-height: 430px;" fig-alt="Alexander Chudakov in 1985, from the laboratory photo archive."}
+
+::: {.media-caption}
+Alexander Chudakov, **1985**.
+:::
+:::
+:::::
+
+::: {.media-caption}
+Both dates follow the [INR Laboratory of High Energy Leptons photo archive](https://llve.inr.ac.ru/chudakov/foto.htm).
+:::
+
+### Domogatsky
+
+::::: {.columns}
+::: {.column width="48%"}
+![](media/history/domogatsky-1980-author.jpeg){.slide-media .nostretch style="--media-max-height: 430px;" fig-alt="Grigory Domogatsky, early portrait labelled 1980 in the original Keynote image filename."}
+
+::: {.media-caption}
+**Grigory Domogatsky, 1980**
+
+:::
+:::
+::: {.column width="48%"}
+![](media/history/domogatsky-2006.jpg){.slide-media .nostretch style="--media-max-height: 280px; --media-width: 224px;" fig-alt="Grigory Domogatsky, later portrait published with the 2006 Markov Prize announcement."}
+
+::: {.media-caption}
+**Later portrait**
+
+Published with the 2006 Markov Prize announcement; photograph date unspecified.
+:::
+
+::: {.small}
+Led the Baikal neutrino programme from 1980.
+:::
+:::
+:::::
+
+### The team
+
+::::: {.columns}
+::: {.column width="40%"}
+![](media/history/spiering-author.jpg){.slide-media .nostretch style="--media-max-height: 280px; --media-width: 210px;" fig-alt="Christian Spiering."}
+
+::: {.media-caption}
+**Christian Spiering**
+
+His Zeuthen group joined in 1988.
+:::
+:::
+::: {.column width="56%"}
+Scientists, engineers and winter expeditions turned the proposal into a working array.
+
+The 2006 Markov Prize recognised Domogatsky and Spiering for NT200+ and
+high-energy neutrino astrophysics.
+:::
+:::::
+
+::: {.media-caption}
+[INR 2006 prize announcement](https://inr.ru/eng/markove/mark2006e.html).
+:::
+
+### Three strings
+
+**NT36, 1993**
+
+Three strings and 36 optical modules at Lake Baikal.
+
+> “Congratulations for winning the 3-string race!”
+
+Francis Halzen to Christian Spiering
+
+::: {.small}
+NT36, DUMAND's TRIAD and AMANDA: competing routes to a working array.
+:::
+
+### First neutrinos
+
+```{=html}
+<div class="timing">
+<span class="time">1980–84</span><span>A dedicated laboratory, site studies and early strings</span>
+<span class="time">1993–94</span><span>NT36: early neutrino candidates</span>
+<span class="time">1996</span><span>NT96: a clear upward-going neutrino signal</span>
+<span class="time">1998</span><span>NT200 completed with 192 optical modules</span>
+</div>
+```
+
+::: {.takeaway}
+Atmospheric neutrinos demonstrated that Markov's method worked in a lake.
+:::
+
+::: {.media-caption}
+C. Spiering, historical review (2024), slides 29–31;
+[Baikal detector paper](https://cds.cern.ch/record/323330).
+:::
+::::::
+
+## The path to a cubic kilometre {#cubic-kilometre-scale}
+
+:::::: {.panel-tabset}
+
+### AMANDA
+
+::::: {.columns}
+::: {.column width="57%"}
+![](media/history/amanda-team.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="German AMANDA collaborators with optical modules, from the collaboration's historical archive."}
+
+::: {.media-caption}
+AMANDA collaborators and optical modules. AMANDA Collaboration; photograph undated.
+:::
+:::
+::: {.column width="39%"}
+**Halzen, Learned, Price, Morse, Barwick and colleagues** explored polar ice.
+
+Early shallow deployments suffered strong scattering from bubbles.
+
+Deeper ice made directional reconstruction possible.
+:::
+:::::
+
+### IceCube
+
+::::: {.columns}
+::: {.column width="57%"}
+![](media/history/icecube-last-dom-2010.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Deployment of the final IceCube optical module in December 2010."}
+
+::: {.media-caption}
+Final optical module, December 2010. IceCube/NSF, via the IceCube timeline.
+:::
+:::
+::: {.column width="39%"}
+**1999:** the cubic-kilometre proposal.
+
+**2010:** the last of 86 strings.
+
+**2013:** an astrophysical neutrino flux.
+
+::: {.takeaway}
+A working technique needed sufficient exposure to reveal the cosmic signal.
+:::
+:::
+:::::
+
+### The team
+
+![](media/history/icecube-team-2004-05.jpg){.slide-media .nostretch style="--media-max-height: 440px; --media-width: 76%;" fig-alt="The IceCube construction team in the 2004–2005 season, in front of a drilling tower."}
+
+::: {.media-caption}
+First IceCube construction season, **2004–2005**. IceCube/NSF historical archive.
+:::
+
+### ANTARES
+
+::::: {.columns}
+::: {.column width="57%"}
+![](media/history/antares-illustration.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Artist's illustration of ANTARES and the Nautile submersible, not a photograph."}
+
+::: {.media-caption}
+Artist's illustration of ANTARES and Nautile. ANTARES material via IceCube.
+:::
+:::
+::: {.column width="39%"}
+**2008:** the 12-line detector is complete.
+
+Long-term operation demonstrated precision neutrino detection in the deep sea.
+
+ANTARES, NEMO and NESTOR supplied experience for KM3NeT.
+:::
+:::::
+::::::
+

@@ -1,0 +1,29 @@
+[video]
+width = 1280
+height = 720
+fps = 30
+header_px = 48
+footer_px = 72
+font = "/System/Library/Fonts/Supplemental/Arial.ttf"
+title_size = 29
+note_size = 18
+text_x = 28
+title_y = 10
+note_offset = 12
+note_line_spacing = 26
+background = "0x03060c"
+title_color = "0xeef5ff"
+note_color = "0xa9bfd2"
+codec = "libx264"
+crf = 20
+preset = "medium"
+pixel_format = "yuv420p"
+poster_time_s = 7.5
+
+[muon]
+title = "Muon track: calculated detector response"
+note = "Detector-clock replay | Direct-light component | Cumulative mean signal\nColour and marker size encode display-scaled mean response, not recorded hits."
+
+[cascade]
+title = "Electron cascade: calculated detector response"
+note = "Detector-clock replay | Direct-light component | Cumulative mean signal\nSource timing is an axial fit; colour/size show mean response, not measured hits."

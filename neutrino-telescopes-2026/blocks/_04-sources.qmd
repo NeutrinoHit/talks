@@ -1,0 +1,113 @@
+## Cosmic accelerators and their messengers {#cosmic-messengers}
+
+Charged cosmic rays bend in magnetic fields.
+
+Photons can scatter or be absorbed.
+
+Neutrinos can escape dense environments and preserve directional information.
+
+::: {.notes}
+Source physics occupies 20–30 minutes. State the energy range and avoid
+suggesting unlimited neutrino transparency at every energy and column depth.
+
+Source: [D'Ammando, AGN review](https://arxiv.org/html/2606.30764).
+:::
+
+<!-- Visual slot: the same source seen by different messengers. -->
+
+## Acceleration and confinement {#acceleration-and-confinement}
+
+$$
+r_L=\frac{p}{ZeB}\lesssim R
+$$
+
+A source must retain particles long enough to accelerate them.
+
+Energy losses and the available time also limit the maximum energy.
+
+::: {.notes}
+The displayed gyroradius uses SI units for momentum, magnetic field and charge.
+The confinement condition is necessary, but not sufficient for acceleration.
+Use a Hillas diagram with explicit units when developing this slide.
+:::
+
+<!-- Visual slot: gyration and confinement, then a sourced Hillas plot. -->
+
+## Making pions, making neutrinos {#pion-production}
+
+$$
+pp\ \text{or}\ p\gamma\ \longrightarrow\ \pi^{\pm},\pi^0+X
+$$
+$$
+\pi^+\to\mu^++\nu_\mu,
+\qquad\mu^+\to e^++\nu_e+\bar\nu_\mu,
+\qquad\pi^0\to\gamma\gamma.
+$$
+
+::: {.notes}
+The schematic first line combines processes with different thresholds and
+branching fractions. Explain matter and radiation targets separately.
+
+Source: [D'Ammando, production mechanisms](https://arxiv.org/html/2606.30764).
+:::
+
+<!-- Animation slot A07: hadronic production and escaping messengers. -->
+
+## What neutrino energy tells us {#parent-particle-energy}
+
+$$
+E_\nu\sim0.05E_p
+$$
+
+A useful scale estimate for pion production and decay.
+
+The detailed relation depends on the interaction and the source conditions.
+
+::: {.notes}
+Present this as an approximate energy partition, not a universal event-level
+conversion. Cooling and spectra change the neutrino yield.
+
+Source: [Spiering, section 2](https://arxiv.org/html/2609.26436).
+:::
+
+<!-- Visual slot: energy partition, without a false precision claim. -->
+
+## Candidate source populations {#source-populations}
+
+- Galactic accelerators and interactions with interstellar gas.
+- Active galactic nuclei: jets and compact central regions.
+- Star-forming environments.
+- Transients, including gamma-ray bursts and tidal disruption events.
+
+::: {.notes}
+Distinguish proposed production sites, observed associations and established
+diffuse components. Avoid implying that every class has a detected neutrino
+signal.
+
+Sources: [D'Ammando](https://arxiv.org/html/2606.30764) and
+[Spiering, sections 5–6](https://arxiv.org/html/2609.26436).
+:::
+
+<!-- Visual slot: source images with individual credits; source tabs later. -->
+
+## Hidden neutrino sources {#hidden-sources}
+
+Gamma rays can lose energy inside the source while neutrinos escape.
+
+$$
+\gamma+\gamma\longrightarrow e^++e^-.
+$$
+
+::: {.question}
+Could a bright neutrino source be faint in high-energy gamma rays?
+:::
+
+::: {.notes}
+Introduce electromagnetic reprocessing and its observational constraints.
+Use the AGN disk/corona as a model example, not a uniquely established
+location of neutrino production.
+
+Source: [D'Ammando, NGC 1068 models](https://arxiv.org/html/2606.30764).
+:::
+
+<!-- Animation slot A07: transparent and opaque source, with energy accounting. -->

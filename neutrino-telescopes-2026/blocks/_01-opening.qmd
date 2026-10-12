@@ -1,0 +1,100 @@
+## A new window on the Universe {#a-new-window}
+
+:::::: {.panel-tabset}
+
+### The recognition
+
+::::: {.columns}
+::: {.column width="40%"}
+![](media/history/halzen-author.png){.slide-media .nostretch style="--media-max-height: 470px;" fig-alt="Francis Halzen."}
+
+::: {.media-caption}
+Francis Halzen. 
+:::
+:::
+::: {.column width="56%"}
+**2026 Nobel Prize in Physics**
+
+- IceCube and the discovery of high-energy astrophysical neutrinos.
+
+- What did it take to turn an idea into an observatory?
+
+::: {.media-caption}
+[IceCube, 6 October 2026](https://icecube.wisc.edu/news/awards/2026/10/francis-halzen-icecube-principal-investigator-wins-2026-physics-nobel-prize/)
+:::
+:::
+:::::
+
+### The telescope
+
+::::: {.columns}
+::: {.column width="61%"}
+![](media/history/icecube-night.jpg){.slide-media .nostretch style="--media-max-height: 470px;" fig-alt="The IceCube Laboratory under the Milky Way and an aurora."}
+
+::: {.media-caption}
+Yuya Makino, IceCube/NSF. [UW–Madison](https://news.wisc.edu/university-of-wisconsin-madison-professor-francis-halzen-named-2026-nobel-laureate-in-physics/)
+:::
+:::
+::: {.column width="35%"}
+The building is the visible part.
+
+The detector occupies the ice below.
+
+::: {.question}
+We have discovered the flux. Where are the sources?
+:::
+:::
+:::::
+
+### The Big Three
+
+::::: {.columns}
+::: {.column width="60%"}
+![](media/icecube/bert-ernie.png){.slide-media .nostretch style="--media-max-height: 410px;" fig-alt="IceCube event displays of Bert at left and Ernie at right, showing coloured optical-module hits from PeV cascades."}
+
+::: {.media-caption}
+**Bert and Ernie:** deposited energies $1.04\pm0.16$ and $1.14\pm0.17\,\mathrm{PeV}$.
+:::
+:::
+::: {.column width="36%"}
+![](media/icecube/big-bird.jpg){.slide-media .nostretch style="--media-max-height: 410px;" fig-alt="IceCube's Big Bird cascade event display, with a bright central cluster of optical-module hits."}
+
+::: {.media-caption}
+**Big Bird:** approximately $2\,\mathrm{PeV}$ deposited.
+:::
+:::
+:::::
+
+::: {.takeaway}
+What looks like a handful of coloured dots can reveal a cosmic particle shower.
+:::
+
+::: {.media-caption}
+Event displays: IceCube Collaboration / IceCube–NSF.
+[First two PeV events (2013)](https://arxiv.org/abs/1304.5356);
+[three-year analysis (2014)](https://arxiv.org/abs/1405.5303).
+:::
+
+::::::
+
+::: {.notes}
+**0–3 minutes, including the title.** Start with the recognition tab. The prize
+is a timely reason to look at the field, but this is a story of many people
+and several complementary experiments. The portrait is the original image
+embedded in DN's Stony Brook 2020 and HyperWebinar 2021 lectures.
+It is not a photograph of the 2026 award ceremony.
+
+Switch to the telescope. Most of the instrument is invisible in this picture:
+its light sensors are frozen into the ice. We now know that a cosmic flux
+exists. Its dominant sources and their internal physics remain the questions
+that drive the field. Before discussing the measurements, ask how this
+unusual idea became experimentally possible.
+
+The Big Three tab shows iconic contained cascades. The quoted quantities
+are deposited energies, not uniquely determined parent-neutrino energies.
+Bert and Ernie were reported in 2013; Big Bird appeared in the 2014 three-year
+analysis. The astrophysical-flux conclusion uses the event population and
+background tests, rather than these displays alone. Use this optional tab
+as a brief visual introduction to the measurement, preserving the opening's
+three-minute allocation.
+:::

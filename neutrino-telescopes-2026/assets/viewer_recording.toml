@@ -1,0 +1,27 @@
+[paths]
+input = "lighthit/.build/event-viewer/viewer.json"
+local_output = "lighthit/.build/neutrino-telescope-recording"
+
+[events.muon]
+input = "lighthit/.build/muon-segments-20261009/ntsim3000-all/viewer.json"
+event_id = "event-0-hybrid-basis-muon-all"
+label = "Muon track — calculated detector response"
+
+[events.cascade]
+event_id = "sim_e_1TeV_10-event-5"
+label = "Electron cascade, 1 TeV — calculated detector response"
+restore_source_timing = true
+
+[timing]
+bins = 48
+validation_rtol = 1.0e-10
+validation_atol = 1.0e-8
+
+[recording]
+presentation_default = true
+duration_s = 15
+fps = 30
+viewport_width = 1280
+viewport_height = 1100
+port = 8812
+maximum_upload_mb = 128

@@ -1,0 +1,119 @@
+## A global view of the neutrino sky {#global-observatories}
+
+Observatories at different latitudes sample different directions and backgrounds.
+
+Medium properties and sensor layouts determine their response.
+
+::: {.takeaway}
+Compare effective area, angular resolution and exposure for the same science case.
+:::
+
+::: {.notes}
+Observatories and prospects occupy 44–56 minutes. Clearly distinguish
+operating arrays, construction, prototypes and proposals, with a status date.
+
+Source: [Spiering, sections 3 and 7](https://arxiv.org/html/2609.26436).
+:::
+
+<!-- Animation slot A06: rotating Earth, sites and energy-dependent visibility. -->
+
+## IceCube, the Upgrade and Gen2 {#icecube-future}
+
+**IceCube:** an operating observatory and a long data record.
+
+**Upgrade:** new instrumentation and calibration capabilities.
+
+**Gen2:** a proposed expansion of the observatory.
+
+::: {.media-caption}
+[IceCube Upgrade deployment, February 2026](https://icecube.wisc.edu/news/press-releases/2026/02/the-icecube-neutrino-observatory-gets-a-major-upgrade-beneath-the-ice/)
+:::
+
+::: {.notes}
+Separate completed deployment from commissioning and from a funded or
+proposed future configuration. Explain calibration benefits for existing
+data as well as the low-energy programme.
+:::
+
+<!-- Visual slot: existing geometry and distinctly labelled future geometry. -->
+
+## KM3NeT: ARCA and ORCA {#km3net-arca-orca}
+
+Multi-PMT optical modules in the Mediterranean Sea.
+
+**ARCA:** high-energy neutrino astronomy.
+
+**ORCA:** a denser array for atmospheric-neutrino oscillation physics.
+
+::: {.notes}
+Use a common-scale comparison and an optical-module cutaway. Date the
+installed configuration separately from the design configuration.
+
+Source: [Spiering, section 3.2](https://arxiv.org/html/2609.26436).
+:::
+
+<!-- Visual slot: module, string deployment and ARCA/ORCA spacing comparison. -->
+
+## Baikal-GVD and B-HUNT {#baikal-and-b-hunt}
+
+Baikal-GVD combines modular growth with operation in fresh water.
+
+B-HUNT explores a much larger observatory, building on experience and prototypes.
+
+::: {.question}
+Which source measurements justify the next increase in scale?
+:::
+
+::: {.media-caption}
+[JINR, Baikal-GVD and HUNT prospects (March 2026)](https://www.jinr.ru/posts/grigory-trubnikov-k-2028-godu-nejtrinnyj-teleskop-baikal-gvd-dostignet-obema-1-km-3/)
+:::
+
+::: {.notes}
+Reserve about three minutes for this slide. Discuss the scientific objective
+before the proposed volume. Public descriptions discuss HUNT at Lake Baikal
+and Chinese participation. Do not count site options as independently funded
+detectors. Use only approved design numbers and clearly label proposals.
+:::
+
+<!-- Visual slot: GVD construction, present configuration and approved B-HUNT
+     design; project-specific details will be supplied in the block stage. -->
+
+## P-ONE in the Pacific {#p-one}
+
+The project uses Ocean Networks Canada's subsea infrastructure.
+
+Prototype and deployment studies test the route to an ocean observatory.
+
+::: {.media-caption}
+[Ocean Networks Canada, infrastructure and deployment status (August 2026)](https://www.oceannetworks.ca/news-and-stories/stories/onc-coengineers-key-infrastructure-for-pacific-deep-sea-neutrino-telescope/)
+:::
+
+::: {.notes}
+The available official update reports tests and planned deep-sea deployment.
+Verify the actual deployment milestone before displaying a completed string
+as operating. A planned date passing does not establish completion.
+:::
+
+<!-- Visual slot: infrastructure map and dated first-line deployment material. -->
+
+## TRIDENT, HUNT and NEON {#chinese-projects}
+
+**TRIDENT:** a deep-sea design with hybrid photon-detection modules.
+
+**HUNT:** a large-volume concept, including work with the Baikal programme.
+
+**NEON:** a proposed observatory in the South China Sea.
+
+::: {.media-caption}
+[TRIDENT design](https://www.nature.com/articles/s41550-023-02087-6) ·
+[HUNT proposal](https://indico.cern.ch/event/1493037/contributions/6590960/) ·
+[NEON proposal](https://arxiv.org/abs/2408.05122)
+:::
+
+::: {.notes}
+Compare scientific objectives and technology choices. Simulated sensitivities
+must remain labelled projections. HUNT is the same programme introduced in
+the B-HUNT discussion, not an additional independent capacity to sum.
+:::
+
+<!-- Visual slot: sourced map and design comparison; detail tabs can follow. -->
