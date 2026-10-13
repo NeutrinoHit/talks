@@ -1,0 +1,45 @@
+[target]
+volume_cm3 = 1e15
+density_g_cm3 = 1.0
+avogadro = 6.02214076e23
+exposure_s = 31557600.0
+coszen_min = 0.0
+coszen_max = 1.0
+quadrature_order = 96
+energy_min_gev = 1e3
+energy_max_gev = 1e7
+energy_samples = 401
+
+# CSMS arXiv:1106.3723, Tables 1–2. pb; isoscalar nucleons.
+[cross_sections]
+energy_gev = [1e3, 2e3, 5e3, 1e4, 2e4, 5e4, 1e5, 2e5, 5e5, 1e6, 2e6, 5e6, 1e7]
+nu_cc_pb = [6.2, 12, 27, 47, 77, 140, 210, 310, 490, 690, 950, 1400, 1900]
+nu_nc_pb = [2.0, 3.8, 8.6, 15, 26, 49, 75, 110, 180, 260, 360, 540, 730]
+antinu_cc_pb = [3.6, 7, 17, 31, 55, 110, 180, 270, 460, 660, 920, 1400, 1900]
+antinu_nc_pb = [1.2, 2.4, 5.8, 11, 19, 39, 64, 99, 170, 240, 350, 530, 730]
+cm2_per_pb = 1e-36
+
+# IceCube MESE BPL fit, arXiv:2507.22234v2 Table 3 (2026).
+[astrophysical]
+per_flavour_nu_plus_antinu = 2.28e-18
+reference_energy_gev = 1e5
+log10_break_gev = 4.524
+gamma_low = 1.72
+gamma_high = 2.839
+flavours = 3
+nu_fraction = 0.5
+sensitive_min_gev = 6.1e3
+sensitive_max_gev = 7.5e6
+
+[plot]
+width_in = 14.0
+height_in = 5.0
+font_size = 18
+background = "#000000"
+foreground = "#eeeeee"
+grid = "#344250"
+conventional = "#73c7ff"
+prompt = "#ca9cff"
+astrophysical = "#ffbd70"
+y_min = 0.01
+y_max = 1e5

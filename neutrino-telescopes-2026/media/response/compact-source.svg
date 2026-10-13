@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640">
+<title>Particle production and reprocessing in a compact source</title>
+<desc>Schematic causal paths, without a calculated geometry or flux.</desc>
+<rect width="1600" height="640" fill="#070d16"/>
+<defs>
+<marker id="proton" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#ffb052"/></marker>
+<marker id="nu" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#67ddf7"/></marker>
+<marker id="gamma" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#ffd477"/></marker>
+<marker id="muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#a0b5ca"/></marker>
+<marker id="target" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#aa9bef"/></marker>
+</defs>
+<path d="M1130 90V565" stroke="#506a84" stroke-width="2" stroke-dasharray="10 10"/>
+<text x="1110" y="63" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="25" text-anchor="middle">Source boundary</text>
+<text x="200" y="260" fill="#ffb052" font-family="Arial, sans-serif" font-size="31" text-anchor="middle">Energetic protons</text>
+<path d="M140 300H450" fill="none" stroke="#ffb052" stroke-width="4" marker-end="url(#proton)"/>
+<text x="490" y="110" fill="#aa9bef" font-family="Arial, sans-serif" font-size="31" text-anchor="middle">Gas or photons</text>
+<path d="M490 140V280" fill="none" stroke="#aa9bef" stroke-width="4" marker-end="url(#target)"/>
+<circle cx="490" cy="300" r="10" fill="#f4f5ff"/>
+<text x="475" y="355" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="30" text-anchor="end">Pion production</text>
+<path d="M505 292L650 185H850" fill="none" stroke="#67ddf7" stroke-width="4" marker-end="url(#nu)"/>
+<text x="765" y="145" fill="#67ddf7" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">Charged-pion and muon decays</text>
+<path d="M875 185H1400" fill="none" stroke="#67ddf7" stroke-width="4" marker-end="url(#nu)"/>
+<text x="1375" y="145" fill="#67ddf7" font-family="Arial, sans-serif" font-size="34" text-anchor="middle">Neutrinos</text>
+<path d="M505 311L670 410H915" fill="none" stroke="#ffd477" stroke-width="4" marker-end="url(#gamma)"/>
+<text x="750" y="375" fill="#ffd477" font-family="Arial, sans-serif" font-size="29" text-anchor="middle">Neutral-pion decay</text>
+<text x="950" y="452" fill="#ffd477" font-family="Arial, sans-serif" font-size="31" text-anchor="end">Gamma rays</text>
+<path d="M970 410V535" fill="none" stroke="#ffd477" stroke-width="4" marker-end="url(#gamma)"/>
+<text x="1000" y="500" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="29" text-anchor="start">Pairs</text>
+<text x="730" y="555" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">Conversion and cooling</text>
+<path d="M980 550H1430" fill="none" stroke="#ffd477" stroke-width="4" marker-end="url(#gamma)"/>
+<text x="1325" y="507" fill="#ffd477" font-family="Arial, sans-serif" font-size="31" text-anchor="middle">Reprocessed photons</text>
+<text x="310" y="605" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="25" text-anchor="middle">Schematic production and escape paths</text>
+</svg>

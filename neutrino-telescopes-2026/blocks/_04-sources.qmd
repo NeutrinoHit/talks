@@ -1,4 +1,46 @@
-## Cosmic accelerators and their messengers {#cosmic-messengers}
+## Where jets get their power {#cosmic-messengers}
+
+::: {.panel-tabset}
+
+### Tidal disruption
+
+<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/jets/jet_launch_en.jpg" src="media/jets/jet_launch_en.mp4" aria-label="From a star to a jet: tidal disruption, returning debris and a schematic magnetic engine."></video>
+
+::: {.media-caption}
+Computed debris orbits, schematic magnetic engine.
+:::
+
+### AGN
+
+Gas feeds an accretion disc around a supermassive black hole.
+
+Magnetic fields can extract rotational energy and carry it into a jet.
+
+The gas supply can sustain activity beyond a single stellar disruption.
+
+**Blazars:** the jet points close to our line of sight.
+
+::: {.media-caption}
+[Blandford, Meier & Readhead, Relativistic Jets in AGN](https://arxiv.org/abs/1812.06025)
+:::
+
+### Gamma-ray bursts
+
+| Scenario | Fuel for the central engine |
+| --- | --- |
+| Massive-star collapse | Stellar material falls onto the compact remnant. |
+| Compact-object merger | Debris forms a temporary accretion disc. |
+
+Accretion onto a black hole or the spin of a strongly magnetized neutron star
+can power a relativistic outflow.
+
+The engine operates during a transient event.
+
+::: {.media-caption}
+[P. Mészáros, Gamma-Ray Bursts](https://arxiv.org/abs/astro-ph/0605208)
+:::
+
+### Cosmic messengers
 
 Charged cosmic rays bend in magnetic fields.
 
@@ -6,16 +48,97 @@ Photons can scatter or be absorbed.
 
 Neutrinos can escape dense environments and preserve directional information.
 
+:::
+
 ::: {.notes}
-Source physics occupies 20–30 minutes. State the energy range and avoid
-suggesting unlimited neutrino transparency at every energy and column depth.
+Source physics occupies 21–28 minutes. Allow about two minutes here, including
+the complete 98.4-second English film. The main question is where the jet's
+power comes from. Follow the tidal disruption, returning debris, accretion
+disc and magnetic extraction of rotational energy. The last part shows bulk
+plasma acceleration, not a calculation of a non-thermal proton spectrum.
+
+This is a jetted tidal-disruption example, not the origin of every AGN jet.
+The debris follows computed test-particle orbits in a frozen-in approximation
+with an apsidal-precession prescription. The disc and magnetic engine are
+schematic, not a GRMHD simulation. The Swift J1644+57 curve is a schematic
+trend, not plotted observational data. Avoid suggesting that every tidal
+disruption launches a jet.
+
+The next film changes scenario: a different star enters a jet that already
+exists. It is not a continuation of the disrupted star's trajectory.
+The optional Cosmic messengers tab retains the comparison between charged
+particles, photons and neutrinos. State the energy range and avoid suggesting
+unlimited neutrino transparency at every energy and column depth.
+
+The static AGN and Gamma-ray bursts tabs show alternative engine contexts,
+not additional stages of the tidal-disruption film. In an AGN, gas accretion
+can supply the disc without a tidal disruption. Only a subset of AGN produces
+powerful jets. Viewing angle defines a blazar, not a different power source.
+For GRBs, collapse and compact-object mergers provide different fuel supplies.
+Black-hole accretion and magnetar spin-down are model alternatives, not a claim
+that both engines operate in every burst. Burst duration alone does not identify
+the progenitor. The static tabs compare different engine fuel supplies.
+
+References for the static engine tabs:
+[Blandford, Meier and Readhead](https://arxiv.org/abs/1812.06025) and
+[Mészáros](https://arxiv.org/abs/astro-ph/0605208).
+
+Film supplied by DN: `dvnanima/jet_launch/media/jet_launch_en.mp4`.
+Model/configuration: `jet_launch.py`, `tde_sim.py`, `jet_physics.py`,
+`config.toml` and `texts.toml` in that directory. Static poster: 75 s.
+Full media provenance and the film's references: `media/jets/SOURCES.md`.
 
 Source: [D'Ammando, AGN review](https://arxiv.org/html/2606.30764).
 :::
 
-<!-- Visual slot: the same source seen by different messengers. -->
+## How jets produce neutrinos {#acceleration-and-confinement}
 
-## Acceleration and confinement {#acceleration-and-confinement}
+::: {.panel-tabset}
+
+### Star in the jet
+
+<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/jets/jet_star_en.jpg" src="media/jets/jet_star_en.mp4" aria-label="A star in an existing jet: a gas shock and stripped cloud, schematic proton acceleration and neutrino production."></video>
+
+::: {.media-caption}
+Scenario and calculation: [Barkov, Aharonian & Bosch-Ramon (2010)](https://arxiv.org/abs/1005.5252) · The film illustrates the idea: simplified gas model, schematic protons and neutrinos
+:::
+
+### Gas
+
+Accelerated protons collide with nuclei in dense gas.
+
+$$
+pp\longrightarrow\pi^{\pm},\,\pi^0+X
+$$
+
+**Possible targets:** a stripped stellar envelope or a gas cloud in the jet.
+
+The gas density and the proton residence time control the interaction yield.
+
+::: {.media-caption}
+[Wang et al., jet–cloud/star scenario](https://arxiv.org/abs/1809.00601)
+:::
+
+### Photons
+
+Accelerated protons interact with a radiation field.
+
+$$
+p\gamma\longrightarrow\pi^{\pm},\,\pi^0+X
+$$
+
+**Possible targets:** synchrotron photons in the jet, or photons from the
+accretion disc and its surroundings.
+
+The pion-production threshold depends on photon energy and collision angle.
+
+::: {.media-caption}
+[Murase & Stecker, High-Energy Neutrinos from AGN](https://arxiv.org/abs/2202.03381)
+:::
+
+### Confinement
+
+The jet supplies energy. The star creates a shock and a dense target.
 
 $$
 r_L=\frac{p}{ZeB}\lesssim R
@@ -25,89 +148,210 @@ A source must retain particles long enough to accelerate them.
 
 Energy losses and the available time also limit the maximum energy.
 
+### Converter
+
+![](media/theory/converter-cycle.svg){.slide-media .nostretch style="--media-width: 1400px; --media-max-height: 525px;" fig-alt="Schematic of one converter acceleration cycle: a proton in a relativistic jet becomes a neutron, leaves the jet without feeling the magnetic field, becomes a proton again outside and is turned back into the jet by the field, gaining energy of order Gamma squared. Each conversion also emits a neutrino. Paths are illustrative."}
+
+::: {.media-caption}
+Charge changes let particles cross the field · Gain $\sim\Gamma^2$ per cycle · [Derishev et al. (2003)](https://arxiv.org/abs/astro-ph/0301263)
+:::
+
+:::
+
 ::: {.notes}
+**Say:** A star that wanders into a jet is like a rock in a fast river: a shock forms in front of it, protons are accelerated there and hit the star's torn-off gas, and those collisions make neutrinos. The idea and the real calculation are by Barkov, Aharonian and Bosch-Ramon; our film only illustrates it.
+
+Scenario and calculation:
+[Barkov, Aharonian and Bosch-Ramon, ApJ 724, 1517 (2010)](https://arxiv.org/abs/1005.5252).
+They solved the hydrodynamics of a red-giant envelope blown by an AGN jet near
+its base, and proposed proton–proton collisions in the shocked material as the
+origin of day-scale TeV flares from M87. Their paper addresses gamma-ray
+flares; the same pp collisions also make charged pions and hence neutrinos,
+which is the step this lecture emphasizes. Barkov's own calculation movies are
+not shown. Say explicitly that the film illustrates the idea and that the exact
+calculation belongs to Barkov and co-authors.
+
+Allow about two minutes here, including the complete 97.4-second English
+film. A star with a wind enters a pre-existing jet. A shock forms and dense
+material is stripped downstream. Follow the highlighted proton through
+repeated shock crossings, then its collision in the cloud. Pion production
+and decay supply the transition to the next slide.
+
+The gas comes from DN's axisymmetric, non-relativistic hydrodynamic calculation
+of a dense cloud with a wind in a supersonic flow, with density contrast 100.
+It has no self-gravity or resolved stellar structure and is not a relativistic
+AGN-jet calculation. The remaining-material counter tracks dense tracer
+material in this model, not the surviving core mass of a real star.
+Proton acceleration, collisions, gamma-ray absorption and neutrino rays are
+schematic overlays. Their displayed counts are not a predicted neutrino flux.
+
+The cloud example uses $n=10^{10}\,\mathrm{cm}^{-3}$,
+$R=10^{14}\,\mathrm{cm}$, $\sigma_{pp}=50\,\mathrm{mb}$ and $\kappa=0.5$.
+Thus $\tau_{pp}=n\sigma_{pp}R=0.05$ and the thin-target energy-loss estimate
+for one crossing is $\kappa\tau_{pp}\simeq2.5\%$.
+This is the proton energy going into pion production, not the fraction
+carried by neutrinos. A longer residence time can increase the yield.
+The film introduces starlight as a possible $p\gamma$ target at sufficiently
+high energies without calculating its efficiency. Gamma-ray attenuation is
+illustrative rather than a radiative-transfer result.
+
 The displayed gyroradius uses SI units for momentum, magnetic field and charge.
 The confinement condition is necessary, but not sufficient for acceleration.
-Use a Hillas diagram with explicit units when developing this slide.
+
+Converter tab
+([Derishev, Aharonian, Kocharovsky and Kocharovsky, PRD 68, 043003 (2003)](https://arxiv.org/abs/astro-ph/0301263)):
+in a relativistic flow, charge-changing reactions ($p\gamma\to n\pi^+$ and back,
+or $e^\pm\leftrightarrow\gamma$; also inelastic nucleon–nucleon collisions) let
+a particle leave the flow as a neutral that ignores the magnetic field and
+return as a charged particle deflected by the ambient field. The paper states
+an energy gain roughly equal to the bulk Lorentz factor squared per cycle.
+A flux-weighted Monte Carlo for a planar boundary gives a mean gain of about
+$2.7\,\Gamma^2$ for $\Gamma=3$–30; the factor depends on geometry, hence
+"$\sim\Gamma^2$". Compare a non-relativistic shock, where the fractional gain per
+crossing is only of order the shock speed over $c$. The mechanism needs intense
+radiation fields (or dense gas); the cycle does not always close, and losses and
+feedback on the flow limit it. For nucleons the authors note that it routinely
+produces high-energy neutrinos at about 50% relative efficiency. The diagram
+shows one illustrative cycle; no rate or spectrum is computed. Generator:
+`assets/theory/converter_cycle.py`.
+
+The Gas and Photons tabs are static comparisons of hadronuclear and
+photomeson production. The inclusive equations describe pion populations,
+not every charge in each collision. Real sources may have both target types.
+Which dominates depends on target density, spectra, particle energy and
+residence time. Do not infer a neutrino luminosity from these schematic channels.
+The photon energies and collision angles entering the threshold must be
+evaluated in a common local frame. Synchrotron and external photon fields are
+alternative jet targets discussed by
+[Murase and Stecker](https://arxiv.org/abs/2202.03381).
+The decay chains follow next; photon propagation returns after the measured spectrum.
+
+Film supplied by DN: `dvnanima/jet_star/media/jet_star_en.mp4`.
+Model/configuration: `jet_star.py`, `hydro2d.py`, `star_physics.py`,
+`config.toml` and `texts.toml` in that directory. Static poster: 56 s.
+Full provenance: `media/jets/SOURCES.md`.
+
+Original scenario: [Barkov, Aharonian & Bosch-Ramon (2010)](https://arxiv.org/abs/1005.5252).
+Later work: [Wang et al., jet–cloud/star interpretation of TXS 0506+056](https://arxiv.org/abs/1809.00601);
+Fichet de Clairfontaine et al., A&A 693, A270 (2025).
+Treat this as a proposed production mechanism, not an established explanation
+of an observed neutrino source.
 :::
 
-<!-- Visual slot: gyration and confinement, then a sourced Hillas plot. -->
+{{< include blocks/_04a-pion-production.qmd >}}
 
-## Making pions, making neutrinos {#pion-production}
+## Three messengers, one energy budget {#energy-budget}
 
-$$
-pp\ \text{or}\ p\gamma\ \longrightarrow\ \pi^{\pm},\pi^0+X
-$$
-$$
-\pi^+\to\mu^++\nu_\mu,
-\qquad\mu^+\to e^++\nu_e+\bar\nu_\mu,
-\qquad\pi^0\to\gamma\gamma.
-$$
+**Gamma rays, neutrinos and the most energetic cosmic rays carry similar power.**
 
-::: {.notes}
-The schematic first line combines processes with different thresholds and
-branching fractions. Explain matter and radiation targets separately.
+![](media/theory/energy-budget.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Energy flux E squared times flux versus particle energy from 0.1 GeV to 200 EeV. Fermi-LAT isotropic gamma-ray background points from 0.1 to 820 GeV, the IceCube astrophysical neutrino spectrum per flavour from about 14 TeV to 5 PeV with its 68 percent band, and Pierre Auger cosmic-ray points above 3 EeV. A dashed band shows the Waxman-Bahcall bound per flavour, 0.45 to 2.25 times 1e-8; the neutrino flux reaches it near 100 TeV."}
 
-Source: [D'Ammando, production mechanisms](https://arxiv.org/html/2606.30764).
-:::
-
-<!-- Animation slot A07: hadronic production and escaping messengers. -->
-
-## What neutrino energy tells us {#parent-particle-energy}
-
-$$
-E_\nu\sim0.05E_p
-$$
-
-A useful scale estimate for pion production and decay.
-
-The detailed relation depends on the interaction and the source conditions.
-
-::: {.notes}
-Present this as an approximate energy partition, not a universal event-level
-conversion. Cooling and spectra change the neutrino yield.
-
-Source: [Spiering, section 2](https://arxiv.org/html/2609.26436).
-:::
-
-<!-- Visual slot: energy partition, without a false precision claim. -->
-
-## Candidate source populations {#source-populations}
-
-- Galactic accelerators and interactions with interstellar gas.
-- Active galactic nuclei: jets and compact central regions.
-- Star-forming environments.
-- Transients, including gamma-ray bursts and tidal disruption events.
-
-::: {.notes}
-Distinguish proposed production sites, observed associations and established
-diffuse components. Avoid implying that every class has a detected neutrino
-signal.
-
-Sources: [D'Ammando](https://arxiv.org/html/2606.30764) and
-[Spiering, sections 5–6](https://arxiv.org/html/2609.26436).
-:::
-
-<!-- Visual slot: source images with individual credits; source tabs later. -->
-
-## Hidden neutrino sources {#hidden-sources}
-
-Gamma rays can lose energy inside the source while neutrinos escape.
-
-$$
-\gamma+\gamma\longrightarrow e^++e^-.
-$$
-
-::: {.question}
-Could a bright neutrino source be faint in high-energy gamma rays?
+::: {.media-caption}
+Neutrinos per flavour · [Fermi-LAT (2015)](https://arxiv.org/abs/1410.3696) · [IceCube (2026)](https://arxiv.org/abs/2507.22233v3), band digitized from Fig. 3 · [Auger (2020)](https://arxiv.org/abs/2008.06486) · Bound: [Waxman & Bahcall (1999)](https://arxiv.org/abs/hep-ph/9807282)
 :::
 
 ::: {.notes}
-Introduce electromagnetic reprocessing and its observational constraints.
-Use the AGN disk/corona as a model example, not a uniquely established
-location of neutrino production.
+**Say:** Put the three messengers on one scale: gamma rays, neutrinos and the highest-energy cosmic rays bring us roughly the same power per energy decade, so one family of cosmic accelerators could be feeding all three — and the neutrinos are already as bright as cosmic rays allow.
 
-Source: [D'Ammando, NGC 1068 models](https://arxiv.org/html/2606.30764).
+Allow about 90 seconds. The vertical axis is energy flux per logarithmic energy
+interval, $E^2\Phi$, averaged over the sky. Gold: Fermi-LAT isotropic gamma-ray
+background (IGRB), foreground model A, 100 MeV–820 GeV, Table 3 of Ackermann et
+al., ApJ 799, 86 (2015); shaded boxes are the foreground-model range, the last
+bin is an upper limit. Cyan: IceCube Combined-Fit broken power law, per flavour,
+$\nu+\bar\nu$, from Table III of PRL 136, 121002 (2026); the 68% band and its
+sensitive energy range are digitized from Fig. 3. The all-flavour flux is three
+times higher. Orange: Pierre Auger spectrum above $2.5\times10^{18}$ eV, all
+nuclei, Table VI of PRD 102, 062005 (2020), with statistical errors and 90%
+upper limits.
+
+Waxman–Bahcall bound (PRD 59, 023002 (1999)): the ultra-high-energy cosmic-ray
+generation rate, $E^2\,d\dot N/dE\approx10^{44}$ erg Mpc$^{-3}$ yr$^{-1}$ in
+their Eq. (1), caps the neutrino flux from the same sources if those sources are
+transparent to their protons:
+$I_{\max}\approx\tfrac14\xi_Z t_H\frac{c}{4\pi}E^2\,d\dot N/dE\approx1.5\times10^{-8}\xi_Z$
+GeV cm$^{-2}$ s$^{-1}$ sr$^{-1}$ for $\nu_\mu+\bar\nu_\mu$, with
+$\xi_Z\approx0.6$ for no source evolution and $\approx3$ for QSO/star-formation-like
+evolution. After oscillations the per-flavour value is $\tfrac12I_{\max}$:
+$0.45$–$2.25\times10^{-8}$, the drawn band. It applies to sources not much larger
+than the proton interaction length; sources opaque to cosmic rays are not bound.
+Extending it down to 100 TeV assumes an $E^{-2}$ generation spectrum.
+
+The IceCube per-flavour flux at 100 TeV is $1.77\times10^{-8}$ GeV cm$^{-2}$
+s$^{-1}$ sr$^{-1}$, inside the band. Either the sources convert a large
+fraction of their proton energy into pions, or there are more sources at lower
+energies, or the neutrino sources are not the ultra-high-energy cosmic-ray
+sources. The comparable energy densities suggest, but do not prove, a common
+origin (Ahlers & Halzen, PPNP 102, 73 (2018), Fig. 9, shows the same comparison
+with older data). Different particle types and different energy ranges are
+compared; the IGRB excludes resolved gamma-ray sources. The photons that
+accompany the neutrinos cascade down into the Fermi band; this is quantified on
+the gamma-ray budget slide after the measured spectrum.
+
+Russian-language review for the source slides:
+[С. В. Троицкий, УФН 194, 371 (2024); Phys. Usp. 67, 349](https://arxiv.org/abs/2311.00281).
+
+Generator, table excerpts, digitizer and tests: `assets/theory/`.
+Figure provenance: `media/theory/SOURCES.md`.
 :::
 
-<!-- Animation slot A07: transparent and opaque source, with energy accounting. -->
+## Production environments {#source-populations}
+
+| Environment | Target for energetic hadrons | Observational test |
+|:---|:---|:---|
+| Galactic disk | Interstellar gas | Spatially extended emission |
+| AGN jet | Gas or radiation | Direction and variability |
+| AGN corona (hidden core) | Gas and X-ray photons | Neutrinos brighter than GeV–TeV gamma rays |
+| Star-forming environment | Dense gas | Population and diffuse-flux constraints |
+| GRB or tidal disruption | Gas or radiation | Time-dependent searches |
+
+**Many faint sources:** the brightest neutrino sources seen so far supply only a
+small part of the diffuse flux, so most of it should come from many faint emitters.
+
+::: {.media-caption}
+[Murase & Stecker](https://arxiv.org/abs/2202.03381) · Coronae: [Kheirandish, Murase & Kimura (2021)](https://arxiv.org/abs/2102.04475) · Populations: [Groth & Ahlers (2025)](https://arxiv.org/abs/2503.07718)
+:::
+
+::: {.notes}
+**Say:** Neutrinos can be made wherever fast protons meet gas or light — in our Galaxy, in jets, in the hot corona right next to a black hole — and the corona is special because it lets neutrinos out while it swallows the gamma rays; and since no single source outshines the rest, we are probably seeing a crowd of faint ones.
+
+Source physics occupies 21–28 minutes, including both jet films. Spend about
+45 seconds on this table. The two jet examples are specific physical scenarios.
+They do not establish that jets dominate the diffuse neutrino flux. Energetic
+hadrons, target densities and residence times determine pion production.
+A source class or a target field is not itself evidence of neutrino emission.
+
+The Galactic plane constrains distributed emission, while source catalogues
+and time-dependent searches ask different questions. Compact AGN regions will
+be discussed again after the diffuse gamma-ray budget and at NGC 1068.
+A population contribution also depends on its luminosity function and evolution.
+Star-forming environments and transient models remain hypotheses tested by
+measurements and upper limits; no detection of every listed class is claimed.
+
+Hidden sources and coronae: in the disk–corona model of
+[Kheirandish, Murase and Kimura, ApJ 922, 45 (2021)](https://arxiv.org/abs/2102.04475),
+protons accelerated by magnetic reconnection and/or turbulence in the magnetized
+X-ray corona produce neutrinos and soft gamma rays. GeV–TeV photons are absorbed
+in the dense X-ray field ($\gamma\gamma\to e^+e^-$; head-on threshold about
+0.26 GeV for 1 keV target photons). They found NGC 1068 to be the most promising Seyfert galaxy
+in the Northern sky and argued that hidden cores of supermassive black holes may
+dominate the high-energy neutrino emission. This is a model interpretation, tested
+at NGC 1068 and the gamma-ray budget slides.
+
+Population constraints:
+[Groth and Ahlers, PRD 111, 103052 (2025)](https://arxiv.org/abs/2503.07718)
+review how the non-detection of a dominant bright source constrains extragalactic
+populations with general luminosity functions. The diffuse flux most likely comes
+from many sources that are individually too faint to stand out. Combined searches
+of the brightest sources (weighted stacking, or non-Poissonian fluctuations in
+event-count histograms) can improve the discovery potential by a factor of 2–3
+relative to the brightest source alone. The slide's "small part" refers to the
+measured NGC 1068 and Galactic-plane fluxes, which lie well below the diffuse
+flux (IceCube, PRL 136, 121002 (2026), Fig. 3).
+
+Russian-language review:
+[С. В. Троицкий, УФН 194, 371 (2024)](https://arxiv.org/abs/2311.00281).
+
+Sources: [Murase & Stecker](https://arxiv.org/abs/2202.03381),
+[D'Ammando](https://arxiv.org/html/2606.30764),
+[Spiering](https://arxiv.org/html/2609.26436).
+:::

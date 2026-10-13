@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600">
+<title>One converter acceleration cycle</title>
+<desc>Schematic: proton to neutron inside the jet, neutron escapes, converts back to a proton outside, the field returns it. No calculated trajectory or rate.</desc>
+<rect width="1600" height="600" fill="#070d16"/>
+<defs>
+<marker id="proton" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#ffb052"/></marker>
+<marker id="neutron" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#f4f5ff"/></marker>
+<marker id="nu" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#67ddf7"/></marker>
+<marker id="muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#a0b5ca"/></marker>
+<marker id="jet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#73c7ff"/></marker>
+</defs>
+<rect x="0" y="40" width="1600" height="210" fill="#0f2236"/>
+<path d="M60 105H360" fill="none" stroke="#73c7ff" stroke-width="3" stroke-dasharray="14 10" marker-end="url(#jet)"/>
+<path d="M520 105H820" fill="none" stroke="#73c7ff" stroke-width="3" stroke-dasharray="14 10" marker-end="url(#jet)"/>
+<path d="M60 205H360" fill="none" stroke="#73c7ff" stroke-width="3" stroke-dasharray="14 10" marker-end="url(#jet)"/>
+<path d="M520 205H820" fill="none" stroke="#73c7ff" stroke-width="3" stroke-dasharray="14 10" marker-end="url(#jet)"/>
+<path d="M980 205H1280" fill="none" stroke="#73c7ff" stroke-width="3" stroke-dasharray="14 10" marker-end="url(#jet)"/>
+<text x="40" y="74" fill="#73c7ff" font-family="Arial, sans-serif" font-size="26" font-weight="normal" text-anchor="start">Relativistic jet · bulk Lorentz factor Γ</text>
+<path d="M0 250H1600" stroke="#506a84" stroke-width="2" stroke-dasharray="10 10"/>
+<text x="40" y="292" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="26" font-weight="normal" text-anchor="start">Slow surroundings with magnetic field</text>
+<path d="M150 160H455" fill="none" stroke="#ffb052" stroke-width="4" marker-end="url(#proton)"/>
+<text x="150" y="145" fill="#ffb052" font-family="Arial, sans-serif" font-size="30" font-weight="normal" text-anchor="start">Proton</text>
+<circle cx="480" cy="160" r="11" fill="#f4f5ff"/>
+<text x="455" y="240" fill="#f4f5ff" font-family="Arial, sans-serif" font-size="28" font-weight="normal" text-anchor="end">p + γ → n + π⁺</text>
+<path d="M492 150L610 70" fill="none" stroke="#67ddf7" stroke-width="3" marker-end="url(#nu)"/>
+<text x="622" y="80" fill="#67ddf7" font-family="Times New Roman, serif" font-style="italic" font-size="38">ν</text>
+<path d="M492 172L800 420" fill="none" stroke="#f4f5ff" stroke-width="4" stroke-dasharray="12 9" marker-end="url(#neutron)"/>
+<text x="470" y="375" fill="#f4f5ff" font-family="Arial, sans-serif" font-size="28" font-weight="normal" text-anchor="end">Neutron: no charge,</text>
+<text x="470" y="413" fill="#f4f5ff" font-family="Arial, sans-serif" font-size="28" font-weight="normal" text-anchor="end">crosses the field freely</text>
+<circle cx="815" cy="432" r="11" fill="#f4f5ff"/>
+<text x="790" y="490" fill="#f4f5ff" font-family="Arial, sans-serif" font-size="28" font-weight="normal" text-anchor="end">n + γ → p + π⁻</text>
+<path d="M828 448L960 545" fill="none" stroke="#67ddf7" stroke-width="3" marker-end="url(#nu)"/>
+<text x="972" y="555" fill="#67ddf7" font-family="Times New Roman, serif" font-style="italic" font-size="38">ν</text>
+<path d="M827 425C960 370 1150 440 1180 330C1200 250 1150 210 1120 175" fill="none" stroke="#ffb052" stroke-width="4" marker-end="url(#proton)"/>
+<text x="1235" y="430" fill="#ffb052" font-family="Arial, sans-serif" font-size="28" font-weight="normal" text-anchor="start">The field turns</text>
+<text x="1235" y="468" fill="#ffb052" font-family="Arial, sans-serif" font-size="28" font-weight="normal" text-anchor="start">the proton back</text>
+<path d="M1135 165H1450" fill="none" stroke="#ffb052" stroke-width="6" marker-end="url(#proton)"/>
+<text x="1295" y="125" fill="#ffb052" font-family="Arial, sans-serif" font-size="34" font-weight="bold" text-anchor="middle">Energy × ~Γ² per cycle</text>
+<text x="800" y="585" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="23" font-weight="normal" text-anchor="middle">Illustrative cycle · Neutral particles cross the jet boundary unaffected by the field</text>
+</svg>

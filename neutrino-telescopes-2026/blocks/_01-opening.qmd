@@ -9,7 +9,7 @@
 ![](media/history/halzen-author.png){.slide-media .nostretch style="--media-max-height: 470px;" fig-alt="Francis Halzen."}
 
 ::: {.media-caption}
-Francis Halzen. 
+Francis Halzen.
 :::
 :::
 ::: {.column width="56%"}
@@ -64,10 +64,6 @@ We have discovered the flux. Where are the sources?
 :::
 :::
 :::::
-
-::: {.takeaway}
-What looks like a handful of coloured dots can reveal a cosmic particle shower.
-:::
 
 ::: {.media-caption}
 Event displays: IceCube Collaboration / IceCube–NSF.

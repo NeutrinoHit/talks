@@ -19,10 +19,6 @@ Place light sensors deep in a lake or sea.
 
 Use Cherenkov light to reconstruct charged particles produced by neutrinos.
 
-::: {.takeaway}
-Instrument the medium instead of building the target.
-:::
-
 ::: {.media-caption}
 M. A. Markov, Rochester conference, 1960, p. 578.
 :::
@@ -142,9 +138,7 @@ A detector several kilometres below the surface needed entirely new engineering.
 </div>
 ```
 
-::: {.takeaway}
 Deployment, connectors, power and calibration became part of the physics problem.
-:::
 
 ::: {.media-caption}
 [IceCube historical archive](https://icecube.wisc.edu/about-us/icecube10/timeline/);
@@ -183,9 +177,6 @@ Deep, clear water close to shore.
 
 A frozen surface for deploying and maintaining the detector.
 
-::: {.takeaway}
-The lake supplied both the target and a seasonal construction platform.
-:::
 :::
 :::::
 
@@ -287,9 +278,7 @@ NT36, DUMAND's TRIAD and AMANDA: competing routes to a working array.
 </div>
 ```
 
-::: {.takeaway}
 Atmospheric neutrinos demonstrated that Markov's method worked in a lake.
-:::
 
 ::: {.media-caption}
 C. Spiering, historical review (2024), slides 29–31;
@@ -337,9 +326,6 @@ Final optical module, December 2010. IceCube/NSF, via the IceCube timeline.
 
 **2013:** an astrophysical neutrino flux.
 
-::: {.takeaway}
-A working technique needed sufficient exposure to reveal the cosmic signal.
-:::
 :::
 :::::
 

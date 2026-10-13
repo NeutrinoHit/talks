@@ -1,0 +1,114 @@
+[
+  {
+    "paper": "1311.5238v2",
+    "source": "energy_distribution.pdf",
+    "output": "diffuse/icecube-2013-energy.svg",
+    "source_sha256": "a9097b0d0af61336a00172b2f00056899a8210b65aaf30a47abe6d5e5ca3b658",
+    "output_sha256": "5dc89eb50b3616d4ff88ce7fabb169e6ee5bacf774f25c5bb0ec94b707d88ecd"
+  },
+  {
+    "paper": "1311.5238v2",
+    "source": "zenith_distribution.pdf",
+    "output": "diffuse/icecube-2013-zenith.svg",
+    "source_sha256": "a9100e685310e171fb47db6c33ca1c0aa032dd82b814ab2679d7451aa8f5789a",
+    "output_sha256": "1fa53e4ac3def906b8bcc8f2e7fe9d344a1a352b75576c624d67b5183ca25586"
+  },
+  {
+    "paper": "1311.5238v2",
+    "source": "vetoregion_new_side.pdf",
+    "output": "diffuse/icecube-2013-veto.svg",
+    "source_sha256": "c2ba239abe6645e754c5350e454ee2a91a66c67b2b42cb4a8131634d64d3a771",
+    "output_sha256": "c9fe023251a2881d9bbbd15c1a39c487184d0465bec3fe31268d0a3527e7a524"
+  },
+  {
+    "paper": "1311.5238v2",
+    "source": "eff_area.pdf",
+    "output": "response/icecube-hese-2013-effective-area.svg",
+    "source_sha256": "bfab7d3cc42f573cc8dba985a0eda12f7477617f9c009233bfb2af51e08715fe",
+    "output_sha256": "37bc6798b0aac3dd6472341b3998156a05080aa58e9b4fabedf5356373f85797"
+  },
+  {
+    "paper": "2507.22233v3",
+    "source": "figures/physics_context.pdf",
+    "output": "diffuse/icecube-spectrum-2026.svg",
+    "source_sha256": "5c3371003a62ed37fd384f19f4b62b47e309b60b3287dfc8b0c0d4ed1444ddd8",
+    "output_sha256": "07b055b28238e7bb9ab4b37552c3c7bcb11b005d6666b65075180402f9e850a2"
+  },
+  {
+    "paper": "2507.22233v3",
+    "source": "figures/BPL_2D_gamma_1_gamma_2.pdf",
+    "output": "diffuse/icecube-spectral-indices-2026.svg",
+    "source_sha256": "5853409b169f2fb5720738f64ddce1e05a83f6f92a41aa18f47d3256c5e36768",
+    "output_sha256": "fdbce99b5dcd31482f9842757d430942ec5aeb9a01b5bda1b5af369c37304c24"
+  },
+  {
+    "paper": "2507.22233v3",
+    "source": "figures/data_mc_globalfit_2panel_2yaxes.pdf",
+    "output": "diffuse/icecube-combined-events-2026.svg",
+    "source_sha256": "1213f0c42b390dd9ee29ae1b25a8f784ad83614709b371fce3090a7e5eafb287",
+    "output_sha256": "000b112f8a8ce28151d60add7b289304d5671bbb16e299a012e442ff6f478002"
+  },
+  {
+    "paper": "2507.01893v2",
+    "source": "Fig2_top.png",
+    "output": "diffuse/gvd-2018-2024-energy.png",
+    "source_sha256": "1a8184583837c8e8a5d730e32fe920700ca9793c65b961bed80c37044456c9f3",
+    "output_sha256": "1a8184583837c8e8a5d730e32fe920700ca9793c65b961bed80c37044456c9f3"
+  },
+  {
+    "paper": "2507.01893v2",
+    "source": "Fig2_bottom.png",
+    "output": "diffuse/gvd-2018-2024-zenith.png",
+    "source_sha256": "9aa82eb9aeca63e9ed3ec08dee9844a1ae7b3fde6c9909b684a96548a0e1c85c",
+    "output_sha256": "9aa82eb9aeca63e9ed3ec08dee9844a1ae7b3fde6c9909b684a96548a0e1c85c"
+  },
+  {
+    "paper": "2507.01893v2",
+    "source": "Fig3_col9_precise.png",
+    "output": "diffuse/gvd-2018-2024-contours.png",
+    "source_sha256": "fe006decafa7c11b13d567aaa60b8b0ce9511cadafefe2ec1aa14fb7a1c937fc",
+    "output_sha256": "fe006decafa7c11b13d567aaa60b8b0ce9511cadafefe2ec1aa14fb7a1c937fc"
+  },
+  {
+    "paper": "2507.01893v2",
+    "source": "Fig4_col5_600.png",
+    "output": "diffuse/gvd-spectrum-2025.png",
+    "source_sha256": "861c522ad89e9dac4e3101be31a7cfa048c1ffa19d29911b69f8e9e8f989a5d5",
+    "output_sha256": "861c522ad89e9dac4e3101be31a7cfa048c1ffa19d29911b69f8e9e8f989a5d5"
+  },
+  {
+    "paper": "2211.09972v1",
+    "source": "fig4.pdf",
+    "output": "source-results/ngc1068-multimessenger-2022.svg",
+    "source_sha256": "93ed16f6755b29d83a230191f2c8c6b212dd552f859dffa4da7e2f094dc6d3be",
+    "output_sha256": "b823ff7414144f621b04e49d54e69a5c60f55c3c5bda2b99151ae1c82912c5ab"
+  },
+  {
+    "paper": "2609.26436v1",
+    "source": "Definitions/eff-area.png",
+    "output": "response/icecube-directional-area-2026.png",
+    "source_sha256": "3431895432170f2ebb802ff39baafed25f871f0560b8757dc9f620ccff3e6d89",
+    "output_sha256": "3431895432170f2ebb802ff39baafed25f871f0560b8757dc9f620ccff3e6d89"
+  },
+  {
+    "paper": "2001.00930v3",
+    "source": "figures/skymap.pdf",
+    "output": "source-results/radio-blazars-sky-2020.svg",
+    "source_sha256": "c171af6065c095f307b931f45d3ba41eadd32e5cd00dd8092b326c98d505cefc",
+    "output_sha256": "5e4bc46454be2a2f4e1ea19da5e5dd93d7a62e120ce4858460dcb69a3a4baa5e"
+  },
+  {
+    "paper": "2001.00930v3",
+    "source": "figures/avg_flux.pdf",
+    "output": "source-results/radio-blazars-vlbi-flux-2020.svg",
+    "source_sha256": "09608c1dba358f803cd8d3c50cb532a84d65edd3fadfda19077ea5f019c8dc2d",
+    "output_sha256": "f2c7f09d0b6df4e9fccd9cf1759a6af20d9a78c0b673908f5805dc55c6c68e52"
+  },
+  {
+    "paper": "2308.13686v1",
+    "source": "lc_Fermi_RATAN_11GHz.png",
+    "output": "source-results/txs-radio-gamma-2023.png",
+    "source_sha256": "6f936158d69e6efb4494aba3e998dd31a74939853d5480b239c09a02f4b855d6",
+    "output_sha256": "6f936158d69e6efb4494aba3e998dd31a74939853d5480b239c09a02f4b855d6"
+  }
+]

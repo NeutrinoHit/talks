@@ -34,11 +34,9 @@ Observable diameter today: $D_{\rm obs}\simeq93\times10^9\,\mathrm{ly}$.
 :::
 :::::
 
-::: {.takeaway}
 $$
 \frac{\lambda_{\nu N,0}}{D_{\rm obs}}\simeq5\times10^{10}
 $$
-:::
 
 ::: {.media-caption}
 Present-epoch $\nu N$ estimate ignoring the Universe evolution.
@@ -50,10 +48,10 @@ Present-epoch $\nu N$ estimate ignoring the Universe evolution.
 
 ::::: {.columns}
 ::: {.column width="65%"}
-![](media/propagation/rzf_2dxsCT10nlo.png){.slide-media .nostretch style="--media-max-height: 540px; --media-bg: #fff;" fig-alt="Allakhverdyan dissertation figure 4.20: transmitted neutrino flux versus zenith angle from 90 to 180 degrees and energy from 10 to 100 million GeV. At PeV energies the flux is strongly suppressed along long chords through Earth."}
+![](media/propagation/earth-transmission-cc-dark.svg){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="Computed survival probability of neutrinos crossing the Earth versus zenith angle from 90 to 180 degrees and energy from 10 GeV to 100 PeV, charged-current absorption only. Near the horizon the Earth is transparent at all energies; through the core it becomes opaque above about 100 TeV. Contours at 10, 50 and 90 percent."}
 
 ::: {.media-caption}
-V. A. Allakhverdyan, [dissertation (2026), p. 111, Fig. 4.20](https://issc.jinr.ru/files/326/f_2_5830.pdf).
+Computed: PREM Earth, CSMS cross sections, detector 1 km deep · CC absorption only
 :::
 :::
 ::: {.column width="31%"}
@@ -67,14 +65,14 @@ $90^\circ$: near the horizon.
 
 $180^\circ$: through Earth's centre.
 
-**Colour:** transmitted flux fraction,
+**Colour:** chance to cross without a charged-current interaction,
 
 $$
-\mathcal T(E,\theta)=\frac{F_\nu(E,X(\theta))}{F_\nu^0(E)}.
+T(E,\theta)=e^{-N_A\,\sigma_{\rm CC}(E)\,X(\theta)}.
 $$
 
 ::: {.small}
-Includes neutral-current regeneration for the assumed source spectrum.
+Neutral currents only lower the energy; that regeneration is not included here.
 :::
 :::
 :::::
@@ -101,10 +99,8 @@ $$
 P_0=e^{-\tau_{\rm diam}}\simeq1.8\times10^{-3}\simeq0.2\%.
 $$
 
-::: {.takeaway}
 Almost no PeV neutrinos cross the full diameter without interacting.
 Near the horizon, the path is much shorter.
-:::
 
 ::: {.media-caption}
 $P_0$: zero CC or NC interactions, not the regenerated flux fraction $\mathcal T$.
@@ -113,7 +109,7 @@ $P_0$: zero CC or NC interactions, not the regenerated flux fraction $\mathcal T
 ::::::
 
 ::: {.notes}
-**Detection principles: 8–20 minutes.** Start this block with the apparent
+**Detection principles: 8–21 minutes.** Start this block with the apparent
 paradox: a PeV neutrino easily travels between galaxies, yet the Earth strongly
 attenuates it along a long upward-going path. Do not say every PeV neutrino
 gets stuck in Earth. Transmission depends strongly on zenith angle.
@@ -137,16 +133,22 @@ Do not extrapolate today's density back to the early Universe. Dense source
 interiors and other targets, including relic neutrinos, are outside this
 specific estimate. No numerical claim about their mean free paths is made.
 
-The second tab uses the original rzf_2dxsCT10nlo.png supplied by DN, whose
-RGB pixels match dissertation figure 4.20, p. 111. It solves transport with attenuation and neutral-current
-regeneration (section 4.8.2). The preceding source-spectrum definition is
-equation 4.23, with gamma=1 and alpha=0.5, and a 1 km detector depth.
-The ordinate is neutrino energy in GeV; the abscissa is zenith angle at the
-detector. The upper auxiliary axis is distance from Earth's centre to the
-trajectory. Do not infer a precise 1 PeV numerical probability from the colours.
-The source calls the plot a transmission probability; more precisely it is a
-differential flux ratio for its assumed incident spectrum. A related public
-discussion is Allakhverdyan, Zavyalov and Naumov (2026), figure 9, section 4.2:
+The second tab is a lecture calculation (assets/earth-transmission): T(E,theta) is
+the average of the neutrino and antineutrino survival probabilities against
+charged-current interactions, exp(-N_A sigma_CC X), with sigma_CC from CSMS
+(arXiv:1106.3723, Tables I-II) and the column X(theta) through PREM
+(Dziewonski & Anderson 1981) from a detector 1 km deep; the diameter column is
+1.095e10 g/cm^2 (Gandhi et al.: about 1.1e10). The kink near 147 degrees marks
+paths that cross the dense core. Neutral currents are deliberately left out: they
+do not remove a neutrino but move it to lower energy, so a full transport solution
+(attenuation plus NC regeneration, and tau regeneration for tau neutrinos) gives a
+somewhat higher flux, especially for hard spectra. That solution is
+V. A. Allakhverdyan's dissertation (2026), section 4.8.2 and figure 4.20,
+https://issc.jinr.ru/files/326/f_2_5830.pdf; its quantity is a differential flux
+ratio for an assumed source spectrum, not this fixed-energy survival probability.
+The original figure is kept as media/propagation/rzf_2dxsCT10nlo.png; a redraw
+from the calculation's data is planned. Related public discussion: Allakhverdyan,
+Zavyalov and Naumov (2026), figure 9, section 4.2:
 https://www1.jinr.ru/Pepan_letters/panl_2026_2/05_Allahverd_rus.pdf
 
 The final tab is a separate no-interaction benchmark. N_A here supplies the
@@ -187,15 +189,12 @@ start with charged muon or electron primaries, not complete simulated
 neutrino–nucleon final states. They show the source of optical light before
 any propagation or detector response. All input charged points come from
 existing NTSim/Geant4 water events: 1 TeV and 1 PeV muons, and
-100 GeV and 1 TeV electrons, event 0. Both supplied PeV files contain muons;
-the genuine electron PeV event has not yet been generated.
+100 GeV and 1 TeV electrons, event 0. The electron examples are at 100 GeV and 1 TeV.
 
 The same events and birth samples underlie each pair of formats. Each event
 occupies 10 seconds: both muon and current electron films last 20
 seconds. Shorts have their own vertical framing and are reserved for YouTube,
-not embedded in this lecture. There are no credits,
-simulation-framework names or QR codes in the films.
-
+not embedded in this lecture.
 Emission follows the resolved charged segments and the Frank–Tamm model
 with n=1.34 and wavelengths 350–610 nm. The 9000 markers are a weighted
 visual sample of the complete resolved-segment yield, prepared with bounded
@@ -284,10 +283,6 @@ TRIDENT / TDLI, SJTU.
 :::
 :::::
 
-::: {.takeaway}
-A pressure sphere becomes an eye: photosensors, timing and readout.
-:::
-
 ::::::
 
 ::: {.notes}
@@ -348,10 +343,6 @@ IceCube Collaboration / IceCube–NSF, Big Bird.
 :::
 :::::
 
-::: {.takeaway}
-The neutrino is invisible. Its pattern of light is not.
-:::
-
 ### KM3NeT: track
 
 <video class="slide-video media-height-lg" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="media/events/km3-230213a.jpg" src="media/events/km3-230213a.mp4"></video>
@@ -395,7 +386,7 @@ high-energy events with one explicitly simulated Cherenkov-cone illustration.
 The KM3NeT and model MP4 files are local; the IceCube iframe requires Internet.
 
 The two model films are actual captures from DN's LightHit viewer, generated
-from existing NTSim-source detector-response results, not new fake hit data.
+from existing NTSim-source detector-response results, not sampled detections.
 Only the unscattered/direct-light component is selected, in cumulative mode.
 These stored direct bins are nonnegative; other signed numerical components
 remain available in the scientific viewer and have not been clipped or altered.
@@ -533,3 +524,5 @@ Source: [Spiering, sections 3.1.2–3.1.4](https://arxiv.org/html/2609.26436).
 :::
 
 {{< include blocks/_03b-backgrounds.qmd >}}
+
+{{< include blocks/_03c-response.qmd >}}

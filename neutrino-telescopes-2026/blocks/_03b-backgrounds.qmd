@@ -1,180 +1,102 @@
-## Backgrounds and the Earth {#backgrounds-and-earth}
+## Backgrounds {#backgrounds-and-earth}
 
 :::::: {.panel-tabset}
 
-### Earth shield
+### Detector backgrounds
 
-<video class="slide-video media-height-lg" style="--media-max-height: 672px;" controls muted playsinline preload="metadata" poster="media/backgrounds/earth_shield_en.jpg" src="media/backgrounds/earth_shield_en.mp4"></video>
-
-### Radioactivity
-
-<video class="slide-video media-height-lg" style="--media-max-height: 672px;" controls muted playsinline preload="metadata" poster="media/backgrounds/water_radioactivity_en.jpg" src="media/backgrounds/water_radioactivity_en.mp4"></video>
-
-### Backgrounds
-
-::::: {.columns}
-::: {.column width="48%"}
-**Particles from the atmosphere**
-
-Cosmic-ray showers make both muons and neutrinos.
-The Earth blocks muons along long paths through rock;
-atmospheric neutrinos can still pass.
-
-$$
-\Phi_\nu=\Phi_{\nu,\rm atmospheric}+\Phi_{\nu,\rm astrophysical}.
-$$
-
-An upward-going track is not automatically a cosmic-neutrino event.
-Muons from the atmosphere above a detector can still reach it.
-:::
-::: {.column width="48%"}
-**Local light in the water**
-
-The film illustrates one decay branch in **seawater**:
-
-$$
-{}^{40}_{19}\mathrm K\longrightarrow{}^{40}_{20}\mathrm{Ca}+e^-+\bar\nu_e.
-$$
-
-The electron makes Cherenkov light; the decay antineutrino is not the optical flash.
-Nearby sensors can share a flash — useful for calibration, not a cosmic-source tag.
-
-::: {.small}
-Bioluminescence is a separate background, not radioactive decay.
-This seawater example is not a model of freshwater Baikal's optical background.
-:::
-:::
-:::::
-
-### Energy & direction
-
-$$
-P_0(E,\theta_z)=\exp\!\left[-N_A
-\bigl(\sigma_{\rm CC}(E)+\sigma_{\rm NC}(E)\bigr)X(\theta_z)\right],
-\qquad
-X=\int_{\rm chord}\rho(r)\,d\ell.
-$$
-
-**Here $P_0$ means no interaction at all**, not the regenerated neutrino flux.
-There is no universal energy above which all neutrinos stop.
-
-::::: {.columns}
-::: {.column width="48%"}
-**A long path**
-
-At $1\,\mathrm{PeV}$ through the diameter:
-
-$$
-L=12742\,\mathrm{km},\qquad P_0\simeq0.19\%.
-$$
-:::
-::: {.column width="48%"}
-**A shorter path**
-
-At the same energy, $\theta_z=100^\circ$:
-
-$$
-L\simeq2213\,\mathrm{km},\qquad P_0\simeq66.2\%.
-$$
-:::
-:::::
-
-::: {.small}
-Surface-to-surface spherical PREM model; neutrino, not antineutrino, CSMS cross sections.
-$90^\circ$: horizon; $180^\circ$: upward through the centre.
-:::
-
-### Effective area
-
-$$
-N_{\rm sig}=T\int \Phi_\nu(E,\Omega)\,
-A_{\rm eff}(E,\Omega)\,dE\,d\Omega.
-$$
-
-The effective area belongs to a **specified event selection**.
-It accounts for propagation, interactions, detector response and selection.
-
-::: {.takeaway}
-Sensitivity depends on energy and direction — not just instrumented volume.
-:::
-
-Starting-event and surface-veto selections also open parts of the downward sky.
-Their efficiencies and backgrounds must be evaluated for each analysis.
+| Telescope | Optical background | Pulses / PMT | Muon-dominated samples |
+|:---|:---|:---|:---|
+| IceCube | PMT + glass noise | $0.56\,\mathrm{kHz}$ · 10-inch | $2.7\,\mathrm{kHz}$ · IC86 DAQ |
+| KM3NeT | $^{40}\mathrm K$ + bioluminescence | $\sim7\,\mathrm{kHz}$ · 3-inch | $\sim1\,\mathrm{Hz}$ · ARCA6 reconstructed |
+| Baikal-GVD | Water luminescence | $20–100\,\mathrm{kHz}$ · 10-inch | $\sim3\,\mathrm{Hz/cluster}$ · reconstructed |
 
 ::: {.media-caption}
-[IceCube: a PeV-region downward-track selection](https://icecube.wisc.edu/news/research/2025/03/probing-the-high-energy-region-using-muon-neutrinos-from-the-southern-sky/).
+Pulses, DAQ triggers and reconstructed events are different counting levels.
+[IceCube](https://arxiv.org/html/1612.05093v3#S3.SS8) ·
+[KM3NeT](https://doi.org/10.1140/epjc/s10052-024-13018-8) ·
+[Baikal-GVD](https://pos.sissa.it/501/1162/pdf)
+:::
+
+### Neutrino backgrounds
+
+![](media/backgrounds/neutrino_interaction_rates.svg){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="Calculated neutrino-nucleon interactions per year per energy decade in one cubic kilometre of water from the downward hemisphere, before event selection. Conventional atmospheric neutrinos fall more steeply than the astrophysical component. A dashed prompt-charm prediction has a shaded theoretical band. Astrophysical best-fit extrapolations outside the sensitive range are dotted."}
+
+::: {.media-caption}
+$1\,\mathrm{km^3}$ water · downward $2\pi$ · all flavours, $\nu+\bar\nu$ · CC+NC · before selection.
 :::
 
 ::::::
 
 ::: {.notes}
-**Finish the principles block in about 2–3 minutes.** The Earth shield movie is
-97.9 seconds; the independent seawater companion is 32 seconds. Formula tabs
-are optional detours; do not narrate every tab in full.
+Spend about two minutes here. First distinguish one PMT pulse, a detector
+trigger, and an event surviving reconstruction cuts. Read the last column
+with its sample labels; the three rates are not equal-volume comparisons.
+Earth opacity has already been discussed.
 
-The surface is NASA Blue Marble's July 2004 composite, not a live image.
-First show the textured globe and atmospheric showers, then a half-globe
-cutaway exposing crust, mantle, liquid outer core and solid inner core.
-Radii follow PREM; interior colours are schematic. Crossing particles use
-one complete planar section through the detector, without folded trajectories.
-Crust is not thickened; boundary lines are annotations.
-Atmosphere, shower, detector and particle glyphs are enlarged for visibility.
-The surface map does not define the radial density model's local geography.
+Optical singles are pulses per PMT, not event rates. IceCube's 560 Hz is the
+average total in-ice rate for standard DOMs, not the 780 Hz HQE DOM rate or a
+deadtime-suppressed supernova scaler rate; threshold about 0.25 p.e. Most
+background hits originate in PMT/glass effects, including radioactive decays
+and luminescence. KM3NeT's observed baseline is about 7 kHz per 3-inch PMT,
+at about 0.3 p.e.; seawater K-40 and variable bioluminescence contribute.
+Baikal's 20–100 kHz per 10-inch PMT varies with depth and season. Freshwater
+luminescence must not be described as the same seawater K-40 background.
 
-The atmospheric showers reuse the Monte Carlo library from dvnanima/air_shower_cascade;
-their atmosphere and lateral dimensions are enlarged for visibility. A far-side
-muon cannot cross the Earth; do not claim all atmospheric muons stop before a
-deep detector. Local downgoing muons are a major background. Quality cuts also
-reject falsely upgoing tracks. Atmospheric and astrophysical neutrinos differ
-in origin, not particle species. Direction alone does not identify their
-source class. Veto selections do not reject atmospheric neutrinos universally.
+Atmospheric muons and muon bundles are the dominant event background before
+neutrino-quality selection. IC86's 2.7 kHz is the median total DAQ event rate,
+dominated by atmospheric muons, not a pure muon rate. Seasonal range 2.5–2.9 kHz.
+ARCA6 denotes six detection units, not the full future ARCA. Its approximately
+1 Hz is derived from 130000 reconstructed muon-bundle events in 1.5 days,
+after n_hits > 50 and Lambda > 20. GVD's approximately 3 Hz per cluster is a
+reconstructed, muon-dominated track rate in the 2019–2023 analysis. These are
+illustrative observed sample rates, not comparable trigger efficiencies.
+Downgoing muons can be misreconstructed as upgoing tracks or mimic starting
+events through stochastic losses. Direction, fit-quality and veto cuts suppress
+them; the plotted neutrino rates apply none of these cuts or self-vetoes.
 
-Muon ranges use interpolated PDG CSDA tables: a 1 TeV muon travels about
-0.93 km in standard rock (2.43 km in liquid water); the tabulated 1 PeV
-rock range is about 6.4 km. Stopping distances are unresolved at planetary
-scale and appear in the explicitly enlarged inset. Stochastic losses and
-decay are not propagated. A second inset shows a neutrino interacting below
-the detector and producing a detectable upward-going muon.
+The graph counts neutrino-nucleon DIS interactions inside a fixed water volume,
+not detected or selected events and not through-going muons produced outside it:
 
-The density model is spherical PREM, including its average ocean shell;
-detector depth is neglected. Chords are surface-to-surface, not exact paths
-for any named telescope. Integration is split at radial discontinuities.
-The diameter column is 1.0946856e10 g/cm². CSMS neutrino CC+NC cross sections
-give P0=0.9474/0.6645/0.1528/0.001906 at 1/10/100/1000 TeV; at 1 PeV and
-zenith 100 degrees, P0=0.661750. The packet samples first-interaction depths;
-the displayed probability is calculated, not measured or inferred from the
-small packet's fraction. CC/NC crosses remove symbols from the unchanged
-branch. NC neutrinos are not destroyed: their lower-energy continuation and
-tau regeneration require transport, which is not simulated. P0 differs from
-slide 7's regenerated flux ratio. There is no sharp energy cutoff.
+$$
+\frac{dN}{d\log_{10}E_\nu}
+=\ln(10)\,E_\nu T N_A\rho V\sum_\alpha\int_{2\pi}d\Omega
+\left[\Phi_{\nu_\alpha}\sigma_\nu^{\rm CC+NC}
++\Phi_{\bar\nu_\alpha}\sigma_{\bar\nu}^{\rm CC+NC}\right].
+$$
 
-The companion illustrates seawater K-40's beta-minus branch, not freshwater
-Baikal's background. The 0.8 MeV electron is a chosen example, not a sampled
-beta spectrum; its configured threshold is about 0.264 MeV. The charged
-electron supplies the optical flash, not the decay antineutrino. Electron and
-antineutrino arrows are schematic: no decay-kinematics, recoil or electron
-transport calculation is implied. The tiny electron path is enlarged only
-in an inset, never presented as a metre-scale track in the full array.
+True neutrino energy, not deposited or muon energy. All flavours and both signs
+are summed. Density 1 g/cm3, volume 1e15 cm3, exposure one Julian year.
+Downward hemisphere avoids Earth propagation; overburden attenuation is neglected.
+CSMS Tables 1–2 give separate isoscalar-nucleon CC+NC cross sections. Using
+isoscalar values for water is an approximation; tau-mass corrections and
+neutrino-electron interactions (including Glashow resonance) are not included.
 
-The schematic geometry borrows ANTARES's 1 m triplet and 14.5 m storey spacing.
-Whole-array symbols represent triplets; the inset resolves selected neighbours.
-True group-speed flight times for chosen direct paths are shown in slow motion.
-They are not sampled accepted hits. No activity, photon yield, absorption,
-scattering, PMT acceptance, count/rate, coincidence efficiency or rejection
-performance is calculated. Local coincidences can calibrate timing/relative
-sensitivity; random coincidences are a different contribution. Bioluminescence
-is not radioactive decay and is not simulated.
+Conventional flux: MCEq H3a/SIBYLL 2.3c splines distributed in IceCube nuflux
+2.0.7. Prompt: BERSS/H3p central/lower/upper predictions (electron and muon
+flavours, each sign); shading is the supplied QCD model envelope, not a measured
+confidence interval or a detection of prompt neutrinos. Prompt H3p assumes a
+proton-only extragalactic CR component, unlike conventional H3a. These are
+explicit benchmark models, not components of one fitted likelihood model.
 
-For the final tab, define flux before Earth attenuation and effective area
-including propagation and selection; do not multiply by P0 again. Muon,
-deposited and neutrino energy are distinct; the films do not reconstruct
-neutrino energy or forecast telescope sensitivity.
+Astrophysical flux: IceCube MESE broken-power-law central fit, PRD 113 (2026)
+062002, Table 3: per-flavour nu+antinu normalization 2.28e-18 GeV^-1 cm^-2
+s^-1 sr^-1 at 100 TeV, gamma_low=1.72, gamma_high=2.839, log10(E_break/GeV)=4.524.
+Assume equal e:mu:tau flux and equal nu/antinu splitting. Dotted extensions
+below 6.1 TeV and above 7.5 PeV are extrapolations, not measured flux bins.
+No uncorrelated parameter-error band is substituted for a joint confidence region.
 
-Earth movie source, assumptions and tests: dvnanima/earth_shield/README.md
-and test_earth_shield.py. Seawater companion: dvnanima/earth_filter/RADIOACTIVITY.md.
-Media provenance: media/backgrounds/SOURCES.md.
+Optical noise sources:
+[IceCube instrumentation, sections 3.8 and 6.1](https://arxiv.org/html/1612.05093v3);
+[KM3NeT first-DU performance](https://doi.org/10.1140/epjc/s10052-020-7629-z);
+[Baikal-GVD optical noise](https://pos.sissa.it/364/050/pdf).
+Muon samples:
+[KM3NeT measured muons](https://doi.org/10.1140/epjc/s10052-024-13018-8);
+[Baikal-GVD track analysis](https://pos.sissa.it/501/1162/pdf).
+Graph inputs:
+[nuflux](https://github.com/icecube/nuflux);
+[MCEq](https://arxiv.org/abs/1503.00544);
+[BERSS](https://arxiv.org/abs/1502.01076);
 [CSMS](https://arxiv.org/abs/1106.3723);
-[PREM](https://doi.org/10.1016/0031-9201(81)90046-7);
-[ANTARES K-40 coincidences](https://arxiv.org/abs/0812.4886);
-[Spiering, sections 3.1.5–3.1.6](https://arxiv.org/html/2609.26436).
+[IceCube spectral fit](https://arxiv.org/html/2507.22234#S4.T3).
+Reproducible generator and checks: assets/backgrounds/README.md.
 :::

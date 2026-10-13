@@ -1,153 +1,411 @@
 ## The astrophysical neutrino flux {#icecube-diffuse-flux}
 
-**IceCube, 2013**
+:::::: {.panel-tabset}
 
-A high-energy event excess established an astrophysical neutrino component.
+### The excess
 
-::: {.question}
-Which observable separates that component from the atmospheric background?
+::::: {.columns}
+::: {.column width="65%"}
+![](media/diffuse/icecube-2013-energy-dark.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Redrawn IceCube 2013 deposited-energy distribution of 28 starting events, compared with atmospheric muon and neutrino backgrounds and the historical best-fit astrophysical component."}
 :::
+::: {.column width="31%"}
+**28 events · 662 live days**
+
+$$30–1200\,\mathrm{TeV}$$
+
+Deposited energy.
+
+**White points:** data.
+
+**Blue + red:** atmospheric backgrounds.
+
+**Orange:** signal + background.
+
+$$4.1\sigma$$
+
+Benchmark atmospheric hypothesis.
+:::
+:::::
+
+::: {.media-caption}
+2010–2012 sample and fitted spectrum · Redrawn from the vector artwork of [IceCube, Science (2013), Fig. 4](https://arxiv.org/abs/1311.5238v2)
+:::
+
+### Starting inside
+
+::::: {.columns}
+::: {.column width="61%"}
+![](media/diffuse/icecube-2013-veto.svg){.slide-media .nostretch style="--media-width: 501px; --media-max-height: 480px; --media-bg: #fff;" fig-alt="Original IceCube side-view diagram of its outer veto and inner fiducial volume, including the dust layer."}
+:::
+::: {.column width="35%"}
+**Entering muon:** early light at the boundary.
+
+**Contained interaction:** first light inside.
+
+Atmospheric neutrinos can arrive with muons from the same air shower.
+:::
+:::::
+
+::: {.media-caption}
+Veto and fiducial volume · [IceCube (2013), Fig. 1, side view](https://arxiv.org/abs/1311.5238v2)
+:::
+
+### Directions
+
+![](media/diffuse/icecube-2013-zenith-dark.svg){.slide-media .nostretch style="--media-max-height: 510px;" fig-alt="Redrawn IceCube 2013 zenith distribution after the starting-event selection, compared with atmospheric backgrounds and the fitted astrophysical component."}
+
+::: {.media-caption}
+Direction, energy and veto response constrain the background hypothesis together. · Redrawn from the vector artwork
+:::
+
+::::::
 
 ::: {.notes}
-Results occupy 30–44 minutes. Show a dated event sample with its atmospheric
-prediction before the fitted astrophysical spectrum. Label confidence levels.
+**Say:** In 2013 IceCube found more very energetic neutrinos than the atmosphere can make — the first cosmic neutrinos at TeV–PeV energies.
 
-Source: [Spiering, section 4.1 and its primary references](https://arxiv.org/html/2609.26436).
+Results occupy 28–47 minutes. Allow about 90 seconds for The excess, using
+Starting inside only if the veto needs another explanation. This is the original
+2013 discovery sample, not a current spectrum measurement. The figure's orange
+curve is its historical E^-2 astrophysical fit; the hatched band is the background
+statistical and systematic uncertainty, and green and violet lines are atmospheric
+neutrinos with benchmark charm and with the 90% CL charm limit. Deposited electromagnetic-equivalent
+energy is the measured observable, not a universal parent-neutrino energy.
+
+The 4.1-sigma result combines the 26 newly reported events with the earlier two
+PeV events under the paper's benchmark atmospheric hypothesis. Prompt-charm
+assumptions affect its significance. It is not obtained from a histogram excess
+alone. The analysis uses charges, reconstructed energies and directions.
+An entering-muon control sample constrains the residual muon background.
+Atmospheric self-veto helps discriminate southern-sky neutrinos.
+
+The selected population establishes an astrophysical component, without identifying
+individual sources. Today's binned spectrum is shown after the GVD measurement.
+Source: [IceCube (2013)](https://arxiv.org/abs/1311.5238v2).
 :::
-
-<!-- Visual slot: original IceCube discovery plot, then current spectrum. -->
 
 ## An independent measurement with Baikal-GVD {#baikal-diffuse-flux}
 
-**Six seasons: April 2018 to March 2024**
+:::::: {.panel-tabset}
 
-The cascade analysis detects the diffuse astrophysical flux at $5.1\sigma$.
+### Cascade energies
 
-::: {.takeaway}
-Different medium, instrumentation and reconstruction. An independent test.
+::::: {.columns}
+::: {.column width="65%"}
+![](media/diffuse/gvd-2018-2024-energy-dark.svg){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="Redrawn Baikal-GVD 2018–2024 upward-going cascade-energy histogram: 18 data events, atmospheric neutrino and muon backgrounds, and the fitted astrophysical contribution."}
 :::
+::: {.column width="31%"}
+**April 2018–March 2024**
+
+**18 upward-going cascades**
+
+$$E_{\mathrm{sh}}>15\,\mathrm{TeV}$$
+
+Expected atmospheric background:
+
+$$2.8\pm1.0\ \text{events}$$
+
+$$5.1\sigma$$
+:::
+:::::
 
 ::: {.media-caption}
-[Baikal-GVD, six-season analysis (2025)](https://arxiv.org/abs/2507.01893)
+Points: data · Stacked: fitted signal and backgrounds · Digitized from [Baikal-GVD (2025), Fig. 2](https://arxiv.org/abs/2507.01893v2)
 :::
+
+### Directions
+
+![](media/diffuse/gvd-2018-2024-zenith-dark.svg){.slide-media .nostretch style="--media-max-height: 530px;" fig-alt="Redrawn reconstructed-zenith histogram of the same 18 GVD cascades and stacked signal/background expectations."}
+
+::: {.media-caption}
+Same selected sample · $\cos\theta<-0.25$, additional quality cuts · Baikal-GVD, Fig. 2 · Digitized from the original
+:::
+
+### Spectrum
+
+![](media/diffuse/gvd-spectrum-2025-dark.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Redrawn GVD spectrum comparison: fitted per-flavour GVD spectrum in green, IceCube starting-track points in orange and preliminary combined-fit points in blue."}
+
+::: {.media-caption}
+Per flavour, $\nu+\bar\nu$ · Published 2025 comparison · Blue IceCube points are preliminary · Digitized from [Fig. 4](https://arxiv.org/abs/2507.01893v2)
+:::
+
+### Fit parameters
+
+![](media/diffuse/gvd-2018-2024-contours-dark.svg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Redrawn power-law normalization/index confidence contours for GVD and three IceCube samples. GVD has 68% and 90% contours; IceCube has 68% and 95%."}
+
+::: {.media-caption}
+Single power law · Normalization at $100\,\mathrm{TeV}$ per flavour · Different contour levels retained · Fig. 3 · Digitized from the original
+:::
+
+::::::
 
 ::: {.notes}
-Compare spectra with the same flavour convention, units and energy interval.
-The published power-law fit assumes equal flavour contributions. Do not
-silently replace a per-flavour normalization with an all-flavour one.
-:::
+**Say:** Baikal-GVD, in a completely different detector and medium, sees the same cosmic neutrino flux from below the horizon.
 
-<!-- Visual slot: GVD energy distribution and correctly normalised comparison. -->
+Allow about two minutes for Cascade energies and Spectrum. The growing detector
+and season-dependent exposure enter the fit. This sample used clusters 1–12,
+not the installed 2026 configuration. E_sh, hit multiplicity, zenith and quality
+cuts select 18 cascades. The background estimate includes 1.9 atmospheric-neutrino
+and 0.9 misreconstructed-muon events. The significance includes systematic effects.
+
+The fit assumes equal flavour contributions and a single power law: gamma=2.64
+(+0.09,-0.11), normalization 4.42 (+2.31,-1.29) times 1e-18 per flavour at
+100 TeV, in GeV^-1 cm^-2 s^-1 sr^-1. The spectral figure redraws the 2025
+publication comparison (digitized); its blue IceCube points were preliminary. The next slide
+uses the finalized 2026 IceCube spectral-feature result. Parameter contours assume
+a single power law and cover different analysis ranges. GVD's outer contour is
+90%, while the IceCube outer contours are 95%; they are not identical intervals.
+
+Source: [Baikal-GVD (2025)](https://arxiv.org/abs/2507.01893v2).
+:::
 
 ## Structure in the diffuse spectrum {#diffuse-spectral-structure}
 
-IceCube reports a departure from a single power law near $30\,\mathrm{TeV}$.
+:::::: {.panel-tabset}
 
-::: {.question}
-Does the spectrum reveal changing source populations or source physics?
+### Measured spectrum
+
+::::: {.columns}
+::: {.column width="66%"}
+![](media/diffuse/icecube-spectrum-2026-dark.svg){.slide-media .nostretch style="--media-max-height: 580px;" fig-alt="Redrawn finalized IceCube segmented per-flavour neutrino-flux estimates and broken-power-law bands: Combined Fit orange, MESE blue, with published uncertainties and upper limits."}
 :::
+::: {.column width="30%"}
+**CF (orange):** tracks + cascades.
+
+**MESE (blue):** starting events.
+
+Slope changes near
+
+$$30\,\mathrm{TeV}.$$
+
+Single power law disfavoured:
+
+$$>4\sigma$$
+
+Curvature is also tested.
+:::
+:::::
 
 ::: {.media-caption}
-[IceCube, spectral-change result](https://icecube.wisc.edu/news/research/2025/09/observation-of-a-spectral-change-in-the-flux-of-astrophysical-neutrinos/)
+Per flavour, $\nu+\bar\nu$ · Segmented estimates and fitted bands · Redrawn from the vector artwork of [IceCube, PRL (2026), Fig. 3](https://arxiv.org/abs/2507.22233v3)
 :::
+
+### Testing the slopes
+
+![](media/diffuse/icecube-spectral-indices-2026-dark.svg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Redrawn IceCube low- and high-energy spectral-index profile-likelihood contours. The diagonal corresponds to equal indices, a single power law."}
+
+::: {.media-caption}
+$\gamma_1=\gamma_2$: single power law · $68\%$ and $95\%$ regions · Fig. 2 · Redrawn from the vector artwork
+:::
+
+### Event distributions
+
+![](media/diffuse/icecube-combined-events-2026-dark.svg){.slide-media .nostretch style="--media-max-height: 530px;" fig-alt="Redrawn Combined Fit track and cascade energy-proxy distributions, compared with background and a broken-power-law astrophysical component. Track and cascade count axes differ."}
+
+::: {.media-caption}
+Reconstructed proxies and separate count axes · CF panel of Fig. 1 · Redrawn from the vector artwork
+:::
+
+### Glashow and flavour
+
+::::: {.columns}
+::: {.column width="56%"}
+![](media/diffuse/icecube-glashow-event-2021.jpg){.slide-media .nostretch style="--media-max-height: 520px; --media-bg: #fff;" fig-alt="IceCube visualization of the December 2016 Glashow-resonance candidate: schematic of early muon light, the event view across the detector and photon arrival times at the two nearest sensors."}
+:::
+::: {.column width="41%"}
+**Glashow resonance**
+
+$$\bar\nu_e+e^-\to W^-\to\text{hadrons}$$
+
+$$E_{\bar\nu}\simeq6.3\,\mathrm{PeV}$$
+
+One shower, December 2016. Only antineutrinos can do this.
+
+**Tau neutrinos**
+
+Seven candidates: all three flavours arrive.
+
+**Why it matters**
+
+$pp$: $\ \bar\nu_e:\nu_e\approx1:1$
+
+simple $p\gamma$: $\ \approx1:3.5$
+:::
+:::::
+
+::: {.media-caption}
+[IceCube, Nature 591, 220 (2021), Fig. 1](https://arxiv.org/abs/2110.15051) · [Tau neutrinos: IceCube, PRL 132, 151001 (2024)](https://arxiv.org/abs/2403.02516)
+:::
+
+::::::
 
 ::: {.notes}
-Separate the measured spectral feature from interpretations. Check the
-final primary publications and their fit definitions when selecting figures.
-:::
+**Say:** The spectrum is not a straight line: it bends near 30 TeV, and at the top end nature even gives us a particle-physics resonance — one antineutrino hitting an electron at 6 PeV.
 
-<!-- Visual slot: binned spectrum with uncertainties, not only a fitted curve. -->
+Spend about 90 seconds on Measured spectrum. The points are segmented flux fits
+in true neutrino energy, assuming E^-2 within each band; they are not uncorrected
+event counts. The BPL bands show 68% parameter uncertainties and sensitive ranges.
+Arrow markers denote upper limits. All displayed source-averaged components and
+normalizations are retained from the publication, without multiplying by three.
+
+CF and MESE use complementary selections with different detector responses.
+They are not two independent instruments; their significances must not be added.
+BPL improves over SPL at 4.4 sigma for CF and 4.7 for MESE under the stated
+likelihood test. A log parabola also improves the fit. A physical discontinuity
+or a unique change of source population is not established. Point to the measured
+shape before discussing possible target fields or the gamma-ray budget.
+
+Glashow and flavour (optional, about one minute). The PEPE partially contained
+sample covers May 2012–May 2017, 4.6 years of live time. The 8 December 2016
+shower has visible energy 6.05±0.72 PeV, consistent with a hadronically decaying
+6.3 PeV W⁻ after about 5% invisible energy. Early muon light at the nearest
+sensors supports a hadronic W decay. An atmospheric-muon origin is rejected
+a posteriori at more than 5 sigma. Against deep-inelastic CC/NC showers, the
+visible-energy likelihood ratio gives p=0.01 (2.3 sigma, one-sided) under the
+assumed astrophysical flux; 1.55 such events were expected. One event does not
+measure the antineutrino fraction. The quoted 1:1 (pp) and 1:3.5 (simple
+p-gamma, without multi-pion production) are the paper's anti-nu_e:nu_e ratios
+at Earth. Strong magnetic fields can suppress anti-nu_e further.
+Tau neutrinos: 9.7 years, convolutional-network selection, seven candidates
+with an expected background of about 0.5 events. Absence of astrophysical tau
+neutrinos is excluded at 5.1 sigma for the GlobalFit flux (5.2–5.5 for other
+flux assumptions). The rate agrees with oscillation-averaged flavour mixing.
+
+Sources: [IceCube (2026)](https://arxiv.org/abs/2507.22233v3);
+[Glashow resonance, Nature 591, 220 (2021)](https://doi.org/10.1038/s41586-021-03256-1),
+[arXiv:2110.15051](https://arxiv.org/abs/2110.15051);
+[tau neutrinos, PRL 132, 151001 (2024)](https://arxiv.org/abs/2403.02516).
+Figure credit: IceCube Collaboration (gallery adaptation of Nature Fig. 1).
+:::
 
 ## The Milky Way in neutrinos {#galactic-neutrinos}
 
-Cosmic rays interacting with Galactic matter produce diffuse emission.
+:::::: {.panel-tabset}
 
-Resolving individual accelerators is a further observational challenge.
+### IceCube
 
-::: {.notes}
-Compare maps with explicit angular resolution and energy selection. Separate
-the diffuse Galactic component from point-source claims. Include the latest
-appropriate Baikal-GVD result when developing this block.
-
-Source: [Spiering, section 5](https://arxiv.org/html/2609.26436).
-:::
-
-<!-- Visual slot: aligned Galactic-coordinate maps in photons and neutrinos. -->
-
-## TXS 0506+056 and multimessenger observations {#txs-0506}
-
-- The 2017 neutrino alert and electromagnetic follow-up.
-- The separate 2014–2015 excess in archival neutrino data.
-- The Baikal-GVD event compatible with this direction in 2021.
-
-::: {.notes}
-Keep these datasets and their statistical questions distinct. Directional
-compatibility does not prove the origin of an individual event. Use dated
-significances, trial corrections and the latest reconstruction caveats.
-
-Source: [D'Ammando, section 3.1](https://arxiv.org/html/2606.30764).
-:::
-
-<!-- Visual slot: sky localization and time sequence, including radio data. -->
-
-## NGC 1068 and X-ray-bright active galaxies {#ngc-1068}
-
-Evidence for neutrino emission motivates searches for a wider AGN population.
-
-::: {.question}
-What do neutrinos reveal about regions opaque to high-energy gamma rays?
-:::
+<img class="slide-media media-height-lg" style="--media-max-height: 530px;" src="media/galactic/icecube-multiwavelength-2023.jpg" alt="IceCube's five Galactic-coordinate views: optical, gamma rays, predicted neutrino emission, analysis expectation and observed pre-trial significance.">
 
 ::: {.media-caption}
-[IceCube, X-ray-bright AGN analysis](https://arxiv.org/abs/2510.13403)
+IceCube Collaboration, Science (2023) · Diffuse Galactic emission: $4.5\sigma$
 :::
 
-::: {.notes}
-Show the neutrino and electromagnetic measurements together. Distinguish
-the single-source evidence from the population test. The disk/corona
-interpretation is a physical model, not a directly resolved image.
+[ANTARES, 2023](https://arxiv.org/abs/2212.11876): a mild hint of TeV neutrinos from the inner Galactic ridge.
+
+### Baikal-GVD above 200 TeV
+
+::::: {.columns}
+::: {.column width="63%"}
+![](media/galactic/gvd-galactic-sky.svg){.slide-media .nostretch style="--media-max-height: 480px;" fig-alt="Redrawn sky map in Galactic coordinates: the eight Baikal-GVD cascades above 200 TeV as orange 90% containment circles; five of them lie in or next to the shaded band within 10 degrees of the Galactic plane."}
 :::
+::: {.column width="35%"}
+**8 cascades above 200 TeV**
 
-<!-- Visual slot: NGC 1068 spectrum and a labelled AGN model illustration. -->
+They crowd towards the Galactic plane.
 
-## KM3-230213A {#km3-230213a}
+![](media/galactic/gvd-galactic-test.svg){.slide-media .nostretch style="--media-max-height: 230px;" fig-alt="Median absolute Galactic latitude of the eight cascades compared with skies whose right ascensions are randomized: the data line lies in the low tail of the random-sky histogram."}
 
-**An exceptionally energetic, nearly horizontal event**
+Baikal-GVD: $p=1.4\times10^{-2}$
 
-The inferred neutrino energy is about $220\,\mathrm{PeV}$,
-with a broad uncertainty interval.
-
-Its source remains unknown.
+With IceCube: $p=3.4\times10^{-4}$
+:::
+:::::
 
 ::: {.media-caption}
-[KM3NeT, Nature (2025)](https://www.nature.com/articles/s41586-024-08543-1)
+V. A. Allakhverdyan et al. (Baikal-GVD) with Y. Y. Kovalev, A. V. Plavin, D. V. Semikoz, S. V. Troitsky · [ApJ 982, 73 (2025)](https://arxiv.org/abs/2411.05608v2) · Redrawn from Table 1; test of Fig. 1 recomputed
 :::
 
-::: {.notes}
-The event occurred on 13 February 2023. The paper estimates the muon energy
-at the detector separately from the parent neutrino energy. Include the
-published uncertainty interval, spectral assumptions and exposure comparison
-when developing the result. Do not imply an identified source or new physics.
-:::
+### Animation
 
-<!-- Visual slot: collaboration event display, with a physical length scale. -->
-
-## Searches without a significant excess {#source-limits}
-
-Upper limits test source models and population hypotheses.
-
-Baikal-GVD's first track-based search examined 92 candidate objects.
-
-No significant excess emerged from that analysis.
+<video class="slide-video media-height-lg" style="--media-max-height: 590px;" controls muted playsinline preload="metadata" poster="media/galactic/milky_way_neutrinos_en.jpg" src="media/galactic/milky_way_neutrinos_en.mp4"></video>
 
 ::: {.media-caption}
-[Baikal-GVD, point-source constraints (2026)](https://arxiv.org/abs/2603.21261)
+Model Galaxy (illustrative) · Baikal-GVD cascades above 200 TeV and the published shuffling test
 :::
+
+### Gamma rays
+
+::::: {.columns}
+::: {.column width="63%"}
+![](media/galactic/galactic-gamma-diffuse.svg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Redrawn published spectra of diffuse gamma rays from the Galactic plane between 10 TeV and 1 PeV: LHAASO-KM2A inner and outer Galaxy points from its tables, and Tibet AS-gamma points digitized from its Figure 4, shown as E to the 2.7 times the differential flux."}
+:::
+::: {.column width="35%"}
+**The same collisions**
+
+$$\pi^0\to\gamma\gamma,\qquad \pi^\pm\to\nu\ \ldots$$
+
+The Galactic plane glows in gamma rays up to $\sim1\,\mathrm{PeV}$.
+
+**Tibet AS$\gamma$, 2021:** first diffuse gamma rays above $100\,\mathrm{TeV}$.
+
+**LHAASO, 2023:** the spectrum from $10\,\mathrm{TeV}$ to $1\,\mathrm{PeV}$.
+:::
+:::::
+
+::: {.media-caption}
+Redrawn: [LHAASO, PRL 131, 151001 (2023)](https://arxiv.org/abs/2305.05372v2), Tables S2–S3 · [Tibet AS$\gamma$, PRL 126, 141101 (2021)](https://arxiv.org/abs/2104.05181v2), digitized from Fig. 4 · Different sky regions and source masks
+:::
+
+::::::
 
 ::: {.notes}
-Compare limits only for matched spectra and confidence conventions. One
-example from a broader population search can illustrate why non-detections
-are scientifically useful.
+**Say:** Our own Galaxy shines in neutrinos. IceCube sees the glow of the plane, Baikal sees its highest-energy part, and gamma-ray telescopes see the same cosmic-ray collisions.
+
+Spend about two minutes: IceCube, then Baikal-GVD, then Gamma rays. The
+Animation tab is optional.
+
+IceCube tab: Figure 1 of the 2023 Science paper, unchanged. Read the five rows
+separately: optical, gamma rays, the pion-template neutrino prediction, the
+expectation after detector effects, and observed pre-trial significance. The
+bottom colour scale is significance, not intensity. The 4.5 sigma is the global
+diffuse-template test including trials, not a pixel significance; individual
+accelerators are not resolved. The cascade sample spans 500 GeV to multi-PeV.
+ANTARES (Physics Letters B 841, 137951 (2023)): tracks and showers from the
+region |l|<30°, |b|<2°, 1–100 TeV. The background-only hypothesis is disfavoured
+at about 96% confidence: a hint, not a detection.
+
+Baikal-GVD tab: cascades with reconstructed neutrino energy above 200 TeV,
+spring 2018 to spring 2024 (about 26.8 one-cluster years). Simulations give
+about 64% astrophysical purity. The model-independent test statistic is the
+median absolute Galactic latitude, compared with skies whose right ascensions
+are reshuffled. Observed 10.4° against 31.4° expected; p = 1.4e-2 (2.5 sigma),
+with no trials. IceCube high-energy starting cascades above 200 TeV give
+p = 8.7e-3 by the same method, public IceCube tracks (ICECAT, overlapping an
+earlier compilation) p = 1.8e-3. All three combined: p = 3.4e-4 (3.6 sigma).
+The rough flux estimate
+above 200 TeV has large uncertainties but exceeds the standard cosmic-ray
+templates used by IceCube. One of the eight cascades is the April 2021 event
+near TXS 0506+056, shown later. The redrawn map uses Galactic coordinates,
+those of the paper's Table 1; the paper's own map (Fig. 5) is equatorial and
+also shows the IceCube events. The histogram recomputes the paper's Fig. 1 from
+Table 1 (randomized right ascensions, declinations kept): p = 0.013, matching
+the published 1.4e-2. Event coordinates are shown only graphically.
+
+Animation tab. **Say:** This is how our Galaxy would glow in neutrinos seen from the Sun — and how Baikal checks it with its eight highest-energy cascades.
+The sky map is a model Galaxy, not a measurement; the shuffling test uses the
+published cascades, is recomputed and agrees with the paper.
+
+Gamma rays tab: published points only, redrawn in the lecture style. LHAASO-KM2A
+measures diffuse emission at 29.1 sigma (inner Galaxy) and 12.7 sigma (outer),
+power-law index −2.99 in both, with the inner flux about three times the
+prediction from locally measured cosmic rays and gas. Thick LHAASO bars are
+statistical, thin bars include systematics. Regions: LHAASO inner 15°<l<125°,
+outer 125°<l<235°; Tibet 25°<l<100° and 50°<l<200°; all |b|<5°. Tibet AS-gamma found 23 gamma-like
+events above 398 TeV against 2.73 expected background (5.9 sigma), the highest
+at 957 TeV, away from known sources: evidence for PeV cosmic rays spread through
+the disk. Tibet bars are statistical. Source masks and regions differ, so the
+two normalizations are not directly comparable. If the gamma rays come from pion
+decays, a neutrino flux of similar size follows; the Baikal-GVD paper finds its
+estimate closer to the Tibet-based expectation, possibly pointing to individual
+PeVatrons, for example in Cygnus.
+
+Sources: [IceCube, Science 380 (2023)](https://arxiv.org/abs/2307.04427);
+[ANTARES, PLB 841 (2023)](https://arxiv.org/abs/2212.11876);
+[Baikal-GVD, ApJ 982, 73 (2025)](https://arxiv.org/abs/2411.05608v2);
+[LHAASO, PRL 131 (2023)](https://arxiv.org/abs/2305.05372v2);
+[Tibet AS-gamma, PRL 126 (2021)](https://arxiv.org/abs/2104.05181v2).
+Media provenance: media/galactic/SOURCES.md.
 :::
 
-<!-- Visual slot: source limits and a model prediction with matching units. -->
+{{< include blocks/_05a-gamma-budget.qmd >}}
+
+{{< include blocks/_05b-source-results.qmd >}}

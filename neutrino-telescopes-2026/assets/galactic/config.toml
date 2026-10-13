@@ -1,0 +1,74 @@
+[video]
+width = 1920
+height = 1080
+fps = 30
+duration_s = 48
+poster_s = 25
+crf = 19
+
+[galaxy]
+seed = 2307
+radius_kpc = 16.0
+sun_kpc = 8.2
+gas_scale_kpc = 5.0
+gas_height_kpc = 0.16
+cr_scale_kpc = 9.0
+arms = 4
+pitch_deg = 18.0
+arm_contrast = 0.65
+arm_phase = 0.8
+stars = 100000
+gas_points = 110000
+bulge_points = 20000
+
+[camera]
+yaw_deg = -28
+elevation_deg = 29
+span_kpc = 45
+centre_y = 0.51
+
+[particles]
+events = 28
+first_collision_s = 9
+last_collision_s = 30
+proton_lead_s = 6
+flight_s = 3.8
+trail_s = 0.95
+
+[sky]
+longitude_bins = 720
+latitude_bins = 240
+latitude_limit_deg = 30
+distance_steps = 500
+distance_max_kpc = 32
+
+[style]
+font = "/System/Library/Fonts/Supplemental/Arial.ttf"
+bold_font = "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
+background = [2, 4, 10]
+text = [235, 243, 255]
+muted = [146, 168, 193]
+proton = [255, 172, 67]
+neutrino = [89, 222, 255]
+gas = [144, 134, 236]
+title_px = 52
+subtitle_px = 30
+label_px = 28
+small_px = 23
+splat_reference_width = 1280
+
+[text]
+titles = ["Cosmic rays in the Galactic disk", "Cosmic rays meet interstellar gas", "Neutrinos keep their direction", "The sky seen from the Solar System"]
+subtitles = ["Accelerators supply protons. Magnetic fields bend their paths.", "Collisions produce pions. Charged-pion decays produce neutrinos.", "Emission throughout the disk reaches us along straight paths.", "Adding emission along each line of sight reveals the Galactic plane."]
+sun = "Solar System"
+centre = "Galactic centre"
+gas = "Interstellar gas"
+proton = "Cosmic-ray protons"
+neutrino = "Neutrinos"
+schematic = "Schematic geometry and particle paths"
+selected = "Highlighted rays: the subset travelling towards us"
+map = "Illustrative neutrino intensity"
+map_note = "Gas × cosmic-ray density, integrated along the line of sight"
+map_limit = "Relative intensity. No detector response or observed events."
+longitude = "Galactic longitude"
+latitude = "Galactic latitude"

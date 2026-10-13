@@ -1,0 +1,133 @@
+## Neutrino spectra and the gamma-ray budget {#gamma-budget}
+
+:::::: {.panel-tabset}
+
+### Transparent sources
+
+::::: {.columns}
+::: {.column width="70%"}
+![](media/multimessenger/diffuse-gamma-neutrino-2026-dark.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Redrawn Zathul et al. 2026 figure 2: measured IceCube neutrinos and Fermi isotropic gamma-ray background with neutrino fits and their calculated electromagnetic cascades. White denotes a single power law, orange a broken power law, blue a log parabola."}
+:::
+::: {.column width="27%"}
+**Right:** measured neutrinos and fitted spectra.
+
+**Left:** accompanying cascade photons.
+
+**White:** unbroken continuation.
+
+**Orange:** break near $30\,\mathrm{TeV}$.
+
+The low-energy continuation changes the gamma-ray burden.
+:::
+:::::
+
+::: {.media-caption}
+Dashed: neutrinos · Solid: calculated photons · $p\gamma$ benchmark · Digitized from [Zathul et al. (2026), Fig. 2](https://arxiv.org/html/2606.00249v2#S2.F2), CC BY 4.0
+:::
+
+### What is constrained?
+
+$$
+\pi^0\to\gamma\gamma,\qquad
+\gamma\gamma_{\mathrm{EBL}}\to e^+e^-,\qquad
+e^\pm\gamma_{\mathrm{bg}}\to e^\pm\gamma
+$$
+
+Escaping high-energy photons feed a lower-energy electromagnetic cascade.
+
+| Input | Constraint |
+|:---|:---|
+| Measured neutrino spectrum | Pion production and its energy dependence |
+| Fermi isotropic gamma-ray background | A ceiling on the accompanying extragalactic cascade |
+| Internal photon absorption | Redistribution of photon energy before escape |
+
+Other source populations also contribute to the gamma-ray background.
+
+::::::
+
+::: {.notes}
+**Say:** Wherever neutrinos are made, gamma rays are made too. On the way to us they cascade to lower energies — and the measured gamma-ray background leaves little room for them.
+
+Spend about 90 seconds; this returns from the Galaxy to the extragalactic diffuse
+spectrum shown two slides earlier. Read the
+figure from right to left: neutrino measurements fix a pion-production
+scale; escaped photons cascade and contribute to the Fermi IGRB. Grey points
+are IceCube (the published Combined Fit segmented flux times three, all flavours,
+as in the original), violet Fermi. Dashed curves fit neutrinos; solid curves and
+bands are model photon predictions. White is a single power law continued to
+1 TeV, orange a broken power law, blue a log parabola. The redraw is digitized
+from the original raster; band edges hidden under the original legend (below
+about 7e-10 GeV cm^-2 s^-1 sr^-1) are not recovered, so the redrawn y axis stops
+there. Colour marks the spectral model, line style what is drawn (dashed:
+neutrino fit, solid: cascade photons). As drawn in the source, the dashed single power law lies about 15%
+above the IceCube Combined Fit SPL normalization.
+
+The benchmark assumes gamma-transparent extragalactic sources, star-formation-rate
+redshift evolution and K_pi approximately 1 for p-gamma. The earlier pp coefficient
+3/2 must not be transferred to this figure. Bands combine spectral-fit and EBL
+model uncertainties. The IGRB is a ceiling because other populations contribute.
+Spectral suppression and internal reprocessing can ease the tension. Neither
+this comparison nor the spectral break identifies a unique source population.
+The Delta-resonance interpretation is a proposed model, not an experimental
+identification of the break's origin.
+
+Sources: [Zathul et al. (2026)](https://arxiv.org/abs/2606.00249v2),
+[Murase, Guetta & Ahlers (2016)](https://arxiv.org/abs/1509.00805).
+:::
+
+## Compact regions and hidden gamma rays {#hidden-sources}
+
+:::::: {.panel-tabset}
+
+### A compact AGN region
+
+![](media/response/compact-source.svg){.slide-media .nostretch style="--media-width: 1200px; --media-max-height: 480px;" fig-alt="Causal diagram of a compact source: energetic protons meet gas or photons, pions produce neutrinos that escape and gamma rays that can be converted to electron-positron pairs and reprocessed photons. The diagram is schematic and has no calculated flux."}
+
+$$
+f_{pp}\simeq1-e^{-t_{\mathrm{res}}/t_{pp}},\qquad
+t_{pp}^{-1}=\kappa_{pp}\,n_{\mathrm{gas}}\,\sigma_{pp}\,c
+$$
+
+::: {.media-caption}
+Gas-target energy-loss estimate · Schematic geometry · [Murase & Stecker](https://arxiv.org/abs/2202.03381)
+:::
+
+### Photon opacity
+
+$$
+\gamma+\gamma\to e^++e^-,\qquad
+E_\gamma\epsilon\gtrsim(m_ec^2)^2\quad\text{(head-on)}
+$$
+
+| Condition | Meaning |
+|:---|:---|
+| Above pair-production threshold | Absorption is kinematically allowed |
+| $\tau_{\gamma\gamma}\gtrsim1$ | Photon density and path length make it effective |
+| Pair cooling and further interactions | Energy emerges at different photon energies |
+
+Neutrino escape depends on the matter column as well.
+
+::::::
+
+::: {.notes}
+**Say:** So the sources may be hidden: dense, compact regions where neutrinos escape, but gamma rays are absorbed and come out at much lower energies.
+
+Spend about one minute on the diagram. It represents a class of compact gas/radiation
+environments, such as an AGN corona, not a resolved image of NGC 1068. Acceleration
+supplies the nonthermal protons; gas and photons are alternative pion-production
+targets. The gas branch defines f_pp as an approximate energy-loss fraction for
+a prescribed residence time, with constant effective kappa and cross section.
+It is not the fraction of proton energy carried by neutrinos. Cooling, escape
+and acceleration must be compared for a quantitative source model.
+
+Gamma-gamma conversion requires both the threshold and sufficient optical depth.
+The stated threshold uses a head-on collision and energies in one local frame.
+Pairs radiate and can feed cascades; energy is redistributed rather than destroyed.
+Emission can be quenched or shifted outside the observed high-energy band.
+Neutrinos escape only for a sufficiently small neutrino interaction optical depth.
+The diagram computes neither opacity, transport nor a neutrino luminosity.
+
+Return to this mechanism when comparing the NGC 1068 photon/neutrino spectra.
+Sources: [Murase & Stecker](https://arxiv.org/abs/2202.03381),
+[IceCube NGC 1068 comparison](https://arxiv.org/abs/2211.09972).
+:::
