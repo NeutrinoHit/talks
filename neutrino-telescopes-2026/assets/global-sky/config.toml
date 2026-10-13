@@ -1,0 +1,70 @@
+[plot]
+width_in = 14.0
+height_in = 5.1
+font_size = 18
+background = "#000000"
+foreground = "#eeeeee"
+land = "#243747"
+coast = "#45657a"
+grid = "#253340"
+declination_samples = 1801
+gc_declination_deg = -28.94
+
+[[sites]]
+name = "IceCube"
+latitude_deg = -90.0
+longitude_deg = 0.0
+colour = "#ffbd70"
+stage = "operating"
+label_x = 0.31
+label_y = 0.08
+coverage = true
+
+[[sites]]
+name = "KM3NeT · ARCA / ORCA"
+latitude_deg = 36.27
+longitude_deg = 16.10
+colour = "#73c7ff"
+stage = "operating"
+label_x = 0.53
+label_y = 0.62
+coverage = true
+coverage_name = "KM3NeT · ARCA"
+
+[[sites]]
+name = "ORCA"
+latitude_deg = 42.8
+longitude_deg = 6.03
+colour = "#73c7ff"
+stage = "operating"
+coverage = false
+
+[[sites]]
+name = "Baikal-GVD"
+latitude_deg = 51.7666667
+longitude_deg = 104.4
+colour = "#7ee0bd"
+stage = "operating"
+label_x = 0.73
+label_y = 0.89
+coverage = true
+
+[[sites]]
+name = "P-ONE"
+latitude_deg = 47.74
+longitude_deg = -127.73
+colour = "#ca9cff"
+stage = "project"
+label_x = 0.16
+label_y = 0.83
+coverage = false
+
+[[sites]]
+name = "TRIDENT"
+latitude_deg = 17.4
+longitude_deg = 114.0
+colour = "#ca9cff"
+stage = "project"
+label_x = 0.85
+label_y = 0.51
+coverage = false

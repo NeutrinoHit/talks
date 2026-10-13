@@ -1,0 +1,28 @@
+series,sin_dec,dec_deg,E2_Phi0_5sigma_GeV_cm2_s
+IceCube 7 years,-0.9962,-85.00,2.236e-08
+IceCube 7 years,-0.9659,-75.00,2.314e-08
+IceCube 7 years,-0.9063,-65.00,2.485e-08
+IceCube 7 years,-0.8191,-55.00,2.657e-08
+IceCube 7 years,-0.7071,-45.00,2.394e-08
+IceCube 7 years,-0.5736,-35.00,1.917e-08
+IceCube 7 years,-0.4226,-25.00,1.15e-08
+IceCube 7 years,-0.2588,-15.00,5.774e-09
+IceCube 7 years,-0.0872,-5.00,1.624e-09
+ANTARES 9 years,-0.9962,-85.00,1.775e-08
+ANTARES 9 years,-0.9659,-75.00,1.719e-08
+ANTARES 9 years,-0.9063,-65.00,1.778e-08
+ANTARES 9 years,-0.8191,-55.00,1.766e-08
+ANTARES 9 years,-0.7071,-45.00,1.944e-08
+ANTARES 9 years,-0.5736,-35.00,2.081e-08
+ANTARES 9 years,-0.4226,-25.00,2.114e-08
+ANTARES 9 years,-0.2588,-15.00,2.529e-08
+ANTARES 9 years,-0.0872,-5.00,2.674e-08
+IceCube+ANTARES,-0.9962,-85.00,1.142e-08
+IceCube+ANTARES,-0.9659,-75.00,1.187e-08
+IceCube+ANTARES,-0.9063,-65.00,1.121e-08
+IceCube+ANTARES,-0.8191,-55.00,1.256e-08
+IceCube+ANTARES,-0.7071,-45.00,1.259e-08
+IceCube+ANTARES,-0.5736,-35.00,1.149e-08
+IceCube+ANTARES,-0.4226,-25.00,9.024e-09
+IceCube+ANTARES,-0.2588,-15.00,5.104e-09
+IceCube+ANTARES,-0.0872,-5.00,1.66e-09

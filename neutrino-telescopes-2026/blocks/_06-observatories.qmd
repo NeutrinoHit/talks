@@ -1,119 +1,315 @@
-## A global view of the neutrino sky {#global-observatories}
+{{< include blocks/_06b-source-sensitivity.qmd >}}
 
-Observatories at different latitudes sample different directions and backgrounds.
+{{< include blocks/_06a-global-sky.qmd >}}
 
-Medium properties and sensor layouts determine their response.
+## Neutrino observatories {#icecube-future}
 
-::: {.takeaway}
-Compare effective area, angular resolution and exposure for the same science case.
+:::::: {.panel-tabset}
+
+### IceCube
+
+::::: {.columns}
+::: {.column width="35%"}
+**South Pole, Antarctic ice**
+
+**IceCube:** $1\,\mathrm{km}^3$, operating.
+
+**Upgrade:** 5 new strings, installed in 2026.
+
+**Gen2:** $8\,\mathrm{km}^3$ optical array, proposed.
+
+**Measurement:** more high-energy events; improved calibration and a radio extension.
 :::
-
-::: {.notes}
-Observatories and prospects occupy 44–56 minutes. Clearly distinguish
-operating arrays, construction, prototypes and proposals, with a status date.
-
-Source: [Spiering, sections 3 and 7](https://arxiv.org/html/2609.26436).
-:::
-
-<!-- Animation slot A06: rotating Earth, sites and energy-dependent visibility. -->
-
-## IceCube, the Upgrade and Gen2 {#icecube-future}
-
-**IceCube:** an operating observatory and a long data record.
-
-**Upgrade:** new instrumentation and calibration capabilities.
-
-**Gen2:** a proposed expansion of the observatory.
+::: {.column width="61%"}
+![](media/observatories/icecube-gen2-layout.png){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Official visualization of the proposed IceCube-Gen2 expansion, including optical, surface and radio arrays around the existing IceCube detector."}
 
 ::: {.media-caption}
-[IceCube Upgrade deployment, February 2026](https://icecube.wisc.edu/news/press-releases/2026/02/the-icecube-neutrino-observatory-gets-a-major-upgrade-beneath-the-ice/)
+[Gen2 design illustration. DESY, Science Communication Lab.](https://icecube-gen2.wisc.edu/facility/detectors/)
 :::
-
-::: {.notes}
-Separate completed deployment from commissioning and from a funded or
-proposed future configuration. Explain calibration benefits for existing
-data as well as the low-energy programme.
 :::
+:::::
 
-<!-- Visual slot: existing geometry and distinctly labelled future geometry. -->
+### KM3NeT
 
-## KM3NeT: ARCA and ORCA {#km3net-arca-orca}
+[]{#km3net-arca-orca}
 
-Multi-PMT optical modules in the Mediterranean Sea.
+::::: {.columns}
+::: {.column width="35%"}
+**Mediterranean Sea**
 
-**ARCA:** high-energy neutrino astronomy.
+**ARCA:** $\sim1\,\mathrm{km}^3$ for neutrino astronomy.
 
-**ORCA:** a denser array for atmospheric-neutrino oscillation physics.
+**ORCA:** $\sim7\,\mathrm{Mt}$ for neutrino oscillations.
 
-::: {.notes}
-Use a common-scale comparison and an optical-module cutaway. Date the
-installed configuration separately from the design configuration.
+**Full design:** 230 / 115 strings.
 
-Source: [Spiering, section 3.2](https://arxiv.org/html/2609.26436).
+Construction and data taking.
+
+**Measurement:** source searches with ARCA; oscillations with ORCA.
 :::
-
-<!-- Visual slot: module, string deployment and ARCA/ORCA spacing comparison. -->
-
-## Baikal-GVD and B-HUNT {#baikal-and-b-hunt}
-
-Baikal-GVD combines modular growth with operation in fresh water.
-
-B-HUNT explores a much larger observatory, building on experience and prototypes.
-
-::: {.question}
-Which source measurements justify the next increase in scale?
-:::
+::: {.column width="61%"}
+![](media/observatories/km3net-artist-impression.jpg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Artist's impression from inside a KM3NeT building block on the sea floor: vertical detection units carrying spherical multi-PMT optical modules, the yellow buoy of a nearby unit, a close-up optical module and anchors on the seabed. An illustration, not a photograph."}
 
 ::: {.media-caption}
-[JINR, Baikal-GVD and HUNT prospects (March 2026)](https://www.jinr.ru/posts/grigory-trubnikov-k-2028-godu-nejtrinnyj-teleskop-baikal-gvd-dostignet-obema-1-km-3/)
+Artist's impression · [Edward Berbee/Nikhef · KM3NeT](https://www.km3net.org/pictures-and-videos/picture-galleries/album-artists-impressions/)
 :::
-
-::: {.notes}
-Reserve about three minutes for this slide. Discuss the scientific objective
-before the proposed volume. Public descriptions discuss HUNT at Lake Baikal
-and Chinese participation. Do not count site options as independently funded
-detectors. Use only approved design numbers and clearly label proposals.
 :::
+:::::
 
-<!-- Visual slot: GVD construction, present configuration and approved B-HUNT
-     design; project-specific details will be supplied in the block stage. -->
+### Baikal-GVD
 
-## P-ONE in the Pacific {#p-one}
+[]{#baikal-and-b-hunt}
 
-The project uses Ocean Networks Canada's subsea infrastructure.
+::::: {.columns}
+::: {.column width="35%"}
+**Lake Baikal, fresh water**
 
-Prototype and deployment studies test the route to an ocean observatory.
+**2026:** 16 clusters, operating.
+
+**Reported effective volume:** $0.8\,\mathrm{km}^3$.
+
+Modular growth through winter deployment.
+
+**Measurement:** independent diffuse spectra and northern-site source searches.
+:::
+::: {.column width="61%"}
+![](media/observatories/baikal-gvd-2026.jpg){.slide-media .nostretch style="--media-max-height: 560px; --media-bg: #fff;" fig-alt="Baikal-GVD's official 2026 configuration: sixteen numbered physics clusters, the separate experimental cluster, laser strings and deployment years. Original Russian labels are retained."}
 
 ::: {.media-caption}
-[Ocean Networks Canada, infrastructure and deployment status (August 2026)](https://www.oceannetworks.ca/news-and-stories/stories/onc-coengineers-key-infrastructure-for-pacific-deep-sea-neutrino-telescope/)
+[2026 configuration. Baikal-GVD.](https://baikal-gvd.jinr.ru/telescope)
 :::
-
-::: {.notes}
-The available official update reports tests and planned deep-sea deployment.
-Verify the actual deployment milestone before displaying a completed string
-as operating. A planned date passing does not establish completion.
 :::
+:::::
 
-<!-- Visual slot: infrastructure map and dated first-line deployment material. -->
+### P-ONE
 
-## TRIDENT, HUNT and NEON {#chinese-projects}
+[]{#p-one}
 
-**TRIDENT:** a deep-sea design with hybrid photon-detection modules.
+::::: {.columns}
+::: {.column width="35%"}
+**Pacific Ocean, British Columbia**
 
-**HUNT:** a large-volume concept, including work with the Baikal programme.
+**Full design:** $\sim1\,\mathrm{km}^3$, 70 strings.
 
-**NEON:** a proposed observatory in the South China Sea.
+Ocean Networks Canada's NEPTUNE infrastructure.
+
+Prototype and deployment engineering.
+
+**Measurement:** neutrino astronomy from another northern ocean site.
+:::
+::: {.column width="61%"}
+![](media/observatories/p-one-configuration.jpg){.slide-media .nostretch style="--media-max-height: 560px; --media-bg: #fff;" fig-alt="P-ONE collaboration illustration of seven planned clusters and a ten-string cluster with kilometre-long mooring lines. This is a design drawing, not a deployed full detector."}
 
 ::: {.media-caption}
-[TRIDENT design](https://www.nature.com/articles/s41550-023-02087-6) ·
-[HUNT proposal](https://indico.cern.ch/event/1493037/contributions/6590960/) ·
-[NEON proposal](https://arxiv.org/abs/2408.05122)
+[Proposed configuration. K. Holzapfel / P-ONE.](https://www.pacific-neutrino.org/p-one/)
 :::
+:::
+:::::
+
+### TRIDENT
+
+[]{#chinese-projects}
+
+::::: {.columns}
+::: {.column width="35%"}
+**South China Sea**
+
+**Design:** $7.5\,\mathrm{km}^3$, 1,211 strings.
+
+**Sensors:** hybrid PMT + SiPM modules.
+
+R&D and pathfinder programme.
+
+**Design goal:** photon timing and directional information from hybrid sensors.
+:::
+::: {.column width="61%"}
+![](media/observatories/trident-layout.png){.slide-media .nostretch style="--media-max-height: 560px; --media-bg: #fff;" fig-alt="TRIDENT's proposed Penrose-tiling array layout from figure 2 of Ye et al. Black points mark strings, red triangles junction boxes, dashed paths allow ROV maintenance, with a 500 metre scale bar."}
+
+::: {.media-caption}
+[Proposed layout. Ye et al., Nature Astronomy (2023), Fig. 2.](https://www.nature.com/articles/s41550-023-02087-6)
+:::
+:::
+:::::
+
+### HUNT
+
+**China + Russia · $\sim30\,\mathrm{km}^3$ · 20-inch PMTs**
+
+The Baikal option, B-HUNT, is the next slide.
+
+### NEON
+
+::::: {.columns}
+::: {.column width="35%"}
+**South China Sea**
+
+**Design:** $10\,\mathrm{km}^3$, 1,200 strings.
+
+**Sensors:** multi-PMT optical modules.
+
+Proposal and hardware R&D.
+
+**Design goal:** high-energy source searches with a large multi-PMT array.
+:::
+::: {.column width="61%"}
+![](media/observatories/neon-layout.png){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="NEON's proposed Fibonacci-spiral string layout and multi-PMT module from the upper panel of figure 3 in Zhang et al. The illustration includes the original 1,790 metre radius and 1,000 metre height labels."}
+
+::: {.media-caption}
+[Proposed layout. Zhang et al., Fig. 3.](https://arxiv.org/abs/2408.05122)
+:::
+:::
+:::::
+
+::::::
 
 ::: {.notes}
-Compare scientific objectives and technology choices. Simulated sensitivities
-must remain labelled projections. HUNT is the same programme introduced in
-the B-HUNT discussion, not an additional independent capacity to sum.
+Observatories and prospects occupy 47–56 minutes. After the sensitivity scaling
+and sky coverage, use the IceCube, KM3NeT and Baikal-GVD tabs. The four proposed
+arrays are reserve comparisons; their volumes are not a performance ranking.
+Scientific goals here are goals, not measured sensitivity improvements.
+
+IceCube uses one cubic kilometre of instrumented ice. The collaboration's
+12 February 2026 deployment announcement reports five additional Upgrade
+strings, with commissioning following installation. Older seven-string
+plans are not the installed configuration. Gen2's eight cubic kilometres
+refer to the proposed optical array, not the radio footprint or an existing
+detector. The accompanying figure is a design visualization.
+Sources: [IceCube Upgrade deployment](https://icecube.wisc.edu/news/press-releases/2026/02/the-icecube-neutrino-observatory-gets-a-major-upgrade-beneath-the-ice/)
+and [IceCube-Gen2 detectors](https://icecube-gen2.wisc.edu/facility/detectors/).
+
+KM3NeT: all displayed sizes and string counts are the full design. ARCA
+contains two blocks of 115 detection units. ORCA has one block and about
+seven megatonnes of instrumented seawater. The picture compares their
+horizontal footprints, not volumes. Both arrays take data during construction.
+Sources: [ARCA](https://www.km3net.org/research/physics/astronomy-with-arca/),
+[ORCA](https://www.km3net.org/research/physics/particle-physics-with-orca/),
+[array comparison](https://www.km3net.org/research/detector/arca-and-orca-detector/).
+
+Baikal-GVD: the collaboration's 2026 description reports 16 independent
+clusters and an effective volume of 0.8 cubic kilometres. This published
+effective-volume number has no energy/event-selection definition on that
+page and must not be equated to the geometric instrumented volumes of other
+arrays. The separate EXP cluster in the drawing tests technologies and is
+not a seventeenth physics cluster. Original labels and depth conventions in
+the drawing are retained. Source: [Baikal-GVD](https://baikal-gvd.jinr.ru/telescope).
+
+P-ONE: the baseline is seven clusters of ten strings, for approximately one
+cubic kilometre. The drawing is a schematic design, with dimensions from
+its original version, not an as-built survey. The August 2026 ONC update
+describes engineering tests and a planned first-line deployment later that
+year. It does not establish completion of that deployment. The full array
+is not claimed to be operating.
+Sources: [P-ONE design](https://www.pacific-neutrino.org/p-one/),
+[ONC engineering update, 15 August 2026](https://www.oceannetworks.ca/news-and-stories/stories/onc-coengineers-key-infrastructure-for-pacific-deep-sea-neutrino-telescope/).
+
+TRIDENT: the displayed numbers belong to the 2023 full-array proposal.
+The 1,211 strings use hybrid PMT/SiPM sensors and instrument a geometric
+volume of about 7.5 cubic kilometres. The layout follows Penrose tiling and
+includes paths for remotely operated maintenance vehicles. A pathfinder
+is distinct from that full configuration. No simulated sensitivity or
+angular-resolution number is presented as measured performance.
+Source: [Ye et al. (2023)](https://www.nature.com/articles/s41550-023-02087-6).
+
+HUNT: the approximately 30-cubic-kilometre size is a proposed scale; details,
+prototypes and sources are on the next slide (`b-hunt`). B-HUNT is the Baikal
+option of HUNT, not an independent extra capacity to add to HUNT.
+Project source: [IHEP](https://ihep.cas.cn/astro/en/research/sf/ucp/202510/t20251011_7986821.html);
+large-PMT technology: [Peng et al.](https://arxiv.org/abs/2405.09910).
+
+NEON: the 2025 revision proposes a ten-cubic-kilometre cylindrical array
+with 1,200 strings and multi-PMT modules. The upper panel of Figure 3 shows
+the candidate Fibonacci-spiral geometry. Hardware testing does not establish
+an operating full array. Source: [Zhang et al., arXiv:2408.05122v3](https://arxiv.org/abs/2408.05122v3).
+
+Image credits and original files: `media/observatories/SOURCES.md`.
 :::
 
-<!-- Visual slot: sourced map and design comparison; detail tabs can follow. -->
+## Baikal-GVD → B-HUNT {#b-hunt}
+
+:::::: {.panel-tabset}
+
+### From GVD to B-HUNT
+
+![](media/prospects/gvd-to-bhunt.svg){.slide-media .nostretch style="--media-width: 1450px; --media-max-height: 580px;" fig-alt="Milestones: 2024 first HUNT prototype string in Lake Baikal with 12 modules of 20-inch photomultipliers; 2025 a full-scale string with 20-inch modules operating in Lake Baikal, and four prototype detector units with an LED calibration unit at 1600 metres in the South China Sea; 2026 Baikal-GVD with 16 clusters and about 0.8 cubic kilometres effective volume; about 2028 Baikal-GVD at about 1 cubic kilometre; about 2040 B-HUNT at about 30 cubic kilometres. Two cubes of 1 and 30 cubic kilometres are drawn to volume scale."}
+
+::: {.media-caption}
+Russia + China · Baikal-GVD Collaboration with IHEP (Beijing) · [JINR (2026)](https://www.jinr.ru/posts/grigory-trubnikov-baikal-gvd-neutrino-telescope-to-reach-1-km-sup-3-sup-volume-by-2028/) · [IHEP](https://ihep.cas.cn/astro/en/research/sf/ucp/202510/t20251011_7986821.html)
+:::
+
+### Why Baikal?
+
+::::: {.columns}
+::: {.column width="47%"}
+**The ice is a platform:** strings are deployed from the frozen lake every winter.
+
+**Water:** light scatters less than in ice, so cascade directions are sharper.
+
+**Northern site:** the Galactic Centre is below the horizon $75\%$ of the day.
+
+**A gamma-ray partner:** LHAASO watches the same northern sky.
+
+Alerts and follow-up: work in progress.
+:::
+::: {.column width="49%"}
+![](media/observatories/hunt-design.jpg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Official HUNT concept illustration showing large single-PMT optical modules on underwater strings. This is a design illustration, not a photograph of an operating array."}
+
+::: {.media-caption}
+[Design illustration. HUNT / IHEP, CAS.](https://ihep.cas.cn/astro/en/research/sf/ucp/202510/t20251011_7986821.html)
+:::
+:::
+:::::
+
+::::::
+
+::: {.notes}
+**Say:** Baikal-GVD is now close to a cubic kilometre, and together with our Chinese colleagues we are already testing the next step in the lake — B-HUNT, a telescope thirty times bigger, built on the same ice that made Baikal neutrino astronomy possible.
+
+Allow about two minutes. The project name used in this lecture is B-HUNT: the
+Baikal option of HUNT (High-energy Underwater Neutrino Telescope), proposed by the
+LHAASO team of IHEP (Beijing) with a volume of about 30 cubic kilometres; IHEP
+describes it as relying on LHAASO, Deep Network China and Baikal-GVD
+([IHEP, 11 October 2025](https://ihep.cas.cn/astro/en/research/sf/ucp/202510/t20251011_7986821.html)).
+IHEP presents two candidate sites for HUNT: Lake Baikal (2212 strings, 720 m high, 3.8 km
+radius, at about 1300 m depth) and the South China Sea (M. Chen, RICH 2025,
+15 September 2025). JINR announces that by 2040 a 30-cubic-kilometre HUNT
+telescope will be built in Lake Baikal by the Baikal-GVD Collaboration jointly
+with IHEP ([JINR, 3 March 2026](https://www.jinr.ru/posts/grigory-trubnikov-baikal-gvd-neutrino-telescope-to-reach-1-km-sup-3-sup-volume-by-2028/),
+G. V. Trubnikov and Zh.-A. M. Dzhilkibaev). On 10 October 2026 MSU Rector
+V. A. Sadovnichy announced MSU's participation in the Russia–China project; that
+news item gives "30 km²", whereas the project documents give a volume of about
+30 km³, used here.
+
+Milestones. March 2024: first HUNT prototype string in Lake Baikal with 12 optical
+modules housing 20-inch PMTs
+([C. Liu et al., PoS(ICRC2025)1101](https://doi.org/10.22323/1.501.1101)).
+2025 expedition: a prototype string of the next-generation telescope deployed
+jointly with IHEP, and a full-scale string with modules based on 20-inch PMTs
+put into operation ([JINR, 1 April 2025](https://www.jinr.ru/posts/2025-expedition-to-deploy-baikal-gvd-telescope-completed/));
+IHEP's slides give 24 modules for March 2025. January 2025, South China Sea:
+four detector units and one LED calibration unit placed at 1600 m and connected to
+the national seafloor observation network
+([Science and Technology Daily, 5 February 2025](https://www.stdaily.com/web/gdxw/2025-02/05/content_293176.html)).
+The 2026 plan includes another HUNT prototype string (JINR weekly, 5 March 2026).
+
+Baikal-GVD: 16 clusters and 0.8 cubic kilometres effective volume in 2026
+([Baikal-GVD](https://baikal-gvd.jinr.ru/telescope)); after the 2025 expedition
+JINR quoted 0.7 cubic kilometres and set one cubic kilometre as the goal for 2028.
+Effective volume (GVD) and instrumented volume (HUNT) are different quantities; the
+cubes compare only the stated sizes.
+
+Why Baikal. Deployment from the ice cover in winter has been the basis of the
+Baikal technique since NT-200 (slide on Baikal beginnings). Light scatters less in
+lake water than in Antarctic ice, which sharpens cascade directions. For example,
+the eight Baikal-GVD cascades above 200 TeV have 50%-containment radii of
+1.6–3.3 degrees ([ApJ 982, 73 (2025), Table 1](https://arxiv.org/abs/2411.05608)),
+whereas the 2013 IceCube contained showers had a typical median angular resolution
+of 10–15 degrees ([Science 342 (2013)](https://arxiv.org/abs/1311.5238v2)).
+Treat this as an illustration only: the samples, energies, reconstructions and
+definitions differ, and IceCube's cascade reconstruction has improved since. The 75% is the fraction of a sidereal day the Galactic Centre spends
+below the horizon at the Baikal site (geometry only; see the sky-coverage tab).
+LHAASO, in the Northern Hemisphere, detects ultra-high-energy gamma-ray sources
+in the Galactic plane, natural neutrino targets. Alerts and follow-up for GVD:
+say only that this work is in progress.
+
+Figure generator, tests and the full milestone table: `assets/prospects/`.
+:::

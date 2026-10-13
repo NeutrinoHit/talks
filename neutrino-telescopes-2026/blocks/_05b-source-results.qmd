@@ -1,0 +1,477 @@
+## NGC 1068 and X-ray-bright AGN {#ngc-1068}
+
+:::::: {.panel-tabset}
+
+### Direction
+
+::::: {.columns}
+::: {.column width="42%"}
+![](media/source-results/ngc1068-hubble-2025.jpg){.slide-media .nostretch style="--media-max-height: 510px;" fig-alt="Actual Hubble ultraviolet and optical observations of the spiral galaxy Messier 77, NGC 1068, showing its bright nucleus and dusty spiral arms."}
+
+::: {.media-caption}
+ESA/Hubble & NASA, L. C. Ho, D. Thilker
+:::
+:::
+::: {.column width="38%"}
+![](media/source-results/ngc1068-neutrino-scan-2026-dark.svg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Redrawn latest IceCube fine scan around NGC 1068: local significance map, 68% and 95% contours and the galaxy position. The significance of a preselected catalogue source differs from the significance of an all-sky search."}
+:::
+::: {.column width="16%"}
+**13.1 years**
+
+$$4.0\sigma$$
+
+After catalogue trials.
+
+**Seyfert 2**
+
+A dust-obscured active nucleus.
+:::
+:::::
+
+::: {.media-caption}
+[Hubble (2025)](https://esahubble.org/images/potw2515a/) · IceCube Collaboration · Redrawn from [2026 analysis, Fig. 2](https://arxiv.org/abs/2510.13403)
+:::
+
+### Photons and neutrinos
+
+::::: {.columns}
+::: {.column width="69%"}
+![](media/source-results/ngc1068-multimessenger-2022-dark.svg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Redrawn NGC 1068 spectral energy distribution from the 2022 IceCube paper: archival photon measurements, Fermi and MAGIC points or limits, the 2022 muon-neutrino fit and two theoretical core models."}
+:::
+::: {.column width="27%"}
+**Blue:** 2022 neutrino fit.
+
+**Orange:** gamma-ray data and limits.
+
+**Violet:** core models.
+
+The photon spectrum constrains where pion production can occur.
+:::
+:::::
+
+::: {.media-caption}
+Historical comparison · $\nu_\mu+\bar\nu_\mu$, $95\%$ fit band · Redrawn from [IceCube, Science (2022), Fig. 4](https://arxiv.org/abs/2211.09972v1)
+:::
+
+### Neutrino spectrum
+
+![](media/source-results/xray-agn-spectra-dark.svg){.slide-media .nostretch style="--media-max-height: 550px;" fig-alt="Redrawn IceCube all-flavour spectra of the strongest X-ray-bright AGN, including NGC 1068, compared with the all-sky diffuse neutrino flux. Source spectra and the diffuse spectrum retain the publication's normalization conventions."}
+
+::: {.media-caption}
+All flavours · NGC 1068: $\Phi_\nu(E)\propto E^{-\gamma}$, $\gamma=3.4\pm0.2$ · [IceCube Collaboration](https://arxiv.org/abs/2510.13403) · Redrawn from the vector artwork
+:::
+
+### X-ray population
+
+::::: {.columns}
+::: {.column width="68%"}
+![](media/source-results/xray-agn-population-dark.svg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Redrawn IceCube binomial test of 47 X-ray-bright AGN, with NGC 1068 excluded: ordered local source p-values and the binomial probability of source subsets, with the most significant subset of 11 marked."}
+:::
+::: {.column width="29%"}
+**47 X-ray-bright AGN**
+
+NGC 1068 excluded.
+
+**11-source ensemble**
+
+$$3.3\sigma$$
+
+After population trials.
+:::
+:::::
+
+::: {.media-caption}
+Population evidence, not 11 individually established sources · [IceCube Collaboration](https://arxiv.org/abs/2510.13403) · Redrawn from the vector artwork
+:::
+
+::::::
+
+::: {.notes}
+**Say:** The strongest single source so far is not a blazar but NGC 1068 — a nearby galaxy whose bright core is hidden by dust. Similar X-ray-bright galaxies seem to shine in neutrinos too.
+
+The Hubble image is an observation, not an image of a resolved neutrino engine.
+The current northern-track analysis covers 13.1 years. NGC 1068 has a best-fit
+102 signal events and spectral index 3.4±0.2. Its local significance is 5.0
+sigma; the 110-source catalogue gives 4.0 sigma after trials, while the
+northern-sky scan gives 1.4 sigma after sky trials. The 4.2-sigma catalogue
+value belongs to the 2022 result, not this updated analysis.
+
+Allow about three minutes: the directional excess, Photons and neutrinos,
+then the X-ray population. The current all-flavour spectral comparison is
+optional.
+
+The photon comparison redraws the 2022 figure from its vector artwork, with a
+muon-neutrino plus antineutrino fit, not the 2026 all-flavour spectrum. Its blue
+band is 95% confidence within 1.5–15 TeV, the well-constrained range of that
+analysis. Grey points are archival photon measurements; orange marks the
+4FGL-DR2 Fermi points and the Fermi and MAGIC upper limits (arrows). The violet
+band and violet curve are the two theoretical core models (Inoue et al. band,
+Murase et al. curve), shortened to "core models" in the legend.
+Compare observed high-energy photons with the neutrino component under a hadronic
+production hypothesis, then recall internal absorption and reprocessing. Dust
+obscuration of a Seyfert nucleus does not alone establish gamma-gamma opacity
+or a neutrino production site. No direct spatial localization of the corona
+is claimed.
+
+The spectral figure retains its source/all-flavour and diffuse-flux conventions.
+Bands are fitted uncertainties, not measurements of the emission location.
+The excess at TeV energies and weak high-energy gamma-ray emission motivate
+opaque-core/corona models. The production region has not been spatially resolved.
+
+The separate X-ray catalogue contains 47 sources and excludes NGC 1068.
+Its most significant ensemble contains 11 sources and gives 3.3 sigma after
+the population trials. The ensemble includes individually weak directions;
+it is not a catalogue of eleven discoveries. A complementary southern
+starting-track analysis of 14 Seyferts reports 3.0-sigma stacking evidence.
+These sample definitions and significances cannot be added as independent
+Gaussian measurements without accounting for their analyses and overlaps.
+
+[2022 photon comparison](https://arxiv.org/abs/2211.09972v1);
+[Northern AGN analysis](https://arxiv.org/abs/2510.13403);
+[Southern Seyfert analysis](https://arxiv.org/abs/2602.10208);
+[NGC 1068 models](https://arxiv.org/abs/2202.03381).
+:::
+
+## Blazars: TXS 0506+056 and radio-bright jets {#txs-0506}
+
+:::::: {.panel-tabset}
+
+### 2017 alert
+
+::::: {.columns}
+::: {.column width="65%"}
+<video class="slide-video" style="--media-max-height: 570px;" controls muted playsinline preload="metadata" poster="media/source-results/icecube-170922a.jpg" src="media/source-results/icecube-170922a.mp4" aria-label="Recorded IceCube-170922A event: coloured DOM signals along the reconstructed muon track."></video>
+:::
+::: {.column width="32%"}
+**22 September 2017**
+
+IceCube-170922A
+
+**Most probable energy**
+
+$$E_\nu\sim290\,\mathrm{TeV}$$
+
+**Fermi-LAT + MAGIC**
+
+A flaring blazar in the neutrino direction.
+
+$\sim3\sigma$ association
+:::
+:::::
+
+::: {.media-caption}
+IceCube Collaboration · [Multimessenger observations, Science (2018)](https://arxiv.org/abs/1807.08816)
+:::
+
+### GVD 2021
+
+::::: {.columns}
+::: {.column width="62%"}
+![](media/source-results/txs-baikal-directions-dark.svg){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="Redrawn sky localization of the Baikal-GVD 2021 cascade, IceCube-170922A and TXS 0506+056; the Baikal angular uncertainty is broad and includes the blazar."}
+:::
+::: {.column width="35%"}
+**18 April 2021**
+
+A cascade in Lake Baikal, from below the horizon.
+
+$$E_{\rm sh}\simeq224\,\mathrm{TeV}$$
+
+The blazar lies inside its error circle.
+
+**A candidate, not a proof.**
+:::
+:::::
+
+::: {.media-caption}
+Baikal-GVD Collaboration · Redrawn from [TXS 0506+056 candidate, ICRC 2023, Fig. 3](https://arxiv.org/abs/2308.13686v1); IceCube contour digitized
+:::
+
+### Radio flares
+
+![](media/source-results/txs-radio-gamma-2023-dark.svg){.slide-media .nostretch style="--media-max-height: 500px;" fig-alt="Redrawn light curves of TXS 0506+056, 2010–2022: Fermi-LAT gamma-ray flux as white points and RATAN-600 11 GHz radio flux as orange diamonds with a fitted sum of flares. Dashed vertical lines mark IceCube-170922A and GVD210418CA; a shaded band marks the 2014–2015 IceCube low-energy excess."}
+
+Both neutrinos arrived as a strong radio flare began.
+
+::: {.media-caption}
+White: Fermi-LAT gamma rays · Orange: RATAN-600, 11 GHz, and fitted flares · Dashed: neutrino arrivals · Digitized from [Baikal-GVD, ICRC 2023, Fig. 4](https://arxiv.org/abs/2308.13686v1)
+:::
+
+### Radio blazars
+
+::::: {.columns}
+::: {.column width="63%"}
+![](media/source-results/radio-blazars-sky-2020-dark.svg){.slide-media .nostretch style="--media-max-height: 480px;" fig-alt="Recoloured sky map in equatorial coordinates: IceCube events above 200 TeV as blue error ellipses, VLBI-selected active galaxies inside them as stars coloured by 8 GHz parsec-scale flux density, other sample members as grey dots; four strongest associations and TXS 0506+056 labelled."}
+:::
+::: {.column width="35%"}
+**IceCube events above 200 TeV**
+
+Blazars with bright parsec-scale radio cores sit inside their error regions more often than chance allows.
+
+![](media/source-results/radio-blazars-vlbi-flux-2020-dark.svg){.slide-media .nostretch style="--media-max-height: 170px;" fig-alt="Redrawn comparison of the average 8 GHz VLBI flux density of AGN inside IceCube error regions, an orange triangle, with the 68% interval for randomly shifted events, a blue bar."}
+
+Post-trial $p=2\times10^{-3}$
+
+**Still debated:** an IceCube search with its alert events finds no significant correlation.
+:::
+:::::
+
+::: {.media-caption}
+A. V. Plavin, Y. Y. Kovalev, Y. A. Kovalev, S. V. Troitsky · Redrawn from [ApJ 894, 101 (2020), Figs. 1 and 3](https://arxiv.org/abs/2001.00930v3) · [ICRC 2021](https://arxiv.org/abs/2112.09053) · [IceCube (2023)](https://arxiv.org/abs/2304.12675)
+:::
+
+### 2014–15 flare
+
+![](media/source-results/txs-archival-flare-2018-dark.svg){.slide-media .nostretch style="--media-max-height: 440px;" fig-alt="Redrawn IceCube archival flare plot: event weights versus time in 2012–2015, coloured by muon-energy proxy, with the fitted box and Gaussian flare profiles. This is the historical 2018 analysis."}
+
+::::: {.columns}
+::: {.column width="48%"}
+$13\pm5$ excess events · $3.5\sigma$
+:::
+::: {.column width="48%"}
+No matching strong gamma-ray flare.
+:::
+:::::
+
+::: {.media-caption}
+Historical 2018 analysis · Redrawn from [IceCube Collaboration, Science (2018), Fig. 2](https://arxiv.org/abs/1807.08794)
+:::
+
+### Reprocessed
+
+::::: {.columns}
+::: {.column width="48%"}
+**Original processing**
+
+![](media/source-results/txs-original-directions-dark.svg){.slide-media .nostretch style="--media-max-height: 430px;" fig-alt="Event directions, one-sigma angular uncertainties and reconstructed-energy proxies around TXS 0506+056 using the original Point Source Tracks processing, redrawn from the 2023 IceCube reconstruction comparison."}
+:::
+::: {.column width="48%"}
+**Updated processing**
+
+![](media/source-results/txs-updated-directions-dark.svg){.slide-media .nostretch style="--media-max-height: 430px;" fig-alt="The corresponding TXS 0506+056 event directions, one-sigma angular uncertainties and reconstructed-energy proxies with Northern Tracks v5 processing. Two cascade-like events are removed."}
+:::
+:::::
+
+Two cascade-like events removed; a smaller fitted excess.
+
+::: {.media-caption}
+Same flare, revised event sample · [IceCube, ICRC 2023](https://arxiv.org/abs/2307.14559) · Both panels redrawn from the vector artwork
+:::
+
+::::::
+
+::: {.notes}
+**Say:** Blazars — galaxies whose jets point straight at us — are the second suspect: a famous alert in 2017, a Baikal neutrino from the same direction in 2021, both at the start of radio flares, and radio astronomers finding that neutrinos like the brightest radio jets.
+
+Allow about three minutes: 2017 alert, GVD 2021, Radio flares and Radio
+blazars. The tabs 2014–15 flare and Reprocessed are reserve.
+
+2017 alert: IceCube-170922A triggered the electromagnetic follow-up. The movie
+shows the recorded DOM signals and reconstructed muon track, not simulated photon
+trajectories. The most probable parent energy is about 290 TeV under the source
+paper's spectral assumption, not a calorimetric measurement. The approximately
+3-sigma association concerns the neutrino and the flaring blazar.
+
+GVD 2021: GVD210418CA, the highest-energy upward-going GVD cascade at the
+time, eight clusters operating. Shower energy 224 TeV; the paper's ±75 TeV is a
+three-sigma interval. The 90% directional containment radius is 6.2 degrees and
+contains TXS 0506+056. These radii (50% 3.4°, 90% 6.2°) are those of the 2023
+analysis and its figure; Table 1 of the 2025 Galactic paper lists r90 = 5.8° for
+the same cascade from a later reconstruction, so the two numbers differ. Atmospheric-background probability 0.0033 for the event's
+energy, hits and direction; signalness 97.1% for an E^-2.46 astrophysical
+spectrum. The chance that one such cascade falls this close to TXS is below 0.8%.
+These are not posterior probabilities that TXS produced it; a single event
+cannot establish the origin. The same cascade is one of the eight GVD events
+of the Galactic analysis.
+
+Radio flares: Fermi-LAT gamma rays (white) and RATAN-600 11 GHz radio (orange
+diamonds; thick line the fitted sum, thin dotted lines the three flares and the
+baseline; grey line the median gamma-ray flux), digitized from the original. IceCube-170922A and GVD210418CA both arrived
+near the start of large radio flares; the 2014–15 excess had no gamma-ray flare.
+The authors stress that an a posteriori chance probability is hard to define.
+
+Radio blazars: 56 IceCube events above 200 TeV and a complete
+VLBI-flux-limited AGN sample at 8 GHz. AGN inside the error regions (enlarged
+by 0.5 degrees for systematics) have stronger parsec-scale cores; post-trial
+chance probability p = 2e-3 (0.2%). Four strongest associations: 3C 279,
+NRAO 530, PKS 1741−038, PKS 2145+067. The 2021 ICRC update adds lower-energy
+IceCube sky-map information and quotes a joint chance probability 4e-5 (4.1
+sigma). RATAN-600 monitoring shows radio flares near neutrino arrival times,
+most clearly PKS 1502+106. Independent tests differ: an analysis of the IceCube
+ten-year release and the IceCube real-time alert search with radio-bright AGN
+(arXiv:2304.12675) found no significant correlation. The slide states this
+explicitly: evidence under debate, not an established population. IceCube
+reports that adding more event information and more data makes the result
+compatible with background.
+
+Reserve, archival flare: separate 2014–2015 dataset; Gaussian time-profile
+analysis found 13±5 signal events in a roughly 110-day flare, 3.5 sigma after
+time-search trials. Marker height is an event weight, not a count or light curve.
+Reserve, updated reconstruction: the 2023 reprocessing changes directions,
+uncertainties, classifications and likelihood weights; two cascade-like events
+are excluded. The pre-trial p-value becomes 1e-3 instead of 7e-5, and the fitted
+flux is roughly halved. These p-values exclude the seasons/livetime trial factor
+and are not comparable to the historical trial-corrected 3.5 sigma.
+
+[2017 association](https://arxiv.org/abs/1807.08816);
+[Archival flare](https://arxiv.org/abs/1807.08794);
+[Updated reconstruction](https://arxiv.org/abs/2307.14559);
+[Baikal-GVD candidate](https://arxiv.org/abs/2308.13686v1);
+[Plavin et al., ApJ 894, 101 (2020)](https://arxiv.org/abs/2001.00930v3);
+[Plavin et al., ICRC 2021](https://arxiv.org/abs/2112.09053);
+[IceCube radio-AGN alert search](https://arxiv.org/abs/2304.12675).
+:::
+
+## KM3-230213A: an ultra-high-energy event {#km3-230213a}
+
+:::::: {.panel-tabset}
+
+### The event
+
+::::: {.columns}
+::: {.column width="69%"}
+<video class="slide-video" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="media/events/km3-230213a.jpg" src="media/events/km3-230213a.mp4" aria-label="Official KM3NeT event display of KM3-230213A, recorded by ARCA on 13 February 2023."></video>
+:::
+::: {.column width="28%"}
+**13 February 2023**
+
+ARCA · 21 detection units
+
+**Parent neutrino**
+
+$$E_\nu\sim220\,\mathrm{PeV}$$
+
+Nearly horizontal.
+
+No identified counterpart.
+:::
+:::::
+
+::: {.media-caption}
+KM3NeT Collaboration · [Nature (2025)](https://doi.org/10.1038/s41586-024-08543-1)
+:::
+
+### From light to energy
+
+::::: {.columns}
+::: {.column width="57%"}
+![](media/source-results/km3-energy-intervals-dark.svg){.slide-media .nostretch style="--media-max-height: 470px;" fig-alt="Energy intervals of KM3-230213A drawn from the published numbers: the muon energy at the detector, 120 PeV with a 68 percent interval of 60 to 230 PeV, and the inferred parent-neutrino energy, median 220 PeV with a 68 percent interval of 110 to 790 PeV, assuming an E to the minus 2 spectrum. Whiskers show 90 percent intervals."}
+:::
+::: {.column width="39%"}
+**Muon at the detector**
+
+$$E_\mu=120^{+110}_{-60}\,\mathrm{PeV}$$
+
+$68\%$ confidence interval
+
+**Parent neutrino**
+
+Median: $220\,\mathrm{PeV}$
+
+Central $68\%$: $110–790\,\mathrm{PeV}$
+
+Assuming $\Phi_\nu(E)\propto E^{-2}$.
+:::
+:::::
+
+::: {.media-caption}
+Drawn from the numbers in the text of [KM3NeT, Nature (2025)](https://doi.org/10.1038/s41586-024-08543-1) · Their Fig. 2 (CC BY-NC-ND) is kept unmodified for questions
+:::
+
+::::::
+
+::: {.notes}
+**Say:** In 2023 KM3NeT, still a fraction of its final size, recorded the most energetic neutrino ever seen — hundreds of PeV. Where it came from is still open.
+
+Allow about 90 seconds: The event, then From light to energy.
+ARCA had 21 detection units when the event occurred, not its current installed
+configuration. The movie shows recorded PMT signals and a reconstructed track;
+its cone is an artistic guide, not measured photon trajectories. The tab's
+diagram is drawn from the published numbers only (assets/km3-energy); the
+Nature Fig. 2 itself (simulated triggered-PMT distributions for 10, 100 and
+1000 PeV muons) is licensed CC BY-NC-ND 4.0 and is kept unmodified as
+media/source-results/km3-energy-calibration.png for questions. The event triggered 3672 PMTs, about
+35% of active PMTs, allowing comparison with simulations of matched muon
+direction and position. Optical-property and detection-efficiency uncertainties
+enter the inference. The muon-energy 90% confidence interval is 35–380 PeV.
+
+The parent-neutrino distribution is conditional on the inferred muon and an
+E^-2 incident spectrum. Median 220 PeV; central 68% range 110–790 PeV, central
+90% range 72 PeV–2.6 EeV. It is not a direct neutrino calorimetric measurement.
+The reconstructed direction is RA 94.3 degrees, declination −7.8 degrees;
+the published 68% directional containment radius is 1.5 degrees. This is the
+2025 analysis, not a claim of a later positional recalibration.
+
+An astrophysical accelerator and a cosmogenic neutrino produced during
+ultra-high-energy cosmic-ray propagation are alternative interpretations.
+No counterpart is established. Diffuse-flux comparisons with IceCube depend
+on assumed spectrum, sky distribution and exposure, rather than implying an
+unconditional contradiction between detectors.
+
+[KM3NeT observation](https://doi.org/10.1038/s41586-024-08543-1);
+[Global flux analysis](https://arxiv.org/abs/2502.08173).
+:::
+
+## Point-source searches: Baikal-GVD {#source-limits}
+
+:::::: {.panel-tabset}
+
+### Source limits
+
+**988 tracks · 92 directions · April 2019–March 2024**
+
+![](media/source-results/baikal-source-limits-e2.svg){.slide-media .nostretch style="--media-max-height: 460px;" fig-alt="The 92 Baikal-GVD E^-2 source flux limits from published Table 1, drawn versus sine of declination at 90% confidence. NGC 1068, TXS 0506+056 and the KM3-230213A direction are highlighted. This graph contains only observed source limits, not a new sensitivity calculation."}
+
+::: {.media-caption}
+$E^{-2}$ spectrum · $90\%$ CL · No significant catalogue excess · [Baikal-GVD (2026), Table 1](https://arxiv.org/abs/2603.21261v2)
+:::
+
+Real-time alerts and multimessenger follow-up with Baikal-GVD: work in progress.
+
+### Spectral assumptions
+
+![](media/source-results/baikal-source-limits-dark.svg){.slide-media .nostretch style="--media-max-height: 550px;" fig-alt="Redrawn Baikal-GVD figure 2: 90% source limits and median expected sensitivities for spectral indices 2, 2.5 and 3.2. Symbols are limits; solid curves are sensitivities."}
+
+::: {.media-caption}
+Symbols: source limits · Lines: expected sensitivity · [Baikal-GVD (2026), Fig. 2](https://arxiv.org/abs/2603.21261v2) · Limits from Table 1, sensitivities redrawn from the vector artwork
+:::
+
+### Comparison with ANTARES
+
+![](media/source-results/baikal-antares-limits-dark.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Redrawn comparison of Baikal-GVD and ANTARES 90% point-source limits for E^-2 and E^-2.5 spectra, with the declination axis of the original. This compares selected analysis samples, not equal-volume instruments."}
+
+::: {.media-caption}
+Matched spectral assumptions · [Baikal-GVD Collaboration (2026), Fig. 3](https://arxiv.org/abs/2603.21261v2) · Redrawn from the vector artwork; Baikal-GVD limits from Table 1
+:::
+
+::::::
+
+::: {.notes}
+**Say:** Baikal-GVD now looks for individual sources with muon tracks. No source stands out yet; the detector grows every year, and so does its reach.
+
+Spend about one minute on Source limits. The spectral-assumption and ANTARES
+comparisons are reserve material.
+This first track-based GVD catalogue search uses 988 upward-going single-cluster
+events from April 2019 to March 2024, about 30 cluster-years and 1.5 km3-years.
+Typical angular resolution is about 0.5 degrees. No catalogue excess remains
+significant after trials. The figure's 2019–2023 label refers to seasons.
+
+The first graph reproduces the 92 published Table 1 values for E^-2 sources,
+with the original gamma=2 normalization multiplied by 1e-8. For that spectrum,
+the numerical normalization at 1 GeV equals E^2 Phi in GeV cm^-2 s^-1.
+No fitted sensitivity curve or recomputed confidence interval is added.
+The Spectral assumptions tab redraws figure 2 with all three spectra: limits
+are the Table 1 values (column scales 1e-8, 1e-6, 1e-3 confirmed against the
+plotted markers), the sensitivity curves are read from the vector artwork. Symbols are source limits; solid curves are median expected 90%-confidence
+upper limits under the background-only hypothesis. The spectral index is an
+assumption, not a measured property of each source. The normalization refers
+to nu_mu+anti-nu_mu before Earth attenuation. Efficiency systematic uncertainty
+is not included in these quoted limits. Exposure and event selections differ
+from IceCube and ANTARES; absence of a significant GVD source excess does not
+contradict the higher-exposure IceCube NGC 1068 result.
+
+The comparison tab redraws figure 3: ANTARES 15-year limit markers read from
+the vector artwork, GVD limits from Table 1, the same spectral assumptions. A sensitivity is not an observed limit
+and a discovery potential is another statistical quantity.
+
+[Baikal-GVD source search](https://arxiv.org/abs/2603.21261v2).
+:::

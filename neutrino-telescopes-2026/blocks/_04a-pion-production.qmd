@@ -1,0 +1,93 @@
+## Neutrinos from pion decay {#pion-production}
+
+:::::: {.panel-tabset}
+
+### Pion decays
+
+$$pp\ \text{or}\ p\gamma\ \longrightarrow\pi^\pm,\,\pi^0+X$$
+
+::::: {.columns}
+::: {.column width="57%"}
+**Charged pion and muon**
+
+$$
+\begin{aligned}
+\pi^+&\to\mu^++\nu_\mu\\[0.5em]
+\mu^+&\to e^++\nu_e+\bar\nu_\mu
+\end{aligned}
+$$
+:::
+::: {.column width="39%"}
+**Neutral pion**
+
+$$\pi^0\to\gamma+\gamma$$
+
+Neutrinos and photons share the pion-production energy budget.
+:::
+:::::
+
+::: {.media-caption}
+Charge-conjugate chain for $\pi^-$ · [Ahlers & Halzen (2018)](https://arxiv.org/abs/1805.11112)
+:::
+
+### Parent proton energy
+
+<span id="parent-particle-energy"></span>
+
+$$
+E_p\ \xrightarrow{\ \sim1/5\ } E_\pi
+\ \xrightarrow{\ \sim1/4\ } E_\nu
+\qquad\Longrightarrow\qquad E_p\sim20E_\nu
+$$
+
+| Neutrino | Characteristic parent proton |
+|:---|:---|
+| $10\,\mathrm{TeV}$ | $\sim200\,\mathrm{TeV}$ |
+| $100\,\mathrm{TeV}$ | $\sim2\,\mathrm{PeV}$ |
+| $1\,\mathrm{PeV}$ | $\sim20\,\mathrm{PeV}$ |
+
+::: {.media-caption}
+Same frame · Negligible pion/muon cooling · A scale estimate, not an event-by-event conversion
+:::
+
+### Photons and neutrinos
+
+$$pp:\quad N_{\pi^+}:N_{\pi^-}:N_{\pi^0}\simeq1:1:1$$
+
+$$
+E_\nu^2\Phi_\nu(E_\nu)\simeq\frac32 E_\gamma^2\Phi_\gamma(E_\gamma),
+\qquad E_\gamma\simeq2E_\nu
+$$
+
+**At production:** $pp$ benchmark, all neutrino flavours and both signs.
+
+Photon absorption and cascading modify the comparison with observed spectra.
+
+::: {.media-caption}
+[Ahlers & Halzen (2018), Eq. 3](https://arxiv.org/abs/1805.11112)
+:::
+
+::::::
+
+::: {.notes}
+Allow about 90 seconds for Pion decays and Parent proton energy. The inclusive
+production equation describes a pion population, not every charge in each
+collision. The pi-minus chain is charge conjugate. With negligible cooling,
+the source flavour ratio summed over signs is approximately 1:2:0; propagation
+mixes flavours. The table is a characteristic hadronic energy scale.
+
+The approximate 0.2 pion fraction and 0.25 neutrino fraction do not determine
+the parent energy of an individual event. Inclusive yields, target spectra,
+primary nuclei and secondary cooling affect the distribution. All energies
+must be compared in the same frame. For a moving source,
+E_nu,obs = delta E_nu,comoving/(1+z), so the illustrative comoving parent scale
+is approximately 20(1+z)E_nu,obs/delta.
+
+The optional photon relation uses differential number fluxes. Phi_nu sums
+all flavours and signs, and Phi_gamma is the pionic photon flux before
+absorption. Approximately isospin-symmetric pp yields give K_pi about 2,
+so 3K_pi/4 is about 3/2. A p-gamma benchmark can have a different K_pi.
+The observed gamma-ray budget is treated after the measured neutrino spectrum.
+
+Source: [Ahlers & Halzen (2018)](https://arxiv.org/abs/1805.11112).
+:::

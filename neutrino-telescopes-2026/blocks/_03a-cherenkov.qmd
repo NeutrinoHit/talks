@@ -23,9 +23,7 @@ Gold: charge. Blue circles: wavefronts. White: common front. Cyan arrows: light.
 
 <img class="slide-media media-height-md" style="--media-max-height: 440px;" src="media/principles/cherenkov-slow-fast.svg" alt="Same-age wavefronts: below threshold the circles are nested; above threshold they share a tangent front behind the particle.">
 
-::: {.takeaway}
 The charge disturbs the medium. A fast charge leaves a common wavefront behind.
-:::
 
 ### Which way does light go?
 
@@ -42,9 +40,7 @@ $$
 ::::::
 
 ::: {.notes}
-Use the new 40-second English film from
-dvnanima/cherenkov_radiation/cherenkov_radiation.py. The former movie with
-the angle graph and detector ring has been retired.
+The 40-second film illustrates four constant-speed wavefront constructions.
 
 Four steps:
 0–10 s: beta=0.55 below threshold, four wavefronts stay nested.
@@ -82,10 +78,7 @@ wavelength dependence, absorption, scattering or detector response is
 computed. Real photon travel times require a group index distinct from the
 phase index; connect that distinction to slide 12 if asked.
 
-The detailed kinetic thresholds and the old ring construction are optional
-background, not visible-slide material: for n=1.33 the electron kinetic
-threshold is 0.264 MeV and the muon threshold is 54.6 MeV. The ideal ring in
-the old movie was a point-emission cone cut by a perpendicular screen, not
-a neutrino-telescope hit pattern. Source/provenance:
+For reference: for n=1.33 the electron kinetic
+threshold is 0.264 MeV and the muon threshold is 54.6 MeV. Source/provenance:
 media/principles/SOURCES.md and dvnanima/cherenkov_radiation/README.md.
 :::

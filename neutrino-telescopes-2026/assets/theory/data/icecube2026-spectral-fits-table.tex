@@ -1,0 +1,113 @@
+
+
+\begin{table*}[htbp]
+\centering
+\caption{Results for the spectral models tested in both analyses. The uncertainties are derived from 1D profile likelihood scans, assuming Wilks' theorem applies. We show the preference over the single power-law hypothesis in terms of the test statistic $\mathrm{TS}=-2 \Delta \mathrm{ln} \mathcal{L}$, where $\mathcal{L}$ is the likelihood value at the best fit for the given model. The form of the tested model for the total flux, $\Phi_{\nu+\bar{\nu}}$, is included in the table, and is measured in units of $\rm{10^{-18}/GeV/cm^2/s/sr}$. Here $\Lambda=\frac{E_{\nu}}{100\, \mathrm{TeV}}$,
+$\gamma_{\mathrm{BPL}}=\left\{
+\begin{array}{c}
+       \gamma_1\, , (E_{\nu} < E_{\mathrm{break}})\\
+       \gamma_2\, , (E_{\nu} > E_{\mathrm{break}})
+\end{array}\right.$,
+and $\phi_{0,\mathrm{broken}}=\phi_{0}\left\{
+\begin{array}{c}
+       \left(E_{\mathrm{break}}/100\,\mathrm{TeV}\right)^{-\gamma_1}\, , (E_{\mathrm{break}} > 100\,\mathrm{TeV})\\
+       \left(E_{\mathrm{break}}/100\,\mathrm{TeV}\right)^{-\gamma_2}\, , (E_{\mathrm{break}} \leq 100\,\mathrm{TeV})
+\end{array}\right.$.
+All fluxes are normalized at \SI{100}{TeV}.
+}
+
+\label{tab:results}
+\renewcommand{\arraystretch}{1.6}
+\setlength\tabcolsep{0.8em}
+\small
+
+\begin{tabularx}{\linewidth}{c|c|c|c|c}
+ & \multicolumn{4}{c}{Astrophysical model} \\ \cline{2-5} 
+Analysis & \makecell[tc]{SPL\\$\left[
+\phi_0 (\Lambda)^{-\gamma}\right]$ } & 
+\makecell[tc]{SPE\\
+$\left[
+\phi_0 (\Lambda)^{-\gamma} e^{\frac{-E_{\nu}}{E_\mathrm{cutoff}}}\right]$
+}
+& 
+\makecell[tc]{BPL\\$\left[
+\phi_{0,\mathrm{broken}}(\frac{E_{\nu}}{E_{\mathrm{break}}})^{-\gamma_{\mathrm{BPL}}}\right]$
+}
+& 
+\makecell[tc]{LP\\
+$\left[
+\phi_0 (\Lambda)^{-\alpha_\mathrm{LP}-\beta_\mathrm{LP}\log_{10}(\Lambda)
+}\right]$
+}
+ \\ 
+\cline{1-5} 
+MESE & 
+\begin{tabular}[t]{@{} l l @{}}
+    $\phi_0$ & $= 2.13^{+0.18}_{-0.17}$ \\
+    $\gamma$ & $= 2.55^{+0.04}_{-0.04}$
+\end{tabular} & 
+\begin{tabular}[t]{@{} l l @{}}
+    $\phi_0$ & $= 3.98^{+1.14}_{-1.32}$ \\
+    $\gamma$ & $= 2.16^{+0.23}_{-0.16}$ \\
+    $\log_{10}(\frac{E_\mathrm{cutoff}}{\mathrm{GeV}})$ & $= 5.40^{+0.51}_{-0.23}$ \\
+    % $-2 \Delta \mathrm{log} \mathcal{L}$ & $= 1.8$
+\end{tabular} & 
+\begin{tabular}[t]{@{} l l @{}}
+    $\phi_0$ & $= 2.28^{+0.22}_{-0.20}$ \\
+    $\gamma_1$ & $= 1.72^{+0.26}_{-0.35}$ \\
+    $\gamma_2$ & $= 2.84^{+0.11}_{-0.09}$ \\
+    $\log_{10}(\frac{E_\mathrm{break}}{\mathrm{GeV}})$ & $= 4.52^{+0.11}_{-0.09}$ \\
+\end{tabular} & 
+\begin{tabular}[t]{@{} l l @{}}
+    $\phi_0$ & $= 2.58^{+0.26}_{-0.26}$ \\
+    $\alpha_\mathrm{LP}$ & $= 2.67^{+0.13}_{-0.06}$ \\
+    $\beta_\mathrm{LP}$ & $= 0.36^{+0.10}_{-0.08}$ \\
+\end{tabular} \\ \cline{2-5} 
+ &
+ & 
+\begin{tabular}[t]{@{} l l @{}}
+$-2 \Delta \mathrm{ln} \mathcal{L}$ & $= 1.8$
+\end{tabular} & 
+\begin{tabular}[t]{@{} l l @{}}
+$-2 \Delta \mathrm{ln} \mathcal{L}$ & $= 27.3$
+\end{tabular} & 
+\begin{tabular}[t]{@{} l l @{}}
+$-2 \Delta \mathrm{ln} \mathcal{L}$ & $= 18.8$
+\end{tabular}\\ \cline{1-5} 
+CF & 
+\begin{tabular}[t]{@{} l l @{}}
+    $\phi_0$ & $= 1.80^{+0.13}_{-0.16}$ \\
+    $\gamma$ & $= 2.52^{+0.04}_{-0.04}$
+\end{tabular} & 
+\begin{tabular}[t]{@{} l l @{}}
+    $\phi_0$ & $= 2.20^{+0.30}_{-0.25}$ \\
+    $\gamma$ & $= 2.39^{+0.08}_{-0.08}$ \\
+    $\log_{10}(\frac{E_\mathrm{cutoff}}{\mathrm{GeV}})$ & $= 6.15^{+0.37}_{-0.24}$ \\
+    % 
+\end{tabular} & 
+\begin{tabular}[t]{@{} l l @{}}
+    $\phi_0$ & $= 1.77^{+0.15}_{-0.11}$ \\
+    $\gamma_1$ & $= 1.31^{+0.50}_{-1.21}$ \\
+    $\gamma_2$ & $= 2.74^{+0.06}_{-0.07}$ \\
+    $\log_{10}(\frac{E_\mathrm{break}}{\mathrm{GeV}})$ & $= 4.39^{+0.09}_{-0.08}$ \\
+    % 
+\end{tabular} & 
+\begin{tabular}[t]{@{} l l @{}}
+    $\phi_0$ & $= 2.13^{+0.16}_{-0.19}$ \\
+    $\alpha_\mathrm{LP}$ & $= 2.57^{+0.06}_{-0.05}$ \\
+    $\beta_\mathrm{LP}$ & $= 0.23^{+0.10}_{-0.07}$ \\
+    % 
+\end{tabular}\\ \cline{2-5}
+ &
+ & 
+\begin{tabular}[t]{@{} l l @{}}
+$-2 \Delta \mathrm{ln} \mathcal{L}$ & $= 7.5$
+\end{tabular} & 
+\begin{tabular}[t]{@{} l l @{}}
+$-2 \Delta \mathrm{ln} \mathcal{L}$ & $= 24.7$
+\end{tabular} & 
+\begin{tabular}[t]{@{} l l @{}}
+$-2 \Delta \mathrm{ln} \mathcal{L}$ & $= 16.4$
+\end{tabular} 
+\end{tabularx}
+\end{table*}

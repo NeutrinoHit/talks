@@ -1,0 +1,108 @@
+## From events to a neutrino flux {#detector-response}
+
+:::::: {.panel-tabset}
+
+### Effective area
+
+::::: {.columns}
+::: {.column width="59%"}
+![](media/response/icecube-directional-area-dark.svg){.slide-media .nostretch style="--media-max-height: 480px;" fig-alt="Illustrative IceCube point-source effective-area curves versus true neutrino energy for three zenith intervals, redrawn from curves digitized from the published review figure. Selection suppresses low-energy downgoing events; Earth absorption suppresses the highest-energy vertically upgoing events."}
+:::
+::: {.column width="37%"}
+**Near the horizon:** short Earth chord.
+
+**Upward:** Earth absorption at high energy.
+
+**Downward:** atmospheric-muon rejection.
+
+$A_{\mathrm{eff}}$ includes interaction, propagation and event selection.
+:::
+:::::
+
+$$
+N=T\sum_\alpha\int dE_\nu\,d\Omega\,
+\Phi_\alpha(E_\nu,\Omega)\,A_{\mathrm{eff},\alpha}(E_\nu,\Omega)
+$$
+
+::: {.media-caption}
+Illustrative point-source selection · Redrawn, digitized from [Spiering (2026), Fig. 6](https://arxiv.org/html/2609.26436)
+:::
+
+### Starting events
+
+::::: {.columns}
+::: {.column width="65%"}
+![](media/response/icecube-hese-2013-effective-area-dark.svg){.slide-media .nostretch style="--media-max-height: 510px;" fig-alt="IceCube 2013 all-sky-averaged effective areas by flavour for contained starting events, in square metres versus neutrino energy in TeV, redrawn from the step histogram digitized from the published figure. The electron-flavour peak at 6.3 PeV is the Glashow resonance."}
+:::
+::: {.column width="31%"}
+**A specific sample**
+
+Start inside the fiducial volume.
+
+Reject early light at the boundary.
+
+The accepted events determine the response used in the flux fit.
+:::
+:::::
+
+::: {.media-caption}
+Historical HESE selection, 2010–2012 · Redrawn, digitized from [IceCube (2013), Fig. 7](https://arxiv.org/abs/1311.5238v2)
+:::
+
+### What energy is measured?
+
+| Event | Light constrains | Parent-neutrino inference |
+|:---|:---|:---|
+| Contained $\nu_e$ CC | Electromagnetic + hadronic deposits | $E_{\mathrm{dep}}\simeq E_\nu$, after response calibration |
+| Through-going $\mu$ | Muon energy losses inside the array | $E_\mu$ at the detector, then a spectrum-dependent $E_\nu$ distribution |
+| Neutral current | Hadronic deposit | $E_{\mathrm{dep}}\sim yE_\nu$; outgoing neutrino is unseen |
+
+**Historical HESE reconstruction (2013):** tracks $<1^\circ$; cascades $10–15^\circ$.
+
+Quoted median angular scales above about $50\,\mathrm{TeV}$. Neutrino–muon kinematics adds a separate spread.
+
+::: {.media-caption}
+$y$: inelasticity · [IceCube reconstruction (2013)](https://arxiv.org/abs/1311.5238v2)
+:::
+
+::::::
+
+::: {.notes}
+Spend about 90 seconds on Effective area. Read the three curves as consequences
+of the Earth and background cuts already discussed. The published review curve
+is illustrative; it is not a current detector-performance comparison. Theta
+is detector zenith, 0 degrees downward and 180 upward. The response depends
+on event selection as well as instrument geometry. Through-going tracks can
+originate outside the instrumented volume.
+
+T is live time, Phi a differential incident intensity per solid angle, and alpha
+indexes the included flavour/sign components. A_eff has area units and already
+includes neutrino interaction, attenuation and analysis efficiency. Do not
+multiply it by another cross section or Earth transmission. An evolving array
+requires time-dependent exposure, or the corresponding season sum. A point
+source uses a directional flux rather than an isotropic per-steradian intensity.
+
+Starting events is an optional historical response example for the discovery
+sample. The source shows an all-sky average, with neutrino/antineutrino conventions
+defined in the paper; its high-energy electron-flavour peak includes the Glashow
+resonance. It must not be used for today's through-going-track exposure.
+
+The energy table is qualitative. Visible energy and true neutrino energy need
+a response distribution, including inelasticity, escaping particles, stochastic
+muon losses and detector calibration. Cascade electromagnetic-equivalent energy
+is not identical to every hadronic deposit. Tau decays can carry invisible energy.
+Angular reconstruction of the secondary and neutrino–muon kinematics are
+distinct contributions. The quoted angular scales describe historical HESE reconstruction, not current
+performance or a matched detector ranking. A flux fit forward-predicts each
+reconstructed bin using an energy-response distribution and background model;
+it does not identify each reconstructed energy with true neutrino energy.
+
+Both effective-area graphs are lecture-style redraws of curves digitized from
+the published figures (vector histogram for HESE; raster tracing for the review's
+illustrative curves, accurate to about 0.01 dex). Quantities, binning and axis
+ranges are unchanged. Method and tests: `assets/response/README.md`.
+
+Sources: [IceCube HESE response](https://arxiv.org/abs/1311.5238v2),
+[AMANDA reconstruction](https://arxiv.org/abs/astro-ph/0407044),
+[Spiering, sections 3.1.3–3.1.5](https://arxiv.org/html/2609.26436).
+:::

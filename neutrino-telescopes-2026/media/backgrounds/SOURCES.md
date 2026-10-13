@@ -1,9 +1,27 @@
-# Slide 13: Earth filtering and radioactive light
+# Background media and slide 13 rate graph
 
 Explanatory material used in DN's lecture. The Earth film is imported from
 `dvnanima/earth_shield`; the independent seawater companion remains from
 `dvnanima/earth_filter`. Both are English, silent, 1920×1080 at 30 fps.
 No measured telescope events or private response arrays are included.
+Earth shield and seawater-companion films are retained here, but neither is
+embedded on slide 13 after the 12 October 2026 background-table revision.
+
+## Neutrino interaction rates
+
+`neutrino_interaction_rates.svg`: slide graphic; PNG: inspection counterpart;
+CSV: numeric curves. Generated locally on 12 October 2026 with
+`assets/backgrounds/build_rates.py` and `rates.toml`. All three are reproducible
+outputs of public model data, not observed event spectra.
+
+One km³ water, one Julian year, downward 2π, all flavours and both signs,
+CC+NC νN DIS before detector selections. Conventional MCEq/H3a/SIBYLL 2.3c;
+prompt BERSS/H3p central and supplied lower/upper QCD envelope; astrophysical
+IceCube MESE BPL central fit (2026), with extrapolations dotted. Separate CSMS
+ν/anti-ν cross sections, isoscalar approximation. No Glashow channel or Earth
+transport. Sources, scientific limits, original input-data licence and eight
+numerical checks: `assets/backgrounds/README.md`. Atmospheric muons appear in
+the separate detector table, not on a true-neutrino-energy graph.
 
 ## Earth film
 

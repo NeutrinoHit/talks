@@ -1,0 +1,54 @@
+series,energy_gev,e2flux_gev_cm2_s_sr,err_minus,err_plus,note
+waxman_bahcall_bound,1e+04-1e+11,4.5e-09,,,"per flavour nu+nubar, xi_Z=0.6"
+waxman_bahcall_bound,1e+04-1e+11,2.25e-08,,,"per flavour nu+nubar, xi_Z=3.0"
+gamma_igrb_modelA,0.1183,9.766e-07,2.093e-07,2.093e-07,foreground-model range -3.14e-07/+3.49e-08
+gamma_igrb_modelA,0.1673,7.902e-07,1.859e-07,1.859e-07,foreground-model range -2.79e-07/+4.65e-08
+gamma_igrb_modelA,0.2366,7.673e-07,2.093e-07,2.093e-07,foreground-model range -2.79e-07/+6.98e-08
+gamma_igrb_modelA,0.3347,6.229e-07,1.859e-07,1.859e-07,foreground-model range -2.23e-07/+6.51e-08
+gamma_igrb_modelA,0.4775,6.012e-07,1.336e-07,1.336e-07,foreground-model range -2.14e-07/+9.35e-08
+gamma_igrb_modelA,0.6753,6.519e-07,7.902e-08,7.902e-08,foreground-model range -2.17e-07/+1.19e-07
+gamma_igrb_modelA,0.9381,5.556e-07,5.848e-08,5.848e-08,foreground-model range -2.05e-07/+1.17e-07
+gamma_igrb_modelA,1.327,3.855e-07,3.505e-08,3.505e-08,foreground-model range -1.4e-07/+1.05e-07
+gamma_igrb_modelA,1.918,3.141e-07,4.189e-08,4.189e-08,foreground-model range -1.41e-07/+1.41e-07
+gamma_igrb_modelA,2.713,3.179e-07,3.26e-08,3.26e-08,foreground-model range -1.47e-07/+1.55e-07
+gamma_igrb_modelA,3.795,2.539e-07,3.311e-08,3.311e-08,foreground-model range -1.21e-07/+1.43e-07
+gamma_igrb_modelA,5.367,2.265e-07,3.02e-08,3.02e-08,foreground-model range -9.06e-08/+1.21e-07
+gamma_igrb_modelA,7.632,2.063e-07,3.223e-08,3.223e-08,foreground-model range -8.17e-08/+1.16e-07
+gamma_igrb_modelA,10.88,2.296e-07,3.021e-08,3.021e-08,foreground-model range -6.35e-08/+9.37e-08
+gamma_igrb_modelA,15.3,1.866e-07,2.332e-08,2.332e-08,foreground-model range -5.13e-08/+9.33e-08
+gamma_igrb_modelA,21.63,1.515e-07,1.748e-08,1.748e-08,foreground-model range -4.08e-08/+6.99e-08
+gamma_igrb_modelA,30.59,1.493e-07,1.866e-08,1.866e-08,foreground-model range -3.73e-08/+6.53e-08
+gamma_igrb_modelA,42.85,1.341e-07,1.219e-08,1.219e-08,foreground-model range -3.66e-08/+4.88e-08
+gamma_igrb_modelA,60.6,1.098e-07,1.394e-08,1.394e-08,foreground-model range -2.96e-08/+3.48e-08
+gamma_igrb_modelA,84.85,9.226e-08,1.281e-08,1.281e-08,foreground-model range -2.56e-08/+2.82e-08
+gamma_igrb_modelA,118.3,5.232e-08,1.046e-08,1.046e-08,foreground-model range -1.4e-08/+1.74e-08
+gamma_igrb_modelA,167.3,4.555e-08,9.297e-09,9.297e-09,foreground-model range -1.21e-08/+1.26e-08
+gamma_igrb_modelA,240.8,3.016e-08,8.342e-09,8.984e-09,foreground-model range -7.7e-09/+8.34e-09
+gamma_igrb_modelA,344.8,3.159e-08,9.872e-09,1.086e-08,foreground-model range -7.9e-09/+8.88e-09
+gamma_igrb_modelA,487.6,1.017e-08,7.108e-09,7.944e-09,foreground-model range -4.04e-09/+5.3e-09
+gamma_igrb_modelA,689.6,4.541e-09,,,upper limit
+neutrino_icecube_cf_bpl,1.391e+04,3.382e-08,,,"best fit, per flavour"
+neutrino_icecube_cf_bpl,2.455e+04,5.005e-08,,,"best fit, per flavour"
+neutrino_icecube_cf_bpl,1e+05,1.77e-08,,,"best fit, per flavour"
+neutrino_icecube_cf_bpl,1e+06,3.221e-09,,,"best fit, per flavour"
+neutrino_icecube_cf_bpl,4.66e+06,1.031e-09,,,"best fit, per flavour"
+cosmic_rays_auger,2.818e+09,4.879e-08,1.686e-10,1.686e-10,stat. only
+cosmic_rays_auger,3.548e+09,3.621e-08,1.636e-10,1.676e-10,stat. only
+cosmic_rays_auger,4.467e+09,2.725e-08,1.581e-10,1.581e-10,stat. only
+cosmic_rays_auger,5.623e+09,2.168e-08,1.603e-10,1.603e-10,stat. only
+cosmic_rays_auger,7.079e+09,1.949e-08,1.747e-10,1.747e-10,stat. only
+cosmic_rays_auger,8.913e+09,1.725e-08,1.837e-10,1.863e-10,stat. only
+cosmic_rays_auger,1.122e+10,1.514e-08,1.955e-10,1.955e-10,stat. only
+cosmic_rays_auger,1.413e+10,1.299e-08,2.023e-10,2.023e-10,stat. only
+cosmic_rays_auger,1.778e+10,1.037e-08,2.004e-10,2.104e-10,stat. only
+cosmic_rays_auger,2.239e+10,8.465e-09,2.065e-10,2.065e-10,stat. only
+cosmic_rays_auger,2.818e+10,6.273e-09,1.988e-10,2.039e-10,stat. only
+cosmic_rays_auger,3.548e+10,4.995e-09,1.995e-10,2.074e-10,stat. only
+cosmic_rays_auger,4.467e+10,3.781e-09,1.96e-10,2.023e-10,stat. only
+cosmic_rays_auger,5.623e+10,1.934e-09,1.503e-10,1.704e-10,stat. only
+cosmic_rays_auger,7.079e+10,1.286e-09,1.398e-10,1.572e-10,stat. only
+cosmic_rays_auger,8.913e+10,4.682e-10,9.565e-11,1.158e-10,stat. only
+cosmic_rays_auger,1.122e+11,2.194e-10,7.181e-11,9.973e-11,stat. only
+cosmic_rays_auger,1.413e+11,1.834e-10,7.587e-11,1.075e-10,stat. only
+cosmic_rays_auger,1.778e+11,9.52e-11,,,90% upper limit
+cosmic_rays_auger,2.239e+11,1.191e-10,,,90% upper limit

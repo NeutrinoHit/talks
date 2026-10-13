@@ -1,0 +1,86 @@
+## A global view of the neutrino sky {#global-observatories}
+
+:::::: {.panel-tabset}
+
+### Observatories
+
+![](media/source-results/global-sites.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Mollweide world map of operating IceCube, KM3NeT ARCA and ORCA, and Baikal-GVD sites, with open markers for P-ONE's Cascadia region and the TRIDENT design site. Open markers denote next-generation projects, not completed operating arrays."}
+
+::: {.media-caption}
+Site overview · October 2026 · coastlines: Natural Earth
+:::
+
+### Sky coverage
+
+![](media/source-results/sky-coverage.svg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Calculated fraction of a sidereal day each source spends below the horizon of IceCube, ARCA and Baikal-GVD versus declination. At the Galactic Centre the fractions are 0%, 63% and 75%, respectively. This is geometry, not effective area or sensitivity."}
+
+::: {.media-caption}
+Geometry only, not sensitivity · IceCube also observes the southern sky with starting and contained events.
+:::
+
+### A joint search
+
+::::: {.columns}
+::: {.column width="69%"}
+![](media/joint-search/joint-discovery-flux-dark.svg){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="ANTARES–IceCube joint-search E^-2 discovery-flux comparison, redrawn from digitized published curves: the combined gold curve is lower than the separate seven-year IceCube and nine-year ANTARES curves in the southern sky. The ordinate is the five-sigma discovery flux, not a detected source flux."}
+:::
+::: {.column width="28%"}
+**IceCube · 7 years**
+
+**ANTARES · 9 years**
+
+Gold: joint analysis.
+
+Lower flux = better discovery potential.
+
+Assumed spectrum: $E^{-2}$.
+:::
+:::::
+
+::: {.media-caption}
+Published joint analysis, not a next-generation projection · Redrawn, digitized from [ANTARES & IceCube (2020), Fig. 2](https://arxiv.org/abs/2001.04412)
+:::
+
+::::::
+
+::: {.notes}
+Allow about two minutes for Sky coverage and A joint search. Use the site map
+only briefly; do not enumerate every project twice.
+The map separates operating arrays from next-generation projects. P-ONE's
+position denotes the Cascadia region; the final array is not equated with the
+existing ONC node coordinate. TRIDENT's marker is its published design site.
+These symbols do not encode instrumented volumes or funding milestones.
+HUNT/B-HUNT site options and NEON are discussed on the later project slides.
+HUNT and B-HUNT are not two independent capacities to sum.
+
+For latitude phi, source declination delta and hour angle H,
+
+$$
+\cos\theta_z=\sin\phi\sin\delta+\cos\phi\cos\delta\cos H.
+$$
+
+The graph integrates the fraction of a sidereal rotation with cos(theta_z)<0,
+using a surface horizon. It contains no Earth absorption, effective areas,
+energy weighting, veto/reconstruction cuts or detector-depth horizon shift.
+For the Galactic Centre, declination −28.94 degrees, the below-horizon time
+fractions are 0% at IceCube, 63.3% at ARCA and 74.8% at Baikal-GVD.
+IceCube's southern sky is not inaccessible: contained-event and starting-track
+selections also provide coverage. Long below-horizon paths can suppress
+very-high-energy neutrinos; geometrical visibility is not detection efficiency.
+
+The last tab is the published ANTARES–IceCube joint southern-sky analysis.
+For E^-2 the five-sigma discovery flux of the joint analysis is lower than
+that of the better single sample by up to a factor of about 1.7 (digitized
+curves); the paper quotes improvements of up to about two in sensitivity,
+depending on the spectrum. This
+analysis found no significant source. The curves are not current KM3NeT or
+GVD sensitivities and not proposed-detector forecasts. The graph is a
+lecture-style redraw of the digitized published curves, with the same quantity,
+axes and samples (`assets/joint-search/README.md`).
+
+[Joint ANTARES–IceCube search](https://arxiv.org/abs/2001.04412);
+[GVD site](https://indico.cern.ch/event/378423/contributions/900413/attachments/1155595/1660951/3_zhan_Baikal_VLVnT_status.pdf);
+[P-ONE infrastructure](https://www.oceannetworks.ca/news-and-stories/stories/onc-coengineers-key-infrastructure-for-pacific-deep-sea-neutrino-telescope/);
+[TRIDENT design](https://doi.org/10.1038/s41550-023-02087-6);
+[Network studies](https://arxiv.org/abs/2503.07549).
+:::
