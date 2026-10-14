@@ -1,0 +1,569 @@
+# Приложения {#prilozheniya}
+
+## Прозрачная Вселенная, непрозрачная Земля {#app-prozrachnost}
+
+:::::: {.panel-tabset}
+
+### Сквозь Вселенную
+
+**Мюонное нейтрино 1 ПэВ в средней барионной плотности сегодняшней Вселенной**
+
+::::: {.columns}
+::: {.column width="48%"}
+$$
+\bar n_{b,0}\simeq0{,}25\,\mathrm{m^{-3}},\qquad
+\sigma_{\nu N}^{\mathrm{CC+NC}}\simeq9{,}5\times10^{-34}\,\mathrm{cm^2}
+$$
+
+- Примерно один нуклон на четыре кубических метра.
+:::
+::: {.column width="48%"}
+$$
+\lambda_{\nu N,0}=\frac{1}{\bar n_{b,0}\sigma_{\nu N}}
+\simeq4{,}4\times10^{21}\ \mathrm{ly}
+$$
+:::
+:::::
+
+$$
+\frac{\lambda_{\nu N,0}}{D_{\rm obs}}\simeq5\times10^{10},\qquad D_{\rm obs}\simeq93\times10^{9}\ \mathrm{ly}
+$$
+
+- Длина свободного пробега в $5\times10^{10}$ раз больше диаметра наблюдаемой Вселенной.
+- ly — световой год.
+
+::: {.media-caption}
+Оценка для нашей эпохи без учёта эволюции Вселенной · [PDG](https://pdg.lbl.gov/2025/reviews/rpp2024-rev-astrophysical-constants.pdf) · [сечения CSMS, табл. I](https://arxiv.org/abs/1106.3723)
+:::
+
+### Сквозь Землю
+
+::::: {.columns}
+::: {.column width="65%"}
+![](../neutrino-telescopes-2026/media/propagation/earth-transmission-cc-dark.svg){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="Вероятность пройти Землю без взаимодействия в зависимости от энергии и зенитного угла."}
+:::
+::: {.column width="31%"}
+- По горизонтали — зенитный угол: $90^\circ$ — горизонт, $180^\circ$ — сквозь центр Земли.
+- Цвет — вероятность пройти без взаимодействия через заряженный ток:
+
+$$
+T(E,\theta)=e^{-N_A\,\sigma_{\rm CC}(E)\,X(\theta)}.
+$$
+
+- Нейтрино ПэВ почти не проходят Землю по диаметру. У горизонта путь намного короче.
+:::
+:::::
+
+::: {.media-caption}
+Расчёт: модель Земли PREM, сечения CSMS, детектор на глубине 1 км · только поглощение через заряженный ток
+:::
+
+### Томография
+
+**Год данных IceCube взвешивает Землю**
+
+- IC86, 2011–2012: 20 145 мюонов снизу с энергией 0,4–20 ТэВ; их распределение по углу отражает поглощение в Земле.
+- Масса Земли: $6{,}0^{+1{,}6}_{-1{,}3}\times10^{24}$ кг; по гравитации — $5{,}9722\times10^{24}$ кг.
+- Масса ядра: $2{,}72^{+0{,}97}_{-0{,}89}\times10^{24}$ кг.
+- Момент инерции: $(6{,}9\pm2{,}4)\times10^{37}$ кг·м²; по гравитации — $8{,}017\times10^{37}$.
+- Ядро плотнее мантии: для обратного случая $p=0{,}011$.
+
+::: {.takeaway}
+Одно слабое взаимодействие, без гравитации, видит плотное ядро Земли.
+:::
+
+::: {.media-caption}
+68 % вероятности, модель атмосферного потока по умолчанию · A. Donini, S. Palomares-Ruiz, J. Salvado, *Nature Physics* **15**, 37 (2019), [arXiv:1803.05901](https://arxiv.org/abs/1803.05901)
+:::
+
+### Ядро на просвет
+
+![](media/figures/earth-tomography-contrast-ru.svg){.slide-media .nostretch style="--media-max-height: 430px;" fig-alt="Слева: вероятность пройти Землю в зависимости от зенитного угла при 10, 30 и 100 ТэВ для PREM и однородной Земли той же массы. Справа: относительная разница между ними по энергии и углу."}
+
+- Масса та же, профиль разный: PREM против однородной Земли плотностью 5,51 г/см³.
+- Сквозь ядро (дальше $147^\circ$) при 30 ТэВ поглощается примерно на 20 % больше нейтрино, сквозь мантию — меньше.
+
+::: {.media-caption}
+Расчёт: PREM, сечения CSMS, детектор на глубине 1 км · только поглощение через заряженный ток; регенерация через NC и $\tau$ не учтена
+:::
+
+::::::
+
+## Как рождается свет: мюон и ливень {#app-svet}
+
+:::::: {.panel-tabset}
+
+### Мюон
+
+$\nu_\mu+N\longrightarrow\mu^-+X$
+
+<video class="slide-video media-height-lg" style="--media-max-height: 600px;" controls muted playsinline preload="metadata" poster="../neutrino-telescopes-2026/media/neutrino_telescope/muon_lecture_en.jpg" src="../neutrino-telescopes-2026/media/neutrino_telescope/muon_lecture_en.mp4"></video>
+
+### Электронный ливень
+
+$\nu_e+N\longrightarrow e^-+X$
+
+<video class="slide-video media-height-lg" style="--media-max-height: 600px;" controls muted playsinline preload="metadata" poster="../neutrino-telescopes-2026/media/neutrino_telescope/electron_lecture_en.jpg" src="../neutrino-telescopes-2026/media/neutrino_telescope/electron_lecture_en.mp4"></video>
+
+::::::
+
+::: {.media-caption}
+Моделирование Geant4 · подписи в фильмах на английском.
+:::
+
+## Как восстанавливают направление {#app-rekonstrukciya}
+
+:::::: {.panel-tabset}
+
+### Идея
+
+<video class="slide-video media-height-lg" style="--media-max-height: 600px;" controls muted playsinline preload="metadata" poster="../neutrino-telescopes-2026/media/reconstruction/reconstruction_en.jpg" src="../neutrino-telescopes-2026/media/reconstruction/reconstruction_en.mp4"></video>
+
+### Модель
+
+::::: {.columns}
+::: {.column width="48%"}
+**Предсказываем время для каждого датчика**
+
+$$
+\cos\theta_C=\frac{1}{\beta n_{\rm phase}},\qquad
+t_i^{\rm pred}=t_0+\frac{s_i}{\beta c}+\frac{n_{\rm group}D_i}{c}.
+$$
+
+- $s_i$ — путь мюона до точки излучения.
+- $D_i$ — путь фотона до датчика.
+:::
+::: {.column width="48%"}
+**Ищем направление, согласное с сигналами**
+
+$$
+S=\frac{1}{2\sigma_t^2}\sum_{i,k}
+\left(t_{ik}^{\rm obs}-t_i^{\rm pred}\right)^2
+\longrightarrow\min_{\theta,\phi,t_0}.
+$$
+
+- Учебная модель: прямой мюон, однородная среда.
+- Подбираются только направление и сдвиг времени.
+:::
+:::::
+
+::::::
+
+## Фоны {#app-fony}
+
+:::::: {.panel-tabset}
+
+### Фоны детектора
+
+| Телескоп | Оптический фон | Импульсы на ФЭУ | Мюонные выборки |
+|:---|:---|:---|:---|
+| IceCube | шум ФЭУ и стекла | $0{,}56$ кГц · 10 дюймов | $2{,}7$ кГц · триггер IC86 |
+| KM3NeT | $^{40}\mathrm K$ и биолюминесценция | $\sim7$ кГц · 3 дюйма | $\sim1$ Гц · ARCA6, восстановленные |
+| Baikal-GVD | свечение воды | $20–100$ кГц · 10 дюймов | $\sim3$ Гц на кластер, восстановленные |
+
+::: {.media-caption}
+Импульсы, триггеры и восстановленные события — разные уровни счёта ·
+[IceCube](https://arxiv.org/html/1612.05093v3#S3.SS8) ·
+[KM3NeT](https://doi.org/10.1140/epjc/s10052-024-13018-8) ·
+[Baikal-GVD](https://pos.sissa.it/501/1162/pdf)
+:::
+
+### Нейтринный фон
+
+![](../neutrino-telescopes-2026/media/backgrounds/neutrino_interaction_rates.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Расчётные скорости взаимодействий атмосферных и астрофизических нейтрино в кубическом километре воды."}
+
+::: {.media-caption}
+1 км³ воды · нижняя полусфера · все ароматы, $\nu+\bar\nu$ · CC+NC · до отбора событий.
+:::
+
+::::::
+
+## От событий к потоку {#app-otklik}
+
+::::: {.columns}
+::: {.column width="59%"}
+![](../neutrino-telescopes-2026/media/response/icecube-directional-area-dark.svg){.slide-media .nostretch style="--media-max-height: 480px;" fig-alt="Эффективная площадь IceCube для разных направлений в зависимости от энергии нейтрино."}
+:::
+::: {.column width="37%"}
+- **У горизонта:** короткий путь сквозь Землю.
+- **Снизу:** при высоких энергиях Земля поглощает нейтрино.
+- **Сверху:** приходится подавлять атмосферные мюоны.
+- $A_{\mathrm{eff}}$ включает взаимодействие, распространение и отбор событий.
+:::
+:::::
+
+$$
+N=T\sum_\alpha\int dE_\nu\,d\Omega\,
+\Phi_\alpha(E_\nu,\Omega)\,A_{\mathrm{eff},\alpha}(E_\nu,\Omega)
+$$
+
+::: {.media-caption}
+Иллюстративный отбор для точечного источника · оцифровано по [Spiering (2026), рис. 6](https://arxiv.org/html/2609.26436)
+:::
+
+## Распады пионов {#app-piony}
+
+:::::: {.panel-tabset}
+
+### Цепочки
+
+$$pp,\ p\gamma\ \longrightarrow\pi^\pm,\,\pi^0+X$$
+
+::::: {.columns}
+::: {.column width="57%"}
+**Заряженный пион и мюон**
+
+$$
+\begin{aligned}
+\pi^+&\to\mu^++\nu_\mu\\[0.5em]
+\mu^+&\to e^++\nu_e+\bar\nu_\mu
+\end{aligned}
+$$
+:::
+::: {.column width="39%"}
+**Нейтральный пион**
+
+$$\pi^0\to\gamma+\gamma$$
+
+- Нейтрино и гамма-кванты делят одну и ту же энергию.
+:::
+:::::
+
+### Энергия протона
+
+$$
+E_p\ \xrightarrow{\ \sim1/5\ } E_\pi
+\ \xrightarrow{\ \sim1/4\ } E_\nu
+\qquad\Longrightarrow\qquad E_p\sim20E_\nu
+$$
+
+| Нейтрино | Протон-родитель |
+|:---|:---|
+| $10$ ТэВ | $\sim200$ ТэВ |
+| $100$ ТэВ | $\sim2$ ПэВ |
+| $1$ ПэВ | $\sim20$ ПэВ |
+
+::: {.media-caption}
+Оценка масштаба, а не пересчёт для отдельного события · охлаждение пионов и мюонов не учтено
+:::
+
+### Фотоны и нейтрино
+
+$$pp:\quad N_{\pi^+}:N_{\pi^-}:N_{\pi^0}\simeq1:1:1$$
+
+$$
+E_\nu^2\Phi_\nu(E_\nu)\simeq\frac32 E_\gamma^2\Phi_\gamma(E_\gamma),
+\qquad E_\gamma\simeq2E_\nu
+$$
+
+- В момент рождения, для $pp$-столкновений.
+- Все ароматы нейтрино и антинейтрино вместе.
+- Поглощение фотонов меняет сравнение с наблюдаемыми спектрами.
+
+::: {.media-caption}
+[Ahlers & Halzen (2018), ур. 3](https://arxiv.org/abs/1805.11112)
+:::
+
+::::::
+
+## Три посланника, один энергетический бюджет {#app-byudzhet}
+
+![](media/figures/energy-budget.svg){.slide-media .nostretch style="--media-max-height: 580px;" fig-alt="Гамма-кванты, нейтрино и космические лучи высших энергий несут сравнимую мощность."}
+
+::: {.media-caption}
+Нейтрино на один аромат · [Fermi-LAT (2015)](https://arxiv.org/abs/1410.3696) · [IceCube (2026)](https://arxiv.org/abs/2507.22233v3) · [Auger (2020)](https://arxiv.org/abs/2008.06486)
+:::
+
+## Графики к результатам {#app-grafiki}
+
+:::::: {.panel-tabset}
+
+### IceCube, 2013
+
+::::: {.columns}
+::: {.column width="62%"}
+![](../neutrino-telescopes-2026/media/diffuse/icecube-2013-energy-dark.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Распределение 28 событий IceCube по энергии: атмосферный фон быстро падает, данные при высоких энергиях идут выше фона."}
+:::
+::: {.column width="34%"}
+- Синее и красное — фон от атмосферы.
+- Белые точки — данные.
+- Фон быстро падает с энергией, а событий высоких энергий намного больше.
+:::
+:::::
+
+::: {.media-caption}
+Перерисовано по [IceCube, Science (2013), рис. 4](https://arxiv.org/abs/1311.5238v2)
+:::
+
+### Baikal-GVD: энергии каскадов
+
+![](../neutrino-telescopes-2026/media/diffuse/gvd-2018-2024-energy-dark.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Энергии каскадов Baikal-GVD 2018–2024: данные и подогнанные сигнал и фон."}
+
+::: {.media-caption}
+Оцифровано по [Baikal-GVD (2025), рис. 2](https://arxiv.org/abs/2507.01893v2)
+:::
+
+### Baikal-GVD выше 200 ТэВ
+
+![](../neutrino-telescopes-2026/media/galactic/gvd-galactic-sky.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Восемь каскадов Baikal-GVD выше 200 ТэВ на карте неба в галактических координатах."}
+
+::: {.media-caption}
+[ApJ 982, 73 (2025)](https://arxiv.org/abs/2411.05608v2), перерисовано по табл. 1
+:::
+
+::::::
+
+## Спектр космических нейтрино {#app-spektr}
+
+:::::: {.panel-tabset}
+
+### Измеренный спектр
+
+::::: {.columns}
+::: {.column width="66%"}
+![](../neutrino-telescopes-2026/media/diffuse/icecube-spectrum-2026-dark.svg){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="Спектр космических нейтрино IceCube 2026 года."}
+:::
+::: {.column width="30%"}
+- Наклон спектра меняется около 30 ТэВ.
+- Один степенной закон отвергнут на уровне больше $4\sigma$.
+:::
+:::::
+
+::: {.media-caption}
+На один аромат, $\nu+\bar\nu$ · перерисовано по [IceCube, PRL (2026), рис. 3](https://arxiv.org/abs/2507.22233v3)
+:::
+
+### Резонанс Глэшоу и ароматы
+
+::::: {.columns}
+::: {.column width="56%"}
+![](../neutrino-telescopes-2026/media/diffuse/icecube-glashow-event-2021.jpg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Событие резонанса Глэшоу в IceCube."}
+:::
+::: {.column width="41%"}
+$$\bar\nu_e+e^-\to W^-\to X$$
+
+- Антинейтрино с энергией около 6,3 ПэВ рождает $W$-бозон, а тот распадается на адроны.
+- Один ливень, декабрь 2016. Так умеют только антинейтрино.
+- Семь кандидатов в тау-нейтрино: приходят все три аромата.
+:::
+:::::
+
+::: {.media-caption}
+[IceCube, Nature 591, 220 (2021)](https://arxiv.org/abs/2110.15051) · [тау-нейтрино: IceCube, PRL 132, 151001 (2024)](https://arxiv.org/abs/2403.02516)
+:::
+
+::::::
+
+## Гамма-бюджет и скрытые источники {#app-gamma}
+
+:::::: {.panel-tabset}
+
+### Прозрачные источники
+
+![](../neutrino-telescopes-2026/media/multimessenger/diffuse-gamma-neutrino-2026-dark.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Измеренные нейтрино IceCube и изотропный гамма-фон Fermi с расчётными электромагнитными каскадами."}
+
+::: {.media-caption}
+Пунктир: нейтрино · сплошные: рассчитанные фотоны · оцифровано по [Zathul et al. (2026), рис. 2](https://arxiv.org/html/2606.00249v2#S2.F2), CC BY 4.0
+:::
+
+### Компактная область
+
+![](../neutrino-telescopes-2026/media/response/compact-source.svg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Схема компактной области у активного ядра галактики."}
+
+$$
+\gamma+\gamma\to e^++e^-,\qquad
+E_\gamma\epsilon\gtrsim(m_ec^2)^2
+$$
+
+- Гамма-кванты поглощаются в плотном поле фотонов.
+- Нейтрино выходят наружу.
+
+::: {.media-caption}
+Схема · [Murase & Stecker](https://arxiv.org/abs/2202.03381)
+:::
+
+::::::
+
+## Активные ядра: подробнее {#app-agn}
+
+:::::: {.panel-tabset}
+
+### NGC 1068: направление
+
+![](../neutrino-telescopes-2026/media/source-results/ngc1068-neutrino-scan-2026-dark.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Карта значимости нейтрино вокруг NGC 1068."}
+
+::: {.media-caption}
+IceCube Collaboration · перерисовано по [анализу 2026 года, рис. 2](https://arxiv.org/abs/2510.13403)
+:::
+
+### Рентгеновские ядра
+
+![](../neutrino-telescopes-2026/media/source-results/xray-agn-population-dark.svg){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="Популяция 47 ярких в рентгене активных ядер в данных IceCube."}
+
+::: {.media-caption}
+47 ярких в рентгене ядер без NGC 1068 · ансамбль из 11 источников, $3{,}3\sigma$ · свидетельство для популяции, не для 11 отдельных источников · [IceCube](https://arxiv.org/abs/2510.13403)
+:::
+
+### Радиоблазары
+
+![](../neutrino-telescopes-2026/media/source-results/radio-blazars-sky-2020-dark.svg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Блазары с яркими радиоядрами и события IceCube выше 200 ТэВ."}
+
+::: {.media-caption}
+А. В. Плавин, Ю. Ю. Ковалёв, Ю. А. Ковалёв, С. В. Троицкий · [ApJ 894, 101 (2020)](https://arxiv.org/abs/2001.00930v3) · вопрос обсуждается: поиск IceCube по алертам значимой корреляции не находит.
+:::
+
+::::::
+
+## Поиск точечных источников: Baikal-GVD {#app-baikal-istochniki}
+
+![](../neutrino-telescopes-2026/media/source-results/baikal-source-limits-e2.svg){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="Верхние пределы Baikal-GVD на потоки от 92 направлений."}
+
+::: {.media-caption}
+988 треков · 92 направления · апрель 2019 — март 2024 · спектр $E^{-2}$, 90% CL · значимого избытка нет · [Baikal-GVD (2026)](https://arxiv.org/abs/2603.21261v2)
+:::
+
+## Ещё история {#app-istoriya}
+
+:::::: {.panel-tabset}
+
+### Райнес
+
+::::: {.columns}
+::: {.column width="49%"}
+![](../neutrino-telescopes-2026/media/history/reines-cowan-1956.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Фредерик Райнес и Клайд Коуэн, 1956 год."}
+
+::: {.media-caption}
+Фредерик Райнес (слева) и Клайд Коуэн, 1956. Los Alamos National Laboratory.
+:::
+:::
+::: {.column width="47%"}
+- 1956: первое прямое обнаружение нейтрино у реактора.
+- Сначала обнаружить нейтрино, потом — нейтринная астрономия.
+:::
+:::::
+
+### Грейзен
+
+::::: {.columns}
+::: {.column width="28%"}
+![](../neutrino-telescopes-2026/media/history/greisen-portrait.jpg){.slide-media .nostretch style="--media-max-height: 320px;" fig-alt="Кеннет Грейзен."}
+
+::: {.media-caption}
+Кеннет Грейзен. Через C. Spiering.
+:::
+:::
+::: {.column width="68%"}
+- **Грейзен, Райнес и Марков** в 1960 году обсуждают регистрацию космических нейтрино.
+- Подводная идея Маркова даёт практичный путь к огромной мишени.
+:::
+:::::
+
+### Шпиринг
+
+::::: {.columns}
+::: {.column width="40%"}
+![](../neutrino-telescopes-2026/media/history/spiering-author.jpg){.slide-media .nostretch style="--media-max-height: 280px; --media-width: 210px;" fig-alt="Кристиан Шпиринг."}
+
+::: {.media-caption}
+**Кристиан Шпиринг.** Его группа из Цойтена присоединилась к Байкалу в 1988 году.
+:::
+:::
+::: {.column width="56%"}
+- Учёные, инженеры и зимние экспедиции превратили идею в работающий телескоп.
+- Премия имени Маркова 2006 года — Домогацкому и Шпирингу за NT200+ и нейтринную астрофизику высоких энергий.
+:::
+:::::
+
+::: {.media-caption}
+[Объявление ИЯИ, 2006](https://inr.ru/eng/markove/mark2006e.html).
+:::
+
+### ANTARES
+
+::::: {.columns}
+::: {.column width="57%"}
+![](../neutrino-telescopes-2026/media/history/antares-illustration.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Рисунок: ANTARES и подводный аппарат Nautile."}
+
+::: {.media-caption}
+Рисунок художника: ANTARES и Nautile.
+:::
+:::
+::: {.column width="39%"}
+- **2008:** собран детектор из 12 линий в Средиземном море.
+- Долгая работа показала, что точная нейтринная астрономия в глубоком море возможна.
+- ANTARES, NEMO и NESTOR подготовили KM3NeT.
+:::
+:::::
+
+::::::
+
+## Другие проекты {#app-proekty}
+
+:::::: {.panel-tabset}
+
+### P-ONE
+
+::::: {.columns}
+::: {.column width="35%"}
+**Тихий океан, Британская Колумбия**
+
+- Проект: около 1 км³, 70 гирлянд.
+- Инфраструктура NEPTUNE (Ocean Networks Canada).
+- Прототипы и отработка установки.
+:::
+::: {.column width="61%"}
+![](../neutrino-telescopes-2026/media/observatories/p-one-configuration.jpg){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="Проектная конфигурация P-ONE."}
+:::
+:::::
+
+### TRIDENT
+
+::::: {.columns}
+::: {.column width="35%"}
+**Южно-Китайское море**
+
+- Проект: 7,5 км³, 1211 гирлянд.
+- Гибридные модули: ФЭУ и кремниевые фотоумножители.
+- Разработки и пилотная программа.
+:::
+::: {.column width="61%"}
+![](../neutrino-telescopes-2026/media/observatories/trident-layout.png){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="Проектная схема TRIDENT."}
+:::
+:::::
+
+### NEON
+
+::::: {.columns}
+::: {.column width="35%"}
+**Южно-Китайское море**
+
+- Проект: 10 км³, 1200 гирлянд.
+- Многофотоумножительные модули.
+- Предложение и разработка аппаратуры.
+:::
+::: {.column width="61%"}
+![](../neutrino-telescopes-2026/media/observatories/neon-layout.png){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="Проектная схема NEON."}
+:::
+:::::
+
+### HUNT
+
+::::: {.columns}
+::: {.column width="47%"}
+**Китай + Россия · около 30 км³ · ФЭУ 20 дюймов**
+
+- Лёд — платформа: гирлянды ставят с замёрзшего озера каждую зиму.
+- В воде свет рассеивается меньше, чем во льду, и направления каскадов точнее.
+- Северное место: центр Галактики 75% суток под горизонтом.
+- Партнёр в гамма-диапазоне: LHAASO смотрит на то же северное небо.
+:::
+::: {.column width="49%"}
+![](../neutrino-telescopes-2026/media/observatories/hunt-design.jpg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Проектная иллюстрация HUNT."}
+
+::: {.media-caption}
+[HUNT / IHEP, CAS](https://ihep.cas.cn/astro/en/research/sf/ucp/202510/t20251011_7986821.html)
+:::
+:::
+:::::
+
+::::::

@@ -16,3 +16,17 @@ T(E, θ) = exp(−N_A σ_CC(E) X(θ)).
 python build_transmission.py          # media/propagation/earth-transmission-cc-dark.{svg,png,csv}
 python -m pytest -q test_transmission.py
 ```
+
+## Tomography contrast
+
+`build_tomography.py` compares the same CC survival probability through PREM with that through a homogeneous
+Earth of the same mass (mean density 5.514 g/cm³ from the PREM integral): survival against zenith angle at
+10, 30 and 100 TeV, and the relative difference (PREM − homogeneous)/homogeneous over energy and zenith.
+Through the centre at 30 TeV PREM transmits 18 % less. Same limitations as above (no NC or tau regeneration,
+no flux or detector response). Measurement with IceCube data: Donini, Palomares-Ruiz & Salvado,
+Nature Physics 15 (2019) 37, arXiv:1803.05901.
+
+```sh
+python build_tomography.py            # media/propagation/earth-tomography-contrast-dark.{svg,png}
+python -m pytest -q test_tomography.py
+```

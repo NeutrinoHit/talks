@@ -1,0 +1,146 @@
+# Что дальше {#chto-dalshe}
+
+## Как увидеть больше? {#uvidet-bolshe}
+
+::::: {.columns}
+::: {.column width="64%"}
+<video class="slide-video media-height-lg" style="--media-max-height: 580px;" controls muted playsinline preload="metadata" poster="media/films/source_emerges_ru.jpg" src="media/films/source_emerges_ru.mp4" aria-label="Смоделированные нейтрино накапливаются вокруг выдуманного точечного источника; значимость растёт с экспозицией и зависит от точности направлений."></video>
+:::
+::: {.column width="32%"}
+- Источник проступает на фоне постепенно, год за годом.
+- **Больше объём** — больше событий.
+- **Точнее направления** — меньше фона вокруг источника.
+- Значимость растёт как корень из экспозиции и обратно пропорциональна угловой ошибке.
+:::
+:::::
+
+::: {.media-caption}
+Иллюстрация: выдуманный источник силы NGC 1068, события смоделированы, значимость посчитана · это не прогноз для конкретного детектора.
+:::
+
+## Нейтринные телескопы мира {#teleskopy-mira}
+
+:::::: {.panel-tabset}
+
+### Карта
+
+![](media/figures/global-sites.svg){.slide-media .nostretch style="--media-max-height: 600px;" fig-alt="Карта мира с работающими нейтринными телескопами и проектами нового поколения."}
+
+::: {.media-caption}
+Октябрь 2026 · береговые линии: Natural Earth
+:::
+
+### IceCube-Gen2
+
+::::: {.columns}
+::: {.column width="35%"}
+**Южный полюс, лёд**
+
+- IceCube: 1 км³, работает.
+- Upgrade: 5 новых гирлянд, установлены в 2026 году.
+- Gen2: оптический массив 8 км³, проект.
+:::
+::: {.column width="61%"}
+![](../neutrino-telescopes-2026/media/observatories/icecube-gen2-layout.png){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Проект расширения IceCube-Gen2."}
+
+::: {.media-caption}
+[Иллюстрация проекта Gen2. DESY, Science Communication Lab.](https://icecube-gen2.wisc.edu/facility/detectors/)
+:::
+:::
+:::::
+
+### KM3NeT
+
+::::: {.columns}
+::: {.column width="35%"}
+**Средиземное море**
+
+- ARCA: около 1 км³ для нейтринной астрономии.
+- ORCA: для нейтринных осцилляций.
+- Строится и уже набирает данные.
+:::
+::: {.column width="61%"}
+![](../neutrino-telescopes-2026/media/observatories/km3net-artist-impression.jpg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Рисунок: строительный блок KM3NeT на дне моря."}
+
+::: {.media-caption}
+Рисунок художника · [Edward Berbee/Nikhef · KM3NeT](https://www.km3net.org/pictures-and-videos/picture-galleries/album-artists-impressions/)
+:::
+:::
+:::::
+
+### Baikal-GVD
+
+::::: {.columns}
+::: {.column width="35%"}
+**Байкал, пресная вода**
+
+- 2026: 16 кластеров, работает.
+- Эффективный объём около 0,8 км³.
+- Растёт каждую зиму: новые кластеры ставят со льда.
+:::
+::: {.column width="61%"}
+![](../neutrino-telescopes-2026/media/observatories/baikal-gvd-2026.jpg){.slide-media .nostretch style="--media-max-height: 560px; --media-bg: #fff;" fig-alt="Конфигурация Baikal-GVD 2026 года: шестнадцать кластеров."}
+
+::: {.media-caption}
+[Конфигурация 2026 года. Baikal-GVD.](https://baikal-gvd.jinr.ru/telescope)
+:::
+:::
+:::::
+
+### Байкал → B-HUNT
+
+![](media/figures/gvd-to-bhunt.svg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Вехи от Baikal-GVD к B-HUNT и два куба объёмом 1 и 30 км³ в масштабе."}
+
+::: {.media-caption}
+Россия + Китай · коллаборация Baikal-GVD и IHEP (Пекин) · [ОИЯИ (2026)](https://www.jinr.ru/posts/grigory-trubnikov-baikal-gvd-neutrino-telescope-to-reach-1-km-sup-3-sup-volume-by-2028/)
+:::
+
+::::::
+
+## Что мы хотим открыть? {#chto-otkryt}
+
+![](media/figures/discovery-map.svg){.slide-media .nostretch style="--media-max-height: 600px;" fig-alt="Открытые вопросы на шкале энергии нейтрино поверх измеренного спектра космических нейтрино."}
+
+::: {.media-caption}
+Вопросы на шкале энергии · спектр: [IceCube (2026)](https://arxiv.org/abs/2507.22233v3) · [резонанс Глэшоу: IceCube (2021)](https://arxiv.org/abs/2110.15051) · [KM3-230213A: KM3NeT (2025)](https://doi.org/10.1038/s41586-024-08543-1)
+:::
+
+## Где источники? {#gde-istochniki}
+
+::::: {.columns}
+::: {.column width="64%"}
+![](media/figures/sources-sky.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Карта неба: Млечный Путь, NGC 1068, TXS 0506+056 и KM3-230213A."}
+:::
+::: {.column width="32%"}
+**Нашли:**
+
+- нашу Галактику;
+- NGC 1068 и другие сейфертовские галактики;
+- кандидатов-блазаров.
+
+**Пока неясно:**
+
+- откуда приходит большая часть потока.
+
+**Дальше:**
+
+- большие телескопы и сети: B-HUNT, KM3NeT, IceCube-Gen2.
+:::
+:::::
+
+::: {.question}
+- Куда смотреть, мы уже знаем.
+- Теперь надо разглядеть толпу слабых источников.
+:::
+
+## Кто это сделает? {#kto}
+
+![](media/figures/people-chain.svg){.slide-media .nostretch style="--media-max-height: 380px;" fig-alt="Цепочка: программа, люди, результаты, следующий эксперимент."}
+
+- Телескопы строят и понимают люди.
+- Учиться можно уже сейчас: [курсы ФНАФЧ на teach-in.ru](https://teach-in.ru/course?tags=ФНАФЧ).
+
+::: {.takeaway}
+- Будут ли новые открытия? Конечно!
+- Вопрос только в том, кто их сделает.
+:::

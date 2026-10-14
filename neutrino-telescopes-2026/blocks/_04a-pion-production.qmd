@@ -68,26 +68,3 @@ Photon absorption and cascading modify the comparison with observed spectra.
 :::
 
 ::::::
-
-::: {.notes}
-Allow about 90 seconds for Pion decays and Parent proton energy. The inclusive
-production equation describes a pion population, not every charge in each
-collision. The pi-minus chain is charge conjugate. With negligible cooling,
-the source flavour ratio summed over signs is approximately 1:2:0; propagation
-mixes flavours. The table is a characteristic hadronic energy scale.
-
-The approximate 0.2 pion fraction and 0.25 neutrino fraction do not determine
-the parent energy of an individual event. Inclusive yields, target spectra,
-primary nuclei and secondary cooling affect the distribution. All energies
-must be compared in the same frame. For a moving source,
-E_nu,obs = delta E_nu,comoving/(1+z), so the illustrative comoving parent scale
-is approximately 20(1+z)E_nu,obs/delta.
-
-The optional photon relation uses differential number fluxes. Phi_nu sums
-all flavours and signs, and Phi_gamma is the pionic photon flux before
-absorption. Approximately isospin-symmetric pp yields give K_pi about 2,
-so 3K_pi/4 is about 3/2. A p-gamma benchmark can have a different K_pi.
-The observed gamma-ray budget is treated after the measured neutrino spectrum.
-
-Source: [Ahlers & Halzen (2018)](https://arxiv.org/abs/1805.11112).
-:::

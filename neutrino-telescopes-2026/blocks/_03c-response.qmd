@@ -37,11 +37,9 @@ Illustrative point-source selection · Redrawn, digitized from [Spiering (2026),
 ::: {.column width="31%"}
 **A specific sample**
 
-Start inside the fiducial volume.
-
-Reject early light at the boundary.
-
-The accepted events determine the response used in the flux fit.
+- Start inside the fiducial volume.
+- Reject early light at the boundary.
+- The accepted events determine the response used in the flux fit.
 :::
 :::::
 
@@ -66,43 +64,3 @@ $y$: inelasticity · [IceCube reconstruction (2013)](https://arxiv.org/abs/1311.
 :::
 
 ::::::
-
-::: {.notes}
-Spend about 90 seconds on Effective area. Read the three curves as consequences
-of the Earth and background cuts already discussed. The published review curve
-is illustrative; it is not a current detector-performance comparison. Theta
-is detector zenith, 0 degrees downward and 180 upward. The response depends
-on event selection as well as instrument geometry. Through-going tracks can
-originate outside the instrumented volume.
-
-T is live time, Phi a differential incident intensity per solid angle, and alpha
-indexes the included flavour/sign components. A_eff has area units and already
-includes neutrino interaction, attenuation and analysis efficiency. Do not
-multiply it by another cross section or Earth transmission. An evolving array
-requires time-dependent exposure, or the corresponding season sum. A point
-source uses a directional flux rather than an isotropic per-steradian intensity.
-
-Starting events is an optional historical response example for the discovery
-sample. The source shows an all-sky average, with neutrino/antineutrino conventions
-defined in the paper; its high-energy electron-flavour peak includes the Glashow
-resonance. It must not be used for today's through-going-track exposure.
-
-The energy table is qualitative. Visible energy and true neutrino energy need
-a response distribution, including inelasticity, escaping particles, stochastic
-muon losses and detector calibration. Cascade electromagnetic-equivalent energy
-is not identical to every hadronic deposit. Tau decays can carry invisible energy.
-Angular reconstruction of the secondary and neutrino–muon kinematics are
-distinct contributions. The quoted angular scales describe historical HESE reconstruction, not current
-performance or a matched detector ranking. A flux fit forward-predicts each
-reconstructed bin using an energy-response distribution and background model;
-it does not identify each reconstructed energy with true neutrino energy.
-
-Both effective-area graphs are lecture-style redraws of curves digitized from
-the published figures (vector histogram for HESE; raster tracing for the review's
-illustrative curves, accurate to about 0.01 dex). Quantities, binning and axis
-ranges are unchanged. Method and tests: `assets/response/README.md`.
-
-Sources: [IceCube HESE response](https://arxiv.org/abs/1311.5238v2),
-[AMANDA reconstruction](https://arxiv.org/abs/astro-ph/0407044),
-[Spiering, sections 3.1.3–3.1.5](https://arxiv.org/html/2609.26436).
-:::

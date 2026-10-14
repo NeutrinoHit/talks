@@ -1,0 +1,189 @@
+# Backup {#backup-section}
+
+## What creates the light? {#what-the-detector-measures}
+
+:::::: {.panel-tabset}
+
+### Muon
+
+::: {.small}
+$\nu_\mu+N\longrightarrow\mu^-+X.$
+:::
+
+<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/neutrino_telescope/muon_lecture_en.jpg" src="media/neutrino_telescope/muon_lecture_en.mp4"></video>
+
+### Electron shower
+
+::: {.small}
+$\nu_e+N\longrightarrow e^-+X.$
+:::
+
+<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/neutrino_telescope/electron_lecture_en.jpg" src="media/neutrino_telescope/electron_lecture_en.mp4"></video>
+::::::
+
+{{< include blocks/_03a-cherenkov.qmd >}}
+
+## One photon, a measurable pulse {#photomultiplier}
+
+:::::: {.panel-tabset}
+
+### Photomultiplier
+
+<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/principles/pmt_multiplication_en.jpg" src="media/principles/pmt_multiplication_en.mp4"></video>
+
+### Optical modules
+
+::::: {.columns}
+::: {.column width="23%"}
+**IceCube**
+
+![](media/optical-modules/icecube-dom-deployment.jpg){.slide-media .nostretch style="--media-max-height: 350px;" fig-alt="An actual original IceCube DOM during deployment, with one large PMT inside a glass pressure sphere."}
+
+One $10\,\mathrm{inch}$ PMT.
+
+::: {.media-caption}
+IceCube/NSF.
+:::
+:::
+::: {.column width="23%"}
+**KM3NeT**
+
+![](media/optical-modules/km3net-dom.png){.slide-media .nostretch style="--media-max-height: 350px;" fig-alt="An actual KM3NeT digital optical module with many small PMTs pointing in different directions."}
+
+$31$ three-inch PMTs.
+
+::: {.media-caption}
+Courtesy KM3NeT.
+:::
+:::
+::: {.column width="23%"}
+**Baikal-GVD**
+
+![](media/optical-modules/baikal-gvd-om-deployment.jpeg){.slide-media .nostretch style="--media-max-height: 350px;" fig-alt="A real Baikal-GVD optical module above an ice hole during deployment, from DN's 2021 lecture."}
+
+One $10\,\mathrm{inch}$ PMT.
+
+::: {.media-caption}
+Baikal-GVD; supplied by DN.
+:::
+:::
+::: {.column width="23%"}
+**TRIDENT**
+
+![](media/optical-modules/trident-hdom-prototype.jpg){.slide-media .nostretch style="--media-max-height: 350px;" fig-alt="An actual TRIDENT hybrid optical-module prototype in the laboratory, combining PMTs with small SiPM assemblies."}
+
+PMTs + SiPMs. **Prototype.**
+
+::: {.media-caption}
+TRIDENT / TDLI, SJTU.
+:::
+:::
+:::::
+
+::::::
+
+## Reconstructing an event {#event-reconstruction}
+
+::::::: {.content-visible when-format="html"}
+
+:::::: {.panel-tabset}
+
+### The idea
+
+<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/reconstruction/reconstruction_en.jpg" src="media/reconstruction/reconstruction_en.mp4"></video>
+
+### Try it
+
+{{< include assets/reconstruction/interactive.html >}}
+
+### The model
+
+::::: {.columns}
+::: {.column width="48%"}
+**Predict a time for each sensor**
+
+$$
+\cos\theta_C=\frac{1}{\beta n_{\rm phase}},\qquad
+t_i^{\rm pred}=t_0+\frac{s_i}{\beta c}+\frac{n_{\rm group}D_i}{c}.
+$$
+
+$s_i$: muon distance from the known crossing point to emission.
+
+$D_i$: photon path from emission to the sensor.
+
+The cone uses the **phase** index; flight time uses the **group** index.
+:::
+::: {.column width="48%"}
+**Find the direction that agrees with the signals**
+
+$$
+S=\frac{1}{2\sigma_t^2}\sum_{i,k}
+\left(t_{ik}^{\rm obs}-t_i^{\rm pred}\right)^2
+\longrightarrow\min_{\theta,\phi,t_0}.
+$$
+
+Every detected photoelectron contributes a measured time.
+
+**Here:** known crossing point, straight muon, homogeneous medium.
+Only direction and time offset are fitted — not vertex or energy.
+:::
+:::::
+
+::: {.question}
+How does a wrong model of the medium change the inferred direction?
+:::
+
+::: {.small}
+Synthetic teaching model, not an experiment's reconstruction or an angular-resolution forecast.
+The arrow is the muon's direction of travel; the source direction is opposite.
+:::
+::::::
+:::::::
+
+:::: {.content-visible when-format="pdf"}
+![](media/reconstruction/reconstruction_en.jpg){width=95%}
+
+Known crossing point; fit direction and time offset from individual arrival times.
+Synthetic example, not an instrument-resolution measurement.
+::::
+
+{{< include blocks/_03b-backgrounds.qmd >}}
+
+{{< include blocks/_03c-response.qmd >}}
+
+
+## Point-source searches: Baikal-GVD {#source-limits}
+
+:::::: {.panel-tabset}
+
+### Source limits
+
+**988 tracks · 92 directions · April 2019–March 2024**
+
+![](media/source-results/baikal-source-limits-e2.svg){.slide-media .nostretch style="--media-max-height: 460px;" fig-alt="The 92 Baikal-GVD E^-2 source flux limits from published Table 1, drawn versus sine of declination at 90% confidence. NGC 1068, TXS 0506+056 and the KM3-230213A direction are highlighted. This graph contains only observed source limits, not a new sensitivity calculation."}
+
+::: {.media-caption}
+$E^{-2}$ spectrum · $90\%$ CL · No significant catalogue excess · [Baikal-GVD (2026), Table 1](https://arxiv.org/abs/2603.21261v2)
+:::
+
+Real-time alerts and multimessenger follow-up with Baikal-GVD: work in progress.
+
+### Spectral assumptions
+
+![](media/source-results/baikal-source-limits-dark.svg){.slide-media .nostretch style="--media-max-height: 550px;" fig-alt="Redrawn Baikal-GVD figure 2: 90% source limits and median expected sensitivities for spectral indices 2, 2.5 and 3.2. Symbols are limits; solid curves are sensitivities."}
+
+::: {.media-caption}
+Symbols: source limits · Lines: expected sensitivity · [Baikal-GVD (2026), Fig. 2](https://arxiv.org/abs/2603.21261v2) · Limits from Table 1, sensitivities redrawn from the vector artwork
+:::
+
+### Comparison with ANTARES
+
+![](media/source-results/baikal-antares-limits-dark.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Redrawn comparison of Baikal-GVD and ANTARES 90% point-source limits for E^-2 and E^-2.5 spectra, with the declination axis of the original. This compares selected analysis samples, not equal-volume instruments."}
+
+::: {.media-caption}
+Matched spectral assumptions · [Baikal-GVD Collaboration (2026), Fig. 3](https://arxiv.org/abs/2603.21261v2) · Redrawn from the vector artwork; Baikal-GVD limits from Table 1
+:::
+
+::::::
+
+{{< include blocks/_06a-global-sky.qmd >}}

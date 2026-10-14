@@ -1,0 +1,167 @@
+# Что мы уже знаем {#chto-znaem}
+
+## Поток из космоса {#potok}
+
+:::::: {.panel-tabset}
+
+### IceCube, 2013
+
+::::: {.columns}
+::: {.column width="55%"}
+![](media/films/icecube_first_pev_ru.jpg){.slide-media .nostretch style="--media-max-height: 380px;" fig-alt="Последний кадр фильма: каскады Bert, Ernie и Big Bird в IceCube."}
+:::
+::: {.column width="41%"}
+**IceCube, май 2010 — май 2012**
+
+- 28 событий с энергией от 30 ТэВ до 1,2 ПэВ.
+- От атмосферы ожидали около 10.
+- Среди них Bert и Ernie.
+- Чисто атмосферное происхождение отвергнуто на уровне $4{,}1\sigma$.
+:::
+:::::
+
+::: {.small}
+**Как читать σ и $p$:**
+
+- $p$ — вероятность получить такой избыток случайно, если космических нейтрино нет.
+- σ — то же самое в «стандартных отклонениях»: чем больше σ, тем меньше $p$.
+- $3\sigma$ — $p\approx10^{-3}$, свидетельство; $5\sigma$ — $p\approx3\cdot10^{-7}$, открытие.
+:::
+
+::: {.media-caption}
+[IceCube, Science (2013)](https://arxiv.org/abs/1311.5238v2) · график — в приложениях
+:::
+
+### Байкал подтверждает
+
+::::: {.columns}
+::: {.column width="55%"}
+![](../neutrino-telescopes-2026/media/optical-modules/baikal-gvd-om-deployment.jpeg){.slide-media .nostretch style="--media-max-height: 460px;" fig-alt="Установка оптического модуля Baikal-GVD со льда."}
+:::
+::: {.column width="41%"}
+**Baikal-GVD, 2018–2024**
+
+- 18 каскадов, пришедших снизу, с энергией выше 15 ТэВ.
+- От атмосферы ожидали $2{,}8\pm1{,}0$.
+- Значимость $5{,}1\sigma$.
+- Другой детектор, вода вместо льда, другое полушарие — и тот же поток.
+:::
+:::::
+
+::: {.media-caption}
+[Baikal-GVD (2025)](https://arxiv.org/abs/2507.01893v2) · график — в приложениях
+:::
+
+::::::
+
+## Млечный Путь в нейтрино {#mlechnyy-put}
+
+:::::: {.panel-tabset}
+
+### IceCube
+
+<img class="slide-media media-height-lg" style="--media-max-height: 560px;" src="../neutrino-telescopes-2026/media/galactic/icecube-multiwavelength-2023.jpg" alt="Пять карт Галактики IceCube: оптика, гамма-кванты, предсказание и измерение нейтрино.">
+
+::: {.media-caption}
+IceCube Collaboration, Science (2023) · излучение плоскости Галактики, $4{,}5\sigma$
+:::
+
+### Анимация
+
+<video class="slide-video media-height-lg" style="--media-max-height: 590px;" controls muted playsinline preload="metadata" poster="media/films/milky_way_neutrinos_ru.jpg" src="media/films/milky_way_neutrinos_ru.mp4" aria-label="Космические лучи сталкиваются с газом Галактики, нейтрино летят к нам и складываются в полосу на небе; каскады Baikal-GVD выше 200 ТэВ."></video>
+
+::: {.media-caption}
+Модель Галактики иллюстративная · каскады Baikal-GVD выше 200 ТэВ и опубликованный тест
+:::
+
+### Байкал выше 200 ТэВ
+
+::::: {.columns}
+::: {.column width="63%"}
+![](media/films/gvd_cascades_sky_ru.jpg){.slide-media .nostretch style="--media-max-height: 480px;" fig-alt="Восемь каскадов Baikal-GVD выше 200 ТэВ на карте неба вокруг плоскости Галактики, кадр из фильма."}
+:::
+::: {.column width="35%"}
+**8 каскадов выше 200 ТэВ**
+
+- Они жмутся к плоскости Галактики.
+- Baikal-GVD: $p=1{,}4\cdot10^{-2}$.
+- Вместе с IceCube: $p=3{,}4\cdot10^{-4}$.
+- Возможно, при самых высоких энергиях Галактика даёт больше, чем ожидали.
+:::
+:::::
+
+::: {.media-caption}
+В. А. Аллахвердян и др. (Baikal-GVD) с Ю. Ю. Ковалёвым, А. В. Плавиным, Д. В. Семикозом, С. В. Троицким · [ApJ 982, 73 (2025)](https://arxiv.org/abs/2411.05608v2)
+:::
+
+::::::
+
+## Первые источники {#pervye-istochniki}
+
+:::::: {.panel-tabset}
+
+### NGC 1068
+
+::::: {.columns}
+::: {.column width="48%"}
+![](../neutrino-telescopes-2026/media/source-results/ngc1068-hubble-2025.jpg){.slide-media .nostretch style="--media-max-height: 500px;" fig-alt="Галактика NGC 1068 на снимке телескопа Хаббл."}
+
+::: {.media-caption}
+ESA/Hubble & NASA, L. C. Ho, D. Thilker
+:::
+:::
+::: {.column width="48%"}
+**Сейфертовская галактика, около 47 млн световых лет**
+
+- Активное ядро спрятано за пылью.
+- IceCube видит из этого направления избыток нейтрино: $4{,}0\sigma$ за 13 лет.
+- Нейтрино есть, а гамма-квантов ТэВ почти нет.
+- Скорее всего, нейтрино рождаются в плотной области у самой чёрной дыры, откуда гамма-кванты не выходят.
+:::
+:::::
+
+::: {.media-caption}
+[IceCube (2026)](https://arxiv.org/abs/2510.13403) · [IceCube, Science (2022)](https://arxiv.org/abs/2211.09972v1)
+:::
+
+### TXS 0506+056
+
+::::: {.columns}
+::: {.column width="62%"}
+<video class="slide-video" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="../neutrino-telescopes-2026/media/source-results/icecube-170922a.jpg" src="../neutrino-telescopes-2026/media/source-results/icecube-170922a.mp4" aria-label="Запись события IceCube-170922A."></video>
+:::
+::: {.column width="34%"}
+**22 сентября 2017**
+
+- Нейтрино около 290 ТэВ.
+- В его направлении вспыхивает блазар: его видят Fermi-LAT и MAGIC.
+- Совпадение на уровне около $3\sigma$.
+- **2021:** байкальский каскад 224 ТэВ из той же области неба. Это кандидат, ещё не доказательство.
+:::
+:::::
+
+::: {.media-caption}
+[IceCube и др., Science (2018)](https://arxiv.org/abs/1807.08816) · [Baikal-GVD, ICRC 2023](https://arxiv.org/abs/2308.13686v1)
+:::
+
+::::::
+
+## Рекорд: KM3-230213A {#rekord}
+
+::::: {.columns}
+::: {.column width="64%"}
+<video class="slide-video" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="../neutrino-telescopes-2026/media/events/km3-230213a.jpg" src="../neutrino-telescopes-2026/media/events/km3-230213a.mp4" aria-label="Официальный дисплей события KM3-230213A."></video>
+:::
+::: {.column width="32%"}
+**13 февраля 2023, Средиземное море**
+
+- Телескоп KM3NeT/ARCA.
+- Мюон с энергией около 120 ПэВ пролетает почти горизонтально.
+- Энергия нейтрино — около 220 ПэВ. Самое энергичное нейтрино из когда-либо зарегистрированных.
+- Откуда оно пришло, пока неизвестно.
+:::
+:::::
+
+::: {.media-caption}
+KM3NeT Collaboration · [Nature (2025)](https://doi.org/10.1038/s41586-024-08543-1)
+:::

@@ -14,6 +14,7 @@ format:
       - ../analytics/cloudflare-web-analytics.html
       - text: |
           <script data-external="1" data-context-home="https://neutrinohit.github.io/en/outreach.html#neutrino-telescopes" data-context-home-label="Neutrino telescope materials" src="../shared/reveal/neutrinohit-reveal-footer.js"></script>
+          <script data-external="1" src="../shared/reveal/neutrinohit-video-seek.js"></script>
     embed-resources: false
     width: 1600
     height: 900

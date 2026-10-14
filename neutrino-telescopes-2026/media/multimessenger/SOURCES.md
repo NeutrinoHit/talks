@@ -47,3 +47,13 @@ line style = neutrino fit or cascade photons). As drawn in the source, the dashe
 3 × the IceCube CF SPL normalization (1.80·10⁻¹⁸ per flavour at 100 TeV); its
 index (2.52) matches. Generator, tables and checks: `assets/diffuse-figures/README.md`.
 The original PNG is kept unchanged.
+
+## `nu_gamma_cascade_en.mp4`, `nu_gamma_cascade_en.jpg`
+
+Teaching film "Where are the gamma rays?" (66.4 s, H.264, 1920×1080, 30 fps, silent, footer `dvn-footer-v1`),
+copied byte for byte from `dvnanima/nu_gamma_cascade/media/nu_gamma_cascade_en.mp4` on 14 October 2026,
+SHA-256 `b0d147340fcae302d56e1cffef37e87d5df52faf6486a09a780bcc5ff1ae81b6`. The poster is the frame at 48.9 s
+of the same file (ffmpeg, no retouching). The IceCube band → pionic γ conversion, the EBL+CMB opacity and the
+energy-conserving schematic cascade, with all sources and checks, are documented in `dvnanima/nu_gamma_cascade/README.md`
+and `data/SOURCES.md` there. Its numbers use the same tables as `media/theory/energy-budget.svg`; the cascade there is
+schematic and is not the calculation of Zathul et al. (2026) shown on the first tab.

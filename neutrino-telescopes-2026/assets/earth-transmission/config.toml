@@ -32,3 +32,17 @@ foreground = "#eeeeee"
 grid = "#344250"
 colours = [[0.004, 0.008, 0.020], [0.05, 0.12, 0.30], [0.12, 0.42, 0.75], [0.45, 0.88, 1.00], [0.95, 0.99, 1.00]]
 contour_colour = "#ffd166"
+
+[tomography]
+# Earth tomography contrast: PREM against a homogeneous Earth of the same mass, CC absorption only (as above).
+profile_energies_tev = [10.0, 30.0, 100.0]
+profile_colours = ["#73c7ff", "#ffd166", "#ff8a5c"]
+contrast_limit = 0.5                     # colour range of (T_PREM - T_hom) / T_hom
+contrast_contours = [-0.3, -0.1, 0.1]
+log10_e_min = 3.0
+log10_e_max = 6.5
+energies = 141
+zeniths = 361
+width_in = 15.5
+height_in = 6.4
+diverging = ["#ff8a5c", "#3a1e18", "#000000", "#123a5a", "#73c7ff"]

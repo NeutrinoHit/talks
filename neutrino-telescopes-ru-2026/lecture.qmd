@@ -1,0 +1,24 @@
+---
+title: "Нейтринные телескопы"
+subtitle: "Как поймать нейтрино из далёкой галактики"
+author: "Д. В. Наумов"
+title-slide-attributes:
+  data-background-image: media/figures/title-galaxy.jpg
+  data-background-size: cover
+  data-background-position: bottom
+description: "Лекция для студентов о нейтринной астрономии высоких энергий: история, как устроены нейтринные телескопы, космические ускорители, открытия последних лет и будущие обсерватории."
+---
+
+{{< include blocks/_01-opening.qmd >}}
+
+{{< include blocks/_02-history.qmd >}}
+
+{{< include blocks/_03-principles.qmd >}}
+
+{{< include blocks/_04-sources.qmd >}}
+
+{{< include blocks/_05-results.qmd >}}
+
+{{< include blocks/_06-future.qmd >}}
+
+{{< include blocks/_09-appendix.qmd >}}

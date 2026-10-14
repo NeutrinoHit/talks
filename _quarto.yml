@@ -10,7 +10,14 @@ project:
     - "georgia-2026/assets/**"
     - "neutrino-telescopes-2026/media/**"
     - "neutrino-telescopes-2026/assets/**"
+    - "neutrino-telescopes-ru-2026/media/**"
     - "!neutrino-telescopes-2026/assets/reconstruction/__pycache__/**"
+    - "!neutrino-telescopes-2026/assets/backgrounds/__pycache__/**"
+    - "!neutrino-telescopes-2026/assets/global-sky/__pycache__/**"
+    - "!neutrino-telescopes-2026/assets/source-results/__pycache__/**"
+    - "!neutrino-telescopes-2026/assets/galactic/__pycache__/**"
+    - "!neutrino-telescopes-2026/assets/evidence/__pycache__/**"
+    - "!neutrino-telescopes-2026/assets/response/__pycache__/**"
   render:
     - "protvino-2026/dnaumov.qmd"
     - "georgia-2026/dnaumov.qmd"
@@ -18,6 +25,7 @@ project:
     # Temporarily disabled; keep the explicit exclusion for shared validation.
     - "!modular-symmetry/lecture.qmd"
     - "neutrino-telescopes-2026/lecture.qmd"
+    - "neutrino-telescopes-ru-2026/lecture.qmd"
 
 format:
   revealjs:
