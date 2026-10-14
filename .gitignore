@@ -16,3 +16,7 @@ dist/
 
 # Generated Python bytecode is not a lecture asset.
 neutrino-telescopes-2026/**/__pycache__/
+
+# Python caches and local working files
+__pycache__/
+/.work/
