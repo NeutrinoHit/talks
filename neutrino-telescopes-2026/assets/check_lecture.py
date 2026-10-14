@@ -18,17 +18,23 @@ def expand(path):
 def check():
     text=expand(ROOT/'lecture.qmd')
     headings=re.findall(r'^## .*?\{#([^}]+)\}',text,re.M)
+    sections=re.findall(r'^# .*?\{#([^}]+)\}',text,re.M)
+    assert len(sections)==7, f'{len(sections)} section title slides, expected six blocks and the backup'
     assert len(headings)==35, f'{1+len(headings)} slides, expected 36'
     assert len(set(headings))==len(headings),'Duplicate slide ID'
-    required=['detector-response','acceleration-and-confinement','pion-production',
+    required=['interaction-probability','event-topologies','acceleration-and-confinement','pion-production',
               'energy-budget','source-populations','icecube-diffuse-flux',
               'baikal-diffuse-flux','diffuse-spectral-structure','galactic-neutrinos',
               'gamma-budget','hidden-sources','ngc-1068','txs-0506','km3-230213a',
-              'source-limits','source-sensitivity','global-observatories',
+              'source-sensitivity',
               'icecube-future','b-hunt','next-questions','what-we-need','conclusions']
     positions=[headings.index(h) for h in required]
     assert positions==sorted(positions),'Physical/observational sequence changed'
-    assert headings[-1]=='conclusions'
+    backup=['what-the-detector-measures','cherenkov-light','photomultiplier','event-reconstruction',
+            'backgrounds-and-earth','detector-response','source-limits','global-observatories']
+    main=headings[:headings.index('conclusions')+1]
+    assert headings[len(main):]==backup,'The backup follows the conclusions and holds only the technical slides'
+    assert sections[-1]=='backup-section'
     refs=re.findall(r'(?:src|poster)="((?:media|assets)/[^"]+)"',text)
     refs+=re.findall(r'!\[[^\]]*\]\(((?:media|assets)/[^)]+)\)',text)
     for rel in refs:assert (ROOT/rel).is_file(),f'Missing media: {rel}'
@@ -50,7 +56,7 @@ def check():
               'media/observatories/p-one-configuration.jpg','media/observatories/trident-layout.png'}
     white=set(re.findall(r'!\[[^\]]*\]\(((?:media|assets)/[^)]+)\)\{[^}]*--media-bg: #fff',text))
     assert white<=white_ok,f'White figures not redrawn: {sorted(white-white_ok)}'
-    print(f'{1+len(headings)} slides; {len(refs)} local references; {len(items)} publication figures; chronology and conventions checked')
+    print(f'{1+len(sections)+len(headings)} slides; main route: title, {len(sections)-1} section titles, {len(main)} content slides; backup: {len(backup)}; {len(refs)} local references; {len(items)} publication figures; chronology and conventions checked')
 
 
 if __name__=='__main__':check()

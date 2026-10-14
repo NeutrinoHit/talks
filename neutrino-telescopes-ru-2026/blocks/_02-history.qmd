@@ -1,0 +1,271 @@
+# История нейтринных телескопов {#istoriya}
+
+## Телескоп внутри природы {#ideya-markova}
+
+:::::: {.panel-tabset}
+
+### Идея, 1960
+
+::::: {.columns}
+::: {.column width="48%"}
+![](../neutrino-telescopes-2026/media/history/markov-lectern-author.gif){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Моисей Марков на трибуне."}
+
+::: {.media-caption}
+Моисей Александрович Марков.
+:::
+:::
+::: {.column width="48%"}
+**Большая мишень уже есть в природе.**
+
+- Опустим датчики света глубоко в озеро или море.
+- Изредка нейтрино столкнётся с ядром и родит заряженную частицу.
+- Частица светится в воде, и по этому свету мы восстановим её путь.
+
+::: {.media-caption}
+М. А. Марков, Рочестерская конференция, 1960, с. 578.
+:::
+:::
+:::::
+
+### Марков и Понтекорво
+
+::::: {.columns}
+::: {.column width="43%"}
+![](../neutrino-telescopes-2026/media/history/markov-earlier.gif){.slide-media .nostretch style="--media-max-height: 350px; --media-width: 250px;" fig-alt="Ранний портрет Моисея Маркова."}
+
+::: {.media-caption}
+Ранний портрет, дата неизвестна. [Архив ИЯИ РАН](https://inr.ru/rus/markov/mark100.html).
+:::
+:::
+::: {.column width="53%"}
+![](../neutrino-telescopes-2026/media/history/markov-pontecorvo.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Моисей Марков слева и Бруно Понтекорво справа."}
+
+::: {.media-caption}
+Марков (слева) и Бруно Понтекорво (справа), без даты.
+[Исторический архив IceCube](https://icecube.wisc.edu/about-us/icecube10/timeline/).
+:::
+:::
+:::::
+
+::::::
+
+## DUMAND: первая попытка в океане {#dumand}
+
+:::::: {.panel-tabset}
+
+### Люди и мечта
+
+::::: {.columns}
+::: {.column width="58%"}
+![](../neutrino-telescopes-2026/media/history/dumand-1976.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Джон Лёрнед у доски, Джед Хирота сидит слева, Дик Дэвиссон справа, совещание DUMAND 1976 года."}
+
+::: {.media-caption}
+Совещание DUMAND, 1976. Джон Лёрнед у доски; Джед Хирота (слева), Дик Дэвиссон (справа).
+Фото: Анатолий Петрухин, через IceCube.
+:::
+:::
+::: {.column width="38%"}
+**Deep Underwater Muon And Neutrino Detector**
+
+- Райнес, Лёрнед и коллеги задумали массив в океане у Гавайев.
+- Глубина почти 5 км: всю инженерию пришлось придумывать заново.
+- 1987: прототип гирлянды, опущенный с корабля, увидел мюоны в глубине океана.
+:::
+:::::
+
+### 1979: Хабаровск и Байкал
+
+**Лето 1979 года: совещание DUMAND проходит в Хабаровске и на Байкале.**
+
+- Чудаков, Березинский, Безруков, Долгошеин, Петрухин и Железных вместе с американской командой планируют глубоководный телескоп.
+- **Декабрь 1979:** советские войска входят в Афганистан.
+- **1980:** американская сторона прекращает сотрудничество.
+
+> «…если среди них случайно окажутся русские, выяснится, что денег нет».
+
+Артур Робертс, DUMAND (перевод)
+
+::: {.takeaway}
+1980: Чудаков предлагает строить «русский DUMAND» на Байкале.
+:::
+
+::: {.media-caption}
+C. Spiering, *Eur. Phys. J. H* **37**, 515 (2012), [arXiv:1207.4952](https://arxiv.org/abs/1207.4952), раздел 4.1;
+A. Roberts, *Rev. Mod. Phys.* **64**, 259 (1992).
+:::
+
+### Декабрь 1993
+
+[4800 м под Тихим океаном. Почти 500 атмосфер.]{style="font-size: 1.3em; font-weight: 700;"}
+
+- Первая гирлянда подключена на дне. Она видит мюоны.
+- Больше сотни гермовводов ведут кабели в прочные корпуса. **Один — с дефектом.**
+- Морская вода просачивается внутрь. **Примерно через десять часов — короткое замыкание.**
+- Предохранитель не срабатывает. Берег теряет связь.
+- **Январь 1994:** акустический сигнал отцепляет гирлянду от дна.
+- **1995: финансирование прекращено.** Массив так и не построен.
+
+::: {.takeaway}
+В глубоком океане один разъём может решить судьбу эксперимента.
+:::
+
+::: {.media-caption}
+DUMAND Collaboration, [astro-ph/9412019](https://arxiv.org/abs/astro-ph/9412019);
+C. Spiering, *Eur. Phys. J. H* **37**, 515 (2012), [arXiv:1207.4952](https://arxiv.org/abs/1207.4952).
+:::
+
+::::::
+
+## Байкал: лёд как платформа {#baykal}
+
+:::::: {.panel-tabset}
+
+### Почему Байкал?
+
+::::: {.columns}
+::: {.column width="57%"}
+![](../neutrino-telescopes-2026/media/history/baikal-winter-2005.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Зимние работы на Байкале, 2005 год."}
+
+::: {.media-caption}
+Зимняя экспедиция, 2005. [Архив ЛЯП ОИЯИ](https://dlnp.jinr.ru/chronograph/75/3258).
+:::
+:::
+::: {.column width="39%"}
+**Место предложил Александр Чудаков.**
+
+- Глубокая и чистая вода недалеко от берега.
+- Зимой озеро покрыто льдом. Это готовая платформа: гирлянды опускают прямо со льда.
+:::
+:::::
+
+### Романтика
+
+::::: {.columns}
+::: {.column width="62%"}
+![](media/photos/baikal-rigs-shaybonov.jpg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Лебёдки и вышки Baikal-GVD на льду Байкала на фоне заснеженных гор."}
+:::
+::: {.column width="34%"}
+![](media/photos/baikal-om-string-shaybonov.jpg){.slide-media .nostretch style="--media-max-height: 300px;" fig-alt="Участники экспедиции собирают гирлянду с оптическими модулями на льду."}
+
+::: {.takeaway}
+Байкальский нейтринный эксперимент — самый романтичный в мире.
+:::
+:::
+:::::
+
+::: {.media-caption}
+Зимняя экспедиция Baikal-GVD. Фото Б. Шайбонова.
+:::
+
+### Основатели
+
+::::: {.columns}
+::: {.column width="48%"}
+![](../neutrino-telescopes-2026/media/history/chudakov-1985.jpg){.slide-media .nostretch style="--media-max-height: 430px;" fig-alt="Александр Чудаков в 1985 году."}
+
+::: {.media-caption}
+Александр Евгеньевич Чудаков, **1985**. [Фотоархив ИЯИ](https://llve.inr.ac.ru/chudakov/foto.htm).
+:::
+:::
+::: {.column width="48%"}
+![](../neutrino-telescopes-2026/media/history/domogatsky-1980-author.jpeg){.slide-media .nostretch style="--media-max-height: 430px;" fig-alt="Григорий Домогацкий, ранний портрет."}
+
+::: {.media-caption}
+Григорий Владимирович Домогацкий, **1980**. Руководил байкальской нейтринной программой с 1980 года.
+:::
+:::
+:::::
+
+### Три гирлянды
+
+::::: {.columns}
+::: {.column width="52%"}
+![](media/figures/nt36-side.svg){.slide-media .nostretch style="--media-max-height: 580px;" fig-alt="Схема NT-36 сбоку: три гирлянды по шесть пар оптических модулей на раме-зонтике, глубина 1,1 км."}
+:::
+::: {.column width="44%"}
+**NT-36, апрель 1993**
+
+- 3 гирлянды, 36 модулей.
+- Модули работают парами: сигнал засчитан, если оба ФЭУ сработали за 15 нс.
+- Глубина 1,1 км.
+
+> «Поздравляю с победой в гонке трёх гирлянд!»
+
+Фрэнсис Халзен — Кристиану Шпирингу (перевод)
+:::
+:::::
+
+::: {.media-caption}
+Схема по [Baikal Collaboration, astro-ph/9601161](https://arxiv.org/abs/astro-ph/9601161), раздел 2 и рис. 1 · ориентация пар — конфигурация 1994 года.
+:::
+
+### Первые нейтрино
+
+```{=html}
+<div class="timing" style="font-size: 1em; grid-template-columns: 9rem 1fr;">
+<span class="time">1980–84</span><span>Лаборатория, изучение места, первые гирлянды</span>
+<span class="time">1993–94</span><span>NT36: первые кандидаты в нейтрино</span>
+<span class="time">1996</span><span>NT96: чёткий сигнал нейтрино, идущих снизу</span>
+<span class="time">1998</span><span>NT200: 192 оптических модуля</span>
+</div>
+```
+
+::: {.takeaway}
+Атмосферные нейтрино доказали: метод Маркова работает.
+:::
+
+::: {.media-caption}
+C. Spiering, исторический обзор (2024); [статья о детекторе](https://cds.cern.ch/record/323330).
+:::
+
+::::::
+
+## К кубическому километру {#k-kubokilometru}
+
+:::::: {.panel-tabset}
+
+### AMANDA
+
+::::: {.columns}
+::: {.column width="57%"}
+![](../neutrino-telescopes-2026/media/history/amanda-team.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Участники AMANDA с оптическими модулями."}
+
+::: {.media-caption}
+Участники AMANDA и оптические модули. Коллаборация AMANDA; без даты.
+:::
+:::
+::: {.column width="39%"}
+**Антарктида, лёд Южного полюса**
+
+- Халзен, Лёрнед, Прайс, Морс, Барвик и коллеги пробуют полярный лёд.
+- Неглубоко лёд полон пузырьков, и свет сильно рассеивается.
+- Глубже пузырьки исчезают, и направления удаётся восстановить.
+:::
+:::::
+
+### IceCube
+
+::::: {.columns}
+::: {.column width="57%"}
+![](../neutrino-telescopes-2026/media/history/icecube-last-dom-2010.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Установка последнего оптического модуля IceCube в декабре 2010 года."}
+
+::: {.media-caption}
+Последний оптический модуль, декабрь 2010. IceCube/NSF.
+:::
+:::
+::: {.column width="39%"}
+- **1999:** предложение кубического километра.
+- **2010:** последняя из 86 гирлянд.
+- **2013:** открыт поток астрофизических нейтрино.
+:::
+:::::
+
+### Команда
+
+![](../neutrino-telescopes-2026/media/history/icecube-team-2004-05.jpg){.slide-media .nostretch style="--media-max-height: 440px; --media-width: 76%;" fig-alt="Строители IceCube в сезоне 2004–2005 перед буровой вышкой."}
+
+::: {.media-caption}
+Первый строительный сезон IceCube, **2004–2005**. Исторический архив IceCube/NSF.
+:::
+
+::::::

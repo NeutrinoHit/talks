@@ -27,9 +27,8 @@ $$
 | $2\times$ sharper directions | unchanged | $\div4$ | $2\times$ |
 | Both | $4\times$ | unchanged | $4\times$ |
 
-Calibration controls pointing and energy systematics.
-
-A global network adds sky coverage and rapid follow-up.
+- Calibration controls pointing and energy systematics.
+- A global network adds sky coverage and rapid follow-up.
 
 ::: {.media-caption}
 Idealized scaling, fixed spectrum and event selection.
@@ -38,63 +37,3 @@ Idealized scaling, fixed spectrum and event selection.
 :::
 
 ::::::
-
-::: {.notes}
-**Say:** A source does not appear at once: neutrinos trickle in, most of them background, and the source only stands out when its excess beats the noise — so we win either by collecting longer and with bigger detectors, or by pointing more sharply.
-
-The film (about 57 s, English): events arrive one by one on a 10-degree patch;
-the count in a circle around the source is compared with the expected background
-and the significance grows as the square root of time. Then the same source and
-years are shown for cascades in ice (half of the events within 10 degrees),
-cascades in water (2.5 degrees) and tracks (0.4 degrees): about 0.3, 1.1 and 6
-sigma expected after 1 km³ × 10 years. Finally cascades in water in 1 and 30 km³:
-1.1 versus 5.9 sigma expected (this simulated sky: 1.0 and 5.6). The source
-strength is of the order of the 79 (+22/−20) NGC 1068 events in IceCube over
-2011–2020 (Science 378 (2022) 538); the background is uniform and identical in all
-panels, an idealisation (real tracks and cascades differ in background and
-effective area). Significance: Poisson likelihood ratio at the known position,
-expectation from the Asimov data set; maps show the same statistic around every
-pixel, so 2–3 sigma noise blobs elsewhere are expected. Angular scales: IceCube
-2013 cascades 10–15 degrees; Baikal-GVD cascades above 200 TeV r50 = 1.6–3.3
-degrees (ApJ 982 (2025) 73, Table 1); tracks ≤ 0.4 degrees (Ahlers and Halzen
-2018). It is not a forecast for Baikal-GVD, IceCube-Gen2, KM3NeT or B-HUNT.
-Film source and provenance: `media/sensitivity/SOURCES.md`.
-
-Spend about 90 seconds before the observatory overview. Mathcal E is a relative
-exposure scale, not neutrino energy. At fixed detector response,
-it can mean observation time; a scalar acceptance increase is an alternative
-only if it scales signal and background rates alike. N_s and N_b are expected
-counts, and sigma_theta denotes a characteristic small-angle point-spread width.
-For a window whose radius scales with sigma_theta, its solid angle scales as
-sigma_theta squared. The contained signal fraction stays fixed as the window
-shrinks with the improved resolution; locally uniform background decreases
-with the window area. Z is the Gaussian, large-background counting approximation,
-not a calibrated significance from a real telescope's likelihood analysis.
-
-The table compares factors at fixed incident source flux, spectrum, energy
-range and selection. Four times the exposure yields four times each count
-and twice the approximate significance. Halving the angular width retains
-the same signal fraction and divides the background by four, again doubling Z.
-Combining the two changes leaves background equal to baseline and gives four
-times the signal and significance. The arithmetic is a scaling illustration,
-not a forecast for Gen2, GVD, ARCA or any named detector.
-
-The approximation fails for sparse/background-free samples, large angles,
-extended sources, response changes and dominant systematics. Trials and
-time/energy information are absent. The minimum detectable flux scales as
-sigma_theta / sqrt(E) in this idealized limit, so both gains improve it.
-
-Calibration constrains optical-medium, timing, charge and geometry uncertainties.
-More exposure does not remove these systematic errors. Different latitudes
-add complementary coverage; alerts enable time-dependent counterpart searches.
-Do not treat exposures of different telescopes as interchangeable without
-their energy- and direction-dependent responses.
-
-Use the scaling to read the instrument designs that follow: exposure, angular
-information and control of systematics serve different scientific purposes.
-
-References: IceCube-Gen2 science case, https://arxiv.org/abs/2008.04323;
-IceCube Upgrade design and calibration goals,
-https://arxiv.org/abs/1908.09441. The displayed factors follow analytically
-from the stated counting model, rather than from a collaboration forecast.
-:::

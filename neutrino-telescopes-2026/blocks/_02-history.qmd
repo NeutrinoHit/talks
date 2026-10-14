@@ -1,3 +1,5 @@
+# History of Neutrino Telescopes {#history-section}
+
 ## A telescope inside a natural medium {#markovs-idea}
 
 :::::: {.panel-tabset}
@@ -15,9 +17,8 @@ Moisei Markov.
 ::: {.column width="48%"}
 **A large target already exists in nature.**
 
-Place light sensors deep in a lake or sea.
-
-Use Cherenkov light to reconstruct charged particles produced by neutrinos.
+- Place light sensors deep in a lake or sea.
+- Use Cherenkov light to reconstruct charged particles produced by neutrinos.
 
 ::: {.media-caption}
 M. A. Markov, Rochester conference, 1960, p. 578.
@@ -90,19 +91,6 @@ The physics was compelling. Could the instrument survive and work?
 :::::
 ::::::
 
-::: {.notes}
-**3:00–4:15.** Present the idea first. The portrait tabs are optional material,
-not four additional mini-talks. Select a pair if it helps the audience see the
-long human timescale. The photo dates are not the dates of the scientific
-proposals. The early Markov portrait is a small archival scan; do not invent
-detail or an exact date. Reines and Cowan's picture documents the 1956 reactor
-experiment, not an underwater telescope.
-
-Source: C. Spiering, *Early History of Neutrino Astronomy and Neutrino Telescopes*,
-GSSI 2024, slides 3–6. Markov, ICHEP 1960, p. 578. Photos and credits:
-INR RAS anniversary archive and IceCube timeline; see media/history/SOURCES.md.
-:::
-
 ## DUMAND: the first deep-ocean attempt {#pioneering-telescopes}
 
 :::::: {.panel-tabset}
@@ -121,40 +109,54 @@ Photo: Anatoly Petrukhin, via IceCube.
 ::: {.column width="38%"}
 **Deep Underwater Muon And Neutrino Detector**
 
-Reines, Learned and colleagues pursued an ocean array near Hawaii.
+- Reines, Learned and colleagues pursued an ocean array near Hawaii.
+- A detector several kilometres below the surface needed entirely new engineering.
 
-A detector several kilometres below the surface needed entirely new engineering.
+**1987:** a short prototype string, lowered from a ship, recorded muons in the deep ocean.
 :::
 :::::
 
-### What the project taught us
+### 1979: Khabarovsk and Baikal
 
-```{=html}
-<div class="timing">
-<span class="time">1973–75</span><span>International discussions and the first workshops</span>
-<span class="time">1987</span><span>A short prototype string operates from a ship</span>
-<span class="time">1993</span><span>A deep-sea string deployment encounters a failure</span>
-<span class="time">1995</span><span>US support ends before the planned array is completed</span>
-</div>
-```
+**Summer 1979: the DUMAND workshop meets in Khabarovsk and at Lake Baikal.**
 
-Deployment, connectors, power and calibration became part of the physics problem.
+- Chudakov, Berezinsky, Bezrukov, Dolgoshein, Petrukhin and Zheleznykh plan the deep-ocean telescope together with the American team.
+- **December 1979:** Soviet troops enter Afghanistan.
+- **1980:** the American side ends the cooperation.
+
+> “…if perchance they included Russians it would be found that no funding was available.”
+
+Arthur Roberts, DUMAND
+
+::: {.takeaway}
+1980: Chudakov proposes Lake Baikal for a “Russian DUMAND”.
+:::
 
 ::: {.media-caption}
-[IceCube historical archive](https://icecube.wisc.edu/about-us/icecube10/timeline/);
+C. Spiering, *Eur. Phys. J. H* **37**, 515 (2012), [arXiv:1207.4952](https://arxiv.org/abs/1207.4952), section 4.1;
 A. Roberts, *Rev. Mod. Phys.* **64**, 259 (1992).
 :::
-::::::
 
-::: {.notes}
-**4:15–5:00.** Spend most of the time on the workshop photograph. The project
-helped create a community and techniques that outlived DUMAND. Its termination
-was not an experimental refutation of the detection principle. Open the
-timeline only if the chronology is useful.
+### December 1993
 
-Source: [Spiering 2024 historical talk](https://indico.gssi.it/event/632/contributions/2151/attachments/1298/2259/Early_History_of_Neutrinoastronomy_GSSI-29-09.pdf),
-slides 13, 25–26. Photo attribution follows the IceCube archive caption.
+[4800 m below the Pacific. Nearly 500 atmospheres.]{style="font-size: 1.3em; font-weight: 700;"}
+
+- **December 1993:** the first string is connected on the sea floor. It sees muons.
+- Over a hundred penetrators lead cables into the pressure housings. **One is flawed.**
+- Seawater seeps in. **About ten hours later: a short circuit.**
+- A fuse fails to clear it. The shore loses contact.
+- **January 1994:** an acoustic signal releases the string from the sea floor.
+- **1995: support ends.** The array is never built.
+
+::: {.takeaway}
+In the deep ocean, one connector can decide the fate of an experiment.
 :::
+
+::: {.media-caption}
+DUMAND Collaboration, [astro-ph/9412019](https://arxiv.org/abs/astro-ph/9412019);
+C. Spiering, *Eur. Phys. J. H* **37**, 515 (2012), [arXiv:1207.4952](https://arxiv.org/abs/1207.4952).
+:::
+::::::
 
 ## Lake Baikal: the ice becomes a platform {#baikal-beginnings}
 
@@ -173,9 +175,8 @@ Winter expedition, 2005. [DLNP JINR archive](https://dlnp.jinr.ru/chronograph/75
 ::: {.column width="39%"}
 **Alexander Chudakov proposed the site.**
 
-Deep, clear water close to shore.
-
-A frozen surface for deploying and maintaining the detector.
+- Deep, clear water close to shore.
+- A frozen surface for deploying and maintaining the detector.
 
 :::
 :::::
@@ -242,10 +243,8 @@ His Zeuthen group joined in 1988.
 :::
 :::
 ::: {.column width="56%"}
-Scientists, engineers and winter expeditions turned the proposal into a working array.
-
-The 2006 Markov Prize recognised Domogatsky and Spiering for NT200+ and
-high-energy neutrino astrophysics.
+- Scientists, engineers and winter expeditions turned the proposal into a working array.
+- The 2006 Markov Prize recognised Domogatsky and Spiering for NT200+ and high-energy neutrino astrophysics.
 :::
 :::::
 
@@ -270,7 +269,7 @@ NT36, DUMAND's TRIAD and AMANDA: competing routes to a working array.
 ### First neutrinos
 
 ```{=html}
-<div class="timing">
+<div class="timing" style="font-size: 1em; grid-template-columns: 9rem 1fr;">
 <span class="time">1980–84</span><span>A dedicated laboratory, site studies and early strings</span>
 <span class="time">1993–94</span><span>NT36: early neutrino candidates</span>
 <span class="time">1996</span><span>NT96: a clear upward-going neutrino signal</span>
@@ -303,9 +302,8 @@ AMANDA collaborators and optical modules. AMANDA Collaboration; photograph undat
 ::: {.column width="39%"}
 **Halzen, Learned, Price, Morse, Barwick and colleagues** explored polar ice.
 
-Early shallow deployments suffered strong scattering from bubbles.
-
-Deeper ice made directional reconstruction possible.
+- Early shallow deployments suffered strong scattering from bubbles.
+- Deeper ice made directional reconstruction possible.
 :::
 :::::
 
@@ -350,10 +348,8 @@ Artist's illustration of ANTARES and Nautile. ANTARES material via IceCube.
 ::: {.column width="39%"}
 **2008:** the 12-line detector is complete.
 
-Long-term operation demonstrated precision neutrino detection in the deep sea.
-
-ANTARES, NEMO and NESTOR supplied experience for KM3NeT.
+- Long-term operation demonstrated precision neutrino detection in the deep sea.
+- ANTARES, NEMO and NESTOR supplied experience for KM3NeT.
 :::
 :::::
 ::::::
-

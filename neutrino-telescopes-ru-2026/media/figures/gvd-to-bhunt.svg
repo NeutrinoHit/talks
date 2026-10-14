@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640">
+<title>From Baikal-GVD to B-HUNT</title>
+<desc>Published milestones and two cubes whose volumes are 1 and 30 cubic kilometres. Not a detector layout.</desc>
+<rect width="1600" height="640" fill="#070d16"/>
+<path d="M150 46V570" stroke="#506a84" stroke-width="3"/>
+<circle cx="150" cy="56" r="11" fill="#ffd477"/>
+<text x="124.0" y="66.0" fill="#ffd477" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="end">2024</text>
+<text x="182.0" y="66.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="28" font-weight="normal" text-anchor="start">Первая прототипная гирлянда HUNT на Байкале</text>
+<text x="182.0" y="102.0" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="24" font-weight="normal" text-anchor="start">12 модулей с 20-дюймовыми ФЭУ</text>
+<circle cx="150" cy="182" r="11" fill="#ffd477"/>
+<text x="124.0" y="192.0" fill="#ffd477" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="end">2025</text>
+<text x="182.0" y="192.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="28" font-weight="normal" text-anchor="start">Байкал: полноразмерная гирлянда с 20-дюймовыми модулями</text>
+<text x="182.0" y="228.0" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="24" font-weight="normal" text-anchor="start">Южно-Китайское море: 4 прототипа детекторных узлов</text>
+<text x="182.0" y="264.0" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="24" font-weight="normal" text-anchor="start">+ светодиодный калибратор, 1600 м</text>
+<circle cx="150" cy="308" r="11" fill="#73c7ff"/>
+<text x="124.0" y="318.0" fill="#73c7ff" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="end">2026</text>
+<text x="182.0" y="318.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="28" font-weight="normal" text-anchor="start">Baikal-GVD: 16 кластеров</text>
+<text x="182.0" y="354.0" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="24" font-weight="normal" text-anchor="start">эффективный объём ≈ 0,8 км³</text>
+<circle cx="150" cy="434" r="11" fill="#73c7ff"/>
+<text x="124.0" y="444.0" fill="#73c7ff" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="end">≈2028</text>
+<text x="182.0" y="444.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="28" font-weight="normal" text-anchor="start">Baikal-GVD: ≈ 1 км³</text>
+<circle cx="150" cy="560" r="11" fill="#ffd477"/>
+<text x="124.0" y="570.0" fill="#ffd477" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="end">≈2040</text>
+<text x="182.0" y="570.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="28" font-weight="normal" text-anchor="start">B-HUNT: ≈ 30 км³ в Байкале</text>
+<text x="182.0" y="606.0" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="24" font-weight="normal" text-anchor="start">коллаборация Baikal-GVD и IHEP (Пекин)</text>
+<path d="M960 470h70v-70h-70Z" fill="#73c7ff" fill-opacity="0.3" stroke="#73c7ff" stroke-width="2"/>
+<path d="M960 400l31.5 -18.9h70l-31.5 18.9Z" fill="#73c7ff" fill-opacity="0.45" stroke="#73c7ff" stroke-width="2"/>
+<path d="M1030 470l31.5 -18.9v-70l-31.5 18.9Z" fill="#73c7ff" fill-opacity="0.18" stroke="#73c7ff" stroke-width="2"/>
+<text x="995.0" y="512.0" fill="#73c7ff" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle">1 км³</text>
+<text x="995.0" y="548.0" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="24" font-weight="normal" text-anchor="middle">цель Baikal-GVD</text>
+<path d="M1180 470h217.5062754167701v-217.5062754167701h-217.5062754167701Z" fill="#ffd477" fill-opacity="0.3" stroke="#ffd477" stroke-width="2"/>
+<path d="M1180 252.4937245832299l97.87782393754655 -58.72669436252793h217.5062754167701l-97.87782393754655 58.72669436252793Z" fill="#ffd477" fill-opacity="0.45" stroke="#ffd477" stroke-width="2"/>
+<path d="M1397.5062754167702 470l97.87782393754655 -58.72669436252793v-217.5062754167701l-97.87782393754655 58.72669436252793Z" fill="#ffd477" fill-opacity="0.18" stroke="#ffd477" stroke-width="2"/>
+<text x="1288.8" y="512.0" fill="#ffd477" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle">30 км³</text>
+<text x="1288.8" y="548.0" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="24" font-weight="normal" text-anchor="middle">B-HUNT · Россия + Китай</text>
+<text x="1250.0" y="600.0" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="22" font-weight="normal" text-anchor="middle">Объёмы кубов в масштабе</text>
+</svg>

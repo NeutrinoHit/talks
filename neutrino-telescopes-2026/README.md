@@ -16,7 +16,7 @@ The deck contains 36 slides including the title. Historical portraits and
 additional analysis tabs are reserve material for questions.
 
 Scientific model assumptions, sample dates, flavour conventions and confidence
-levels are in the speaker notes and each media directory's SOURCES.md.
+levels are in each media directory's SOURCES.md. The slides carry no speaker notes.
 The lecture consumes only selected figures, films and self-contained teaching
 assets. No private event files or external sibling runtime is needed.
 
@@ -80,7 +80,7 @@ Expected URL after Dmitry publishes the repository:
 `https://neutrinohit.github.io/talks/neutrino-telescopes-2026/lecture.html`.
 This is an intended URL, not a claim that the page is published.
 
-The Reveal menu provides slide navigation. `S` opens speaker notes.
+The Reveal menu provides slide navigation.
 Block entry links append, for example, `#/interaction-probability` or
 `#/icecube-diffuse-flux`. The footer returns to the already registered English
 neutrino-telescope material section:
@@ -144,8 +144,7 @@ Slide 9 has three concise tabs: **Animation**, **Why a cone?**, and
 **Which way does light go?** Two lecture-local vector diagrams show same-age
 wavefronts below/above threshold and the light direction normal to the common
 tangent front. Circle crossings are not presented as the radiation criterion.
-Only the speed conditions and the emission-angle formula remain visible;
-kinetic thresholds, ring geometry and model limitations are in speaker notes.
+Only the speed conditions and the emission-angle formula are shown.
 All equations are LaTeX. The new 40-second `cherenkov_steps_en.mp4` keeps
 four wavefronts, separate constant-speed trials, teaching pauses, the common
 tangent front and normal light directions. The graph and ring are removed.
@@ -222,7 +221,7 @@ atmospheric-muon sample rates. **Neutrino backgrounds** has a large static graph
 of conventional atmospheric, prompt-charm and astrophysical νN interactions
 per year per energy decade in 1 km³ water, downward hemisphere, before selection.
 Muon event rates, optical singles and neutrino interaction rates are distinct
-quantities. Sample definitions, model assumptions and citations are in notes.
+quantities.
 Canonical Reveal classes are used.
 
 Earth shield and radioactivity videos were removed **only from this slide**;
@@ -247,8 +246,7 @@ entering an existing jet. **Gas targets** and **Photon targets** are static
 comparisons of $pp$ and $p\gamma$ production. **Acceleration and confinement**
 retains the gyroradius criterion. Gas in the film comes from an axisymmetric,
 non-relativistic hydro model, while protons and neutrinos are schematic.
-Speaker notes explain model limits, the one-crossing pion yield and references
-for the static variants. Only the two supplied films are embedded on these slides.
+Only the two supplied films are embedded on these slides.
 
 Both complete films take 3 min 15.8 s together. Allow about four minutes for
 the two films within the seven-minute source block. Discuss static
@@ -310,30 +308,26 @@ Keynote media by visual inspection, not by filename alone.
 
 ## Speaking route
 
-The route below predates the October 2026 rework and will be replaced when the
-lecture is recomposed into a main route and a backup section.
+Plenary talk for specialists, 60 minutes including videos. The main route ends with
+"Where are the sources?"; the `Backup` section (`blocks/_08-backup.qmd`) follows it and holds
+detector technique that a specialist audience does not need, available for questions.
 
-The time budget is 60 minutes of speaking, including videos. It is a rehearsal
-allocation, not a measured performance duration. Use the following route;
-additional tabs remain available for discussion.
-
-| Part | Main route | Reserve |
+| Part | Main-route slides | Planned minutes |
 | --- | --- | --- |
-| Opening/history | Recognition; Markov idea; DUMAND photograph; Baikal site and three-string episode; IceCube construction | Portrait pairs and detailed chronology |
-| Detection | Cosmic/Earth contrast; muon source; Cherenkov movie; PMT movie; pattern comparison; reconstruction movie; both background tabs; Effective area | Electron source; event compilations; viewer captures; interactive fit; detailed response tabs |
-| Source physics | Complete jet films; Pion decays and Parent proton energy; Production environments | Alternative engines and targets; photon-flux coefficient |
-| Diffuse results | IceCube The excess; GVD Cascade energies and Spectrum; IceCube Measured spectrum | Veto diagram; zenith plots; parameter and index contours; event-proxy distributions |
-| Interpretation | Transparent sources; compact-region diagram; Milky Way IceCube, Animation, then IceCube again | Photon threshold; Galactic toy sky |
-| Sources | TXS alert and archival flare; NGC directional excess, photon comparison and X-ray population; KM3 event and energy inference; GVD source limits | TXS reprocessing and GVD candidate; AGN spectra; alternative limit spectra |
-| Prospects | Source-sensitivity scaling; sky coverage and joint analysis; IceCube, KM3NeT, Baikal-GVD | Four proposed arrays and extended project comparisons |
-| Closing | Questions and measurements; Measurements and remaining uncertainties | Cross-section and flavour programme during questions |
+| Opening | A new window on the Universe (prize, 1 PeV, film 22.5 s) | 3 |
+| History | Markov; DUMAND (1979 and 1993); Baikal; the cubic kilometre | 6 |
+| Detection | Transparent Universe, opaque Earth; tracks and cascades | 3 |
+| Source physics | Jet power (film 98 s); jets and neutrinos, Barkov et al. (film 97 s); pion decay; energy budget; production environments | 12 |
+| Observations | Diffuse flux (IceCube, Baikal-GVD, spectral structure); Milky Way (film 72 s); gamma-ray budget; hidden sources; NGC 1068; TXS 0506+056; KM3-230213A | 20 |
+| Observatories | Source sensitivity (film 57 s); neutrino observatories; Baikal-GVD to B-HUNT | 6 |
+| Prospects | What we want to discover; what we lack; where are the sources? | 5 |
 
-The two jet films last 195.8 s together. Other main films: muon 20 s,
-Cherenkov 40 s, PMT 40 s, reconstruction 48 s, Milky Way 72.4 s,
-IceCube-170922A 11.776 s, KM3-230213A 30 s and A source emerges 57.4 s. Full video time is
-about 8 min 36 s, before discussion; the Milky Way film now comes from
-`dvnanima/milky_way_neutrinos` (the lecture-local `assets/galactic` generator is superseded). The interactive is an optional demonstration;
-if used, exchange time with a reserve result rather than extending the hour.
+About 55 minutes plus 5 minutes of slack. Tabs are optional depth: skip them rather than
+extend the hour.
+
+**Backup:** what creates the light (muon and electron films); Cherenkov light; photomultiplier;
+event reconstruction (film and interactive fit); backgrounds; from events to a neutrino flux;
+Baikal-GVD point-source limits; a global view of the neutrino sky.
 
 ## Diffuse evidence and response
 

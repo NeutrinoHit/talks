@@ -1,43 +1,11 @@
+# Prospects {#prospects-section}
+
 ## What we want to discover {#next-questions}
 
 ![](media/prospects/discovery-map.svg){.slide-media .nostretch style="--media-max-height: 600px;" fig-alt="Open questions placed on a neutrino-energy axis from 1 TeV to 1 EeV over the measured cosmic neutrino spectrum: Seyfert galaxies beyond NGC 1068 at 1.5 to 15 TeV; the spectral break near 25 TeV, pp or p-gamma; the Milky Way and PeVatrons above 200 TeV; the neutrino cross section from Earth absorption above 40 TeV; the Glashow resonance at 6.3 PeV; and KM3-230213A at about 220 PeV, source or cosmogenic. Transients through alerts and new physics can appear at any energy."}
 
 ::: {.media-caption}
 Questions on the energy axis · Spectrum: [IceCube (2026)](https://arxiv.org/abs/2507.22233v3) · [Glashow: IceCube (2021)](https://arxiv.org/abs/2110.15051) · [KM3-230213A: KM3NeT (2025)](https://doi.org/10.1038/s41586-024-08543-1)
-:::
-
-::: {.notes}
-**Say:** Here is the wish list on one energy axis: which galaxies make most of the neutrinos, how bright our own Milky Way is, what makes the bend in the spectrum, what the very highest-energy neutrinos are — and, along the way, how neutrinos themselves interact.
-
-Allow about 90 seconds; each item points back to a slide of this lecture.
-
-1. Populations: decompose the diffuse flux. Seyfert galaxies beyond NGC 1068
-(the bar is NGC 1068's well-constrained 1.5–15 TeV range,
-[IceCube, arXiv:2510.13403](https://arxiv.org/abs/2510.13403); population
-evidence in northern X-ray AGN and southern Seyferts) and radio-bright blazars
-([Plavin et al., ApJ 894, 101 (2020)](https://arxiv.org/abs/2001.00930)).
-2. A neutrino map of the Galaxy and LHAASO's PeVatrons: Baikal-GVD cascades above
-200 TeV ([ApJ 982, 73 (2025)](https://arxiv.org/abs/2411.05608)), IceCube's
-Galactic plane ([Science 380 (2023)](https://arxiv.org/abs/2307.04427)) and
-LHAASO's diffuse and ultra-high-energy sources
-([PRL 131, 151001 (2023)](https://arxiv.org/abs/2305.05372)).
-3. The production zone, coronae or jets, and transients found through alerts
-(slides on hidden sources and jets).
-4. The break near 30 TeV (CF: $10^{4.39}$ GeV, Table III of
-[PRL 136, 121002 (2026)](https://arxiv.org/abs/2507.22233v3)) and pp versus
-p-gamma: the Glashow resonance at 6.3 PeV
-([Nature 591, 220 (2021)](https://arxiv.org/abs/2110.15051)) and the flavour
-composition test the target, since $\bar\nu_e$ yields differ between channels.
-5. Events of order 100 PeV: KM3-230213A, median 220 PeV
-([KM3NeT, Nature 638, 376 (2025)](https://doi.org/10.1038/s41586-024-08543-1)):
-an extreme source or a cosmogenic neutrino from cosmic rays on background light.
-6. The cross section at TeV–PeV energies from Earth absorption, back to slide 7:
-IceCube measured it with upgoing muons; absorption is expected above 40 TeV
-([Nature 551, 596 (2017)](https://arxiv.org/abs/1711.08119)). Deviations would be
-signs of physics beyond the Standard Model, as could anomalous flavour ratios.
-
-Label heights on the figure are arbitrary; only the cyan band has a flux scale.
-Positions are published values, not forecasts. Generator: `assets/prospects/`.
 :::
 
 ## What we lack {#what-we-need}
@@ -67,39 +35,6 @@ Positions are published values, not forecasts. Generator: `assets/prospects/`.
 
 ::::::
 
-::: {.notes}
-**Say:** To get there we need bigger and sharper telescopes in the north, a network that shares alerts and data, careful calibration, theory that adds everything up — and, above all, people: the students we teach today will analyse B-HUNT data tomorrow.
-
-Allow about 90 seconds. Instruments and analysis: the 10-cubic-kilometre scale
-is the regime of the proposed next-generation arrays (IceCube-Gen2 optical array
-8 km³, NEON 10 km³, TRIDENT 7.5 km³, HUNT ~30 km³; observatory slide). Northern
-sites see the Galactic Centre through the Earth. Cascade directions matter because
-cascades carry all flavours and the best energy measurement. Above 1 PeV only a
-handful of events are known so far. Alerts and joint
-analyses combine telescopes at different latitudes (joint search tab); open data
-make independent tests possible. Optical calibration of the medium controls energy
-and direction systematics (source-sensitivity slide). Population models must not
-overshoot the gamma-ray background (gamma-budget slide; Groth and Ahlers,
-PRD 111, 103052 (2025)).
-
-People. ФНАФЧ stands for «Физика нейтрино и астрофизика частиц»; its courses are
-on [teach-in.ru](https://teach-in.ru/course?tags=ФНАФЧ). D. V. Naumov has given
-lecture courses on quantum field theory, the Standard Model, renormalization,
-statistical data analysis and neutrino physics; courses on particle physics,
-neutrino oscillations and numerical methods are planned. V. A. Allakhverdyan,
-D. V. Naumov's student, solves problems and leads the seminars. Further courses
-include Physical modelling (A. S. Sheshukov), particle astrophysics seminars
-(A. M. Libanov), general relativity, and the Baikal International Summer School
-on Physics of Elementary Particles and Astrophysics. Allakhverdyan and Sheshukov
-are D. V. Naumov's students who now teach in the programme. Allakhverdyan is the
-first author of the Baikal-GVD Galactic-plane analysis
-([ApJ 982, 73 (2025)](https://arxiv.org/abs/2411.05608)) and of the Earth-transmission
-figure on slide 7. This is the chain the figure shows: programme → people →
-results → B-HUNT.
-
-Figure generator: `assets/prospects/`.
-:::
-
 ## Where are the sources? {#conclusions}
 
 ::::: {.columns}
@@ -121,32 +56,4 @@ We have found where to look. Next we must resolve the crowd.
 
 ::: {.media-caption}
 Positions: [Baikal-GVD source list (2026)](https://arxiv.org/abs/2603.21261v2) · Evidence: result slides of this lecture
-:::
-
-::: {.notes}
-**Say:** We started by asking where the sources are. Today we can point to a few: our own Milky Way, the active galaxy NGC 1068 and its Seyfert relatives, and blazars like TXS 0506+056 — but most of the neutrinos still come from a crowd of faint sources that only bigger telescopes, like B-HUNT in Baikal, will resolve.
-
-Spend the final two minutes. This answers the question on slide 2, "We have
-discovered the flux. Where are the sources?"
-
-Found, with the strength stated on the result slides: diffuse Galactic emission
-(IceCube 2023, 4.5 sigma; Baikal-GVD above 200 TeV, p = 1.4e-2, combined with
-IceCube p = 3.4e-4); NGC 1068 (IceCube, 4.0 sigma in the 2026 catalogue analysis)
-and population evidence from X-ray-bright Seyfert galaxies (3.3 sigma northern
-ensemble, 3.0 sigma southern stacking); blazars as candidates (TXS 0506+056:
-the 2017 alert association at about 3 sigma and the archival flare at 3.5 sigma;
-radio-bright blazars with post-trial p = 2e-3). KM3-230213A has no identified
-counterpart. The map marks positions from the Baikal-GVD source list
-(arXiv:2603.21261v2, Table 1); it shows no fluxes or significances and does not
-draw the individual population members.
-
-Still open: the diffuse flux is far brighter than the identified sources
-(IceCube PRL 136, 121002 (2026), Fig. 3; population constraints, Groth and Ahlers
-2025), so most of it comes from many individually faint emitters. Their classes,
-production zones (coronae or jets) and the origin of the spectral break remain
-to be measured. Next: exposure, angular resolution, calibration and networks
-(previous slide), with B-HUNT, KM3NeT and IceCube-Gen2. These are routes, not
-guaranteed discoveries.
-
-Figure generator: `assets/prospects/`.
 :::

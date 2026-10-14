@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="960" viewBox="0 0 1000 960">
+<title>NT-36: три гирлянды на раме NT-200</title>
+<rect width="1000" height="960" fill="#070d16"/>
+<rect x="0" y="70" width="1000" height="890" fill="#0b1a2c"/>
+<rect x="0" y="58" width="1000" height="14" fill="#cfe6ff" opacity="0.85"/>
+<text x="30.0" y="50.0" fill="#cfe6ff" font-family="Arial, sans-serif" font-size="30" text-anchor="start" font-weight="normal">лёд</text>
+<path d="M560 260V184M560 156V72" stroke="#506a84" stroke-width="3" fill="none"/>
+<path d="M544 162L576 150" stroke="#a0b5ca" stroke-width="3"/>
+<path d="M544 190L576 178" stroke="#a0b5ca" stroke-width="3"/>
+<text x="590.0" y="179.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="38" text-anchor="start" font-weight="bold">1,1 км</text>
+<path d="M560 260C400 230 260 240 90 210" stroke="#506a84" stroke-width="3" fill="none" stroke-dasharray="8 6"/>
+<text x="90.0" y="195.0" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="30" text-anchor="start" font-weight="normal">к берегу, 3,6 км</text>
+<path d="M323.5 300L560 260L796.5 300" stroke="#506a84" stroke-width="4" fill="none"/>
+<path d="M560 322H796.5" stroke="#a0b5ca" stroke-width="1.5"/>
+<text x="678.2" y="346.0" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" font-weight="normal">21,5 м</text>
+<path d="M323.5 300V736.0" stroke="#506a84" stroke-width="2.5"/>
+<rect x="289.5" y="350.0" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="307.5" cy="366.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M297.5 366.0A10 10 0 0 1 317.5 366.0Z" fill="#73c7ff"/>
+<circle cx="339.5" cy="366.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M329.5 366.0A10 10 0 0 1 349.5 366.0Z" fill="#73c7ff"/>
+<rect x="289.5" y="405.0" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="307.5" cy="421.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M297.5 421.0A10 10 0 0 0 317.5 421.0Z" fill="#73c7ff"/>
+<circle cx="339.5" cy="421.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M329.5 421.0A10 10 0 0 0 349.5 421.0Z" fill="#73c7ff"/>
+<rect x="289.5" y="487.5" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="307.5" cy="503.5" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M297.5 503.5A10 10 0 0 1 317.5 503.5Z" fill="#73c7ff"/>
+<circle cx="339.5" cy="503.5" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M329.5 503.5A10 10 0 0 1 349.5 503.5Z" fill="#73c7ff"/>
+<rect x="289.5" y="542.5" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="307.5" cy="558.5" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M297.5 558.5A10 10 0 0 0 317.5 558.5Z" fill="#73c7ff"/>
+<circle cx="339.5" cy="558.5" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M329.5 558.5A10 10 0 0 0 349.5 558.5Z" fill="#73c7ff"/>
+<rect x="289.5" y="625.0" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="307.5" cy="641.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M297.5 641.0A10 10 0 0 1 317.5 641.0Z" fill="#73c7ff"/>
+<circle cx="339.5" cy="641.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M329.5 641.0A10 10 0 0 1 349.5 641.0Z" fill="#73c7ff"/>
+<rect x="289.5" y="680.0" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="307.5" cy="696.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M297.5 696.0A10 10 0 0 0 317.5 696.0Z" fill="#73c7ff"/>
+<circle cx="339.5" cy="696.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M329.5 696.0A10 10 0 0 0 349.5 696.0Z" fill="#73c7ff"/>
+<path d="M560 300V736.0" stroke="#506a84" stroke-width="2.5"/>
+<rect x="526" y="350.0" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="544" cy="366.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M534 366.0A10 10 0 0 1 554 366.0Z" fill="#73c7ff"/>
+<circle cx="576" cy="366.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M566 366.0A10 10 0 0 1 586 366.0Z" fill="#73c7ff"/>
+<rect x="526" y="405.0" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="544" cy="421.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M534 421.0A10 10 0 0 0 554 421.0Z" fill="#73c7ff"/>
+<circle cx="576" cy="421.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M566 421.0A10 10 0 0 0 586 421.0Z" fill="#73c7ff"/>
+<rect x="526" y="487.5" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="544" cy="503.5" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M534 503.5A10 10 0 0 1 554 503.5Z" fill="#73c7ff"/>
+<circle cx="576" cy="503.5" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M566 503.5A10 10 0 0 1 586 503.5Z" fill="#73c7ff"/>
+<rect x="526" y="542.5" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="544" cy="558.5" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M534 558.5A10 10 0 0 0 554 558.5Z" fill="#73c7ff"/>
+<circle cx="576" cy="558.5" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M566 558.5A10 10 0 0 0 586 558.5Z" fill="#73c7ff"/>
+<rect x="526" y="625.0" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="544" cy="641.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M534 641.0A10 10 0 0 1 554 641.0Z" fill="#73c7ff"/>
+<circle cx="576" cy="641.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M566 641.0A10 10 0 0 1 586 641.0Z" fill="#73c7ff"/>
+<rect x="526" y="680.0" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="544" cy="696.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M534 696.0A10 10 0 0 0 554 696.0Z" fill="#73c7ff"/>
+<circle cx="576" cy="696.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M566 696.0A10 10 0 0 0 586 696.0Z" fill="#73c7ff"/>
+<path d="M796.5 300V736.0" stroke="#506a84" stroke-width="2.5"/>
+<rect x="762.5" y="350.0" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="780.5" cy="366.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M770.5 366.0A10 10 0 0 1 790.5 366.0Z" fill="#73c7ff"/>
+<circle cx="812.5" cy="366.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M802.5 366.0A10 10 0 0 1 822.5 366.0Z" fill="#73c7ff"/>
+<rect x="762.5" y="405.0" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="780.5" cy="421.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M770.5 421.0A10 10 0 0 0 790.5 421.0Z" fill="#73c7ff"/>
+<circle cx="812.5" cy="421.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M802.5 421.0A10 10 0 0 0 822.5 421.0Z" fill="#73c7ff"/>
+<rect x="762.5" y="487.5" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="780.5" cy="503.5" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M770.5 503.5A10 10 0 0 1 790.5 503.5Z" fill="#73c7ff"/>
+<circle cx="812.5" cy="503.5" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M802.5 503.5A10 10 0 0 1 822.5 503.5Z" fill="#73c7ff"/>
+<rect x="762.5" y="542.5" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="780.5" cy="558.5" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M770.5 558.5A10 10 0 0 0 790.5 558.5Z" fill="#73c7ff"/>
+<circle cx="812.5" cy="558.5" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M802.5 558.5A10 10 0 0 0 822.5 558.5Z" fill="#73c7ff"/>
+<rect x="762.5" y="625.0" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="780.5" cy="641.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M770.5 641.0A10 10 0 0 1 790.5 641.0Z" fill="#73c7ff"/>
+<circle cx="812.5" cy="641.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M802.5 641.0A10 10 0 0 1 822.5 641.0Z" fill="#73c7ff"/>
+<rect x="762.5" y="680.0" width="68" height="32" rx="10" fill="none" stroke="#ffd477" stroke-width="1.5" opacity="0.6"/>
+<circle cx="780.5" cy="696.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M770.5 696.0A10 10 0 0 0 790.5 696.0Z" fill="#73c7ff"/>
+<circle cx="812.5" cy="696.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M802.5 696.0A10 10 0 0 0 822.5 696.0Z" fill="#73c7ff"/>
+<path d="M253.5 366.0V421.0M245.5 366.0H261.5M245.5 421.0H261.5" stroke="#a0b5ca" stroke-width="1.5"/>
+<text x="239.5" y="401.5" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="30" text-anchor="end" font-weight="normal">5 м</text>
+<path d="M253.5 421.0V503.5M245.5 421.0H261.5M245.5 503.5H261.5" stroke="#a0b5ca" stroke-width="1.5"/>
+<text x="239.5" y="470.2" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="30" text-anchor="end" font-weight="normal">7,5 м</text>
+<circle cx="60" cy="806.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M50 806.0A10 10 0 0 1 70 806.0Z" fill="#73c7ff"/>
+<text x="85.0" y="814.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="30" text-anchor="start" font-weight="normal">пара смотрит вверх</text>
+<circle cx="520" cy="806.0" r="10" fill="none" stroke="#73c7ff" stroke-width="2"/><path d="M510 806.0A10 10 0 0 0 530 806.0Z" fill="#73c7ff"/>
+<text x="545.0" y="814.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="30" text-anchor="start" font-weight="normal">пара смотрит вниз</text>
+<text x="500.0" y="868.0" fill="#ffd477" font-family="Arial, sans-serif" font-size="38" text-anchor="middle" font-weight="bold">3 гирлянды × 6 пар = 36 модулей</text>
+<text x="500.0" y="906.0" fill="#a0b5ca" font-family="Arial, sans-serif" font-size="27" text-anchor="middle" font-weight="normal">Расстояния у гирлянд в масштабе, глубина — нет</text>
+</svg>

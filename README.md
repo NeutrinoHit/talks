@@ -7,15 +7,17 @@ black background, light text, blue links, orange progress bar and a fixed logo
 from `shared/figures/dvnlogo.png`. The bottom logo and channel links are added
 by `shared/reveal/neutrinohit-reveal-footer.js`; its canonical source is kept
 in the main NeutrinoHit site repository.
+`shared/reveal/neutrinohit-video-seek.js` (included by the two neutrino-telescope lectures) makes slide
+videos seekable on servers without HTTP range requests, such as the local `quarto preview`: a video that
+cannot seek is read once into memory when the pointer reaches it; `#t=` start fragments are kept.
 
 ## Talks
 
 - `neutrino-telescopes-2026/lecture.qmd`
   **Neutrino Telescopes: Principles, Results, and Prospects** (English, 60 minutes).
-  A 35-slide working deck, including the title, with seven independently
+  A 33-slide deck, including the title, with seven independently
   editable blocks. Opening and history have illustrated tabsets; detection
-  starts with the propagation estimate and NTSim films. Later blocks remain
-  outlines. See [the lecture guide](neutrino-telescopes-2026/README.md).
+  starts with the propagation estimate and NTSim films. Results use publication figures, followed by photon constraints and source evidence. See [the lecture guide](neutrino-telescopes-2026/README.md).
 
 - `protvino-2026/dnaumov.qmd`  
   «Статус и перспективы физики нейтрино: российские проекты в глобальном

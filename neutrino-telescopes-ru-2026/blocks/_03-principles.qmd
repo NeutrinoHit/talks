@@ -1,0 +1,185 @@
+# Как работает нейтринный телескоп {#kak-rabotaet}
+
+## Как поймать нейтрино? {#kak-poymat}
+
+:::::: {.panel-tabset}
+
+### Детектор
+
+::::: {.columns}
+::: {.column width="52%"}
+<video class="slide-video media-height-lg" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="media/films/icecube_build_ru.jpg" src="media/films/icecube_build_ru.mp4" aria-label="Под лабораторией IceCube протаивают 86 скважин глубиной 2,5 км, и в кубическом километре льда появляются 5160 датчиков света."></video>
+:::
+::: {.column width="44%"}
+**Нам понадобятся:**
+
+- **Огромная прозрачная мишень:** вода или лёд.
+- **Темнота:** датчики ловят отдельные фотоны.
+- **Глубина:** километры воды или льда задерживают мюоны от космических лучей.
+- **Земля как щит:** снизу, сквозь всю Землю, проходят только нейтрино.
+- **Решётка датчиков света** с шагом в десятки метров.
+:::
+:::::
+
+### Пример события
+
+<video class="slide-video media-height-lg" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="media/films/icecube_first_pev_ru.jpg" src="media/films/icecube_first_pev_ru.mp4#t=10.3" aria-label="Каскады Bert, Ernie и Big Bird с энергией около ПэВ зажигают сотни датчиков IceCube изнутри детектора."></video>
+
+::: {.media-caption}
+IceCube, первые нейтрино с энергией около ПэВ · кружок — сработавший датчик, размер — сколько света, цвет — время (красный раньше, синий позже) · энергии и число датчиков из данных, картина света — модель, положение Big Bird условно
+:::
+
+::::::
+
+## Черенковский свет {#cherenkov}
+
+:::::: {.panel-tabset}
+
+### Фильм
+
+<video class="slide-video media-height-lg" style="--media-max-height: 590px;" controls muted playsinline preload="metadata" poster="media/films/cherenkov_radiation_ru.jpg" src="media/films/cherenkov_radiation_ru.mp4" aria-label="Заряд движется медленнее и быстрее скорости света в среде; в быстром случае волновые фронты складываются в общий конус, а свет идёт поперёк фронта."></video>
+
+::: {.media-caption}
+Золотой — заряд · голубые окружности — волновые фронты · белый — общий фронт · голубые стрелки — направление света.
+:::
+
+### Почему конус?
+
+- Частица летит в воде быстрее, чем свет в воде: $v > c/n$.
+- Она обгоняет собственные волны, и они складываются в общий фронт — конус.
+- Так же катер оставляет за собой клин волн, а сверхзвуковой самолёт — ударную волну.
+- Свет идёт поперёк этого фронта под углом $\theta_C$, в воде около $41^\circ$:
+
+$$
+\cos\theta_C=\frac{1}{n\beta}.
+$$
+
+::: {.small}
+Почти единственная формула в основной части лекции.
+:::
+
+::::::
+
+## Один фотон — измеримый сигнал {#feu}
+
+:::::: {.panel-tabset}
+
+### Фотоумножитель
+
+<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/films/pmt_multiplication_ru.jpg" src="media/films/pmt_multiplication_ru.mp4" aria-label="Фотон выбивает электрон из фотокатода, и лавина электронов размножается на динодах фотоумножителя."></video>
+
+### Оптические модули
+
+::::: {.columns}
+::: {.column width="23%"}
+![](../neutrino-telescopes-2026/media/optical-modules/icecube-dom-deployment.jpg){.slide-media .nostretch style="--media-max-height: 360px;" fig-alt="Оптический модуль IceCube при установке."}
+
+**IceCube**
+
+Один ФЭУ диаметром 10 дюймов.
+
+::: {.media-caption}
+IceCube/NSF.
+:::
+:::
+::: {.column width="23%"}
+![](../neutrino-telescopes-2026/media/optical-modules/km3net-dom.png){.slide-media .nostretch style="--media-max-height: 360px;" fig-alt="Оптический модуль KM3NeT с 31 фотоумножителем."}
+
+**KM3NeT**
+
+31 трёхдюймовый ФЭУ.
+
+::: {.media-caption}
+Courtesy KM3NeT.
+:::
+:::
+::: {.column width="23%"}
+![](../neutrino-telescopes-2026/media/optical-modules/baikal-gvd-om-deployment.jpeg){.slide-media .nostretch style="--media-max-height: 360px;" fig-alt="Оптический модуль Baikal-GVD при установке со льда."}
+
+**Baikal-GVD**
+
+Один ФЭУ диаметром 10 дюймов.
+
+::: {.media-caption}
+Baikal-GVD.
+:::
+:::
+::: {.column width="23%"}
+![](../neutrino-telescopes-2026/media/optical-modules/trident-hdom-prototype.jpg){.slide-media .nostretch style="--media-max-height: 360px;" fig-alt="Прототип гибридного модуля TRIDENT."}
+
+**TRIDENT**
+
+ФЭУ и кремниевые фотоумножители. **Прототип.**
+
+::: {.media-caption}
+TRIDENT / TDLI, SJTU.
+:::
+:::
+:::::
+
+::::::
+
+## Треки и каскады {#treki-i-kaskady}
+
+:::::: {.panel-tabset}
+
+### Как читать картинку
+
+::::: {.columns}
+::: {.column width="48%"}
+![](../neutrino-telescopes-2026/media/events/km3-230213a.jpg){.slide-media .nostretch style="--media-max-height: 360px;" fig-alt="Трек мюона KM3-230213A, пересекающий детектор KM3NeT."}
+
+**Трек — KM3NeT**
+
+- Мюон пролетает через весь детектор.
+- Направление измеряется точно: до долей градуса.
+:::
+::: {.column width="48%"}
+![](../neutrino-telescopes-2026/media/icecube/big-bird.jpg){.slide-media .nostretch style="--media-max-height: 360px;" fig-alt="Каскад Big Bird в IceCube."}
+
+**Каскад — IceCube**
+
+- Ливень частиц размером в несколько метров светит, как шар.
+- Хорошо измеряется энергия, хуже — направление.
+:::
+:::::
+
+::: {.media-caption}
+KM3NeT, KM3-230213A · IceCube/NSF, Big Bird.
+:::
+
+### KM3NeT: трек
+
+<video class="slide-video media-height-lg" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="../neutrino-telescopes-2026/media/events/km3-230213a.jpg" src="../neutrino-telescopes-2026/media/events/km3-230213a.mp4"></video>
+
+::: {.media-caption}
+Измеренные сигналы ФЭУ, восстановленный трек, иллюстративный конус.
+© KM3NeT. [Официальный дисплей события](https://www.km3net.org/km3-230213a/displays-of-the-event/).
+:::
+
+### IceCube: каскады
+
+![](../neutrino-telescopes-2026/media/icecube/bert-ernie.png){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Дисплеи событий IceCube Bert и Ernie: сотни оптических модулей, зажжённых двумя каскадами с энергией около ПэВ."}
+
+::: {.media-caption}
+Bert и Ernie, первые каскады с энергией около ПэВ: 1,04 ± 0,16 и 1,14 ± 0,17 ПэВ.
+IceCube Collaboration / IceCube–NSF · [IceCube (2013)](https://arxiv.org/abs/1304.5356)
+:::
+
+### Модель: трек
+
+<video class="slide-video media-height-lg" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="media/films/lighthit_numu_cc_ru.jpg" src="media/films/lighthit_numu_cc_ru.mp4" aria-label="Расчётный отклик детектора на взаимодействие мюонного нейтрино с энергией 1 ТэВ: трек мюона 800 ГэВ и ливень в вершине зажигают оптические модули кластеров Baikal-GVD."></video>
+
+::: {.media-caption}
+Мюонное нейтрино, 1 ТэВ · вторичные частицы NTSim/Geant4, перенос света в воде LightHit · свечение — ожидаемые фотоэлектроны, цвет — время первого света · не разыгранные срабатывания и не данные · фронт света условный
+:::
+
+### Модель: каскад
+
+<video class="slide-video media-height-lg" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="media/films/lighthit_nue_cc_ru.jpg" src="media/films/lighthit_nue_cc_ru.mp4" aria-label="Расчётный отклик детектора на взаимодействие электронного нейтрино с энергией 100 ГэВ: электрон и адронный ливень зажигают ближайшие оптические модули кластеров Baikal-GVD."></video>
+
+::: {.media-caption}
+Электронное нейтрино, 100 ГэВ · вторичные частицы NTSim/Geant4, перенос света в воде LightHit · свечение — ожидаемые фотоэлектроны, цвет — время первого света · не разыгранные срабатывания и не данные · фронт света условный
+:::
+
+::::::

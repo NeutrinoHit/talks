@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420">
+<title>Programme, people, results, next experiment</title>
+<rect width="1600" height="420" fill="#070d16"/>
+<defs><marker id="mmuted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10" fill="#a0b5ca"/></marker></defs>
+<rect x="30" y="90" width="340" height="270" rx="18" fill="#ffd477" fill-opacity="0.10" stroke="#ffd477" stroke-width="2.5"/>
+<text x="200.0" y="68.0" fill="#ffd477" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle">Программа</text>
+<text x="200.0" y="152.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">ФНАФЧ: физика нейтрино</text>
+<text x="200.0" y="198.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">и астрофизика частиц</text>
+<text x="200.0" y="244.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">курсы · семинары</text>
+<text x="200.0" y="290.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">Байкальская школа</text>
+<text x="200.0" y="336.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">Баксанская школа</text>
+<path d="M378 225.0H422" stroke="#a0b5ca" stroke-width="4" marker-end="url(#mmuted)"/>
+<rect x="430" y="90" width="340" height="270" rx="18" fill="#73c7ff" fill-opacity="0.10" stroke="#73c7ff" stroke-width="2.5"/>
+<text x="600.0" y="68.0" fill="#73c7ff" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle">Люди</text>
+<text x="600.0" y="152.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">студенты становятся</text>
+<text x="600.0" y="198.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">исследователями</text>
+<text x="600.0" y="244.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">и преподавателями</text>
+<path d="M778 225.0H822" stroke="#a0b5ca" stroke-width="4" marker-end="url(#mmuted)"/>
+<rect x="830" y="90" width="340" height="270" rx="18" fill="#67ddf7" fill-opacity="0.10" stroke="#67ddf7" stroke-width="2.5"/>
+<text x="1000.0" y="68.0" fill="#67ddf7" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle">Результаты</text>
+<text x="1000.0" y="152.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">анализ данных:</text>
+<text x="1000.0" y="198.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">например, Млечный Путь</text>
+<text x="1000.0" y="244.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">в данных Baikal-GVD;</text>
+<text x="1000.0" y="290.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">первый автор —</text>
+<text x="1000.0" y="336.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">выпускник программы</text>
+<path d="M1178 225.0H1222" stroke="#a0b5ca" stroke-width="4" marker-end="url(#mmuted)"/>
+<rect x="1230" y="90" width="340" height="270" rx="18" fill="#ffb052" fill-opacity="0.10" stroke="#ffb052" stroke-width="2.5"/>
+<text x="1400.0" y="68.0" fill="#ffb052" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle">Следующий эксперимент</text>
+<text x="1400.0" y="152.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">B-HUNT</text>
+<text x="1400.0" y="198.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">телескоп</text>
+<text x="1400.0" y="244.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">нового поколения</text>
+<text x="1400.0" y="290.0" fill="#eeeeee" font-family="Arial, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">Россия + Китай</text>
+</svg>

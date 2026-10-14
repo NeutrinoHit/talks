@@ -1,0 +1,97 @@
+## Новое окно во Вселенную {#novoe-okno}
+
+:::::: {.panel-tabset}
+
+### Премия
+
+::::: {.columns}
+::: {.column width="40%"}
+![](../neutrino-telescopes-2026/media/history/halzen-author.png){.slide-media .nostretch style="--media-max-height: 470px;" fig-alt="Фрэнсис Халзен."}
+
+::: {.media-caption}
+Фрэнсис Халзен.
+:::
+
+::: {.media-caption}
+[IceCube, 6 октября 2026](https://icecube.wisc.edu/news/awards/2026/10/francis-halzen-icecube-principal-investigator-wins-2026-physics-nobel-prize/)
+:::
+:::
+::: {.column width="56%"}
+**Нобелевская премия по физике 2026 года**
+
+IceCube и открытие астрофизических нейтрино высоких энергий.
+
+> [Д. Наумов — Ф. Халзену:]{style="font-family: Georgia, 'Times New Roman', serif; font-size: 0.6em; color: #9fb3c8;"}\
+> [«Сердечно поздравляю вас и всю коллаборацию IceCube с заслуженной Нобелевской премией по физике! … Я Дмитрий Наумов, байкалец, из ОИЯИ (Дубна). Мы встречались несколько раз, последний — в столовой JUNO, где мы вместе обедали, и я даже „предсказал“ вашу Нобелевскую премию.»]{style="font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: 0.66em;"}
+
+> [Ф. Халзен — Д. Наумову:]{style="font-family: Georgia, 'Times New Roman', serif; font-size: 0.6em; color: #9fb3c8;"}\
+> [«Дмитрий, я знаю вас со времён потока Наумова и прекрасно помню обед в столовой JUNO. Спасибо за очень тёплое письмо.»]{style="font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: 0.66em;"}
+
+::: {.media-caption}
+Перевод с английского
+:::
+:::
+:::::
+
+### И что?
+
+::: {style="text-align: center; margin-top: 1.2em;"}
+[1 ПэВ = 10^15^ эВ]{style="font-size: 2.4em; font-weight: 700;"}
+
+[в одном нейтрино]{style="font-size: 1.3em;"}
+
+[в миллиард раз больше, чем у нейтрино от Солнца]{style="font-size: 1.3em;"}
+
+[в сто с лишним раз больше, чем у протона в LHC]{style="font-size: 1.3em;"}
+
+::: {.question style="margin-top: 1.2em;"}
+[Не термояд. Тогда что? И где?]{style="font-size: 1.4em;"}
+:::
+:::
+
+### Bert, Ernie и Big Bird
+
+<video class="slide-video media-height-lg" style="--media-max-height: 600px;" controls muted playsinline preload="metadata" poster="media/films/icecube_first_pev_ru.jpg" src="media/films/icecube_first_pev_ru.mp4" aria-label="Под лабораторией IceCube протаивают 86 скважин глубиной 2,5 км, появляются 5160 датчиков света, и каскады Bert, Ernie и Big Bird с энергией около ПэВ зажигают сотни датчиков изнутри детектора."></video>
+
+::: {.media-caption}
+Положения датчиков — геометрия IceCube · картина света — модель · Bert и Ernie:
+[IceCube 2013](https://arxiv.org/abs/1304.5356) · Big Bird: [IceCube 2014](https://arxiv.org/abs/1405.5303), положение условное
+:::
+
+::::::
+
+## Что такое нейтрино? {#chto-takoe-neytrino}
+
+:::::: {.panel-tabset}
+
+### Частица-невидимка
+
+![](media/figures/solar-neutrinos.png){.slide-media .nostretch style="--media-max-height: 300px;" fig-alt="Нейтрино от Солнца проходят Землю насквозь: около 60 миллиардов через квадратный сантиметр каждую секунду."}
+
+- Элементарная частица, как электрон, только без электрического заряда.
+- Масса крошечная. Её точное значение до сих пор не измерено.
+- Участвует только в слабом взаимодействии, то есть почти ни с чем не взаимодействует.
+- Через ваш ноготь — примерно квадратный сантиметр — каждую секунду пролетает около 60 миллиардов нейтрино от Солнца.
+- Почти все они проходят Землю насквозь. Мы их не замечаем.
+
+### Почему не свет?
+
+- Свет поглощают пыль и газ. Свет очень высоких энергий гаснет даже на реликовом излучении.
+- Космические лучи — протоны и ядра — заряжены. Магнитные поля закручивают их, и направление на источник теряется.
+- Нейтрино летит по прямой и выходит даже из плотного источника.
+
+::: {.takeaway}
+Нейтрино указывает прямо на источник.
+:::
+
+### Цена вопроса
+
+- Нейтрино почти не взаимодействует. Значит, и наш детектор оно почти не замечает.
+- Чтобы поймать хоть что-то, нужна огромная мишень: кубический километр воды или льда.
+- Это около миллиарда тонн!
+
+::: {.question}
+Где взять такой детектор?
+:::
+
+::::::

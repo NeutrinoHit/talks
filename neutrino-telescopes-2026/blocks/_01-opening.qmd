@@ -15,9 +15,13 @@ Francis Halzen.
 ::: {.column width="56%"}
 **2026 Nobel Prize in Physics**
 
-- IceCube and the discovery of high-energy astrophysical neutrinos.
+IceCube and the discovery of high-energy astrophysical neutrinos.
 
-- What did it take to turn an idea into an observatory?
+> [Dmitry Naumov to Francis Halzen:]{style="font-family: Georgia, 'Times New Roman', serif; font-size: 0.6em; color: #9fb3c8;"}\
+> [“Let me warmly congratulate you and the entire IceCube Collaboration on this thoroughly deserved Nobel Prize in Physics! … I am Dmitry Naumov — a Baikalist, from JINR (Dubna). We have met several times over the years, most recently at the JUNO cafeteria, where we had lunch together and I even ‘predicted’ your Nobel Prize.”]{style="font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: 0.68em;"}
+
+> [Francis Halzen to Dmitry Naumov:]{style="font-family: Georgia, 'Times New Roman', serif; font-size: 0.6em; color: #9fb3c8;"}\
+> [“Dmitry, I know you since the Naumov flux and remember the lunch in the JUNO cafeteria very well. Thanks for your very kind message.”]{style="font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: 0.68em;"}
 
 ::: {.media-caption}
 [IceCube, 6 October 2026](https://icecube.wisc.edu/news/awards/2026/10/francis-halzen-icecube-principal-investigator-wins-2026-physics-nobel-prize/)
@@ -25,72 +29,29 @@ Francis Halzen.
 :::
 :::::
 
-### The telescope
+### So what?
 
-::::: {.columns}
-::: {.column width="61%"}
-![](media/history/icecube-night.jpg){.slide-media .nostretch style="--media-max-height: 470px;" fig-alt="The IceCube Laboratory under the Milky Way and an aurora."}
+::: {style="text-align: center; margin-top: 1.2em;"}
+[$1\,\mathrm{PeV} = 10^{15}\,\mathrm{eV}$]{style="font-size: 2.4em;"}
+
+[in a single neutrino]{style="font-size: 1.3em;"}
+
+[a billion times a neutrino from the Sun]{style="font-size: 1.3em;"}
+
+[over a hundred times a proton in the LHC]{style="font-size: 1.3em;"}
+
+::: {.question style="margin-top: 1.2em;"}
+[Not nuclear fusion. Then what? And where?]{style="font-size: 1.4em;"}
+:::
+:::
+
+### Bert, Ernie and Big Bird
+
+<video class="slide-video media-height-lg" style="--media-max-height: 600px;" controls muted playsinline preload="metadata" poster="media/icecube/icecube_first_pev_en.jpg" src="media/icecube/icecube_first_pev_en.mp4" aria-label="86 holes are melted 2.5 km into the ice under the IceCube Laboratory, 5160 light sensors appear, and the PeV cascades Bert, Ernie and Big Bird each light hundreds of sensors from inside the detector."></video>
 
 ::: {.media-caption}
-Yuya Makino, IceCube/NSF. [UW–Madison](https://news.wisc.edu/university-of-wisconsin-madison-professor-francis-halzen-named-2026-nobel-laureate-in-physics/)
-:::
-:::
-::: {.column width="35%"}
-The building is the visible part.
-
-The detector occupies the ice below.
-
-::: {.question}
-We have discovered the flux. Where are the sources?
-:::
-:::
-:::::
-
-### The Big Three
-
-::::: {.columns}
-::: {.column width="60%"}
-![](media/icecube/bert-ernie.png){.slide-media .nostretch style="--media-max-height: 410px;" fig-alt="IceCube event displays of Bert at left and Ernie at right, showing coloured optical-module hits from PeV cascades."}
-
-::: {.media-caption}
-**Bert and Ernie:** deposited energies $1.04\pm0.16$ and $1.14\pm0.17\,\mathrm{PeV}$.
-:::
-:::
-::: {.column width="36%"}
-![](media/icecube/big-bird.jpg){.slide-media .nostretch style="--media-max-height: 410px;" fig-alt="IceCube's Big Bird cascade event display, with a bright central cluster of optical-module hits."}
-
-::: {.media-caption}
-**Big Bird:** approximately $2\,\mathrm{PeV}$ deposited.
-:::
-:::
-:::::
-
-::: {.media-caption}
-Event displays: IceCube Collaboration / IceCube–NSF.
-[First two PeV events (2013)](https://arxiv.org/abs/1304.5356);
-[three-year analysis (2014)](https://arxiv.org/abs/1405.5303).
+Sensor positions: IceCube geometry · light pattern modelled · Bert and Ernie:
+[IceCube 2013](https://arxiv.org/abs/1304.5356) · Big Bird: [IceCube 2014](https://arxiv.org/abs/1405.5303), position illustrative
 :::
 
 ::::::
-
-::: {.notes}
-**0–3 minutes, including the title.** Start with the recognition tab. The prize
-is a timely reason to look at the field, but this is a story of many people
-and several complementary experiments. The portrait is the original image
-embedded in DN's Stony Brook 2020 and HyperWebinar 2021 lectures.
-It is not a photograph of the 2026 award ceremony.
-
-Switch to the telescope. Most of the instrument is invisible in this picture:
-its light sensors are frozen into the ice. We now know that a cosmic flux
-exists. Its dominant sources and their internal physics remain the questions
-that drive the field. Before discussing the measurements, ask how this
-unusual idea became experimentally possible.
-
-The Big Three tab shows iconic contained cascades. The quoted quantities
-are deposited energies, not uniquely determined parent-neutrino energies.
-Bert and Ernie were reported in 2013; Big Bird appeared in the 2014 three-year
-analysis. The astrophysical-flux conclusion uses the event population and
-background tests, rather than these displays alone. Use this optional tab
-as a brief visual introduction to the measurement, preserving the opening's
-three-minute allocation.
-:::
