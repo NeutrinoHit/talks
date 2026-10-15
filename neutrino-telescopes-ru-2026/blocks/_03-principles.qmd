@@ -58,6 +58,10 @@ $$
 Почти единственная формула в основной части лекции.
 :::
 
+```{=html}
+<div data-nerpa="dash" class="fragment" data-from="left" data-size="260" data-duration="3.4" style="left: 0; right: 0; top: 70%; height: 24%;"></div>
+```
+
 ::::::
 
 ## Один фотон — измеримый сигнал {#feu}
