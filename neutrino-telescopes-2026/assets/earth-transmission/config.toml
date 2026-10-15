@@ -46,3 +46,12 @@ zeniths = 361
 width_in = 15.5
 height_in = 6.4
 diverging = ["#ff8a5c", "#3a1e18", "#000000", "#123a5a", "#73c7ff"]
+
+[transport]
+# Full transport with neutral-current regeneration: V. A. Allakhverdyan's calculation (CT10nlo, PREM, detector 1 km deep),
+# supplied as a 100 x 100 table (version of 14 October 2026). Read from the git-ignored data folder; not redistributed.
+data = "../../../data/allakhverdyan-transport/icecube_plot_data_CT10nlo.npz"
+sha256 = "7c940a84c2760e03d38e4dfdaf981f288d1f3161046ea2566e97bd7421c0ed61"
+contours = [0.1, 0.5, 0.9]
+no_regeneration_contours = [0.1, 0.5]
+no_regeneration_colour = "#ff8a5c"

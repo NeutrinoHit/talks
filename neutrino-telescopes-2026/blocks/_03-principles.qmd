@@ -50,10 +50,11 @@ Present-epoch $\nu N$ estimate ignoring the Universe evolution.
 
 ::::: {.columns}
 ::: {.column width="65%"}
-![](media/propagation/earth-transmission-cc-dark.svg){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="Computed survival probability of neutrinos crossing the Earth versus zenith angle from 90 to 180 degrees and energy from 10 GeV to 100 PeV, charged-current absorption only. Near the horizon the Earth is transparent at all energies; through the core it becomes opaque above about 100 TeV. Contours at 10, 50 and 90 percent."}
+![](media/propagation/earth-transport-full-dark.svg){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="Ratio of the neutrino flux reaching a detector 1 km deep to the flux entering the Earth, versus zenith angle from 90 to 180 degrees and energy from 10 GeV to 100 PeV, with neutral-current regeneration. Near the horizon the Earth is transparent at all energies; through the centre half of the flux survives up to about 20 TeV and 10 percent up to about 170 TeV. Dashed contours without regeneration lie slightly lower in energy."}
 
 ::: {.media-caption}
-Computed: PREM Earth, CSMS cross sections, detector 1 km deep · CC absorption only
+Full transport: V. A. Allakhverdyan (CT10nlo, PREM, detector 1 km deep), redrawn ·
+[V. A. Allakhverdyan, dissertation (2026), Fig. 4.20](https://issc.jinr.ru/files/326/f_2_5830.pdf) · [Allakhverdyan, Zavyalov & Naumov (2026), Fig. 9](https://www1.jinr.ru/Pepan_letters/panl_2026_2/05_Allahverd_rus.pdf)
 :::
 :::
 ::: {.column width="31%"}
@@ -67,14 +68,16 @@ $90^\circ$: near the horizon.
 
 $180^\circ$: through Earth's centre.
 
-**Colour:** chance to cross without a charged-current interaction,
+**Colour:** flux at the detector over flux entering the Earth.
+
+**Dashed:** without regeneration,
 
 $$
-T(E,\theta)=e^{-N_A\,\sigma_{\rm CC}(E)\,X(\theta)}.
+e^{-N_A\,\sigma_{\rm tot}(E)\,X(\theta)}.
 $$
 
 ::: {.small}
-Neutral currents only lower the energy; that regeneration is not included here.
+Neutral currents do not remove a neutrino; they move it to lower energy. With regeneration the ratio depends on the incident spectrum.
 :::
 :::
 :::::

@@ -20,3 +20,6 @@ neutrino-telescopes-2026/**/__pycache__/
 # Python caches and local working files
 __pycache__/
 /.work/
+
+# Large external inputs (origin described in the README of the asset that reads them)
+/data/
