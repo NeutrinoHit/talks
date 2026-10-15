@@ -157,6 +157,10 @@ C. Spiering, *Eur. Phys. J. H* **37**, 515 (2012), [arXiv:1207.4952](https://arx
 Зимняя экспедиция Baikal-GVD. Фото Б. Шайбонова.
 :::
 
+```{=html}
+<div data-nerpa="peek" class="fragment" data-gesture="wave" data-hold="2.5" style="right: 11%; bottom: 0; width: 340px; height: 360px;" data-size="320"></div>
+```
+
 ### Основатели
 
 ::::: {.columns}

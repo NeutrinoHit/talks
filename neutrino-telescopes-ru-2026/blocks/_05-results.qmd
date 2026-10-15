@@ -1,5 +1,9 @@
 # Что мы уже знаем {#chto-znaem}
 
+```{=html}
+<div data-nerpa="nap" data-from="right" data-size="420" style="left: 0; right: 0; bottom: 0; height: 36%;"></div>
+```
+
 ## Поток из космоса {#potok}
 
 :::::: {.panel-tabset}
