@@ -85,8 +85,8 @@ not modified; temporary inspection copies remain outside the public site.
   (1440 OMs, 30 active, threshold 0.01 pe). SHA-256 `e85f565b3d8ba0a886a99e03903e5466113b7f6cbb98fdfdaed9d31e4c61487d`.
 - `lighthit_nue_cc_en.mp4` / `.jpg`: ν_e CC-like event, 70 GeV e⁻ + 25 GeV π⁺ + 5 GeV p (100 GeV), shower route,
   same array (26 active OMs). SHA-256 `1a6e48430a095808570f3f702e139a1f3cda1bc8c0d33e92f2d343b11526a23e`.
-- Source: DN's notebook run `LightHit/.build/notebook-run/ntsim/lighthit-demo-output/{numu-cc,nue-cc}`
-  (LightHit 0.3.0a3, NTSim/Geant4 11.4.1; inputs and viewers stay in LightHit's ignored `.build`).
+- Source: DN's notebook run `LightHit/.work/notebook-run/ntsim/lighthit-demo-output/{numu-cc,nue-cc}`
+  (LightHit 0.3.0a3, NTSim/Geant4 11.4.1; inputs and viewers stay in LightHit's ignored `.work`).
 - Rendered frame by frame by the viewer's own Movie export (WebCodecs H.264): 1920 × 1080, 30 FPS, 17.5 s
   (1.5 s hold, 12 s event with pacing on light, 4 s orbit), light component Total, colour = first-light time,
   on-screen detector clock, colour scale, scale bar and the viewer's honesty note. Only title and subtitle were typed.
