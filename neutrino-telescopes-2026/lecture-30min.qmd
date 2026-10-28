@@ -12,6 +12,7 @@ format:
     height: 1000
     include-after-body:
       - text: |
+          <style>.nerpa-frame { overflow: hidden; }</style>
           <script data-external="1" src="media/nerpa/nerpa.js"></script>
 filters:
   - at: pre-ast
