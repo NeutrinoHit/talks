@@ -365,7 +365,8 @@ The 30-minute version carries the Baikal seal (`media/nerpa/nerpa.js`, a copy of
 Nerpa section of the Russian lecture README for the runtime and keys). Three spots, each started by a click on a hidden
 fragment: slide 17 (Baikal-GVD diffuse measurement) the seal peeks and waves; slide 23, tab Baikal-GVD, it swims across the
 lake; the last slide (what next) it dashes past with a wake. The route entry takes `append: [{file, tab}]` to add such a stage.
-The one-hour lecture has no seal.
+The seal is clipped to the slide (`.nerpa-frame { overflow: hidden }` in the front matter), so on the last slide it leaves the frame and
+stays gone instead of waiting in the margin of a wider screen. The one-hour lecture has no seal.
 
 ## Focused checks
 
