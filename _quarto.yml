@@ -25,6 +25,7 @@ project:
     # Temporarily disabled; keep the explicit exclusion for shared validation.
     - "!modular-symmetry/lecture.qmd"
     - "neutrino-telescopes-2026/lecture.qmd"
+    - "neutrino-telescopes-2026/lecture-30min.qmd"
     - "neutrino-telescopes-ru-2026/lecture.qmd"
 
 format:

@@ -1,0 +1,30 @@
+## Summary: where we are {#summary-30min}
+
+::: {.incremental}
+- **What do we have?**
+  - A diffuse astrophysical neutrino flux, seen by IceCube and by Baikal-GVD
+  - Neutrinos from our Galaxy, from the Seyfert galaxy NGC 1068 and from blazar candidates
+  - One event near $220\,\mathrm{PeV}$, KM3-230213A
+- **Why does it matter?**
+  - Neutrinos fly straight and leave even dense sources that hide their gamma rays
+  - They show where cosmic rays are accelerated
+:::
+
+## Summary: what next {#summary-30min-next}
+
+::: {.incremental}
+- **What do we not know?**
+  - Where most of the flux comes from: a crowd of faint sources
+  - What the spectral break near $25\,\mathrm{TeV}$ means, $pp$ or $p\gamma$
+  - Whether KM3-230213A is a source or cosmogenic
+- **What must be done?**
+  - Northern exposure beyond $10\,\mathrm{km}^3$, sharper cascade directions
+  - More events above $1\,\mathrm{PeV}$, joint analyses and open data
+- **When?**
+  - 2026: Baikal-GVD with $0.8\,\mathrm{km}^3$, the IceCube Upgrade
+  - About 2028: Baikal-GVD at $1\,\mathrm{km}^3$; about 2040: B-HUNT at $30\,\mathrm{km}^3$
+:::
+
+```{=html}
+<div data-nerpa="dash" class="fragment" data-from="left" data-size="260" data-duration="3.4" style="left: 0; right: 0; top: 72%; height: 24%;"></div>
+```

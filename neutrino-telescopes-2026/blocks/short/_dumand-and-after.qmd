@@ -1,0 +1,37 @@
+## From DUMAND to the first working telescopes {#first-telescopes}
+
+::::: {.columns}
+::: {.column width="42%"}
+![](media/history/dumand-1976.jpg){.slide-media .nostretch style="--media-max-height: 430px;" fig-alt="John Learned at the blackboard, Jed Hirota seated at left and Dick Davisson seated at right, DUMAND 1976 workshop."}
+
+::: {.media-caption}
+DUMAND workshop, 1976. John Learned at the board; Jed Hirota (left), Dick Davisson (right).
+Photo: Anatoly Petrukhin, via IceCube.
+:::
+:::
+::: {.column width="54%"}
+**DUMAND, near Hawaii: the first deep-ocean attempt**
+
+- **1993:** the first string on the sea floor sees muons. Seawater seeps in and a short circuit ends the test.
+- **1995:** support ends. The array is never built.
+
+**Other routes kept going**
+
+- **Baikal:** NT36, three strings and 36 optical modules, 1993.
+- **AMANDA:** polar ice.
+- **ANTARES:** the Mediterranean; the 12-line detector is complete in 2008.
+
+> “Congratulations for winning the 3-string race!”
+
+Francis Halzen to Christian Spiering
+
+::: {.small}
+NT36, DUMAND's TRIAD and AMANDA: competing routes to a working array.
+:::
+:::
+:::::
+
+::: {.media-caption}
+DUMAND Collaboration, [astro-ph/9412019](https://arxiv.org/abs/astro-ph/9412019);
+C. Spiering, *Eur. Phys. J. H* **37**, 515 (2012), [arXiv:1207.4952](https://arxiv.org/abs/1207.4952).
+:::

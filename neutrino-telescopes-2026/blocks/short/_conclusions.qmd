@@ -1,0 +1,22 @@
+## Where are the sources? {#conclusions}
+
+::::: {.columns}
+::: {.column width="66%"}
+![](media/prospects/sources-sky.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Equatorial sky map. The Galactic plane with the Galactic Centre is marked as diffuse neutrino emission from the Milky Way. NGC 1068 stands for Seyfert galaxies, TXS 0506+056 for blazars, and an open circle marks the direction of KM3-230213A, whose origin is open. Caption: most of the flux comes from many faint sources, not yet resolved."}
+:::
+::: {.column width="31%"}
+::: {.incremental}
+- **Found:** our Galaxy, NGC 1068 and Seyfert galaxies, blazar candidates
+- **Still open:** most of the flux: a crowd of faint sources
+- **Next:** bigger telescopes and networks: B-HUNT, KM3NeT, IceCube-Gen2
+:::
+:::
+:::::
+
+::: {.question}
+We have found where to look. Next we must resolve the crowd.
+:::
+
+::: {.media-caption}
+Positions: [Baikal-GVD source list (2026)](https://arxiv.org/abs/2603.21261v2) · Evidence: result slides of this lecture
+:::

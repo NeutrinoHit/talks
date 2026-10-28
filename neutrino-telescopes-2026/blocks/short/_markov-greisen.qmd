@@ -1,0 +1,27 @@
+## A telescope inside a natural medium {#markovs-idea}
+
+::::: {.columns}
+::: {.column width="48%"}
+![](media/history/markov-lectern-author.gif){.slide-media .nostretch style="--media-max-height: 450px;" fig-alt="Moisei Markov speaking at a lectern."}
+
+::: {.media-caption}
+Moisei Markov.
+:::
+:::
+::: {.column width="48%"}
+![](media/history/greisen-portrait.jpg){.slide-media .nostretch style="--media-max-height: 450px;" fig-alt="Kenneth Greisen, portrait reproduced in Spiering's historical review."}
+
+::: {.media-caption}
+Kenneth Greisen. Undated portrait via C. Spiering.
+:::
+:::
+:::::
+
+**1960: Markov and Greisen, independently.** A large target already exists in nature.
+
+- Place light sensors deep in a lake or sea.
+- Use Cherenkov light to reconstruct charged particles produced by neutrinos.
+
+::: {.media-caption}
+M. A. Markov, Rochester conference, 1960, p. 578.
+:::

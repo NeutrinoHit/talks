@@ -75,7 +75,7 @@
 python3 -I assets/ru_figures.py
 python3 -I assets/build_nt36.py
 python3 -I assets/build_intro.py
-python3 -I assets/build_title_galaxy.py
+python3 -I assets/build_title_galaxy.py        # ru; с аргументом en — тот же фон с английской подписью для ../neutrino-telescopes-2026
 python3 assets/build_tomography_ru.py
 ```
 

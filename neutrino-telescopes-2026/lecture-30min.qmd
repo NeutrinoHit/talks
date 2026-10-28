@@ -1,0 +1,93 @@
+---
+title: "Neutrino Telescopes"
+subtitle: "Principles, Results, and Prospects"
+author: "Dmitry Naumov"
+title-slide-attributes:
+  data-background-image: media/galactic/title-galaxy.jpg
+  data-background-size: cover
+  data-background-position: bottom
+description: "A 30-minute review of high-energy neutrino astronomy: history, detection principles, cosmic sources, observations and future observatories. The slides and tabs are selected from the one-hour lecture."
+format:
+  revealjs:
+    height: 1000
+    include-after-body:
+      - text: |
+          <script data-external="1" src="media/nerpa/nerpa.js"></script>
+filters:
+  - at: pre-ast
+    path: assets/short-route/short_route.lua
+short-route:
+  drop-classes: [correspondence]
+  sections: [history-section, principles-section, sources-section, results-section, observatories-section, prospects-section, backup-section]
+  slides:
+    - id: a-new-window
+      tabs: ["The recognition", "So what?", "Bert, Ernie and Big Bird"]
+    - id: markovs-idea
+      replace: blocks/short/_markov-greisen.qmd
+    - id: baikal-beginnings
+      replace: blocks/short/_dumand-and-after.qmd
+    - id: cubic-kilometre-scale
+      replace: blocks/short/_method-works.qmd
+    - id: interaction-probability
+      tabs: ["Across the Universe", "Through the Earth"]
+    - id: event-topologies
+      tabs: ["Model: track", "Model: cascade", "KM3NeT: track", "IceCube: cascades"]
+    - id: cosmic-messengers
+      tabs: ["AGN", "Cosmic messengers"]
+    - id: acceleration-and-confinement
+      tabs: ["Gas", "Photons"]
+    - id: pion-production
+      tabs: ["Pion decays", "Photons and neutrinos"]
+    - id: energy-budget
+      replace: blocks/short/_energy-budget-film.qmd
+    - id: icecube-diffuse-flux
+      tabs: ["The excess", "Directions"]
+    - id: baikal-diffuse-flux
+      tabs: ["Cascade energies", "Spectrum"]
+      append:
+        - file: blocks/short/_nerpa-peek.qmd
+    - id: galactic-neutrinos
+      tabs: ["IceCube", "Baikal-GVD above 200 TeV", "Animation"]
+    - id: ngc-1068
+      tabs: ["Direction", "Photons and neutrinos", "Neutrino spectrum"]
+    - id: txs-0506
+      tabs: ["2017 alert"]
+    - id: km3-230213a
+    - id: icecube-future
+      tabs: ["IceCube", "KM3NeT", "Baikal-GVD", "TRIDENT", "HUNT", "NEON"]
+      append:
+        - file: blocks/short/_nerpa-swim.qmd
+          tab: "Baikal-GVD"
+    - id: b-hunt
+    - id: next-questions
+      replace: blocks/short/_discovery-questions.qmd
+    - id: what-we-need
+      replace: blocks/short/_what-we-lack.qmd
+    - id: conclusions
+      replace: blocks/short/_conclusions.qmd
+      after: blocks/short/_summary.qmd
+    - id: what-the-detector-measures
+    - id: cherenkov-light
+    - id: photomultiplier
+    - id: event-reconstruction
+    - id: backgrounds-and-earth
+    - id: detector-response
+    - id: source-limits
+    - id: global-observatories
+---
+
+{{< include blocks/_01-opening.qmd >}}
+
+{{< include blocks/_02-history.qmd >}}
+
+{{< include blocks/_03-principles.qmd >}}
+
+{{< include blocks/_04-sources.qmd >}}
+
+{{< include blocks/_05-results.qmd >}}
+
+{{< include blocks/_06-observatories.qmd >}}
+
+{{< include blocks/_07-outlook.qmd >}}
+
+{{< include blocks/_08-backup.qmd >}}
