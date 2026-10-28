@@ -17,11 +17,13 @@ Francis Halzen.
 
 IceCube and the discovery of high-energy astrophysical neutrinos.
 
+::: {.correspondence}
 > [Dmitry Naumov to Francis Halzen:]{style="font-family: Georgia, 'Times New Roman', serif; font-size: 0.6em; color: #9fb3c8;"}\
 > [“Let me warmly congratulate you and the entire IceCube Collaboration on this thoroughly deserved Nobel Prize in Physics! … I am Dmitry Naumov — a Baikalist, from JINR (Dubna). We have met several times over the years, most recently at the JUNO cafeteria, where we had lunch together and I even ‘predicted’ your Nobel Prize.”]{style="font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: 0.68em;"}
 
 > [Francis Halzen to Dmitry Naumov:]{style="font-family: Georgia, 'Times New Roman', serif; font-size: 0.6em; color: #9fb3c8;"}\
 > [“Dmitry, I know you since the Naumov flux and remember the lunch in the JUNO cafeteria very well. Thanks for your very kind message.”]{style="font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-size: 0.68em;"}
+:::
 
 ::: {.media-caption}
 [IceCube, 6 October 2026](https://icecube.wisc.edu/news/awards/2026/10/francis-halzen-icecube-principal-investigator-wins-2026-physics-nobel-prize/)

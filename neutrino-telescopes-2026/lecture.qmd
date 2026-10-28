@@ -2,6 +2,10 @@
 title: "Neutrino Telescopes"
 subtitle: "Principles, Results, and Prospects"
 author: "Dmitry Naumov"
+title-slide-attributes:
+  data-background-image: media/galactic/title-galaxy.jpg
+  data-background-size: cover
+  data-background-position: bottom
 description: "A one-hour review of high-energy neutrino astronomy: history, detection principles, cosmic sources, observations and future observatories. Measured spectra, source evidence and the experimental response are presented alongside physical models."
 ---
 

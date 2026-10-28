@@ -1,0 +1,32 @@
+## The method works: the road to IceCube {#method-works}
+
+::::: {.columns}
+::: {.column width="55%"}
+```{=html}
+<div class="timing" style="font-size: 1em; grid-template-columns: 9rem 1fr;">
+<span class="time">1996</span><span>Baikal NT96: a clear upward-going neutrino signal</span>
+<span class="time">1998</span><span>Baikal NT200 completed with 192 optical modules</span>
+<span class="time">1990s</span><span>AMANDA: deeper ice makes directional reconstruction possible</span>
+<span class="time">1999</span><span>The AMANDA team proposes a cubic-kilometre detector, IceCube</span>
+<span class="time">then</span><span>Funding for construction is granted</span>
+<span class="time">2004–05</span><span>First IceCube construction season</span>
+<span class="time">2010</span><span>The last of 86 strings</span>
+<span class="time">2013</span><span>An astrophysical neutrino flux</span>
+</div>
+```
+
+Atmospheric neutrinos showed that Markov's method works, in a lake and in ice.
+:::
+::: {.column width="41%"}
+![](media/history/icecube-team-2004-05.jpg){.slide-media .nostretch style="--media-max-height: 430px;" fig-alt="The IceCube construction team in the 2004–2005 season, in front of a drilling tower."}
+
+::: {.media-caption}
+First IceCube construction season, **2004–2005**. IceCube/NSF historical archive.
+:::
+:::
+:::::
+
+::: {.media-caption}
+C. Spiering, historical review (2024), slides 29–31;
+[Baikal detector paper](https://cds.cern.ch/record/323330); [IceCube timeline](https://icecube.wisc.edu/about-us/icecube10/timeline/).
+:::

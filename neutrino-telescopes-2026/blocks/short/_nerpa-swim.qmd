@@ -1,0 +1,3 @@
+```{=html}
+<div data-nerpa="swim" class="fragment" data-from="left" data-size="260" data-duration="5" style="left: 0; right: 0; bottom: 0; height: 26%;"></div>
+```

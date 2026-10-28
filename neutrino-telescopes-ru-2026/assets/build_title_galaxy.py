@@ -24,7 +24,13 @@ from dvconfig import load_config  # noqa: E402
 import galaxy_model as gm  # noqa: E402
 
 PHOTO = HERE / "title-galaxy" / "eso0932a.jpg"
-OUT = HERE.parent / "media" / "figures" / "title-galaxy.jpg"
+# lecture language -> (output file, credit line burned into the frame)
+OUTPUTS = {
+    "ru": (HERE.parent / "media" / "figures" / "title-galaxy.jpg",
+           "Млечный Путь: ESO/S. Brunier, CC BY 4.0  ·  голубое свечение — модель нейтринного излучения Галактики"),
+    "en": (HERE.parents[1] / "neutrino-telescopes-2026" / "media" / "galactic" / "title-galaxy.jpg",
+           "Milky Way: ESO/S. Brunier, CC BY 4.0  ·  blue glow: model of the Galaxy's neutrino emission"),
+}
 FONT = "/System/Library/Fonts/Supplemental/Arial.ttf"
 
 W, H = 1920, 1080
@@ -36,7 +42,6 @@ STRETCH = 0.15                 # asinh(I / (STRETCH * I_max)); softer than the f
 NU = np.array([103, 221, 247]) / 255.0
 GLOW = 0.8
 BLACK = 0.05                   # photo black level removed (sky background of the panorama)
-CREDIT = "Млечный Путь: ESO/S. Brunier, CC BY 4.0  ·  голубое свечение — модель нейтринного излучения Галактики"
 
 
 def lb_grid(w, h):
@@ -69,7 +74,8 @@ def model_sky():
     return np.clip(zoom(v, MODEL_STEP, order=3), 0.0, 1.0)
 
 
-def main():
+def main(lang="ru"):
+    out, credit = OUTPUTS[lang]
     rgb = np.clip((photo_crop() - BLACK) / (1.0 - BLACK), 0.0, 1.0) ** 1.15
     _, b = lb_grid(W, H)
     # darker sky away from the band: above it the title, below it the credit line
@@ -86,12 +92,12 @@ def main():
     img = Image.fromarray((np.clip(rgb, 0, 1) ** 0.95 * 255).astype(np.uint8))
     d = ImageDraw.Draw(img)
     f = ImageFont.truetype(FONT, 17)
-    tw = d.textlength(CREDIT, font=f)
-    d.text(((W - tw) / 2, H - 34), CREDIT, font=f, fill=(150, 160, 175))
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    img.save(OUT, quality=90)
-    print(OUT)
+    tw = d.textlength(credit, font=f)
+    d.text(((W - tw) / 2, H - 34), credit, font=f, fill=(150, 160, 175))
+    out.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out, quality=90)
+    print(out)
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1] if len(sys.argv) > 1 else "ru")

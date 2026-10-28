@@ -348,6 +348,25 @@ IceCube points with an explicit label; the next slide uses finalized IceCube
 spectral-feature results. No fit or calibration is inferred from the teaching
 diagrams or movie counts.
 
+## 30-minute version
+
+`lecture-30min.qmd` is the same lecture cut to a 25-minute talk: it includes the same blocks and the filter
+`assets/short-route/short_route.lua` keeps only the sections, slides (by slide ID) and tabs (by tab title) listed under
+`short-route:` in its front matter, so the content stays in one place. A listed ID or tab that no longer exists stops the
+render. Result: 23 content slides, 46 tabs and 4.5 minutes of film instead of 27 slides, 92 tabs and 8.7 minutes; the
+Backup section is unchanged. The slide size is 1600 x 1000. To change the route, edit the list in the front matter. A slide entry with `replace: file.qmd` swaps the slide for a
+short-route layout in that file (`blocks/short/_markov-greisen.qmd`, `_dumand-and-after.qmd`, `_method-works.qmd`, `_energy-budget-film.qmd`, `_discovery-questions.qmd`, `_what-we-lack.qmd`, `_conclusions.qmd`: one slide each, no tabs); an entry with `after: file.qmd` adds the slide of that file behind it
+(`_summary.qmd`, the closing summary on two slides, bullets appear one by one); `drop-classes` removes marked passages
+(the correspondence with Halzen on the first slide).
+The title background `media/galactic/title-galaxy.jpg` is drawn by
+`../neutrino-telescopes-ru-2026/assets/build_title_galaxy.py en`.
+
+The 30-minute version carries the Baikal seal (`media/nerpa/nerpa.js`, a copy of the build from `dvnanima/nerpa/web`; see the
+Nerpa section of the Russian lecture README for the runtime and keys). Three spots, each started by a click on a hidden
+fragment: slide 17 (Baikal-GVD diffuse measurement) the seal peeks and waves; slide 23, tab Baikal-GVD, it swims across the
+lake; the last slide (what next) it dashes past with a wake. The route entry takes `append: [{file, tab}]` to add such a stage.
+The one-hour lecture has no seal.
+
 ## Focused checks
 
 ```sh

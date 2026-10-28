@@ -1,0 +1,11 @@
+## What we lack {#what-we-need}
+
+::: {.incremental}
+- **Northern exposure beyond $10\,\mathrm{km}^3$:** faint sources and the Galactic Centre seen through the Earth
+- **Sharper cascade directions:** all flavours point back to sources
+- **More events above $1\,\mathrm{PeV}$:** the spectrum's end, Glashow events, the $100\,\mathrm{PeV}$ puzzle
+- **Global alerts, joint analyses, open data:** one sky, several telescopes
+- **Calibrated optics of water and ice:** energies and directions we can trust
+- **Population theory within the gamma-ray budget:** turning many faint hints into sources
+- **People:** telescopes are built and understood by people. The programme ФНАФЧ: [courses on teach-in.ru](https://teach-in.ru/course?tags=ФНАФЧ)
+:::

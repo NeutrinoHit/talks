@@ -1,0 +1,9 @@
+## Three messengers, one energy budget {#energy-budget}
+
+**Neutrinos and photons share the pion-production energy budget.**
+
+<video class="slide-video media-height-lg" style="--media-max-height: 700px;" controls muted playsinline preload="metadata" poster="media/multimessenger/nu_gamma_cascade_en.jpg" src="media/multimessenger/nu_gamma_cascade_en.mp4" aria-label="The IceCube neutrino flux is converted into pionic gamma rays, which are absorbed on the way to us; the cascade carries their energy down to GeV and is compared with the Fermi-LAT isotropic background."></video>
+
+::: {.media-caption}
+Conversion: [Ahlers & Murase (2014)](https://arxiv.org/abs/1309.4077) · absorption computed with the EBL of [Domínguez et al. (2011)](https://arxiv.org/abs/1007.1459) and the CMB · cascade shape schematic, energy conserved · [Murase, Ahlers & Lacki (2013)](https://arxiv.org/abs/1306.3417), [Murase, Guetta & Ahlers (2016)](https://arxiv.org/abs/1509.00805)
+:::
