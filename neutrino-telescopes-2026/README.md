@@ -354,7 +354,8 @@ diagrams or movie counts.
 `assets/short-route/short_route.lua` keeps only the sections, slides (by slide ID) and tabs (by tab title) listed under
 `short-route:` in its front matter, so the content stays in one place. A listed ID or tab that no longer exists stops the
 render. Result: 23 content slides, 46 tabs and 4.5 minutes of film instead of 27 slides, 92 tabs and 8.7 minutes; the
-Backup section is unchanged. The slide size is 1600 x 1000. To change the route, edit the list in the front matter. A slide entry with `replace: file.qmd` swaps the slide for a
+Backup section is unchanged. The slide size is 1600 x 1000, and the figures are drawn 20 % larger than in the one-hour lecture
+(`--media-scale` in the front matter; slides with tight layouts keep their size). To change the route, edit the list in the front matter. A slide entry with `replace: file.qmd` swaps the slide for a
 short-route layout in that file (`blocks/short/_markov-greisen.qmd`, `_dumand-and-after.qmd`, `_method-works.qmd`, `_energy-budget-film.qmd`, `_discovery-questions.qmd`, `_what-we-lack.qmd`, `_conclusions.qmd`: one slide each, no tabs); an entry with `after: file.qmd` adds the slide of that file behind it
 (`_summary.qmd`, the closing summary on two slides, bullets appear one by one); `drop-classes` removes marked passages
 (the correspondence with Halzen on the first slide).
