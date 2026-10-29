@@ -133,9 +133,24 @@ R&D and pathfinder programme.
 
 ### HUNT
 
-**China + Russia · $\sim30\,\mathrm{km}^3$ · 20-inch PMTs**
+::::: {.columns}
+::: {.column width="35%"}
+**China + Russia**
+
+**Design:** $\sim30\,\mathrm{km}^3$.
+
+**Sensors:** 20-inch PMTs.
 
 The Baikal option, B-HUNT, is the next slide.
+:::
+::: {.column width="61%"}
+![](media/observatories/hunt-design.jpg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Official HUNT concept illustration showing large single-PMT optical modules on underwater strings. This is a design illustration, not a photograph of an operating array."}
+
+::: {.media-caption}
+[Design illustration. HUNT / IHEP, CAS.](https://ihep.cas.cn/astro/en/research/sf/ucp/202510/t20251011_7986821.html)
+:::
+:::
+:::::
 
 ### NEON
 

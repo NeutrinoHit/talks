@@ -1,16 +1,14 @@
 ## What we want to discover {#next-questions}
 
-![](media/prospects/discovery-map.svg){.slide-media .nostretch style="--media-max-height: 480px;" fig-alt="Open questions placed on a neutrino-energy axis from 1 TeV to 1 EeV over the measured cosmic neutrino spectrum: Seyfert galaxies beyond NGC 1068 at 1.5 to 15 TeV; the spectral break near 25 TeV, pp or p-gamma; the Milky Way and PeVatrons above 200 TeV; the neutrino cross section from Earth absorption above 40 TeV; the Glashow resonance at 6.3 PeV; and KM3-230213A at about 220 PeV, source or cosmogenic. Transients through alerts and new physics can appear at any energy."}
+![](media/prospects/discovery-map.svg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Open questions placed on a neutrino-energy axis from 1 TeV to 1 EeV over the measured cosmic neutrino spectrum: Seyfert galaxies beyond NGC 1068 at 1.5 to 15 TeV; the spectral break near 25 TeV, pp or p-gamma; the Milky Way and PeVatrons above 200 TeV; the neutrino cross section from Earth absorption above 40 TeV; the Glashow resonance at 6.3 PeV; and KM3-230213A at about 220 PeV, source or cosmogenic. Transients through alerts and new physics can appear at any energy."}
 
 ::::: {.columns}
 ::: {.column width="50%"}
 - Are there more NGC 1068-like Seyferts?
 - What breaks the spectrum near $25\,\mathrm{TeV}$: $pp$ or $p\gamma$?
-- How large is the neutrino cross section above $40\,\mathrm{TeV}$?
 :::
 ::: {.column width="50%"}
 - Which PeVatrons live in the Milky Way?
-- How many Glashow events at $6.3\,\mathrm{PeV}$?
 - Is KM3-230213A a source or cosmogenic?
 :::
 :::::

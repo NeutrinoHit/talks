@@ -13,6 +13,11 @@ format:
     include-after-body:
       - text: |
           <style>.nerpa-frame { overflow: hidden; }</style>
+          <style>
+          .reveal :is(.slide-media, video.slide-video) { max-height: calc(var(--media-max-height) * var(--media-scale, 1.2)) !important; }
+          #a-new-window, #interaction-probability, #energy-budget, #event-topologies { --media-scale: 1; }
+          #icecube-future { --media-scale: 1.08; }
+          </style>
           <script data-external="1" src="media/nerpa/nerpa.js"></script>
 filters:
   - at: pre-ast
