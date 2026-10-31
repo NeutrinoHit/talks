@@ -1,0 +1,26 @@
+{
+ "schema": 1,
+ "generated_by": "neutrinohit-map/scripts/nh_media.py lock",
+ "media": [
+  {
+   "id": "star-in-jet",
+   "variant": "film-en",
+   "version": 1,
+   "url": "/media-neutrino/star-in-jet/film-en-v1.mp4",
+   "sha256": "5bfca727909455c5130b116563be3718b9850223ad8a2159fd153cb15318602b",
+   "bytes": 78301889,
+   "status": "published",
+   "fallback": "neutrino-telescopes-2026/media/jets/jet_star_en.mp4"
+  },
+  {
+   "id": "star-in-jet",
+   "variant": "film-ru",
+   "version": 1,
+   "url": "/media-neutrino/star-in-jet/film-ru-v1.mp4",
+   "sha256": "a26ea9b0cb07234532bca4575e4eee2c80cf99bfd46a28afcead73cbf9789be3",
+   "bytes": 77901655,
+   "status": "published",
+   "fallback": "neutrino-telescopes-ru-2026/media/films/jet_star_ru.mp4"
+  }
+ ]
+}

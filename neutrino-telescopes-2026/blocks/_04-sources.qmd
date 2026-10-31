@@ -51,7 +51,7 @@ Computed debris orbits, schematic magnetic engine.
 
 ### Star in the jet
 
-<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/jets/jet_star_en.jpg" src="media/jets/jet_star_en.mp4" aria-label="A star in an existing jet: a gas shock and stripped cloud, schematic proton acceleration and neutrino production."></video>
+{{< nh-video star-in-jet variant="film-en" class="slide-video media-height-lg" style="--media-max-height: 620px;" controls=true muted=true playsinline=true preload="metadata" poster="media/jets/jet_star_en.jpg" aria-label="A star in an existing jet: a gas shock and stripped cloud, schematic proton acceleration and neutrino production." >}}
 
 ::: {.media-caption}
 Scenario and calculation: [Barkov, Aharonian & Bosch-Ramon (2010)](https://arxiv.org/abs/1005.5252) · The film illustrates the idea: simplified gas model, schematic protons and neutrinos

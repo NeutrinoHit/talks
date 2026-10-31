@@ -42,7 +42,7 @@
 
 ### Звезда в джете
 
-<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/films/jet_star_ru.jpg" src="media/films/jet_star_ru.mp4" aria-label="Звезда попадает в джет, ускоренные протоны сталкиваются с её веществом и рождают нейтрино."></video>
+{{< nh-video star-in-jet variant="film-ru" class="slide-video media-height-lg" style="--media-max-height: 620px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/jet_star_ru.jpg" aria-label="Звезда попадает в джет, ускоренные протоны сталкиваются с её веществом и рождают нейтрино." >}}
 
 ::: {.media-caption}
 Сценарий и расчёт: [Barkov, Aharonian & Bosch-Ramon (2010)](https://arxiv.org/abs/1005.5252) · фильм иллюстрирует идею: упрощённая модель газа, протоны и нейтрино — схема.

@@ -1,16 +1,21 @@
 project:
   type: website
   output-dir: _site
+  # Films served by the NeutrinoHit media projects (media.lock.json) leave the site.
+  post-render:
+    - _extensions/neutrinohit-media/prune.py
+  # A leading "/" anchors a pattern at the project root; without it Quarto also
+  # matches the same folders inside .work/ (for example an offline bundle).
   resources:
-    - "shared/reveal/**"
-    - "shared/styles/**"
-    - "shared/figures/**"
-    - "styles/**"
-    - "georgia-2026/media/**"
-    - "georgia-2026/assets/**"
-    - "neutrino-telescopes-2026/media/**"
-    - "neutrino-telescopes-2026/assets/**"
-    - "neutrino-telescopes-ru-2026/media/**"
+    - "/shared/reveal/**"
+    - "/shared/styles/**"
+    - "/shared/figures/**"
+    - "/styles/**"
+    - "/georgia-2026/media/**"
+    - "/georgia-2026/assets/**"
+    - "/neutrino-telescopes-2026/media/**"
+    - "/neutrino-telescopes-2026/assets/**"
+    - "/neutrino-telescopes-ru-2026/media/**"
     - "!neutrino-telescopes-2026/assets/reconstruction/__pycache__/**"
     - "!neutrino-telescopes-2026/assets/backgrounds/__pycache__/**"
     - "!neutrino-telescopes-2026/assets/global-sky/__pycache__/**"

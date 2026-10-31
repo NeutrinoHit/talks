@@ -7,6 +7,12 @@ version was imported. Lecture-local copies remove any runtime dependency
 on the sibling `dvnanima` checkout. This records authorized lecture reuse,
 not a new publication or an independent assessment of third-party licences.
 
+Since 31 October 2026 `jet_star_en.mp4` (and the Russian `jet_star_ru.mp4` of
+`neutrino-telescopes-ru-2026`) is served once by the shared media library as
+`/media-neutrino/star-in-jet/film-en-v1.mp4` (`film-ru-v1.mp4`), with the same
+SHA-256; `media.lock.json` pins the version and the slides insert it with
+`nh-video`. The MP4 files are no longer kept in this repository.
+
 | Local file | Original workspace file | Duration | Format | SHA-256 |
 | --- | --- | --- | --- | --- |
 | `jet_launch_en.mp4` | `dvnanima/jet_launch/media/jet_launch_en.mp4` | 98.4 s | H.264, 1920×1080, 30 fps, silent | `6e0fd24a29df8628203ed010b1872ca608fb91a3742c8c5dcfc68afc141a1839` |
