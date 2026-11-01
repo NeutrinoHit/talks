@@ -4,7 +4,7 @@
 
 ### Animation
 
-<video class="slide-video media-height-lg" style="--media-max-height: 590px;" controls muted playsinline preload="metadata" poster="media/principles/cherenkov_steps_en.jpg" src="media/principles/cherenkov_steps_en.mp4"></video>
+{{< nh-video cherenkov-radiation variant="web-huygens-en" class="slide-video media-height-lg" style="--media-max-height: 590px;" controls=true muted=true playsinline=true preload="metadata" poster="media/principles/cherenkov_steps_en.jpg" >}}
 
 ::: {.media-caption}
 Gold: charge. Blue circles: wavefronts. White: common front. Cyan arrows: light.

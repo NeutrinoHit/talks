@@ -40,6 +40,11 @@ def check():
     for rel in refs:assert (ROOT/rel).is_file(),f'Missing media: {rel}'
     for video in re.findall(r'<video\b[^>]*>',text):
         assert 'poster=' in video,'A film needs its static poster'
+    lock={(e['id'],e['variant']) for e in json.loads((ROOT.parent/'media.lock.json').read_text())['media']}
+    for film in re.findall(r'\{\{<\s*nh-video\s+([a-z0-9-]+)\s+([^>]*?)>\}\}',text):
+        variant=re.search(r'variant="([a-z0-9-]+)"',film[1])
+        assert variant and (film[0],variant[1]) in lock,f'Shared film {film[0]} is not pinned in media.lock.json'
+        assert 'poster=' in film[1],'A shared film needs its static poster'
     assert not re.search(r'Visual slot|Animation slot|fake hit|not yet been generated',text,re.I),'Production residue in lecture'
     items=json.loads((ROOT/'assets/evidence/figures.json').read_text())
     for item in items:

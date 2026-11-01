@@ -99,3 +99,10 @@ python3 assets/build_tomography_ru.py
 Клавиша **Н** (латинская Y) отправляет нерпу через текущий слайд, **Shift+Н** — выглянуть из угла;
 в PDF-версии нерпы нет. В скрытой вкладке нерпа не запускается: клик по фрагменту тогда ничего не показывает.
 
+## Фильмы из общей медиатеки
+
+Фильмы лекции вставляются шорткодом `nh-video` и лежат в медиапроекте `media-neutrino`; версии и SHA-256 закреплены
+в `../media.lock.json`. Опубликованные фильмы (`icecube_first_pev_ru`, `icecube_build_ru`, `cherenkov_radiation_ru`,
+`humanity_cube_ru`, `nu_gamma_cascade_ru`, `pmt_multiplication_ru`, `jet_star_ru`) в репозитории не хранятся; остальные
+(`jet_launch_ru`, `milky_way_neutrinos_ru`, `source_emerges_ru`, `lighthit_*_cc_ru`) показываются с локальных копий,
+пока не опубликованы. Файлы `km3-230213a.mp4` и `icecube-170922a.mp4` чужие и остаются в английской лекции как есть.

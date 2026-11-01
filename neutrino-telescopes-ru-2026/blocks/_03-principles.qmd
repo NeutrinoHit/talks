@@ -8,7 +8,7 @@
 
 ::::: {.columns}
 ::: {.column width="52%"}
-<video class="slide-video media-height-lg" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="media/films/icecube_build_ru.jpg" src="media/films/icecube_build_ru.mp4" aria-label="Под лабораторией IceCube протаивают 86 скважин глубиной 2,5 км, и в кубическом километре льда появляются 5160 датчиков света."></video>
+{{< nh-video icecube-first-pev variant="web-build-ru" class="slide-video media-height-lg" style="--media-max-height: 560px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/icecube_build_ru.jpg" aria-label="Под лабораторией IceCube протаивают 86 скважин глубиной 2,5 км, и в кубическом километре льда появляются 5160 датчиков света." >}}
 :::
 ::: {.column width="44%"}
 **Нам понадобятся:**
@@ -23,7 +23,7 @@
 
 ### Пример события
 
-<video class="slide-video media-height-lg" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="media/films/icecube_first_pev_ru.jpg" src="media/films/icecube_first_pev_ru.mp4#t=10.3" aria-label="Каскады Bert, Ernie и Big Bird с энергией около ПэВ зажигают сотни датчиков IceCube изнутри детектора."></video>
+{{< nh-video icecube-first-pev variant="web-ru" class="slide-video media-height-lg" style="--media-max-height: 560px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/icecube_first_pev_ru.jpg" aria-label="Каскады Bert, Ernie и Big Bird с энергией около ПэВ зажигают сотни датчиков IceCube изнутри детектора." onloadedmetadata="this.currentTime=10.3" >}}
 
 ::: {.media-caption}
 IceCube, первые нейтрино с энергией около ПэВ · кружок — сработавший датчик, размер — сколько света, цвет — время (красный раньше, синий позже) · энергии и число датчиков из данных, картина света — модель, положение Big Bird условно
@@ -37,7 +37,7 @@ IceCube, первые нейтрино с энергией около ПэВ · 
 
 ### Фильм
 
-<video class="slide-video media-height-lg" style="--media-max-height: 590px;" controls muted playsinline preload="metadata" poster="media/films/cherenkov_radiation_ru.jpg" src="media/films/cherenkov_radiation_ru.mp4" aria-label="Заряд движется медленнее и быстрее скорости света в среде; в быстром случае волновые фронты складываются в общий конус, а свет идёт поперёк фронта."></video>
+{{< nh-video cherenkov-radiation variant="web-huygens-ru" class="slide-video media-height-lg" style="--media-max-height: 590px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/cherenkov_radiation_ru.jpg" aria-label="Заряд движется медленнее и быстрее скорости света в среде; в быстром случае волновые фронты складываются в общий конус, а свет идёт поперёк фронта." >}}
 
 ::: {.media-caption}
 Золотой — заряд · голубые окружности — волновые фронты · белый — общий фронт · голубые стрелки — направление света.
@@ -70,7 +70,7 @@ $$
 
 ### Фотоумножитель
 
-<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/films/pmt_multiplication_ru.jpg" src="media/films/pmt_multiplication_ru.mp4" aria-label="Фотон выбивает электрон из фотокатода, и лавина электронов размножается на динодах фотоумножителя."></video>
+{{< nh-video pmt-multiplication variant="web-avalanche-ru" class="slide-video media-height-lg" style="--media-max-height: 620px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/pmt_multiplication_ru.jpg" aria-label="Фотон выбивает электрон из фотокатода, и лавина электронов размножается на динодах фотоумножителя." >}}
 
 ### Оптические модули
 
@@ -172,7 +172,7 @@ IceCube Collaboration / IceCube–NSF · [IceCube (2013)](https://arxiv.org/abs/
 
 ### Модель: трек
 
-<video class="slide-video media-height-lg" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="media/films/lighthit_numu_cc_ru.jpg" src="media/films/lighthit_numu_cc_ru.mp4" aria-label="Расчётный отклик детектора на взаимодействие мюонного нейтрино с энергией 1 ТэВ: трек мюона 800 ГэВ и ливень в вершине зажигают оптические модули кластеров Baikal-GVD."></video>
+{{< nh-video telescope-events variant="film-numu-cc-ru" class="slide-video media-height-lg" style="--media-max-height: 560px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/lighthit_numu_cc_ru.jpg" aria-label="Расчётный отклик детектора на взаимодействие мюонного нейтрино с энергией 1 ТэВ: трек мюона 800 ГэВ и ливень в вершине зажигают оптические модули кластеров Baikal-GVD." >}}
 
 ::: {.media-caption}
 Мюонное нейтрино, 1 ТэВ · вторичные частицы NTSim/Geant4, перенос света в воде LightHit · свечение — ожидаемые фотоэлектроны, цвет — время первого света · не разыгранные срабатывания и не данные · фронт света условный
@@ -180,7 +180,7 @@ IceCube Collaboration / IceCube–NSF · [IceCube (2013)](https://arxiv.org/abs/
 
 ### Модель: каскад
 
-<video class="slide-video media-height-lg" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="media/films/lighthit_nue_cc_ru.jpg" src="media/films/lighthit_nue_cc_ru.mp4" aria-label="Расчётный отклик детектора на взаимодействие электронного нейтрино с энергией 100 ГэВ: электрон и адронный ливень зажигают ближайшие оптические модули кластеров Baikal-GVD."></video>
+{{< nh-video telescope-events variant="film-nue-cc-ru" class="slide-video media-height-lg" style="--media-max-height: 560px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/lighthit_nue_cc_ru.jpg" aria-label="Расчётный отклик детектора на взаимодействие электронного нейтрино с энергией 100 ГэВ: электрон и адронный ливень зажигают ближайшие оптические модули кластеров Baikal-GVD." >}}
 
 ::: {.media-caption}
 Электронное нейтрино, 100 ГэВ · вторичные частицы NTSim/Geant4, перенос света в воде LightHit · свечение — ожидаемые фотоэлектроны, цвет — время первого света · не разыгранные срабатывания и не данные · фронт света условный

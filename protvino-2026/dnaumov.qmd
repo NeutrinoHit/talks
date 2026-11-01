@@ -184,11 +184,7 @@ $$
 
 ::: {.column width="50%"}
 
-```{=html}
-<video data-autoplay loop muted playsinline style="width: 100%;">
-  <source src="media/NeutrinoHierarchyScales.mp4" type="video/mp4">
-</video>
-```
+{{< nh-video mass-hierarchy variant="film-scales" data-autoplay=true loop=true muted=true playsinline=true style="width: 100%;" >}}
 
 :::
 

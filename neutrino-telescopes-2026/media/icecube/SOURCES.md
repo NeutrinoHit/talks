@@ -25,3 +25,6 @@ depths from Table I and horizontal vertices read from Fig. 1 of https://arxiv.or
 sensor counts 354 and 312. Big Bird: about 2 PeV (https://arxiv.org/abs/1405.5303), position illustrative.
 The light pattern, brightness and arrival-time colours come from a point-source model in homogeneous ice
 matched to Bert's recorded sensors and photoelectrons; details in the film's README. The laboratory is stylised.
+
+Since 1 November 2026 `icecube_first_pev_en.mp4` is served by the shared media library as `/media-neutrino/icecube-first-pev/web-en-v1.mp4` (same SHA-256);
+the MP4 is no longer kept in this repository.

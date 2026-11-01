@@ -193,7 +193,7 @@ IceCube Collaboration / IceCube–NSF · [IceCube (2013)](https://arxiv.org/abs/
 
 ### Model: track
 
-<video class="slide-video media-height-lg" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="media/events/lighthit_numu_cc_en.jpg" src="media/events/lighthit_numu_cc_en.mp4" aria-label="Calculated detector response to a 1 TeV muon-neutrino interaction: an 800 GeV muon track and a vertex shower light optical modules of Baikal-GVD clusters."></video>
+{{< nh-video telescope-events variant="film-numu-cc-en" class="slide-video media-height-lg" style="--media-max-height: 560px;" controls=true muted=true playsinline=true preload="metadata" poster="media/events/lighthit_numu_cc_en.jpg" aria-label="Calculated detector response to a 1 TeV muon-neutrino interaction: an 800 GeV muon track and a vertex shower light optical modules of Baikal-GVD clusters." >}}
 
 ::: {.media-caption}
 Muon-neutrino interaction, 1 TeV · NTSim/Geant4 secondaries, LightHit radiative transfer in water · glow = expected photoelectrons, colour = first-light time · not sampled hits, not observed data · light front illustrative
@@ -201,7 +201,7 @@ Muon-neutrino interaction, 1 TeV · NTSim/Geant4 secondaries, LightHit radiative
 
 ### Model: cascade
 
-<video class="slide-video media-height-lg" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="media/events/lighthit_nue_cc_en.jpg" src="media/events/lighthit_nue_cc_en.mp4" aria-label="Calculated detector response to a 100 GeV electron-neutrino interaction: an electron and hadronic shower light nearby optical modules of Baikal-GVD clusters."></video>
+{{< nh-video telescope-events variant="film-nue-cc-en" class="slide-video media-height-lg" style="--media-max-height: 560px;" controls=true muted=true playsinline=true preload="metadata" poster="media/events/lighthit_nue_cc_en.jpg" aria-label="Calculated detector response to a 100 GeV electron-neutrino interaction: an electron and hadronic shower light nearby optical modules of Baikal-GVD clusters." >}}
 
 ::: {.media-caption}
 Electron-neutrino interaction, 100 GeV · NTSim/Geant4 secondaries, LightHit radiative transfer in water · glow = expected photoelectrons, colour = first-light time · not sampled hits, not observed data · light front illustrative

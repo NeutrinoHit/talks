@@ -94,5 +94,6 @@ not modified; temporary inspection copies remain outside the public site.
 - Russian versions (`neutrino-telescopes-ru-2026/media/films/lighthit_{numu,nue}_cc_ru.*`) come from a local copy of
   the same viewer with the eight on-screen overlay strings translated; data, camera and settings identical.
 - The glow is the expected photoelectron response, not Poisson-sampled hits or observed data; the light front is illustrative.
-- The previous `simulated_muon_response_en.*` and `simulated_cascade_response_en.*` remain in this folder (documented above)
-  but are no longer referenced by the slides.
+- The previous `simulated_muon_response_en.*` and `simulated_cascade_response_en.*` (documented above) are no longer
+  referenced by the slides; the posters remain in this folder, the films are kept in the media project `media-talks`
+  (`telescope-events/film-muon-response-en`, `telescope-events/film-cascade-response-en`).

@@ -41,3 +41,6 @@ For the physical phase-velocity condition and angle:
 The source animations' README/config/texts describe their physics and
 configuration. The PMT copy remains unchanged; the four-step Cherenkov movie
 is used on slide 9 and replaces the earlier movie in the site gallery.
+
+Since 1 November 2026 `cherenkov_steps_en.mp4` is served by the shared media library as `/media-neutrino/cherenkov-radiation/web-huygens-en-v1.mp4` (same SHA-256);
+the MP4 is no longer kept in this repository.

@@ -49,7 +49,7 @@ IceCube and the discovery of high-energy astrophysical neutrinos.
 
 ### Bert, Ernie and Big Bird
 
-<video class="slide-video media-height-lg" style="--media-max-height: 600px;" controls muted playsinline preload="metadata" poster="media/icecube/icecube_first_pev_en.jpg" src="media/icecube/icecube_first_pev_en.mp4" aria-label="86 holes are melted 2.5 km into the ice under the IceCube Laboratory, 5160 light sensors appear, and the PeV cascades Bert, Ernie and Big Bird each light hundreds of sensors from inside the detector."></video>
+{{< nh-video icecube-first-pev variant="web-en" class="slide-video media-height-lg" style="--media-max-height: 600px;" controls=true muted=true playsinline=true preload="metadata" poster="media/icecube/icecube_first_pev_en.jpg" aria-label="86 holes are melted 2.5 km into the ice under the IceCube Laboratory, 5160 light sensors appear, and the PeV cascades Bert, Ernie and Big Bird each light hundreds of sensors from inside the detector." >}}
 
 ::: {.media-caption}
 Sensor positions: IceCube geometry · light pattern modelled · Bert and Ernie:

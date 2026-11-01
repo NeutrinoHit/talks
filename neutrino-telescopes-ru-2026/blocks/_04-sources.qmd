@@ -6,7 +6,7 @@
 
 ### Звезду разрывает чёрная дыра
 
-<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/films/jet_launch_ru.jpg" src="media/films/jet_launch_ru.mp4" aria-label="Чёрная дыра разрывает звезду приливными силами, обломки образуют диск, магнитное поле запускает джет."></video>
+{{< nh-video jet-launch variant="film-ru" class="slide-video media-height-lg" style="--media-max-height: 620px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/jet_launch_ru.jpg" aria-label="Чёрная дыра разрывает звезду приливными силами, обломки образуют диск, магнитное поле запускает джет." >}}
 
 ::: {.media-caption}
 Орбиты обломков рассчитаны, магнитный «двигатель» показан схематически.
@@ -92,7 +92,7 @@
 
 ### Нейтрино → гамма
 
-<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/films/nu_gamma_cascade_ru.jpg" src="media/films/nu_gamma_cascade_ru.mp4" aria-label="Поток нейтрино IceCube пересчитывается в пионные гамма-кванты; они поглощаются по пути, каскад переносит энергию к ГэВ и сравнивается с изотропным фоном Fermi-LAT."></video>
+{{< nh-video nu-gamma-cascade variant="web-ru" class="slide-video media-height-lg" style="--media-max-height: 620px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/nu_gamma_cascade_ru.jpg" aria-label="Поток нейтрино IceCube пересчитывается в пионные гамма-кванты; они поглощаются по пути, каскад переносит энергию к ГэВ и сравнивается с изотропным фоном Fermi-LAT." >}}
 
 ::: {.media-caption}
 Пересчёт: [Ahlers & Murase (2014)](https://arxiv.org/abs/1309.4077) · поглощение посчитано по EBL [Domínguez et al. (2011)](https://arxiv.org/abs/1007.1459) и реликтовому излучению · форма каскада схематична, энергия сохраняется · [Murase, Ahlers & Lacki (2013)](https://arxiv.org/abs/1306.3417), [Murase, Guetta & Ahlers (2016)](https://arxiv.org/abs/1509.00805)

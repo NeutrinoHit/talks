@@ -11,6 +11,23 @@ in the main NeutrinoHit site repository.
 videos seekable on servers without HTTP range requests, such as the local `quarto preview`: a video that
 cannot seek is read once into memory when the pointer reaches it; `#t=` start fragments are kept.
 
+## Shared films
+
+Films of the neutrino lectures and talks are served once by the shared media library
+(`neutrinohit-map/docs/media-library.md`, project `media-neutrino`) and inserted with the
+`nh-video` shortcode of `_extensions/neutrinohit-media`; `media.lock.json` pins the version
+and SHA-256 of every film and names the local file it replaces. A film that is not yet
+published shows its local copy, so the pages never break; once it is published the copy is
+removed from the repository and from `_site`. Films of other authors (the KM3NeT event display
+`km3-230213a.mp4`, the IceCube-170922A recording `icecube-170922a.mp4`, `baikal_short-1770.mp4`,
+`juno-supernova-illustration.mp4`) are not registered and stay in the talks as plain `<video>` tags.
+Unused renders (`earth_filter_en`, `earth_shield_en`, `water_radioactivity_en`,
+`simulated_cascade_response_en`, `simulated_muon_response_en`) are not referenced by any lecture;
+they are kept in the media project `media-talks` (`earth-filter/film-en`,
+`earth-shield/film-telescopes-en`, `water-radioactivity/film-en`,
+`telescope-events/film-cascade-response-en`, `telescope-events/film-muon-response-en`) and
+their copies are removed from the repository. `python3 ../neutrinohit-map/scripts/nh_media.py lock .` rewrites the lock file.
+
 ## Talks
 
 - `neutrino-telescopes-2026/lecture.qmd`

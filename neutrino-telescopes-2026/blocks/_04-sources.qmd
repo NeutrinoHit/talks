@@ -6,7 +6,7 @@
 
 ### Tidal disruption
 
-<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/jets/jet_launch_en.jpg" src="media/jets/jet_launch_en.mp4" aria-label="From a star to a jet: tidal disruption, returning debris and a schematic magnetic engine."></video>
+{{< nh-video jet-launch variant="film-en" class="slide-video media-height-lg" style="--media-max-height: 620px;" controls=true muted=true playsinline=true preload="metadata" poster="media/jets/jet_launch_en.jpg" aria-label="From a star to a jet: tidal disruption, returning debris and a schematic magnetic engine." >}}
 
 ::: {.media-caption}
 Computed debris orbits, schematic magnetic engine.

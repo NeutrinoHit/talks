@@ -57,3 +57,6 @@ of the same file (ffmpeg, no retouching). The IceCube band → pionic γ convers
 energy-conserving schematic cascade, with all sources and checks, are documented in `dvnanima/nu_gamma_cascade/README.md`
 and `data/SOURCES.md` there. Its numbers use the same tables as `media/theory/energy-budget.svg`; the cascade there is
 schematic and is not the calculation of Zathul et al. (2026) shown on the first tab.
+
+Since 1 November 2026 `nu_gamma_cascade_en.mp4` is served by the shared media library as `/media-neutrino/nu-gamma-cascade/web-en-v1.mp4` (same SHA-256);
+the MP4 is no longer kept in this repository.

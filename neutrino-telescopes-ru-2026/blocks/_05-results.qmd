@@ -72,7 +72,7 @@ IceCube Collaboration, Science (2023) · излучение плоскости �
 
 ### Анимация
 
-<video class="slide-video media-height-lg" style="--media-max-height: 590px;" controls muted playsinline preload="metadata" poster="media/films/milky_way_neutrinos_ru.jpg" src="media/films/milky_way_neutrinos_ru.mp4" aria-label="Космические лучи сталкиваются с газом Галактики, нейтрино летят к нам и складываются в полосу на небе; каскады Baikal-GVD выше 200 ТэВ."></video>
+{{< nh-video milky-way-neutrinos variant="film-ru" class="slide-video media-height-lg" style="--media-max-height: 590px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/milky_way_neutrinos_ru.jpg" aria-label="Космические лучи сталкиваются с газом Галактики, нейтрино летят к нам и складываются в полосу на небе; каскады Baikal-GVD выше 200 ТэВ." >}}
 
 ::: {.media-caption}
 Модель Галактики иллюстративная · каскады Baikal-GVD выше 200 ТэВ и опубликованный тест

@@ -4,8 +4,11 @@ Explanatory material used in DN's lecture. The Earth film is imported from
 `dvnanima/earth_shield`; the independent seawater companion remains from
 `dvnanima/earth_filter`. Both are English, silent, 1920×1080 at 30 fps.
 No measured telescope events or private response arrays are included.
-Earth shield and seawater-companion films are retained here, but neither is
-embedded on slide 13 after the 12 October 2026 background-table revision.
+Neither the Earth film nor the seawater companion is embedded on slide 13
+after the 12 October 2026 background-table revision; both, and the older
+`earth_filter_en.mp4`, are kept in the media project `media-talks`
+(`earth-shield/film-telescopes-en`, `water-radioactivity/film-en`,
+`earth-filter/film-en`), and their copies are removed from this folder.
 
 ## Neutrino interaction rates
 

@@ -4,7 +4,7 @@
 
 ::::: {.columns}
 ::: {.column width="64%"}
-<video class="slide-video media-height-lg" style="--media-max-height: 580px;" controls muted playsinline preload="metadata" poster="media/films/source_emerges_ru.jpg" src="media/films/source_emerges_ru.mp4" aria-label="Смоделированные нейтрино накапливаются вокруг выдуманного точечного источника; значимость растёт с экспозицией и зависит от точности направлений."></video>
+{{< nh-video source-emerges variant="film-ru" class="slide-video media-height-lg" style="--media-max-height: 580px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/source_emerges_ru.jpg" aria-label="Смоделированные нейтрино накапливаются вокруг выдуманного точечного источника; значимость растёт с экспозицией и зависит от точности направлений." >}}
 :::
 ::: {.column width="32%"}
 - Источник проступает на фоне постепенно, год за годом.

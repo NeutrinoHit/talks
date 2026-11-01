@@ -236,7 +236,7 @@ V. A. Allakhverdyan et al. (Baikal-GVD) with Y. Y. Kovalev, A. V. Plavin, D. V. 
 
 ### Animation
 
-<video class="slide-video media-height-lg" style="--media-max-height: 590px;" controls muted playsinline preload="metadata" poster="media/galactic/milky_way_neutrinos_en.jpg" src="media/galactic/milky_way_neutrinos_en.mp4"></video>
+{{< nh-video milky-way-neutrinos variant="film-en" class="slide-video media-height-lg" style="--media-max-height: 590px;" controls=true muted=true playsinline=true preload="metadata" poster="media/galactic/milky_way_neutrinos_en.jpg" >}}
 
 ::: {.media-caption}
 Model Galaxy (illustrative) · Baikal-GVD cascades above 200 TeV and the published shuffling test

@@ -156,7 +156,7 @@ The two bases do not coincide. This mismatch and distinct neutrino masses are th
 
 ### Oscillation probability
 
-<video class="slide-video media-height-md" style="--media-width: 980px; --media-max-height: 490px;" width="1280" height="720" muted loop controls preload="metadata" playsinline poster="media/oscillation_chameleon.jpg" src="media/oscillation_chameleon.mp4"></video>
+{{< nh-video neutrino-oscillation-phases variant="film-phases" class="slide-video media-height-md" style="--media-width: 980px; --media-max-height: 490px;" width="1280" height="720" muted=true loop=true controls=true preload="metadata" playsinline=true poster="media/oscillation_chameleon.jpg" >}}
 
 ::::
 
@@ -251,7 +251,7 @@ Solar data fix $m_2>m_1$. The sign of the atmospheric splitting distinguishes th
 
 ::: {.column width="62%"}
 
-<video class="slide-video media-height-lg media-width-lg" style="--media-width: 96%;" width="1280" height="720" data-autoplay muted loop controls preload="metadata" playsinline poster="media/mass_ordering.jpg" src="media/NeutrinoHierarchyScales.mp4"></video>
+{{< nh-video mass-hierarchy variant="film-scales" class="slide-video media-height-lg media-width-lg" style="--media-width: 96%;" width="1280" height="720" data-autoplay=true muted=true loop=true controls=true preload="metadata" playsinline=true poster="media/mass_ordering.jpg" >}}
 
 :::
 
@@ -317,12 +317,12 @@ Solar data fix $m_2>m_1$. The sign of the atmospheric splitting distinguishes th
 
 ### Mass ordering
 
-<video class="slide-video media-height-lg media-width-lg" style="--media-width: 96%;" width="1280" height="720" data-autoplay muted loop controls preload="metadata" playsinline poster="media/mass_ordering.jpg" src="media/NeutrinoHierarchyScales.mp4"></video>
+{{< nh-video mass-hierarchy variant="film-scales" class="slide-video media-height-lg media-width-lg" style="--media-width: 96%;" width="1280" height="720" data-autoplay=true muted=true loop=true controls=true preload="metadata" playsinline=true poster="media/mass_ordering.jpg" >}}
 
 
 ### Atmosphere
 
-<video class="slide-video media-height-md" style="--media-max-height: 500px;" width="1280" height="720" controls data-autoplay muted loop playsinline preload="metadata" poster="media/juno-atmospheric-poster.png" src="media/juno-atmospheric-shower.mp4"></video>
+{{< nh-video air-shower variant="film" class="slide-video media-height-md" style="--media-max-height: 500px;" width="1280" height="720" controls=true data-autoplay=true muted=true loop=true playsinline=true preload="metadata" poster="media/juno-atmospheric-poster.png" >}}
 
 
 ### Supernova
@@ -384,7 +384,7 @@ Oscillations set the spacing of the spectrum, not its absolute position.
 
 ## KATRIN: electron motion through the MAC-E filter
 
-<video class="slide-video media-height-lg" width="1280" height="720" controls data-autoplay muted loop playsinline preload="metadata" poster="media/katrin-electron-motion.jpg" src="media/katrin-electron-motion.mp4"></video>
+{{< nh-video mac-e-filter variant="film-katrin-electric" class="slide-video media-height-lg" width="1280" height="720" controls=true data-autoplay=true muted=true loop=true playsinline=true preload="metadata" poster="media/katrin-electron-motion.jpg" >}}
 
 ## KATRIN: the endpoint becomes a count rate
 

@@ -92,13 +92,13 @@ $$
 
 $\nu_\mu+N\longrightarrow\mu^-+X$
 
-<video class="slide-video media-height-lg" style="--media-max-height: 600px;" controls muted playsinline preload="metadata" poster="../neutrino-telescopes-2026/media/neutrino_telescope/muon_lecture_en.jpg" src="../neutrino-telescopes-2026/media/neutrino_telescope/muon_lecture_en.mp4"></video>
+{{< nh-video neutrino-telescope variant="film-muon-en" class="slide-video media-height-lg" style="--media-max-height: 600px;" controls=true muted=true playsinline=true preload="metadata" poster="../neutrino-telescopes-2026/media/neutrino_telescope/muon_lecture_en.jpg" >}}
 
 ### Электронный ливень
 
 $\nu_e+N\longrightarrow e^-+X$
 
-<video class="slide-video media-height-lg" style="--media-max-height: 600px;" controls muted playsinline preload="metadata" poster="../neutrino-telescopes-2026/media/neutrino_telescope/electron_lecture_en.jpg" src="../neutrino-telescopes-2026/media/neutrino_telescope/electron_lecture_en.mp4"></video>
+{{< nh-video neutrino-telescope variant="film-electron-en" class="slide-video media-height-lg" style="--media-max-height: 600px;" controls=true muted=true playsinline=true preload="metadata" poster="../neutrino-telescopes-2026/media/neutrino_telescope/electron_lecture_en.jpg" >}}
 
 ::::::
 
@@ -112,7 +112,7 @@ $\nu_e+N\longrightarrow e^-+X$
 
 ### Идея
 
-<video class="slide-video media-height-lg" style="--media-max-height: 600px;" controls muted playsinline preload="metadata" poster="../neutrino-telescopes-2026/media/reconstruction/reconstruction_en.jpg" src="../neutrino-telescopes-2026/media/reconstruction/reconstruction_en.mp4"></video>
+{{< nh-video neutrino-reconstruction variant="film-en" class="slide-video media-height-lg" style="--media-max-height: 600px;" controls=true muted=true playsinline=true preload="metadata" poster="../neutrino-telescopes-2026/media/reconstruction/reconstruction_en.jpg" >}}
 
 ### Модель
 

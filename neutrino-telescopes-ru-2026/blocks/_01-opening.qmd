@@ -51,7 +51,7 @@ IceCube и открытие астрофизических нейтрино вы
 
 ### Bert, Ernie и Big Bird
 
-<video class="slide-video media-height-lg" style="--media-max-height: 600px;" controls muted playsinline preload="metadata" poster="media/films/icecube_first_pev_ru.jpg" src="media/films/icecube_first_pev_ru.mp4" aria-label="Под лабораторией IceCube протаивают 86 скважин глубиной 2,5 км, появляются 5160 датчиков света, и каскады Bert, Ernie и Big Bird с энергией около ПэВ зажигают сотни датчиков изнутри детектора."></video>
+{{< nh-video icecube-first-pev variant="web-ru" class="slide-video media-height-lg" style="--media-max-height: 600px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/icecube_first_pev_ru.jpg" aria-label="Под лабораторией IceCube протаивают 86 скважин глубиной 2,5 км, появляются 5160 датчиков света, и каскады Bert, Ernie и Big Bird с энергией около ПэВ зажигают сотни датчиков изнутри детектора." >}}
 
 ::: {.media-caption}
 Положения датчиков — геометрия IceCube · картина света — модель · Bert и Ernie:
@@ -98,7 +98,7 @@ IceCube и открытие астрофизических нейтрино вы
 :::
 :::
 ::: {.column width="58%"}
-<video class="slide-video media-height-lg" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="media/films/humanity_cube_ru.jpg" src="media/films/humanity_cube_ru.mp4" aria-label="Глобус покрывается точками там, где живут люди: одна точка — миллион человек, всё человечество. Рядом появляется стеклянный куб со стороной 1 км, и все точки одновременно втягиваются в него: человечество занимает половину куба. Затем камера ныряет внутрь, и точки превращаются в толпу людей со всех континентов."></video>
+{{< nh-video humanity-cube variant="web-ru" class="slide-video media-height-lg" style="--media-max-height: 560px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/humanity_cube_ru.jpg" aria-label="Глобус покрывается точками там, где живут люди: одна точка — миллион человек, всё человечество. Рядом появляется стеклянный куб со стороной 1 км, и все точки одновременно втягиваются в него: человечество занимает половину куба. Затем камера ныряет внутрь, и точки превращаются в толпу людей со всех континентов." >}}
 
 ::: {.media-caption}
 Одна точка — миллион человек · люди по странам и городам: Natural Earth · карта: NASA Blue Marble · 62 кг на человека: Walpole и др., 2012 · куб не в масштабе с планетой · облик людей условный

@@ -4,7 +4,7 @@
 
 ### A source emerges
 
-<video class="slide-video media-height-lg" style="--media-max-height: 600px;" controls muted playsinline preload="metadata" poster="media/sensitivity/source_emerges_en.jpg" src="media/sensitivity/source_emerges_en.mp4" aria-label="Simulated neutrino events build up around an invented point source; significance grows as the square root of exposure and depends on the angular resolution of tracks, cascades in water and cascades in ice."></video>
+{{< nh-video source-emerges variant="film-en" class="slide-video media-height-lg" style="--media-max-height: 600px;" controls=true muted=true playsinline=true preload="metadata" poster="media/sensitivity/source_emerges_en.jpg" aria-label="Simulated neutrino events build up around an invented point source; significance grows as the square root of exposure and depends on the angular resolution of tracks, cascades in water and cascades in ice." >}}
 
 ::: {.media-caption}
 Illustration: an invented source of NGC 1068's strength, simulated events, computed significance · Not a forecast for any detector

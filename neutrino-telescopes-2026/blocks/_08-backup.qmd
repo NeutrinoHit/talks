@@ -10,7 +10,7 @@
 $\nu_\mu+N\longrightarrow\mu^-+X.$
 :::
 
-<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/neutrino_telescope/muon_lecture_en.jpg" src="media/neutrino_telescope/muon_lecture_en.mp4"></video>
+{{< nh-video neutrino-telescope variant="film-muon-en" class="slide-video media-height-lg" style="--media-max-height: 620px;" controls=true muted=true playsinline=true preload="metadata" poster="media/neutrino_telescope/muon_lecture_en.jpg" >}}
 
 ### Electron shower
 
@@ -18,7 +18,7 @@ $\nu_\mu+N\longrightarrow\mu^-+X.$
 $\nu_e+N\longrightarrow e^-+X.$
 :::
 
-<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/neutrino_telescope/electron_lecture_en.jpg" src="media/neutrino_telescope/electron_lecture_en.mp4"></video>
+{{< nh-video neutrino-telescope variant="film-electron-en" class="slide-video media-height-lg" style="--media-max-height: 620px;" controls=true muted=true playsinline=true preload="metadata" poster="media/neutrino_telescope/electron_lecture_en.jpg" >}}
 ::::::
 
 {{< include blocks/_03a-cherenkov.qmd >}}
@@ -29,7 +29,7 @@ $\nu_e+N\longrightarrow e^-+X.$
 
 ### Photomultiplier
 
-<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/principles/pmt_multiplication_en.jpg" src="media/principles/pmt_multiplication_en.mp4"></video>
+{{< nh-video pmt-multiplication variant="film-avalanche-en" class="slide-video media-height-lg" style="--media-max-height: 620px;" controls=true muted=true playsinline=true preload="metadata" poster="media/principles/pmt_multiplication_en.jpg" >}}
 
 ### Optical modules
 
@@ -90,7 +90,7 @@ TRIDENT / TDLI, SJTU.
 
 ### The idea
 
-<video class="slide-video media-height-lg" style="--media-max-height: 620px;" controls muted playsinline preload="metadata" poster="media/reconstruction/reconstruction_en.jpg" src="media/reconstruction/reconstruction_en.mp4"></video>
+{{< nh-video neutrino-reconstruction variant="film-en" class="slide-video media-height-lg" style="--media-max-height: 620px;" controls=true muted=true playsinline=true preload="metadata" poster="media/reconstruction/reconstruction_en.jpg" >}}
 
 ### Try it
 
