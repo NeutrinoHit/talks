@@ -77,7 +77,7 @@ is included in the public site.
 
 The sentence “Congratulations for winning the 3-string race!” appears on
 Stony Brook slide 5 and HyperWebinar slide 7, attributed there to F. Halzen
-speaking/writing to C. Spiering. The new slide preserves that attribution
-and explicitly cites DN's lectures. An original letter, its date
+speaking/writing to C. Spiering. DN corrected this on 11 November 2026: the
+words were John Learned's, and the slides now name J. Learned. An original letter, its date
 and its medium have not been independently established. The NT96 four-string
 event drawing beside the quote in the source must not be relabelled NT36.
