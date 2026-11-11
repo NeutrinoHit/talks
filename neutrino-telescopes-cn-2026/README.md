@@ -19,7 +19,7 @@ and simplified version of `../neutrino-telescopes-2026`. Differences from the Ru
 | `_03-principles.qmd` | quiz on depth, how to catch a neutrino, Cherenkov light (film with the dipoles of the medium), the photomultiplier (film of the JUNO PMT R12860), tracks and showers (own LightHit films), quiz on upward muons, how the direction is reconstructed (film only), quiz on tracks and showers |
 | `_04-sources.qmd` | cosmic accelerators (film of a black hole tearing a star apart, AGN, GRB), how a jet produces neutrinos (film and the chain, which answers "So what?") |
 | `_05-results.qmd` | the flux from space, the Milky Way, the first sources, KM3-230213A; each tab opens with a one-line conclusion |
-| `_06-future.qmd` | how to see more, telescopes of the world (with TRIDENT, NEON, HUNT), questions, "Where are the sources?" with the answer to "Then what? And where?", people and the telescopes built nearby |
+| `_06-future.qmd` | how to see more, telescopes of the world (with TRIDENT, NEON, HUNT), questions, "Where are the sources?" with the answer to "Then what? And where?", people and the telescopes built nearby, the textbook (QFT for Experimentalists and Beyond) |
 | `_09-appendix.qmd` | appendix: transparent Universe and opaque Earth, the reconstruction model, the Waxman–Bahcall bound, neutrinos → gamma rays, and the technical slides from the plenary lecture |
 
 Each block starts with a title slide. Formulae are in the appendix; the main part has only $\cos\theta_C=1/(n\beta)$ on "Cherenkov light". Texts are bullet lists.
@@ -36,6 +36,8 @@ There are no speaker notes.
   in the Russian lecture with the credit line in English (`../neutrino-telescopes-ru-2026/assets/build_title_galaxy.py en`).
 - The figures of the map, the milestones to B-HUNT, the questions on the energy axis, the source map,
   the energy budget and the tomography contrast are the English originals in `../neutrino-telescopes-2026/media`.
+- `media/figures/qft-book-cover-en.jpg` and `qft-book-qr.png` (QR to neutrinohit.github.io/en/materials.html#qft-book)
+  are copies of the textbook slide of `neutrinophysics/oscillations-minicourse`.
 - `media/figures/` holds the figures that exist only here. `assets/cn_figures.py` makes them from the original
   generators, replacing only the visible labels; if a label is not found where expected, it stops:
   - `people-chain.svg`: the chain of `../neutrino-telescopes-2026/assets/prospects/build_prospects.py`, with the

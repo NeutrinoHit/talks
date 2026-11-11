@@ -202,3 +202,27 @@ Questions on the energy axis · spectrum: [IceCube (2026)](https://arxiv.org/abs
 - Will there be new discoveries? Of course!
 - The only question is who will make them.
 :::
+
+## The Textbook {#qft-book}
+
+:::: {.columns}
+::: {.column width="38%"}
+![](media/figures/qft-book-cover-en.jpg){.slide-media .nostretch style="--media-max-height: 640px;" fig-alt="Front cover of Quantum Field Theory for Experimentalists and Beyond by Dmitry Naumov, volume 1."}
+:::
+::: {.column width="62%"}
+::::: {style="font-size: 34px;"}
+**Quantum Field Theory for Experimentalists and Beyond**
+
+A practical course with examples, problems, and solutions: from the foundations to renormalization, anomalies and functional integrals, always tied to experiment.
+
+- In English: three volumes, electronic edition, November 2026.
+- In Russian: two volumes, IKI, 2026.
+
+:::: {style="display: flex; align-items: center; gap: 28px; margin-top: 24px;"}
+![](media/figures/qft-book-qr.png){width="260px" fig-alt="QR code to the book page on neutrinohit.github.io."}
+
+[neutrinohit.github.io/en/materials.html#qft-book](https://neutrinohit.github.io/en/materials.html#qft-book){style="font-size: 28px;"}
+::::
+:::::
+:::
+::::
