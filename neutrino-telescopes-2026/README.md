@@ -82,9 +82,9 @@ This is an intended URL, not a claim that the page is published.
 
 The Reveal menu provides slide navigation.
 Block entry links append, for example, `#/interaction-probability` or
-`#/icecube-diffuse-flux`. The footer returns to the already registered English
-neutrino-telescope material section:
-`https://neutrinohit.github.io/en/outreach.html#neutrino-telescopes`.
+`#/icecube-diffuse-flux`. The footer returns to the entry of this talk on the
+Lectures and Talks page of the site:
+`https://neutrinohit.github.io/en/talks.html#talk-neutrino-telescopes-2026`.
 
 The repository publication workflow already delegates to the canonical
 NeutrinoHit reusable workflow. No extra deployment workflow is needed.

@@ -10,7 +10,7 @@ format:
     logo: ../shared/figures/dvnlogo.png
     include-after-body:
       text: |
-        <script data-context-home="https://neutrinohit.github.io/ru/research.html#talk-protvino-2026" data-context-home-label="Карта доклада" src="../shared/reveal/neutrinohit-reveal-footer.js"></script>
+        <script data-context-home="https://neutrinohit.github.io/ru/talks.html#talk-protvino-2026" data-context-home-label="Лекции и доклады" src="../shared/reveal/neutrinohit-reveal-footer.js"></script>
     embed-resources: false
     slide-number: true
     slide-level: 2
