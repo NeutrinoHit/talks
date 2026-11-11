@@ -1,0 +1,202 @@
+# History of Neutrino Telescopes {#history}
+
+## A telescope inside nature {#markovs-idea}
+
+::::: {.columns}
+::: {.column width="48%"}
+![](../neutrino-telescopes-2026/media/history/markov-lectern-author.gif){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Moisei Markov speaking at a lectern."}
+
+::: {.media-caption}
+Moisei Alexandrovich Markov.
+:::
+:::
+::: {.column width="48%"}
+**A large target already exists in nature.**
+
+- Let us lower light sensors deep into a lake or sea.
+- Once in a while a neutrino hits a nucleus and produces a charged particle.
+- The particle glows in the water, and from this light we reconstruct its path.
+
+::: {.media-caption}
+M. A. Markov, Rochester conference, 1960, p. 578.
+:::
+:::
+:::::
+
+## DUMAND: the first attempt in the ocean {#dumand}
+
+:::::: {.panel-tabset}
+
+### People and a dream
+
+::::: {.columns}
+::: {.column width="58%"}
+![](../neutrino-telescopes-2026/media/history/dumand-1976.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="John Learned at the blackboard, Jed Hirota seated at left and Dick Davisson seated at right, DUMAND 1976 workshop."}
+
+::: {.media-caption}
+DUMAND workshop, 1976. John Learned at the board; Jed Hirota (left), Dick Davisson (right).
+Photo: Anatoly Petrukhin, via IceCube.
+:::
+:::
+::: {.column width="38%"}
+**Deep Underwater Muon And Neutrino Detector**
+
+- Reines, Learned and colleagues conceived an array in the ocean off Hawaii.
+- Almost 5 km deep: all the engineering had to be invented from scratch.
+- 1987: a prototype string, lowered from a ship, saw muons in the deep ocean.
+:::
+:::::
+
+### 1979: Khabarovsk and Baikal
+
+**Summer 1979: the DUMAND workshop meets in Khabarovsk and at Lake Baikal.**
+
+- Chudakov, Berezinsky, Bezrukov, Dolgoshein, Petrukhin and Zheleznykh plan the deep-ocean telescope together with the American team.
+- **December 1979:** Soviet troops enter Afghanistan.
+- **1980:** the American side ends the cooperation.
+
+> “…if perchance they included Russians it would be found that no funding was available.”
+
+Arthur Roberts, DUMAND
+
+::: {.takeaway}
+1980: Chudakov proposes to build a “Russian DUMAND” at Lake Baikal.
+:::
+
+::: {.media-caption}
+C. Spiering, *Eur. Phys. J. H* **37**, 515 (2012), [arXiv:1207.4952](https://arxiv.org/abs/1207.4952), section 4.1;
+A. Roberts, *Rev. Mod. Phys.* **64**, 259 (1992).
+:::
+
+### December 1993
+
+[4800 m below the Pacific. Nearly 500 atmospheres.]{style="font-size: 1.3em; font-weight: 700;"}
+
+- The first string is connected on the sea floor. It sees muons.
+- Over a hundred penetrators lead cables into the pressure housings. **One is flawed.**
+- Seawater seeps in. **About ten hours later: a short circuit.**
+- A fuse fails to clear it. The shore loses contact.
+- **January 1994:** an acoustic signal releases the string from the sea floor.
+- **1995: support ends.** The array is never built.
+
+::: {.takeaway}
+In the deep ocean, one connector can decide the fate of an experiment.
+:::
+
+::: {.media-caption}
+DUMAND Collaboration, [astro-ph/9412019](https://arxiv.org/abs/astro-ph/9412019);
+C. Spiering, *Eur. Phys. J. H* **37**, 515 (2012), [arXiv:1207.4952](https://arxiv.org/abs/1207.4952).
+:::
+
+::::::
+
+## Lake Baikal: the ice becomes a platform {#baikal}
+
+:::::: {.panel-tabset}
+
+### Why Baikal?
+
+::::: {.columns}
+::: {.column width="57%"}
+![](../neutrino-telescopes-2026/media/history/baikal-winter-2005.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Winter work at Lake Baikal, 2005."}
+
+::: {.media-caption}
+Winter expedition, 2005. [DLNP JINR archive](https://dlnp.jinr.ru/chronograph/75/3258).
+:::
+:::
+::: {.column width="39%"}
+**Alexander Chudakov proposed the site.**
+
+- Deep, clear water close to shore.
+- In winter the lake is covered with ice. It is a ready-made platform: strings are lowered straight from the ice.
+- From 1980 Grigory Domogatsky led the Baikal neutrino programme.
+:::
+:::::
+
+### Romance
+
+::::: {.columns}
+::: {.column width="62%"}
+![](../neutrino-telescopes-ru-2026/media/photos/baikal-rigs-shaybonov.jpg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Baikal-GVD winches and towers on the ice of Lake Baikal against snow-covered mountains."}
+:::
+::: {.column width="34%"}
+![](../neutrino-telescopes-ru-2026/media/photos/baikal-om-string-shaybonov.jpg){.slide-media .nostretch style="--media-max-height: 300px;" fig-alt="Expedition members assemble a string with optical modules on the ice."}
+
+::: {.takeaway}
+The Baikal neutrino experiment is the most romantic in the world.
+:::
+:::
+:::::
+
+::: {.media-caption}
+Baikal-GVD winter expedition. Photo: B. Shaybonov.
+:::
+
+```{=html}
+<div data-nerpa="peek" class="fragment" data-gesture="wave" data-hold="2.5" style="right: 11%; bottom: 0; width: 340px; height: 360px;" data-size="320"></div>
+```
+
+### Three strings
+
+::::: {.columns}
+::: {.column width="52%"}
+![](media/figures/nt36-side.svg){.slide-media .nostretch style="--media-max-height: 580px;" fig-alt="Side view of NT-36: three strings with six pairs of optical modules each, hanging from an umbrella frame at a depth of 1.1 km."}
+:::
+::: {.column width="44%"}
+**NT-36, April 1993**
+
+- 3 strings, 36 modules.
+- The modules work in pairs: a signal counts if both PMTs fire within 15 ns.
+- Depth 1.1 km.
+
+> “Congratulations for winning the 3-string race!”
+
+John Learned to Christian Spiering
+:::
+:::::
+
+::: {.media-caption}
+Schematic after [Baikal Collaboration, astro-ph/9601161](https://arxiv.org/abs/astro-ph/9601161), section 2 and Fig. 1 · pair orientation: the 1994 configuration.
+:::
+
+### First neutrinos
+
+```{=html}
+<div class="timing" style="font-size: 1em; grid-template-columns: 9rem 1fr;">
+<span class="time">1980–84</span><span>A laboratory, site studies, the first strings</span>
+<span class="time">1993–94</span><span>NT36: the first neutrino candidates</span>
+<span class="time">1996</span><span>NT96: a clear signal of upward-going neutrinos</span>
+<span class="time">1998</span><span>NT200: 192 optical modules</span>
+</div>
+```
+
+::: {.takeaway}
+Atmospheric neutrinos proved it: Markov's method works.
+:::
+
+::: {.media-caption}
+C. Spiering, historical review (2024); [detector paper](https://cds.cern.ch/record/323330).
+:::
+
+::::::
+
+## Towards a cubic kilometre {#cubic-kilometre}
+
+::::: {.columns}
+::: {.column width="57%"}
+![](../neutrino-telescopes-2026/media/history/icecube-last-dom-2010.jpg){.slide-media .nostretch style="--media-max-height: 480px;" fig-alt="Deployment of the final IceCube optical module in December 2010."}
+
+::: {.media-caption}
+Final optical module, December 2010. IceCube/NSF.
+:::
+:::
+::: {.column width="39%"}
+**Antarctica, the ice of the South Pole**
+
+- **AMANDA:** Halzen, Learned, Price, Morse, Barwick and colleagues try the polar ice.
+- Near the surface the ice is full of bubbles, and light scatters strongly. Deeper down the bubbles disappear.
+- **1999:** the cubic-kilometre proposal.
+- **2010:** the last of 86 IceCube strings.
+- **2013:** a flux of astrophysical neutrinos is discovered.
+:::
+:::::

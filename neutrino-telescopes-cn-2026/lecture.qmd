@@ -1,0 +1,24 @@
+---
+title: "Neutrino Telescopes"
+subtitle: "How to Catch a Neutrino from a Distant Galaxy"
+author: "D. V. Naumov"
+title-slide-attributes:
+  data-background-image: ../neutrino-telescopes-2026/media/galactic/title-galaxy.jpg
+  data-background-size: cover
+  data-background-position: bottom
+description: "A lecture for students on high-energy neutrino astronomy: history, how neutrino telescopes work, cosmic accelerators, the discoveries of recent years and future observatories."
+---
+
+{{< include blocks/_01-opening.qmd >}}
+
+{{< include blocks/_02-history.qmd >}}
+
+{{< include blocks/_03-principles.qmd >}}
+
+{{< include blocks/_04-sources.qmd >}}
+
+{{< include blocks/_05-results.qmd >}}
+
+{{< include blocks/_06-future.qmd >}}
+
+{{< include blocks/_09-appendix.qmd >}}

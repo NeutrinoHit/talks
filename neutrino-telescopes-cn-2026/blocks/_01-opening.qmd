@@ -1,0 +1,134 @@
+## A new window on the Universe {#a-new-window}
+
+:::::: {.panel-tabset}
+
+### The prize
+
+::::: {.columns}
+::: {.column width="40%"}
+![](../neutrino-telescopes-2026/media/history/halzen-author.png){.slide-media .nostretch style="--media-max-height: 470px;" fig-alt="Francis Halzen."}
+
+::: {.media-caption}
+Francis Halzen.
+:::
+
+::: {.media-caption}
+[IceCube, 6 October 2026](https://icecube.wisc.edu/news/awards/2026/10/francis-halzen-icecube-principal-investigator-wins-2026-physics-nobel-prize/)
+:::
+:::
+::: {.column width="56%"}
+**2026 Nobel Prize in Physics**
+
+IceCube and the discovery of high-energy astrophysical neutrinos.
+:::
+:::::
+
+### So what?
+
+::: {style="text-align: center; margin-top: 1.2em;"}
+[1 PeV = 10^15^ eV]{style="font-size: 2.4em; font-weight: 700;"}
+
+[in a single neutrino]{style="font-size: 1.3em;"}
+
+[a billion times a neutrino from the Sun]{style="font-size: 1.3em;"}
+
+[over a hundred times a proton in the LHC]{style="font-size: 1.3em;"}
+
+::: {.question style="margin-top: 1.2em;"}
+[Not nuclear fusion. Then what? And where?]{style="font-size: 1.4em;"}
+:::
+:::
+
+::::::
+
+## How many neutrinos from the Sun pass through your fingernail every second? {#quiz-nail}
+
+:::: {.quiz-slide}
+::: {.quiz-options}
+
+::: {.quiz-option}
+**A.** About 60 thousand
+:::
+
+::: {.quiz-option}
+**B.** About 60 million
+:::
+
+::: {.quiz-option}
+**C.** About 60 billion
+:::
+
+:::
+::::
+
+## How many neutrinos from the Sun pass through your fingernail every second? {#quiz-nail-answer}
+
+:::: {.quiz-slide}
+::: {.quiz-options}
+
+::: {.quiz-option .wrong}
+**A.** About 60 thousand
+:::
+
+::: {.quiz-option .wrong}
+**B.** About 60 million
+:::
+
+::: {.quiz-option .correct}
+**C.** About 60 billion
+:::
+
+:::
+
+::: {.quiz-note}
+About 60 billion, every second, day and night: almost all of them pass straight through the Earth.
+:::
+::::
+
+## What is a neutrino? {#what-is-a-neutrino}
+
+:::::: {.panel-tabset}
+
+### An invisible particle
+
+![](media/figures/solar-neutrinos.png){.slide-media .nostretch style="--media-max-height: 300px;" fig-alt="Neutrinos from the Sun pass straight through the Earth: about 60 billion through a square centimetre every second."}
+
+- An elementary particle, like the electron, but without electric charge.
+- Its mass is tiny. Its exact value has still not been measured.
+- It takes part only in the weak interaction, so it hardly interacts with anything.
+- Through your fingernail, about a square centimetre, some 60 billion neutrinos from the Sun pass every second.
+- Almost all of them pass straight through the Earth. We do not notice them.
+
+### Why not light?
+
+- Light is absorbed by dust and gas. Light of very high energy is lost even on the cosmic microwave background.
+- Cosmic rays, protons and nuclei, are charged. Magnetic fields bend them, and the direction to the source is lost.
+- A neutrino flies in a straight line and escapes even from a dense source.
+
+::: {.takeaway}
+A neutrino points straight back to its source.
+:::
+
+### The price
+
+::::: {.columns}
+::: {.column width="40%"}
+- A neutrino hardly interacts. So our detector hardly notices it either.
+- To catch anything at all, we need a huge target: a cubic kilometre of water or ice.
+- That is about a billion tonnes!
+- All of humanity would fit into half of such a cube.
+
+::: {.question}
+Where do we get such a detector?
+:::
+:::
+::: {.column width="58%"}
+{{< nh-video humanity-cube variant="web-en" class="slide-video media-height-lg" style="--media-max-height: 560px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/humanity_cube_en.jpg" aria-label="The globe fills with dots where people live: one dot is a million people, all of humanity. A glass cube with a 1 km side appears next to it, and all the dots are drawn into it at once: humanity fills half of the cube. Then the camera dives inside, and the dots become a crowd of people from every continent." >}}
+
+::: {.media-caption}
+One dot: a million people · people by country and city: Natural Earth · map: NASA Blue Marble · 62 kg per person: Walpole et al., 2012 · cube not to scale with the planet · people drawn schematically
+:::
+:::
+:::::
+
+::::::

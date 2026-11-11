@@ -1,0 +1,72 @@
+# Where Neutrinos Come From {#where-from}
+
+## Cosmic accelerators {#accelerators}
+
+:::::: {.panel-tabset}
+
+### A black hole tears a star apart
+
+{{< nh-video jet-launch variant="film-en" class="slide-video media-height-lg" style="--media-max-height: 620px;" controls=true muted=true playsinline=true preload="metadata" poster="../neutrino-telescopes-2026/media/jets/jet_launch_en.jpg" aria-label="A black hole tears a star apart by tidal forces, the debris forms a disc, and the magnetic field launches a jet." >}}
+
+::: {.media-caption}
+Debris orbits computed, the magnetic “engine” shown schematically.
+:::
+
+### Active galactic nuclei
+
+- A supermassive black hole sits at the centre of the galaxy.
+- Gas falls onto it and swirls into an accretion disc.
+- Magnetic fields take the rotational energy and launch a jet: a stream moving at nearly the speed of light.
+- Gas keeps arriving for a long time, so the nucleus can shine for millions of years.
+- If the jet points straight at us, such a nucleus is called a **blazar**.
+
+::: {.media-caption}
+[Blandford, Meier & Readhead, Relativistic Jets in AGN](https://arxiv.org/abs/1812.06025)
+:::
+
+### Gamma-ray bursts
+
+- The collapse of a massive star or the merger of two neutron stars.
+- Matter falls onto the compact remnant and for a short time powers an outflow at nearly the speed of light.
+- The engine runs for seconds or minutes: a flash, not a steady source.
+
+::: {.media-caption}
+[P. Mészáros, Gamma-Ray Bursts](https://arxiv.org/abs/astro-ph/0605208)
+:::
+
+::::::
+
+## How does a jet produce neutrinos? {#jet}
+
+:::::: {.panel-tabset}
+
+### Star in the jet
+
+{{< nh-video star-in-jet variant="film-en" class="slide-video media-height-lg" style="--media-max-height: 620px;" controls=true muted=true playsinline=true preload="metadata" poster="../neutrino-telescopes-2026/media/jets/jet_star_en.jpg" aria-label="A star enters the jet; accelerated protons collide with its material and produce neutrinos." >}}
+
+::: {.media-caption}
+Scenario and calculation: [Barkov, Aharonian & Bosch-Ramon (2010)](https://arxiv.org/abs/1005.5252) · the film illustrates the idea: simplified gas model, schematic protons and neutrinos.
+:::
+
+### The chain
+
+- The jet accelerates protons.
+- A proton hits a nucleus of the gas or a photon.
+- Pions are produced: $\pi^+$, $\pi^-$, $\pi^0$.
+- Charged pions decay into muons and neutrinos, the neutral one into two gamma rays.
+- A neutrino carries away about a twentieth of the proton energy.
+
+::: {.question}
+So what stands behind a 1 PeV neutrino? A proton of about 20 PeV, accelerated by the jet.
+:::
+
+::: {.takeaway}
+- Where neutrinos are born, gamma rays are born too.
+- But gamma rays can get stuck in the source, while neutrinos escape.
+:::
+
+::: {.media-caption}
+[Ahlers & Halzen (2018)](https://arxiv.org/abs/1805.11112)
+:::
+
+::::::

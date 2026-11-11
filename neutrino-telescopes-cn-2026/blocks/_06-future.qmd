@@ -1,0 +1,204 @@
+# What Next {#what-next}
+
+## How to see more? {#see-more}
+
+::::: {.columns}
+::: {.column width="64%"}
+{{< nh-video source-emerges variant="film-en" class="slide-video media-height-lg" style="--media-max-height: 580px;" controls=true muted=true playsinline=true preload="metadata" poster="../neutrino-telescopes-2026/media/sensitivity/source_emerges_en.jpg" aria-label="Simulated neutrinos accumulate around an invented point source; the significance grows with exposure and depends on how accurately the directions are measured." >}}
+:::
+::: {.column width="32%"}
+- The source emerges from the background gradually, year after year.
+- **Larger volume:** more events.
+- **Sharper directions:** less background around the source.
+- The significance grows as the square root of the exposure and is inversely proportional to the angular error.
+:::
+:::::
+
+::: {.media-caption}
+Illustration: an invented source of NGC 1068's strength, simulated events, computed significance · not a forecast for any detector.
+:::
+
+## Neutrino telescopes of the world {#telescopes-of-the-world}
+
+:::::: {.panel-tabset}
+
+### Map
+
+![](../neutrino-telescopes-2026/media/source-results/global-sites.svg){.slide-media .nostretch style="--media-max-height: 600px;" fig-alt="World map with the operating neutrino telescopes and the next-generation projects."}
+
+::: {.media-caption}
+October 2026 · coastlines: Natural Earth
+:::
+
+### IceCube-Gen2
+
+::::: {.columns}
+::: {.column width="35%"}
+**South Pole, ice**
+
+- IceCube: 1 km³, operating.
+- Upgrade: 5 new strings, installed in 2026.
+- Gen2: 8 km³ optical array, proposed.
+:::
+::: {.column width="61%"}
+![](../neutrino-telescopes-2026/media/observatories/icecube-gen2-layout.png){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="The proposed IceCube-Gen2 expansion."}
+
+::: {.media-caption}
+[Gen2 design illustration. DESY, Science Communication Lab.](https://icecube-gen2.wisc.edu/facility/detectors/)
+:::
+:::
+:::::
+
+### KM3NeT
+
+::::: {.columns}
+::: {.column width="35%"}
+**Mediterranean Sea**
+
+- ARCA: about 1 km³ for neutrino astronomy.
+- ORCA: for neutrino oscillations.
+- Under construction and already taking data.
+:::
+::: {.column width="61%"}
+![](../neutrino-telescopes-2026/media/observatories/km3net-artist-impression.jpg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Artist's impression of a KM3NeT building block on the sea floor."}
+
+::: {.media-caption}
+Artist's impression · [Edward Berbee/Nikhef · KM3NeT](https://www.km3net.org/pictures-and-videos/picture-galleries/album-artists-impressions/)
+:::
+:::
+:::::
+
+### Baikal-GVD
+
+::::: {.columns}
+::: {.column width="35%"}
+**Lake Baikal, fresh water**
+
+- 2026: 16 clusters, operating.
+- Effective volume about 0.8 km³.
+- Grows every winter: new clusters are deployed from the ice.
+:::
+::: {.column width="61%"}
+![](../neutrino-telescopes-2026/media/observatories/baikal-gvd-2026.jpg){.slide-media .nostretch style="--media-max-height: 560px; --media-bg: #fff;" fig-alt="The 2026 configuration of Baikal-GVD: sixteen clusters."}
+
+::: {.media-caption}
+[2026 configuration. Baikal-GVD.](https://baikal-gvd.jinr.ru/telescope)
+:::
+:::
+:::::
+
+### TRIDENT
+
+::::: {.columns}
+::: {.column width="35%"}
+**South China Sea**
+
+- Design: 7.5 km³, 1211 strings.
+- Hybrid modules: PMTs and silicon photomultipliers.
+- R&D and a pathfinder programme.
+:::
+::: {.column width="61%"}
+![](../neutrino-telescopes-2026/media/observatories/trident-layout.png){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="The proposed TRIDENT layout."}
+
+::: {.media-caption}
+[Proposed layout. Ye et al., Nature Astronomy (2023), Fig. 2.](https://www.nature.com/articles/s41550-023-02087-6)
+:::
+:::
+:::::
+
+### NEON
+
+::::: {.columns}
+::: {.column width="35%"}
+**South China Sea**
+
+- Design: 10 km³, 1200 strings.
+- Multi-PMT modules.
+- Proposal and hardware R&D.
+:::
+::: {.column width="61%"}
+![](../neutrino-telescopes-2026/media/observatories/neon-layout.png){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="The proposed NEON layout."}
+
+::: {.media-caption}
+[Proposed layout. Zhang et al., Fig. 3.](https://arxiv.org/abs/2408.05122)
+:::
+:::
+:::::
+
+### HUNT
+
+::::: {.columns}
+::: {.column width="47%"}
+**China + Russia · about 30 km³ · 20-inch PMTs**
+
+- The ice is a platform: strings are deployed from the frozen lake every winter.
+- In water light scatters less than in ice, so cascade directions are sharper.
+- A northern site: the Galactic Centre is below the horizon 75% of the day.
+- A gamma-ray partner: LHAASO watches the same northern sky.
+:::
+::: {.column width="49%"}
+![](../neutrino-telescopes-2026/media/observatories/hunt-design.jpg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Design illustration of HUNT."}
+
+::: {.media-caption}
+[HUNT / IHEP, CAS](https://ihep.cas.cn/astro/en/research/sf/ucp/202510/t20251011_7986821.html)
+:::
+:::
+:::::
+
+### Baikal → B-HUNT
+
+![](../neutrino-telescopes-2026/media/prospects/gvd-to-bhunt.svg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Milestones from Baikal-GVD to B-HUNT and two cubes of 1 and 30 km³ drawn to volume scale."}
+
+::: {.media-caption}
+Russia + China · Baikal-GVD Collaboration with IHEP (Beijing) · [Baikal-GVD](https://baikal-gvd.jinr.ru/telescope) · [HUNT, ICRC 2025](https://doi.org/10.22323/1.501.1101) · [IHEP](https://ihep.cas.cn/astro/en/research/sf/ucp/202510/t20251011_7986821.html)
+:::
+
+::::::
+
+## What do we want to discover? {#what-to-discover}
+
+![](../neutrino-telescopes-2026/media/prospects/discovery-map.svg){.slide-media .nostretch style="--media-max-height: 600px;" fig-alt="Open questions on the neutrino-energy axis over the measured spectrum of cosmic neutrinos."}
+
+::: {.media-caption}
+Questions on the energy axis · spectrum: [IceCube (2026)](https://arxiv.org/abs/2507.22233v3) · [Glashow resonance: IceCube (2021)](https://arxiv.org/abs/2110.15051) · [KM3-230213A: KM3NeT (2025)](https://doi.org/10.1038/s41586-024-08543-1)
+:::
+
+## Where are the sources? {#where-are-the-sources}
+
+::::: {.columns}
+::: {.column width="64%"}
+![](../neutrino-telescopes-2026/media/prospects/sources-sky.svg){.slide-media .nostretch style="--media-max-height: 400px;" fig-alt="Sky map: the Milky Way, NGC 1068, TXS 0506+056 and KM3-230213A."}
+
+::: {.question}
+- **Then what?** Cosmic accelerators: protons of tens of PeV and more.
+- **And where?** Our Galaxy, NGC 1068, a blazar candidate, and a crowd of faint sources still to resolve.
+:::
+:::
+::: {.column width="32%"}
+**Found:**
+
+- our Galaxy;
+- NGC 1068 and other Seyfert galaxies;
+- blazar candidates.
+
+**Still unclear:**
+
+- where most of the flux comes from.
+
+**Next:**
+
+- bigger telescopes and networks: B-HUNT, KM3NeT, IceCube-Gen2.
+:::
+:::::
+
+## Who will do it? {#who}
+
+![](media/figures/people-chain.svg){.slide-media .nostretch style="--media-max-height: 300px;" fig-alt="A chain: programme, people, results, the next experiment."}
+
+- Telescopes are built and understood by people.
+- The next ones are being built close to you: in the South China Sea (TRIDENT, NEON) and at Lake Baikal, by Russia and China together (B-HUNT).
+
+::: {.takeaway}
+- Will there be new discoveries? Of course!
+- The only question is who will make them.
+:::

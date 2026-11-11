@@ -1,0 +1,267 @@
+# How a Neutrino Telescope Works {#how-it-works}
+
+## Why hide a neutrino telescope under kilometres of water or ice? {#quiz-depth}
+
+:::: {.quiz-slide}
+::: {.quiz-options}
+
+::: {.quiz-option}
+**A.** To catch more neutrinos
+:::
+
+::: {.quiz-option}
+**B.** To stop the muons from cosmic rays
+:::
+
+::: {.quiz-option}
+**C.** To protect the sensors from storms
+:::
+
+:::
+::::
+
+## Why hide a neutrino telescope under kilometres of water or ice? {#quiz-depth-answer}
+
+:::: {.quiz-slide}
+::: {.quiz-options}
+
+::: {.quiz-option .wrong}
+**A.** To catch more neutrinos
+:::
+
+::: {.quiz-option .correct}
+**B.** To stop the muons from cosmic rays
+:::
+
+::: {.quiz-option .wrong}
+**C.** To protect the sensors from storms
+:::
+
+:::
+
+::: {.quiz-note}
+Kilometres of water or ice stop the muons from cosmic rays. Neutrinos pass through.
+:::
+::::
+
+## How to catch a neutrino? {#how-to-catch}
+
+::::: {.columns}
+::: {.column width="56%"}
+{{< nh-video icecube-first-pev variant="web-en" class="slide-video media-height-lg" style="--media-max-height: 560px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/icecube_build_en.jpg" aria-label="86 holes are melted 2.5 km into the ice under the IceCube Laboratory, 5160 light sensors appear, and the PeV cascades Bert, Ernie and Big Bird each light hundreds of sensors from inside the detector." >}}
+
+::: {.media-caption}
+Sensor positions: IceCube geometry · light pattern modelled · Bert and Ernie:
+[IceCube 2013](https://arxiv.org/abs/1304.5356) · Big Bird: [IceCube 2014](https://arxiv.org/abs/1405.5303), position illustrative
+:::
+:::
+::: {.column width="40%"}
+**We will need:**
+
+- **A huge transparent target:** water or ice.
+- **Darkness:** the sensors catch single photons.
+- **Depth:** kilometres of water or ice stop the muons from cosmic rays.
+- **The Earth as a shield:** from below, through the whole Earth, only neutrinos get through.
+- **A lattice of light sensors** spaced tens of metres apart.
+:::
+:::::
+
+## Cherenkov light {#cherenkov}
+
+:::::: {.panel-tabset}
+
+### The film
+
+{{< nh-video cherenkov-radiation variant="film-dipoles-en" class="slide-video media-height-lg" style="--media-max-height: 590px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/cherenkov_dipoles_en.jpg" aria-label="A charge polarises the molecules of water into small dipoles. Around a slow charge the dipoles are symmetric and their fields cancel. A fast charge leaves the dipoles behind; each piece of the track sends out a wavelet, the wavelets add up only along a common front, and light goes perpendicular to it at the angle cos theta = 1/(n beta). Turned about the track, the front is a cone." >}}
+
+::: {.media-caption}
+Gold: charge · dots: molecules · bars: induced dipoles (− blue, + red) · blue circles: wavelets · white: common front · cyan: light · schematic after J. V. Jelley, *Čerenkov Radiation and Its Applications* (1958), §1.2
+:::
+
+### Why a cone?
+
+- The particle moves in water faster than light does in water: $v > c/n$.
+- It overtakes its own waves, and they add up into a common front, a cone.
+- In the same way a boat leaves a wedge of waves behind it, and a supersonic aircraft a shock wave.
+- Light goes across this front at the angle $\theta_C$, about $41^\circ$ in water:
+
+$$
+\cos\theta_C=\frac{1}{n\beta}.
+$$
+
+```{=html}
+<div data-nerpa="dash" class="fragment" data-from="left" data-size="260" data-duration="3.4" style="left: 0; right: 0; top: 70%; height: 24%;"></div>
+```
+
+::::::
+
+## One photon, a measurable signal {#photomultiplier}
+
+:::::: {.panel-tabset}
+
+### Photomultiplier
+
+::::: {.columns}
+::: {.column width="34%"}
+{{< nh-video pmt-juno variant="web-en" class="slide-video media-height-lg" style="--media-max-height: 680px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/pmt_juno_en.jpg" aria-label="A 20-inch photomultiplier: one photon releases a photoelectron from the photocathode, ten dynodes multiply the charge, and the anode collects an electrical pulse." >}}
+:::
+::: {.column width="62%"}
+- A photon knocks one electron out of a thin photocathode.
+- The electric field accelerates it towards the first dynode.
+- Each impact on a dynode knocks out several new electrons.
+- After ten dynodes, the anode collects an electrical pulse.
+
+::: {.media-caption}
+20-inch photomultiplier R12860 (Hamamatsu), as in [JUNO](https://arxiv.org/abs/2205.08629) · bulb after the Hamamatsu drawing, internal electrodes reconstructed, trajectories calculated in a 3D field
+:::
+:::
+:::::
+
+### Optical modules
+
+::::: {.columns}
+::: {.column width="23%"}
+![](../neutrino-telescopes-2026/media/optical-modules/icecube-dom-deployment.jpg){.slide-media .nostretch style="--media-max-height: 360px;" fig-alt="An IceCube optical module during deployment."}
+
+**IceCube**
+
+One 10-inch PMT.
+
+::: {.media-caption}
+IceCube/NSF.
+:::
+:::
+::: {.column width="23%"}
+![](../neutrino-telescopes-2026/media/optical-modules/km3net-dom.png){.slide-media .nostretch style="--media-max-height: 360px;" fig-alt="A KM3NeT optical module with 31 photomultipliers."}
+
+**KM3NeT**
+
+31 three-inch PMTs.
+
+::: {.media-caption}
+Courtesy KM3NeT.
+:::
+:::
+::: {.column width="23%"}
+![](../neutrino-telescopes-2026/media/optical-modules/baikal-gvd-om-deployment.jpeg){.slide-media .nostretch style="--media-max-height: 360px;" fig-alt="A Baikal-GVD optical module being deployed from the ice."}
+
+**Baikal-GVD**
+
+One 10-inch PMT.
+
+::: {.media-caption}
+Baikal-GVD.
+:::
+:::
+::: {.column width="23%"}
+![](../neutrino-telescopes-2026/media/optical-modules/trident-hdom-prototype.jpg){.slide-media .nostretch style="--media-max-height: 360px;" fig-alt="A prototype of the TRIDENT hybrid module."}
+
+**TRIDENT**
+
+PMTs and silicon photomultipliers. **Prototype.**
+
+::: {.media-caption}
+TRIDENT / TDLI, SJTU.
+:::
+:::
+:::::
+
+::::::
+
+## Tracks and showers {#tracks-and-cascades}
+
+:::::: {.panel-tabset}
+
+### Track
+
+{{< nh-video telescope-events variant="film-numu-cc-en" class="slide-video media-height-lg" style="--media-max-height: 560px;" controls=true muted=true playsinline=true preload="metadata" poster="../neutrino-telescopes-2026/media/events/lighthit_numu_cc_en.jpg" aria-label="Calculated detector response to a 1 TeV muon-neutrino interaction: an 800 GeV muon track and a vertex shower light optical modules of Baikal-GVD clusters." >}}
+
+::: {.media-caption}
+Muon neutrino, 1 TeV · NTSim/Geant4 secondaries, LightHit light transport in water · glow: expected photoelectrons, colour: first-light time · not sampled hits, not data · light front illustrative
+:::
+
+### Shower
+
+{{< nh-video telescope-events variant="film-nue-cc-en" class="slide-video media-height-lg" style="--media-max-height: 560px;" controls=true muted=true playsinline=true preload="metadata" poster="../neutrino-telescopes-2026/media/events/lighthit_nue_cc_en.jpg" aria-label="Calculated detector response to a 100 GeV electron-neutrino interaction: an electron and hadronic shower light nearby optical modules of Baikal-GVD clusters." >}}
+
+::: {.media-caption}
+Electron neutrino, 100 GeV · NTSim/Geant4 secondaries, LightHit light transport in water · glow: expected photoelectrons, colour: first-light time · not sampled hits, not data · light front illustrative
+:::
+
+::::::
+
+## A muon flies upward through the detector. What made it? {#quiz-upward}
+
+:::: {.quiz-slide}
+::: {.quiz-options .two-options}
+
+::: {.quiz-option}
+**A.** A cosmic ray in the atmosphere above us
+:::
+
+::: {.quiz-option}
+**B.** A neutrino that crossed the whole Earth
+:::
+
+:::
+::::
+
+## A muon flies upward through the detector. What made it? {#quiz-upward-answer}
+
+:::: {.quiz-slide}
+::: {.quiz-options .two-options}
+
+::: {.quiz-option .wrong}
+**A.** A cosmic ray in the atmosphere above us
+:::
+
+::: {.quiz-option .correct}
+**B.** A neutrino that crossed the whole Earth
+:::
+
+:::
+
+::: {.quiz-note}
+From below, through the whole Earth, only neutrinos get through: an upward muon was made by a neutrino.
+:::
+::::
+
+## How the direction is reconstructed {#reconstruction}
+
+{{< nh-video neutrino-reconstruction variant="film-en" class="slide-video media-height-lg" style="--media-max-height: 600px;" controls=true muted=true playsinline=true preload="metadata" poster="../neutrino-telescopes-2026/media/reconstruction/reconstruction_en.jpg" >}}
+
+## Which event points better back to its source? {#quiz-track-shower}
+
+:::: {.quiz-slide}
+::: {.quiz-options .two-options}
+
+::: {.quiz-option}
+**A.** A track: a muon crosses the detector
+:::
+
+::: {.quiz-option}
+**B.** A shower: a ball of light inside the detector
+:::
+
+:::
+::::
+
+## Which event points better back to its source? {#quiz-track-shower-answer}
+
+:::: {.quiz-slide}
+::: {.quiz-options .two-options}
+
+::: {.quiz-option .correct}
+**A.** A track: a muon crosses the detector
+:::
+
+::: {.quiz-option .wrong}
+**B.** A shower: a ball of light inside the detector
+:::
+
+:::
+
+::: {.quiz-note}
+A track: its direction is measured to fractions of a degree. A shower gives the energy well, the direction less well.
+:::
+::::

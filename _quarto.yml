@@ -16,6 +16,7 @@ project:
     - "/neutrino-telescopes-2026/media/**"
     - "/neutrino-telescopes-2026/assets/**"
     - "/neutrino-telescopes-ru-2026/media/**"
+    - "/neutrino-telescopes-cn-2026/media/**"
     - "!neutrino-telescopes-2026/assets/reconstruction/__pycache__/**"
     - "!neutrino-telescopes-2026/assets/backgrounds/__pycache__/**"
     - "!neutrino-telescopes-2026/assets/global-sky/__pycache__/**"
@@ -23,6 +24,7 @@ project:
     - "!neutrino-telescopes-2026/assets/galactic/__pycache__/**"
     - "!neutrino-telescopes-2026/assets/evidence/__pycache__/**"
     - "!neutrino-telescopes-2026/assets/response/__pycache__/**"
+    - "!neutrino-telescopes-cn-2026/assets/__pycache__/**"
   render:
     - "protvino-2026/dnaumov.qmd"
     - "georgia-2026/dnaumov.qmd"
@@ -32,6 +34,7 @@ project:
     - "neutrino-telescopes-2026/lecture.qmd"
     - "neutrino-telescopes-2026/lecture-30min.qmd"
     - "neutrino-telescopes-ru-2026/lecture.qmd"
+    - "neutrino-telescopes-cn-2026/lecture.qmd"
 
 format:
   revealjs:

@@ -1,0 +1,198 @@
+# What We Already Know {#what-we-know}
+
+```{=html}
+<div data-nerpa="nap" data-from="right" data-size="420" style="left: 0; right: 0; bottom: 0; height: 36%;"></div>
+```
+
+## A flux from space {#diffuse-flux}
+
+:::::: {.panel-tabset}
+
+### IceCube, 2013
+
+::::: {.columns}
+::: {.column width="55%"}
+![](../neutrino-telescopes-2026/media/icecube/bert-ernie.png){.slide-media .nostretch style="--media-max-height: 300px;" fig-alt="IceCube event displays of Bert and Ernie: hundreds of optical modules lit by two cascades near 1 PeV."}
+
+::: {.small}
+**How to read σ and $p$:**
+
+- $p$ is the probability of getting such an excess by chance if there are no cosmic neutrinos.
+- σ says the same in “standard deviations”: the larger σ, the smaller $p$.
+- $3\sigma$: $p\approx10^{-3}$, evidence; $5\sigma$: $p\approx3\cdot10^{-7}$, discovery.
+:::
+:::
+::: {.column width="41%"}
+::: {.takeaway}
+Neutrinos from space exist.
+:::
+
+**IceCube, May 2010 – May 2012**
+
+- 28 events with energies from 30 TeV to 1.2 PeV.
+- About 10 were expected from the atmosphere.
+- Among them Bert and Ernie: 1.04 ± 0.16 and 1.14 ± 0.17 PeV.
+- A purely atmospheric origin is rejected at $4.1\sigma$.
+:::
+:::::
+
+::: {.media-caption}
+[IceCube, Science (2013)](https://arxiv.org/abs/1311.5238v2) · event displays: IceCube Collaboration / IceCube–NSF, [IceCube (2013)](https://arxiv.org/abs/1304.5356) · plot in the appendix
+:::
+
+### Baikal confirms
+
+::::: {.columns}
+::: {.column width="55%"}
+![](../neutrino-telescopes-2026/media/optical-modules/baikal-gvd-om-deployment.jpeg){.slide-media .nostretch style="--media-max-height: 460px;" fig-alt="A Baikal-GVD optical module being deployed from the ice."}
+:::
+::: {.column width="41%"}
+::: {.takeaway}
+Another detector, another hemisphere: the same flux.
+:::
+
+**Baikal-GVD, 2018–2024**
+
+- 18 upward-going cascades with energies above 15 TeV.
+- Expected from the atmosphere: $2.8\pm1.0$.
+- Significance $5.1\sigma$.
+- Water instead of ice.
+:::
+:::::
+
+::: {.media-caption}
+[Baikal-GVD (2025)](https://arxiv.org/abs/2507.01893v2) · plot in the appendix
+:::
+
+::::::
+
+## The Milky Way in neutrinos {#milky-way}
+
+:::::: {.panel-tabset}
+
+### IceCube
+
+::: {.takeaway}
+Our Galaxy shines in neutrinos.
+:::
+
+<img class="slide-media media-height-lg" style="--media-max-height: 480px;" src="../neutrino-telescopes-2026/media/galactic/icecube-multiwavelength-2023.jpg" alt="IceCube's five maps of the Galaxy: optical, gamma rays, predicted and measured neutrinos.">
+
+::: {.media-caption}
+IceCube Collaboration, Science (2023) · emission of the Galactic plane, $4.5\sigma$
+:::
+
+### Animation
+
+{{< nh-video milky-way-neutrinos variant="film-en" class="slide-video media-height-lg" style="--media-max-height: 590px;" controls=true muted=true playsinline=true preload="metadata" poster="../neutrino-telescopes-2026/media/galactic/milky_way_neutrinos_en.jpg" aria-label="Cosmic rays collide with the gas of the Galaxy, neutrinos fly to us and add up to a band on the sky; Baikal-GVD cascades above 200 TeV." >}}
+
+::: {.media-caption}
+Model Galaxy (illustrative) · Baikal-GVD cascades above 200 TeV and the published test
+:::
+
+### Baikal above 200 TeV
+
+::::: {.columns}
+::: {.column width="63%"}
+![](media/films/gvd_cascades_sky_en.jpg){.slide-media .nostretch style="--media-max-height: 480px;" fig-alt="Eight Baikal-GVD cascades above 200 TeV on a sky map around the Galactic plane, a frame from the film."}
+:::
+::: {.column width="35%"}
+::: {.takeaway}
+The Galaxy may give more than expected.
+:::
+
+**8 cascades above 200 TeV**
+
+- They crowd towards the Galactic plane.
+- Baikal-GVD: $p=1.4\cdot10^{-2}$.
+- Together with IceCube: $p=3.4\cdot10^{-4}$.
+:::
+:::::
+
+::: {.media-caption}
+V. A. Allakhverdyan et al. (Baikal-GVD) with Y. Y. Kovalev, A. V. Plavin, D. V. Semikoz, S. V. Troitsky · [ApJ 982, 73 (2025)](https://arxiv.org/abs/2411.05608v2)
+:::
+
+::::::
+
+## The first sources {#first-sources}
+
+:::::: {.panel-tabset}
+
+### NGC 1068
+
+::::: {.columns}
+::: {.column width="48%"}
+![](../neutrino-telescopes-2026/media/source-results/ngc1068-hubble-2025.jpg){.slide-media .nostretch style="--media-max-height: 500px;" fig-alt="The galaxy NGC 1068 imaged by the Hubble Space Telescope."}
+
+::: {.media-caption}
+ESA/Hubble & NASA, L. C. Ho, D. Thilker
+:::
+:::
+::: {.column width="48%"}
+::: {.takeaway}
+Neutrinos escape where light cannot.
+:::
+
+**A Seyfert galaxy, about 47 million light years away**
+
+- Its active nucleus is hidden behind dust.
+- IceCube sees an excess of neutrinos from this direction: $4.0\sigma$ in 13 years.
+- There are neutrinos, but almost no TeV gamma rays.
+- Most likely the neutrinos are born in a dense region right next to the black hole, from which gamma rays cannot escape.
+:::
+:::::
+
+::: {.media-caption}
+[IceCube (2026)](https://arxiv.org/abs/2510.13403) · [IceCube, Science (2022)](https://arxiv.org/abs/2211.09972v1)
+:::
+
+### TXS 0506+056
+
+::::: {.columns}
+::: {.column width="62%"}
+<video class="slide-video" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="../neutrino-telescopes-2026/media/source-results/icecube-170922a.jpg" src="../neutrino-telescopes-2026/media/source-results/icecube-170922a.mp4" aria-label="Recorded IceCube-170922A event."></video>
+:::
+::: {.column width="34%"}
+::: {.takeaway}
+A flaring blazar: the first candidate.
+:::
+
+**22 September 2017**
+
+- A neutrino of about 290 TeV.
+- A blazar flares in its direction: Fermi-LAT and MAGIC see it.
+- A coincidence at about $3\sigma$.
+- **2021:** a 224 TeV Baikal cascade from the same region of the sky. A candidate, not yet a proof.
+:::
+:::::
+
+::: {.media-caption}
+[IceCube et al., Science (2018)](https://arxiv.org/abs/1807.08816) · [Baikal-GVD, ICRC 2023](https://arxiv.org/abs/2308.13686v1)
+:::
+
+::::::
+
+## The record: KM3-230213A {#record}
+
+::::: {.columns}
+::: {.column width="64%"}
+<video class="slide-video" style="--media-max-height: 560px;" controls muted playsinline preload="metadata" poster="../neutrino-telescopes-2026/media/events/km3-230213a.jpg" src="../neutrino-telescopes-2026/media/events/km3-230213a.mp4" aria-label="Official KM3NeT event display of KM3-230213A."></video>
+:::
+::: {.column width="32%"}
+::: {.takeaway}
+The most energetic neutrino ever.
+:::
+
+**13 February 2023, Mediterranean Sea**
+
+- The KM3NeT/ARCA telescope.
+- A muon of about 120 PeV crosses the detector almost horizontally.
+- The neutrino energy is about 220 PeV.
+- Where it came from is still unknown.
+:::
+:::::
+
+::: {.media-caption}
+KM3NeT Collaboration · [Nature (2025)](https://doi.org/10.1038/s41586-024-08543-1)
+:::

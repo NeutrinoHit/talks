@@ -1,0 +1,543 @@
+# Appendix {#appendix}
+
+## Transparent Universe, opaque Earth {#app-transparency}
+
+:::::: {.panel-tabset}
+
+### Across the Universe
+
+**A 1 PeV muon neutrino in today's mean baryonic density of the Universe**
+
+::::: {.columns}
+::: {.column width="48%"}
+$$
+\bar n_{b,0}\simeq0.25\,\mathrm{m^{-3}},\qquad
+\sigma_{\nu N}^{\mathrm{CC+NC}}\simeq9.5\times10^{-34}\,\mathrm{cm^2}
+$$
+
+- About one nucleon per four cubic metres.
+:::
+::: {.column width="48%"}
+$$
+\lambda_{\nu N,0}=\frac{1}{\bar n_{b,0}\sigma_{\nu N}}
+\simeq4.4\times10^{21}\ \mathrm{ly}
+$$
+:::
+:::::
+
+$$
+\frac{\lambda_{\nu N,0}}{D_{\rm obs}}\simeq5\times10^{10},\qquad D_{\rm obs}\simeq93\times10^{9}\ \mathrm{ly}
+$$
+
+- The mean free path is $5\times10^{10}$ times the diameter of the observable Universe.
+- ly: light year.
+
+::: {.media-caption}
+Estimate for the present epoch, ignoring the evolution of the Universe · [PDG](https://pdg.lbl.gov/2025/reviews/rpp2024-rev-astrophysical-constants.pdf) · [CSMS cross sections, Table I](https://arxiv.org/abs/1106.3723)
+:::
+
+### Through the Earth
+
+::::: {.columns}
+::: {.column width="65%"}
+![](../neutrino-telescopes-2026/media/propagation/earth-transport-full-dark.svg){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="Ratio of the neutrino flux at a detector 1 km deep to the flux entering the Earth, versus energy and zenith angle, with neutral-current regeneration. Near the horizon the Earth is transparent at all energies; through the centre half of the flux gets through up to about 20 TeV."}
+:::
+::: {.column width="31%"}
+- Horizontal axis: zenith angle; $90^\circ$ is the horizon, $180^\circ$ is through the centre of the Earth.
+- Colour: the fraction of the flux at the detector. A neutral current does not remove a neutrino, it lowers its energy.
+- Dashed: without this regeneration.
+:::
+:::::
+
+::: {.media-caption}
+Full transport calculation: V. A. Allakhverdyan (CT10nlo cross sections, PREM Earth model, detector 1 km deep), redrawn · [dissertation (2026), Fig. 4.20](https://issc.jinr.ru/files/326/f_2_5830.pdf) · [Allakhverdyan, Zavyalov & Naumov (2026), Fig. 9](https://www1.jinr.ru/Pepan_letters/panl_2026_2/05_Allahverd_rus.pdf)
+:::
+
+### Tomography
+
+**One year of IceCube data weighs the Earth**
+
+- IC86, 2011–2012: 20 145 up-going muons with energies of 0.4–20 TeV; their angular distribution follows the absorption in the Earth.
+- Earth's mass: $6.0^{+1.6}_{-1.3}\times10^{24}$ kg; gravity gives $5.9722\times10^{24}$ kg.
+- Core mass: $2.72^{+0.97}_{-0.89}\times10^{24}$ kg.
+- Moment of inertia: $(6.9\pm2.4)\times10^{37}$ kg·m²; gravity gives $8.017\times10^{37}$.
+- The core is denser than the mantle: the reverse case has $p=0.011$.
+
+::: {.takeaway}
+The weak interaction alone, without gravity, sees the dense core of the Earth.
+:::
+
+::: {.media-caption}
+68% credible intervals, default atmospheric-flux model · A. Donini, S. Palomares-Ruiz, J. Salvado, *Nature Physics* **15**, 37 (2019), [arXiv:1803.05901](https://arxiv.org/abs/1803.05901)
+:::
+
+### Core contrast
+
+![](../neutrino-telescopes-2026/media/propagation/earth-tomography-contrast-dark.svg){.slide-media .nostretch style="--media-max-height: 430px;" fig-alt="Left: probability to cross the Earth versus zenith angle at 10, 30 and 100 TeV for PREM and for a homogeneous Earth of the same mass. Right: the relative difference between them over energy and angle."}
+
+- Same mass, different profile: PREM against a homogeneous Earth with a density of 5.51 g/cm³.
+- Through the core (beyond $147^\circ$) about 20% more neutrinos are absorbed at 30 TeV, through the mantle fewer.
+
+::: {.media-caption}
+Computed: PREM, CSMS cross sections, detector 1 km deep · CC absorption only; NC and $\tau$ regeneration not included
+:::
+
+::::::
+
+## How light is produced: muon and shower {#app-light}
+
+:::::: {.panel-tabset}
+
+### Muon
+
+$\nu_\mu+N\longrightarrow\mu^-+X$
+
+{{< nh-video neutrino-telescope variant="film-muon-en" class="slide-video media-height-lg" style="--media-max-height: 600px;" controls=true muted=true playsinline=true preload="metadata" poster="../neutrino-telescopes-2026/media/neutrino_telescope/muon_lecture_en.jpg" >}}
+
+### Electron shower
+
+$\nu_e+N\longrightarrow e^-+X$
+
+{{< nh-video neutrino-telescope variant="film-electron-en" class="slide-video media-height-lg" style="--media-max-height: 600px;" controls=true muted=true playsinline=true preload="metadata" poster="../neutrino-telescopes-2026/media/neutrino_telescope/electron_lecture_en.jpg" >}}
+
+::::::
+
+::: {.media-caption}
+Geant4 simulation.
+:::
+
+## Direction: the model {#app-reconstruction}
+
+::::: {.columns}
+::: {.column width="48%"}
+**Predict a time for each sensor**
+
+$$
+\cos\theta_C=\frac{1}{\beta n_{\rm phase}},\qquad
+t_i^{\rm pred}=t_0+\frac{s_i}{\beta c}+\frac{n_{\rm group}D_i}{c}.
+$$
+
+- $s_i$: the muon path to the emission point.
+- $D_i$: the photon path to the sensor.
+:::
+::: {.column width="48%"}
+**Find the direction that agrees with the signals**
+
+$$
+S=\frac{1}{2\sigma_t^2}\sum_{i,k}
+\left(t_{ik}^{\rm obs}-t_i^{\rm pred}\right)^2
+\longrightarrow\min_{\theta,\phi,t_0}.
+$$
+
+- Teaching model: a straight muon, a homogeneous medium.
+- Only the direction and a time offset are fitted.
+:::
+:::::
+
+## Backgrounds {#app-backgrounds}
+
+:::::: {.panel-tabset}
+
+### Detector backgrounds
+
+| Telescope | Optical background | Pulses per PMT | Muon samples |
+|:---|:---|:---|:---|
+| IceCube | PMT and glass noise | $0.56$ kHz · 10-inch | $2.7$ kHz · IC86 trigger |
+| KM3NeT | $^{40}\mathrm K$ and bioluminescence | $\sim7$ kHz · 3-inch | $\sim1$ Hz · ARCA6, reconstructed |
+| Baikal-GVD | water luminescence | $20–100$ kHz · 10-inch | $\sim3$ Hz per cluster, reconstructed |
+
+::: {.media-caption}
+Pulses, triggers and reconstructed events are different counting levels ·
+[IceCube](https://arxiv.org/html/1612.05093v3#S3.SS8) ·
+[KM3NeT](https://doi.org/10.1140/epjc/s10052-024-13018-8) ·
+[Baikal-GVD](https://pos.sissa.it/501/1162/pdf)
+:::
+
+### Neutrino background
+
+![](../neutrino-telescopes-2026/media/backgrounds/neutrino_interaction_rates.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Calculated interaction rates of atmospheric and astrophysical neutrinos in a cubic kilometre of water."}
+
+::: {.media-caption}
+1 km³ of water · downward $2\pi$ · all flavors, $\nu+\bar\nu$ · CC+NC · before event selection.
+:::
+
+::::::
+
+## From events to a flux {#app-response}
+
+::::: {.columns}
+::: {.column width="59%"}
+![](../neutrino-telescopes-2026/media/response/icecube-directional-area-dark.svg){.slide-media .nostretch style="--media-max-height: 480px;" fig-alt="IceCube effective area for different directions versus neutrino energy."}
+:::
+::: {.column width="37%"}
+- **Near the horizon:** a short path through the Earth.
+- **From below:** at high energies the Earth absorbs neutrinos.
+- **From above:** atmospheric muons must be rejected.
+- $A_{\mathrm{eff}}$ includes interaction, propagation and event selection.
+:::
+:::::
+
+$$
+N=T\sum_\alpha\int dE_\nu\,d\Omega\,
+\Phi_\alpha(E_\nu,\Omega)\,A_{\mathrm{eff},\alpha}(E_\nu,\Omega)
+$$
+
+::: {.media-caption}
+Illustrative point-source selection · digitized from [Spiering (2026), Fig. 6](https://arxiv.org/html/2609.26436)
+:::
+
+## Pion decays {#app-pions}
+
+:::::: {.panel-tabset}
+
+### Chains
+
+$$pp,\ p\gamma\ \longrightarrow\pi^\pm,\,\pi^0+X$$
+
+::::: {.columns}
+::: {.column width="57%"}
+**Charged pion and muon**
+
+$$
+\begin{aligned}
+\pi^+&\to\mu^++\nu_\mu\\[0.5em]
+\mu^+&\to e^++\nu_e+\bar\nu_\mu
+\end{aligned}
+$$
+:::
+::: {.column width="39%"}
+**Neutral pion**
+
+$$\pi^0\to\gamma+\gamma$$
+
+- Neutrinos and gamma rays share the same energy.
+:::
+:::::
+
+### Proton energy
+
+$$
+E_p\ \xrightarrow{\ \sim1/5\ } E_\pi
+\ \xrightarrow{\ \sim1/4\ } E_\nu
+\qquad\Longrightarrow\qquad E_p\sim20E_\nu
+$$
+
+| Neutrino | Parent proton |
+|:---|:---|
+| $10$ TeV | $\sim200$ TeV |
+| $100$ TeV | $\sim2$ PeV |
+| $1$ PeV | $\sim20$ PeV |
+
+::: {.media-caption}
+A scale estimate, not a conversion for an individual event · pion and muon cooling neglected
+:::
+
+### Photons and neutrinos
+
+$$pp:\quad N_{\pi^+}:N_{\pi^-}:N_{\pi^0}\simeq1:1:1$$
+
+$$
+E_\nu^2\Phi_\nu(E_\nu)\simeq\frac32 E_\gamma^2\Phi_\gamma(E_\gamma),
+\qquad E_\gamma\simeq2E_\nu
+$$
+
+- At production, for $pp$ collisions.
+- All neutrino flavors and antineutrinos together.
+- Photon absorption changes the comparison with the observed spectra.
+
+::: {.media-caption}
+[Ahlers & Halzen (2018), Eq. 3](https://arxiv.org/abs/1805.11112)
+:::
+
+::::::
+
+## Three messengers, one energy budget {#app-budget}
+
+:::::: {.panel-tabset}
+
+### The budget
+
+![](../neutrino-telescopes-2026/media/theory/energy-budget.svg){.slide-media .nostretch style="--media-max-height: 580px;" fig-alt="Gamma rays, neutrinos and the highest-energy cosmic rays carry comparable power."}
+
+::: {.media-caption}
+Neutrinos per flavor · [Fermi-LAT (2015)](https://arxiv.org/abs/1410.3696) · [IceCube (2026)](https://arxiv.org/abs/2507.22233v3) · [Auger (2020)](https://arxiv.org/abs/2008.06486)
+:::
+
+### The Waxman–Bahcall bound
+
+::::: {.columns}
+::: {.column width="56%"}
+![](../neutrino-telescopes-2026/media/theory/energy-budget.svg){.slide-media .nostretch style="--media-max-height: 360px;" fig-alt="Fermi-LAT gamma rays, IceCube neutrinos and Pierre Auger cosmic rays on one energy axis, with the band of the Waxman–Bahcall bound; above 100 TeV the neutrino flux is at its level, at 10–100 TeV about twice above its upper edge."}
+
+::: {.takeaway}
+- Above 100 TeV: neutrinos and the highest-energy cosmic rays may come from the same sources.
+- 10–100 TeV: the bound for transparent sources is exceeded; apparently part of the neutrinos comes from hidden sources, like the core of NGC 1068.
+:::
+:::
+::: {.column width="40%"}
+**A ceiling for neutrinos from cosmic rays**
+
+- Cosmic rays above 10^19^ eV are measured: we know how much energy the sources spend on protons.
+- Muon neutrinos get at most a quarter of this energy.
+- The ceiling: about 10^−8^ GeV/(cm²·s·sr) per flavor.
+- IceCube measured the flux at this level, and at 10–100 TeV about twice as high.
+:::
+:::::
+
+::: {.media-caption}
+[Waxman & Bahcall, PRD 59, 023002 (1999)](https://arxiv.org/abs/hep-ph/9807282) · band: without and with source evolution · Fermi-LAT, IceCube, Auger
+:::
+
+::::::
+
+## Plots for the results {#app-plots}
+
+:::::: {.panel-tabset}
+
+### IceCube, 2013
+
+::::: {.columns}
+::: {.column width="62%"}
+![](../neutrino-telescopes-2026/media/diffuse/icecube-2013-energy-dark.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Energy distribution of the 28 IceCube events: the atmospheric background falls quickly, the data at high energies lie above the background."}
+:::
+::: {.column width="34%"}
+- Blue and red: the background from the atmosphere.
+- White points: data.
+- The background falls quickly with energy, but there are many more high-energy events.
+:::
+:::::
+
+::: {.media-caption}
+Redrawn from [IceCube, Science (2013), Fig. 4](https://arxiv.org/abs/1311.5238v2)
+:::
+
+### Baikal-GVD: cascade energies
+
+![](../neutrino-telescopes-2026/media/diffuse/gvd-2018-2024-energy-dark.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Energies of the Baikal-GVD cascades of 2018–2024: data with the fitted signal and background."}
+
+::: {.media-caption}
+Digitized from [Baikal-GVD (2025), Fig. 2](https://arxiv.org/abs/2507.01893v2)
+:::
+
+### Baikal-GVD above 200 TeV
+
+![](../neutrino-telescopes-2026/media/galactic/gvd-galactic-sky.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Eight Baikal-GVD cascades above 200 TeV on a sky map in Galactic coordinates."}
+
+::: {.media-caption}
+[ApJ 982, 73 (2025)](https://arxiv.org/abs/2411.05608v2), redrawn from Table 1
+:::
+
+::::::
+
+## The spectrum of cosmic neutrinos {#app-spectrum}
+
+:::::: {.panel-tabset}
+
+### Measured spectrum
+
+::::: {.columns}
+::: {.column width="66%"}
+![](../neutrino-telescopes-2026/media/diffuse/icecube-spectrum-2026-dark.svg){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="The IceCube 2026 spectrum of cosmic neutrinos."}
+:::
+::: {.column width="30%"}
+- The slope of the spectrum changes near 30 TeV.
+- A single power law is rejected at more than $4\sigma$.
+:::
+:::::
+
+::: {.media-caption}
+Per flavor, $\nu+\bar\nu$ · redrawn from [IceCube, PRL (2026), Fig. 3](https://arxiv.org/abs/2507.22233v3)
+:::
+
+### Glashow resonance and flavors
+
+::::: {.columns}
+::: {.column width="56%"}
+![](../neutrino-telescopes-2026/media/diffuse/icecube-glashow-event-2021.jpg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="The Glashow-resonance event in IceCube."}
+:::
+::: {.column width="41%"}
+$$\bar\nu_e+e^-\to W^-\to X$$
+
+- An antineutrino of about 6.3 PeV produces a $W$ boson, which decays into hadrons.
+- One shower, December 2016. Only antineutrinos can do this.
+- Seven tau-neutrino candidates: all three flavors arrive.
+:::
+:::::
+
+::: {.media-caption}
+[IceCube, Nature 591, 220 (2021)](https://arxiv.org/abs/2110.15051) · [tau neutrinos: IceCube, PRL 132, 151001 (2024)](https://arxiv.org/abs/2403.02516)
+:::
+
+::::::
+
+## The gamma-ray budget and hidden sources {#app-gamma}
+
+:::::: {.panel-tabset}
+
+### Neutrinos → gamma rays
+
+{{< nh-video nu-gamma-cascade variant="web-en" class="slide-video media-height-lg" style="--media-max-height: 620px;" controls=true muted=true playsinline=true preload="metadata" poster="../neutrino-telescopes-2026/media/multimessenger/nu_gamma_cascade_en.jpg" aria-label="The IceCube neutrino flux is converted into pionic gamma rays, which are absorbed on the way to us; the cascade carries their energy down to GeV and is compared with the Fermi-LAT isotropic background." >}}
+
+::: {.media-caption}
+Conversion: [Ahlers & Murase (2014)](https://arxiv.org/abs/1309.4077) · absorption computed with the EBL of [Domínguez et al. (2011)](https://arxiv.org/abs/1007.1459) and the CMB · cascade shape schematic, energy conserved · [Murase, Ahlers & Lacki (2013)](https://arxiv.org/abs/1306.3417), [Murase, Guetta & Ahlers (2016)](https://arxiv.org/abs/1509.00805)
+:::
+
+### Transparent sources
+
+![](../neutrino-telescopes-2026/media/multimessenger/diffuse-gamma-neutrino-2026-dark.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Measured IceCube neutrinos and the Fermi isotropic gamma-ray background with calculated electromagnetic cascades."}
+
+::: {.media-caption}
+Dashed: neutrinos · solid: calculated photons · digitized from [Zathul et al. (2026), Fig. 2](https://arxiv.org/html/2606.00249v2#S2.F2), CC BY 4.0
+:::
+
+### A compact region
+
+![](../neutrino-telescopes-2026/media/response/compact-source.svg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Schematic of a compact region near an active galactic nucleus."}
+
+$$
+\gamma+\gamma\to e^++e^-,\qquad
+E_\gamma\epsilon\gtrsim(m_ec^2)^2
+$$
+
+- Gamma rays are absorbed in a dense photon field.
+- Neutrinos escape.
+
+::: {.media-caption}
+Schematic · [Murase & Stecker](https://arxiv.org/abs/2202.03381)
+:::
+
+::::::
+
+## Active nuclei in more detail {#app-agn}
+
+:::::: {.panel-tabset}
+
+### NGC 1068: direction
+
+![](../neutrino-telescopes-2026/media/source-results/ngc1068-neutrino-scan-2026-dark.svg){.slide-media .nostretch style="--media-max-height: 560px;" fig-alt="Neutrino significance map around NGC 1068."}
+
+::: {.media-caption}
+IceCube Collaboration · redrawn from [the 2026 analysis, Fig. 2](https://arxiv.org/abs/2510.13403)
+:::
+
+### X-ray-bright nuclei
+
+![](../neutrino-telescopes-2026/media/source-results/xray-agn-population-dark.svg){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="A population of 47 X-ray-bright active nuclei in the IceCube data."}
+
+::: {.media-caption}
+47 X-ray-bright nuclei without NGC 1068 · an ensemble of 11 sources, $3.3\sigma$ · evidence for the population, not for 11 individual sources · [IceCube](https://arxiv.org/abs/2510.13403)
+:::
+
+### Radio blazars
+
+![](../neutrino-telescopes-2026/media/source-results/radio-blazars-sky-2020-dark.svg){.slide-media .nostretch style="--media-max-height: 520px;" fig-alt="Blazars with bright radio cores and IceCube events above 200 TeV."}
+
+::: {.media-caption}
+A. V. Plavin, Y. Y. Kovalev, Y. A. Kovalev, S. V. Troitsky · [ApJ 894, 101 (2020)](https://arxiv.org/abs/2001.00930v3) · still debated: an IceCube search with its alert events finds no significant correlation.
+:::
+
+::::::
+
+## Point-source search: Baikal-GVD {#app-baikal-sources}
+
+![](../neutrino-telescopes-2026/media/source-results/baikal-source-limits-e2.svg){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="Baikal-GVD upper limits on the fluxes from 92 directions."}
+
+::: {.media-caption}
+988 tracks · 92 directions · April 2019 – March 2024 · $E^{-2}$ spectrum, 90% CL · no significant excess · [Baikal-GVD (2026)](https://arxiv.org/abs/2603.21261v2)
+:::
+
+## More history {#app-history}
+
+:::::: {.panel-tabset}
+
+### Reines
+
+::::: {.columns}
+::: {.column width="49%"}
+![](../neutrino-telescopes-2026/media/history/reines-cowan-1956.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Frederick Reines and Clyde Cowan, 1956."}
+
+::: {.media-caption}
+Frederick Reines (left) and Clyde Cowan, 1956. Los Alamos National Laboratory.
+:::
+:::
+::: {.column width="47%"}
+- 1956: the first direct detection of neutrinos, at a reactor.
+- Detect the neutrino first; neutrino astronomy next.
+:::
+:::::
+
+### Greisen
+
+::::: {.columns}
+::: {.column width="28%"}
+![](../neutrino-telescopes-2026/media/history/greisen-portrait.jpg){.slide-media .nostretch style="--media-max-height: 320px;" fig-alt="Kenneth Greisen."}
+
+::: {.media-caption}
+Kenneth Greisen. Via C. Spiering.
+:::
+:::
+::: {.column width="68%"}
+- **Greisen, Reines and Markov** discuss the detection of cosmic neutrinos in 1960.
+- Markov's underwater idea gives a practical route to a huge target.
+:::
+:::::
+
+### Spiering
+
+::::: {.columns}
+::: {.column width="40%"}
+![](../neutrino-telescopes-2026/media/history/spiering-author.jpg){.slide-media .nostretch style="--media-max-height: 280px; --media-width: 210px;" fig-alt="Christian Spiering."}
+
+::: {.media-caption}
+**Christian Spiering.** His Zeuthen group joined Baikal in 1988.
+:::
+:::
+::: {.column width="56%"}
+- Scientists, engineers and winter expeditions turned the idea into a working telescope.
+- The 2006 Markov Prize went to Domogatsky and Spiering for NT200+ and high-energy neutrino astrophysics.
+:::
+:::::
+
+::: {.media-caption}
+[INR announcement, 2006](https://inr.ru/eng/markove/mark2006e.html).
+:::
+
+### ANTARES
+
+::::: {.columns}
+::: {.column width="57%"}
+![](../neutrino-telescopes-2026/media/history/antares-illustration.jpg){.slide-media .nostretch style="--media-max-height: 420px;" fig-alt="Artist's illustration: ANTARES and the Nautile submersible."}
+
+::: {.media-caption}
+Artist's illustration: ANTARES and Nautile.
+:::
+:::
+::: {.column width="39%"}
+- **2008:** the 12-line detector is completed in the Mediterranean Sea.
+- Long operation showed that precision neutrino astronomy in the deep sea is possible.
+- ANTARES, NEMO and NESTOR prepared KM3NeT.
+:::
+:::::
+
+::::::
+
+## Other projects {#app-projects}
+
+:::::: {.panel-tabset}
+
+### P-ONE
+
+::::: {.columns}
+::: {.column width="35%"}
+**Pacific Ocean, British Columbia**
+
+- Design: about 1 km³, 70 strings.
+- NEPTUNE infrastructure (Ocean Networks Canada).
+- Prototypes and deployment engineering.
+:::
+::: {.column width="61%"}
+![](../neutrino-telescopes-2026/media/observatories/p-one-configuration.jpg){.slide-media .nostretch style="--media-max-height: 540px;" fig-alt="The proposed P-ONE configuration."}
+:::
+:::::
+
+::::::
