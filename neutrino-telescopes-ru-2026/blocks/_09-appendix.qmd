@@ -112,7 +112,7 @@ $\nu_e+N\longrightarrow e^-+X$
 
 ### Идея
 
-{{< nh-video neutrino-reconstruction variant="film-en" class="slide-video media-height-lg" style="--media-max-height: 600px;" controls=true muted=true playsinline=true preload="metadata" poster="../neutrino-telescopes-2026/media/reconstruction/reconstruction_en.jpg" >}}
+{{< nh-video neutrino-reconstruction variant="film-ru" class="slide-video media-height-lg" style="--media-max-height: 600px;" controls=true muted=true playsinline=true preload="metadata" poster="../neutrino-telescopes-2026/media/reconstruction/reconstruction_en.jpg" >}}
 
 ### Модель
 

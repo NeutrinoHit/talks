@@ -8,7 +8,7 @@
 
 ::::: {.columns}
 ::: {.column width="52%"}
-{{< nh-video icecube-first-pev variant="web-build-ru" class="slide-video media-height-lg" style="--media-max-height: 560px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/icecube_build_ru.jpg" aria-label="Под лабораторией IceCube протаивают 86 скважин глубиной 2,5 км, и в кубическом километре льда появляются 5160 датчиков света." >}}
+{{< nh-video icecube-first-pev variant="web-ru" class="slide-video media-height-lg" style="--media-max-height: 560px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/icecube_build_ru.jpg" aria-label="Под лабораторией IceCube протаивают 86 скважин глубиной 2,5 км, и в кубическом километре льда появляются 5160 датчиков света." >}}
 :::
 ::: {.column width="44%"}
 **Нам понадобятся:**
@@ -23,7 +23,7 @@
 
 ### Пример события
 
-{{< nh-video icecube-first-pev variant="web-ru" class="slide-video media-height-lg" style="--media-max-height: 560px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/icecube_first_pev_ru.jpg" aria-label="Каскады Bert, Ernie и Big Bird с энергией около ПэВ зажигают сотни датчиков IceCube изнутри детектора." onloadedmetadata="this.currentTime=10.3" >}}
+{{< nh-video icecube-first-pev variant="web-ru" class="slide-video media-height-lg" style="--media-max-height: 560px;" controls=true muted=true playsinline=true preload="metadata" poster="media/films/icecube_first_pev_ru.jpg" aria-label="Каскады Bert, Ernie и Big Bird с энергией около ПэВ зажигают сотни датчиков IceCube изнутри детектора." onloadedmetadata="this.currentTime=50" >}}
 
 ::: {.media-caption}
 IceCube, первые нейтрино с энергией около ПэВ · кружок — сработавший датчик, размер — сколько света, цвет — время (красный раньше, синий позже) · энергии и число датчиков из данных, картина света — модель, положение Big Bird условно

@@ -14,6 +14,15 @@
   },
   {
    "id": "cherenkov-radiation",
+   "variant": "film-dipoles-en",
+   "version": 1,
+   "url": "/media-neutrino-2/cherenkov-radiation/film-dipoles-en-v1.mp4",
+   "sha256": "e4c4f4ff3f33ebc408e48095f1bf176efdabbe69629aeb2095ff7f8ff7093bdb",
+   "bytes": 4482322,
+   "status": "published"
+  },
+  {
+   "id": "cherenkov-radiation",
    "variant": "web-huygens-en",
    "version": 1,
    "url": "/media-neutrino/cherenkov-radiation/web-huygens-en-v1.mp4",
@@ -34,6 +43,15 @@
   },
   {
    "id": "humanity-cube",
+   "variant": "web-en",
+   "version": 1,
+   "url": "/media-neutrino/humanity-cube/web-en-v1.mp4",
+   "sha256": "b71c6a598f117bbc43bade05a798c770884709c95bd6f2ff917fb214e9e687dd",
+   "bytes": 26363598,
+   "status": "published"
+  },
+  {
+   "id": "humanity-cube",
    "variant": "web-ru",
    "version": 1,
    "url": "/media-neutrino/humanity-cube/web-ru-v1.mp4",
@@ -44,33 +62,21 @@
   },
   {
    "id": "icecube-first-pev",
-   "variant": "web-build-ru",
-   "version": 1,
-   "url": "/media-neutrino/icecube-first-pev/web-build-ru-v1.mp4",
-   "sha256": "e637be5d420f79b8b42f715fe3f9e5ea4036d8bac9790054ef8ac5b963d6c045",
-   "bytes": 12274888,
-   "status": "published",
-   "fallback": "neutrino-telescopes-ru-2026/media/films/icecube_build_ru.mp4"
-  },
-  {
-   "id": "icecube-first-pev",
    "variant": "web-en",
-   "version": 1,
-   "url": "/media-neutrino/icecube-first-pev/web-en-v1.mp4",
-   "sha256": "33a3717fa2ae394c09670485ede56ac0e7c514f7afbffe42347d30819b1ee26f",
-   "bytes": 24732263,
-   "status": "published",
-   "fallback": "neutrino-telescopes-2026/media/icecube/icecube_first_pev_en.mp4"
+   "version": 3,
+   "url": "/media-neutrino-2/icecube-first-pev/web-en-v3.mp4",
+   "sha256": "fae6047f594dc34ae1d5668aea2571fc8540c20aecd4bdf01ec21f46f83fb874",
+   "bytes": 27714697,
+   "status": "published"
   },
   {
    "id": "icecube-first-pev",
    "variant": "web-ru",
-   "version": 1,
-   "url": "/media-neutrino/icecube-first-pev/web-ru-v1.mp4",
-   "sha256": "262023615bf24ffb93b69c33c2c3b86674a7c3859d2491c1a2555fc77036864b",
-   "bytes": 24248454,
-   "status": "published",
-   "fallback": "neutrino-telescopes-ru-2026/media/films/icecube_first_pev_ru.mp4"
+   "version": 3,
+   "url": "/media-neutrino-2/icecube-first-pev/web-ru-v3.mp4",
+   "sha256": "ef4cf1d38ecd29572b92972ae8d449e711f260df5c6b4acdeb40139ec3bda55e",
+   "bytes": 27811985,
+   "status": "published"
   },
   {
    "id": "jet-launch",
@@ -95,12 +101,11 @@
   {
    "id": "mac-e-filter",
    "variant": "film-katrin-electric",
-   "version": 1,
-   "url": "/media-neutrino/mac-e-filter/film-katrin-electric-v1.mp4",
-   "sha256": "89cd0e093f8ec1e8d0a3e5858d8cdd2ed9e48844b87cee38e0943c47c9398a0f",
-   "bytes": 422784,
-   "status": "published",
-   "fallback": "georgia-2026/media/katrin-electron-motion.mp4"
+   "version": 2,
+   "url": "/media-neutrino/mac-e-filter/film-katrin-electric-v2.mp4",
+   "sha256": "841fe0bf4cd9b103cd7f4fdc008613e01e3bbd19dfe1f5cb0c6912981f168f23",
+   "bytes": 8903938,
+   "status": "published"
   },
   {
    "id": "mass-hierarchy",
@@ -145,12 +150,20 @@
   {
    "id": "neutrino-reconstruction",
    "variant": "film-en",
-   "version": 1,
-   "url": "/media-talks/neutrino-reconstruction/film-en-v1.mp4",
-   "sha256": "b713f0cb1fc4682fdfe55406d0cbee202cc23ddb11ef46d8c5503cc64f1ab2cf",
-   "bytes": 938850,
-   "status": "published",
-   "fallback": "neutrino-telescopes-2026/media/reconstruction/reconstruction_en.mp4"
+   "version": 2,
+   "url": "/media-talks/neutrino-reconstruction/film-en-v2.mp4",
+   "sha256": "e8097a56d2273a8234bc218a37d0be2d76e9088fa75c0896ad52105e26bfccef",
+   "bytes": 1009247,
+   "status": "published"
+  },
+  {
+   "id": "neutrino-reconstruction",
+   "variant": "film-ru",
+   "version": 2,
+   "url": "/media-talks/neutrino-reconstruction/film-ru-v2.mp4",
+   "sha256": "862551648aaf1bebe52497338c9b8b4597a0339abc43326a855eddeb74610229",
+   "bytes": 1084540,
+   "status": "published"
   },
   {
    "id": "neutrino-telescope",
@@ -191,6 +204,15 @@
    "bytes": 6279229,
    "status": "published",
    "fallback": "neutrino-telescopes-ru-2026/media/films/nu_gamma_cascade_ru.mp4"
+  },
+  {
+   "id": "pmt-juno",
+   "variant": "web-en",
+   "version": 1,
+   "url": "/media-neutrino/pmt-juno/web-en-v1.mp4",
+   "sha256": "102357dec2182a14b5c9b1134e0583f0acd35bf00006684120fee61ea18969a6",
+   "bytes": 14817630,
+   "status": "published"
   },
   {
    "id": "pmt-multiplication",
